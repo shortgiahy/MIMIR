@@ -1,6 +1,6 @@
 # MIMIR_BRAIN
 
-> Living memory. Maintained by MIMIR. Last updated: [MIMIR updates this]
+> Living memory. Maintained by MIMIR. Last updated: 2026-04-06
 
 ---
 
@@ -14,28 +14,98 @@ Secretary — calendar, reminders, weekly planning, context maintenance, light o
 
 ## Active Domains
 
-*The life areas MIMIR is currently managing. MIMIR adds, removes, and updates these as life changes.*
+- **School** — SLCC, finishing 2nd semester, 4.0 GPA
+- **Trading** — ES + MGC orderflow, 3 prop firm accounts in eval phase
+- **Job** — bridge income (~$1,400/month), covers expenses while trading scales
+- **Relationship** — Natalie is the primary priority. Always.
 
 ---
 
 ## Active Projects
 
-*What Giahy is working on right now. MIMIR tracks status and progress here.*
+- **Prop firm eval** — 3 accounts in evaluation. Getting these funded is the highest-leverage financial move right now. Everything downstream depends on it.
+- **SAT prep** — Test dates: October 3 and November 7, 2026. Prep needs to be built into weekly schedule alongside school and trading.
+- **MIT transfer application** — Submission: March 2027. Requires strong Fall 2026 semester, projects, and SAT scores.
 
 ---
 
 ## Open Threads
 
-*Unfinished tasks, pending follow-ups, things said but not yet done.*
+- Contacts need replacing (~$500)
+- Hair cut + perm (~$200)
+- Teeth cleaning (~$100–200)
+- Phone + tablet payoff → switch to iPhone + iPad
+- Emissions test pending
+- Oil change pending
 
 ---
 
 ## Vision
 
-*What Giahy is building toward — yearly targets, long-term goals, the bigger picture MIMIR orients all planning around.*
+### The North Star
+Freedom. Not wealth for its own sake — freedom to choose the work, the life, the people. Success that isn't shared with Natalie isn't success. She is the primary constant in every plan.
+
+### Academic Path
+- **Current:** SLCC, EE, 2nd semester, 4.0 GPA
+- **Major target:** Electrical Engineering → Robotics emphasis
+- **Transfer target:** MIT (primary). Undergrad transfer is the moonshot — pursued seriously.
+- **Backup path:** SLCC → 4-year university → MIT grad school (MS or funded PhD in Robotics). Funded PhD is a real option — noted for future decision.
+- **SAT dates:** October 3, 2026 (primary) + November 7, 2026 (backup)
+- **Application deadline:** March 2027 (MIT transfer cycle)
+- **Why MIT:** #1 robotics program (CSAIL). The Engine fund for tough-tech startups. The exact ecosystem for what comes after.
+
+### Trading Path
+- **Instruments:** ES (primary), MGC (primary), MNQ + GC (secondary)
+- **Strategy:** Orderflow — volume profiles, DOM, delta
+- **Current status:** Belief phase. Psychology/process issues being actively worked: overtrading, chasing moves out of greed, not taking partials, missing trades due to skipped pre-market setup.
+- **Fix framing:** This is a *system design* problem, not a character flaw. Hard rules and protocols, not willpower.
+- **Prop firm setup:** Currently 3 accounts synced via TradeSyncer. Target: 10 accounts.
+- **Income target:** $20,000/month net (10 accounts × $2,000 payout each, one payout/month per account)
+- **Milestone:** $3,000–$5,000/month = first real signal. $12,000/month = primary income established.
+- **Ceiling:** If trading fully takes off, it may become the primary career — robotics becomes the passion project. Door is open.
+
+### Financial Picture
+**Monthly fixed burn:** ~$2,282
+- Rent: $2,000 (Natalie currently covering more — Giahy takes on full share when payouts begin)
+- Phone: $140
+- Pet insurance (Winston + Benni): $60
+- TradeSyncer: $50
+- Notion: $12
+- Claude: $20
+
+**Debt (priority #1 — everything else waits):**
+| Debt | Amount |
+|---|---|
+| Capital One Slate | $7,000 |
+| Capital One Platinum | $1,300 |
+| Capital One Venture One | $300 |
+| Chase Freedom Unlimited | $500 |
+| Chase Slate Edge | $500 |
+| Medical | $800 |
+| **Total** | **~$10,400** |
+
+Cap One Slate ($7k) is the anchor. It goes first.
+
+**After debt, in order:**
+1. 6 months emergency savings
+2. Roth IRA maxed annually
+3. One-time needs: contacts, hair, teeth, phone/tablet payoff
+4. Equipment: stronger laptop, Bambu P1S, oscilloscope, soldering station, DMM, parts
+
+### Long-Term Vision
+- **Startup:** Found an engineering company focused on philanthropic impact — robotics applied to environmental improvement or medical advancement. Not charity — a real company that does meaningful work and builds wealth.
+- **MIT The Engine:** The target ecosystem for this. Tough-tech startup fund built for exactly this kind of company.
+- **Family:** Kids, pets, maybe a live-in. A home large enough to be comfortable — not a status symbol. Somewhere.
+- **Lifestyle:** Not materialistic. The point is to never have to check if something is affordable. To take care of family. To give back to community.
+- **Natalie:** Co-navigator. She runs a marketing agency. Her vision aligns. Success is shared or it doesn't count.
 
 ---
 
 ## Patterns Observed
 
 *Recurring behaviors, tendencies, habits MIMIR notices over time. Used to plan better, remind smarter, and reduce friction.*
+
+- Prone to overtrading and chasing moves in trading — system rules matter more than discipline here
+- Misses trades when pre-market setup is skipped — routine enforcement is critical
+- ADHD: energy isn't linear, minimize choices, break tasks into clear steps
+- Extremely forgetful — proactive reminders are a core responsibility
