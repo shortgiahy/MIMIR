@@ -1,6 +1,6 @@
 # MIMIR_BRAIN
 
-> Living memory. Maintained by MIMIR. Last updated: 2026-04-06
+> Living memory. Maintained by MIMIR. Last updated: 2026-04-21
 
 ---
 
@@ -31,12 +31,51 @@ Secretary — calendar, reminders, weekly planning, context maintenance, light o
 
 ## Open Threads
 
-- Contacts need replacing (~$500)
-- Hair cut + perm (~$200)
-- Teeth cleaning (~$100–200)
-- Phone + tablet payoff → switch to iPhone + iPad
-- Emissions test pending
-- Oil change pending
+*Tracked in `LOOSE_ENDS.md`. Do not duplicate here.*
+
+---
+
+## Current Goals
+
+### This Week
+*(Update every Monday or at weekly check-in)*
+
+- [ ] 
+
+### This Month
+*(Update every 1st or at monthly check-in)*
+
+- [ ] 
+
+---
+
+## MIMIR Protocols
+
+### Good Morning Routine
+**Trigger:** Giahy says "good morning" (or variant)
+
+**Sequence:**
+1. Read `MIMIR_BRAIN.md` — current goals, open threads, active projects
+2. Pull Google Calendar — today's events + next 72 hours
+3. Check `LOOSE_ENDS.md` — anything due or overdue
+4. Prompt Giahy for morning journal (1–3 sentences, what's on his mind)
+5. Output:
+   - Today's agenda (time-blocked if possible)
+   - Upcoming flags (next 72hrs)
+   - Any loose ends that need attention today
+6. Create daily note: `Daily/YYYY-MM-DD.md`
+
+**Daily note contains:** date, journal entry, agenda, flags, any new loose ends opened
+
+### Session End Protocol
+Before any session closes (or when Giahy says "wrap up"):
+1. Update `MIMIR_BRAIN.md` — goals, patterns, active projects if changed
+2. Sync `LOOSE_ENDS.md` — open anything new, close anything resolved
+3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
+
+### Check-In Cadence
+- **Weekly** — every Monday morning check-in. Review week ahead, goals progress, course correct.
+- **Monthly** — first of the month. Big picture: are priorities still right? What shifted?
 
 ---
 
