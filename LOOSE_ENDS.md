@@ -12,8 +12,8 @@
 | 2026-04-06 | LOW | Phone + tablet payoff | Switch to iPhone + iPad after payoff |
 | 2026-04-06 | MED | Emissions test | Pending, Utah requirement |
 | 2026-04-06 | MED | Oil change | Overdue — flag ASAP |
-| 2026-05-18 | HIGH | Register for SAT (Oct 3, 2026) | Book immediately — slots fill fast |
-| 2026-05-18 | HIGH | Confirm SLCC grade replacement policy | Do both C + retake grades appear on transcript, or does retake overwrite? Critical for Berkeley/MIT strategy. |
+| 2026-05-18 | HIGH | Register for SAT (Oct 3, 2026) | Cost is $68. Fee waivers exist but require NSLP/federal low-income program enrollment — verify eligibility. Book as soon as $68 is available — slots fill fast. |
+| 2026-05-18 | LOW | Check SAT fee waiver eligibility | Requires NSLP or federal low-income program enrollment. Probably doesn't apply but worth a 2-min check before paying $68. |
 | 2026-05-18 | HIGH | Trading post-mortem before June restart | Document what went wrong, write hard rules, do before entering any new evals |
 | 2026-05-18 | MED | Confirm Amazon Flex schedule | Slot into weekly structure once confirmed |
 | 2026-05-18 | MED | Confirm plasma donation schedule (2x/week) | Slot into weekly structure once confirmed |
@@ -31,3 +31,4 @@
 |--------|--------|------|
 | 2026-04-06 | 2026-05-18 | Hair cut + perm |
 | 2026-04-06 | 2026-05-18 | Teeth cleaning |
+| 2026-05-18 | 2026-05-18 | Confirm SLCC grade replacement policy | Both grades stay on transcript. C marked E (excluded from GPA), retake marked I (included). Transfer schools see the C but GPA reflects the higher grade. One retake allowed — currently within policy. |
