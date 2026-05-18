@@ -63,18 +63,21 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 **Trigger:** Giahy says "good morning" (or variant)
 
 **Sequence:**
-1. Read the last 5 notes in `Session Notes/` + [[System/Brain]] + [[System/Tasks]] — get current state
+1. Read the last 5 notes in `Session Notes/` + [[System/Brain]] + [[System/Tasks]] + [[Giahy/Profile/Profile]] — get current state
 2. Pull Google Calendar — today's events + next 72 hours
 3. Check [[System/Loose Ends]] — anything due or overdue
-4. Ask Giahy: morning journal (1–3 sentences, what's on his mind) + yesterday's trade (if trading day)
-5. If a trade was taken yesterday: create a filled journal entry in `Trading/Journals/YYYY-MM-DD.md` from what he shares
-6. Output:
-   - Today's time-blocked agenda
+4. Roll over any unfinished quick tasks from yesterday's daily note
+5. Ask Giahy: morning journal (1–3 sentences) + any quick tasks for today + yesterday's trade (if trading day)
+6. If a trade was taken: create filled journal entry in `Trading/Journals/YYYY-MM-DD.md`
+7. Output using `Daily/Daily Template.md`:
+   - Morning journal
+   - Quick tasks (rolled over + new, max 5 total)
+   - Time-blocked agenda for today
    - Upcoming flags (next 72hrs)
-   - Any loose ends that need attention today
-7. Create daily note: `Daily/YYYY-MM-DD.md`
+   - Trade summary if applicable
+8. Save as `Daily/YYYY-MM-DD.md`
 
-**Daily note contains:** date, morning journal, agenda, flags, trade summary if applicable, any new loose ends opened
+**Quick tasks:** Small, completable-today items. Max 5. Not projects. Captured anytime — during check-in or mid-session. MIMIR manages rollover each morning.
 
 ### Session End Protocol
 Before any session closes (or when Giahy says "wrap up"):
