@@ -28,7 +28,7 @@
 |-------|------|-----------|-------|
 | Trading setup | Mon–Fri | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
 | IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). Can overlap with Flex. |
-| Amazon Flex | Daily | 5:00–8:30 PM | ~$70–80/session. Primary income. |
+| Amazon Flex | Daily | 5:00–8:30 PM | ~$65/session. Primary income. |
 | Plasma donations | Mon/Fri | 10:00–12:00 PM | ~$50/session. 2x/week. |
 | Natalie time | Daily | Thu–Fri evenings + weekends protected | Not a reward, not negotiable |
 
@@ -64,9 +64,9 @@ Weekly totals:
 - **SAT prep:** 2hrs × 5 days = 10hrs ✓
 - **Coursework (Calc 2 / Physics 1):** Mon/Fri plasma frees 12–4:30 (4.5hrs each) + Tue/Wed/Thu 12–4:30 = substantial daily blocks
 - **Robotics:** Afternoon blocks + weekends
-- **Flex income:** ~7 sessions × $75 = ~$2,250/month
+- **Flex income:** ~7 sessions × $65 = ~$1,960/month
 - **Plasma income:** 2 × $50 × 4.3 = ~$430/month
-- **Total income:** ~$2,680/month
+- **Total income:** ~$2,390/month
 
 ### Key Dates
 | Date | Event |
