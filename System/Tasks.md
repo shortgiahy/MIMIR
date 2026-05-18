@@ -26,41 +26,47 @@
 
 | Block | Days | Time (MT) | Notes |
 |-------|------|-----------|-------|
-| Trading | Mon–Fri | 7:30–10:00 AM | NY open. Non-negotiable morning anchor. |
-| IOP | Mon–Thu | 4:30–6:30 PM | Zoom. NOT on Fridays. Ends sometime summer 2026. |
+| Trading setup | Mon–Fri | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
+| IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). Can overlap with Flex. |
+| Amazon Flex | Daily | 5:00–8:30 PM | ~$70–80/session. Primary income. |
+| Plasma donations | Mon/Fri | 10:00–12:00 PM | ~$50/session. 2x/week. |
 | Natalie time | Daily | Thu–Fri evenings + weekends protected | Not a reward, not negotiable |
-| Amazon Flex | TBD | TBD | Delivery blocks — to be slotted when schedule confirmed |
-| Plasma donations | 2x/week | TBD | ~2hrs per session — to be slotted when schedule confirmed |
 
 ---
 
 ## Summer 2026 Schedule (starts May 18)
 
-> Retaking Calc 2 and Physics 1 — previously received C grades. Both are core transfer prerequisites.
+> All courses online/async. Retaking Calc 2 and Physics 1 — had C grades. These need protected study time.
 
-| Course | Days | Time (MT) | Format |
-|--------|------|-----------|--------|
-| Calculus II — MATH 1220 (retake) | Mon/Tue/Wed | 10:00 AM–12:00 PM | Lecture |
-| Physics for Sci & Eng I — PHYS 2210 (retake) | Mon/Tue/Wed | 1:00–3:00 PM | Lecture |
-| Intro to College Writing — ENGL 1010 | — | Async | Online |
-| Object-Oriented Programming — CS 1410 | — | Async | Online (Java) |
+| Course | Format | Notes |
+|--------|--------|-------|
+| Calculus II — MATH 1220 (retake) | Async online | Priority — must ace this |
+| Physics for Sci & Eng I — PHYS 2210 (retake) | Async online | Priority — must ace this |
+| Intro to College Writing — ENGL 1010 | Async online | Lighter load |
+| Object-Oriented Programming — CS 1410 | Async online | Java OOP |
 
-**SAT prep: 10 hrs/week (primary priority alongside courses)**
+**SAT prep: 10 hrs/week**
 
 ### Summer Weekly Structure
 
 | Time | Mon | Tue | Wed | Thu | Fri |
 |------|-----|-----|-----|-----|-----|
-| 7:30–10:00 | Trading | Trading | Trading | Trading | Trading |
-| 10:00–12:00 | Calc 2 | Calc 2 | Calc 2 | SAT prep | SAT prep |
-| 12:00–1:00 | Lunch | Lunch | Lunch | Lunch | Lunch |
-| 1:00–3:00 | Physics 1 | Physics 1 | Physics 1 | Python/Robotics | Python/Robotics |
-| 3:00–4:30 | SAT prep | SAT prep | SAT prep | Python/Robotics | Python/Robotics |
-| 4:30–6:30 | IOP | IOP | IOP | IOP | — |
-| 7:00–9:00 | Async (CS/English) | Async (CS/English) | Async (CS/English) | Natalie | Natalie |
+| 7:30–8:00 | Trading setup | Trading setup | Trading setup | Trading setup | Trading setup |
+| 8:00–10:00 | SAT prep | SAT prep | SAT prep | SAT prep | SAT prep |
+| 10:00–12:00 | Plasma | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Plasma |
+| 12:00–4:30 | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics |
+| 4:30–8:30 | IOP + Flex | IOP + Flex | IOP + Flex | IOP + Flex | Flex |
+| 8:30–11:00 | Wind down / Natalie | Wind down | Wind down | Natalie | Natalie |
 
-> Amazon Flex + plasma blocks to be inserted once times are known. Schedule will be adjusted.
-> SAT total: ~10hrs/week. Python/Robotics total: ~6hrs/week.
+**Weekend:** SAT prep (remaining hrs to hit 10) + Robotics + Flex blocks + Natalie
+
+Weekly totals:
+- **SAT prep:** 2hrs × 5 days = 10hrs ✓
+- **Coursework (Calc 2 / Physics 1):** Mon/Fri plasma frees 12–4:30 (4.5hrs each) + Tue/Wed/Thu 12–4:30 = substantial daily blocks
+- **Robotics:** Afternoon blocks + weekends
+- **Flex income:** ~7 sessions × $75 = ~$2,250/month
+- **Plasma income:** 2 × $50 × 4.3 = ~$430/month
+- **Total income:** ~$2,680/month
 
 ### Key Dates
 | Date | Event |
