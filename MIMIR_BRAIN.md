@@ -77,23 +77,23 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 
 ### Session End Protocol
 Before any session closes (or when Giahy says "wrap up"):
-1. Update `MIMIR_BRAIN.md` — goals, patterns, active projects if changed
-2. Sync `LOOSE_ENDS.md` — open anything new, close anything resolved
+1. Update [[MIMIR_BRAIN]] — goals, patterns, active projects if changed
+2. Sync [[LOOSE_ENDS]] — open anything new, close anything resolved
 3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
-4. Update `MIMIR_SESSION_LOG.md` — log what was discussed, decisions made, where we stopped, next session starting point
+4. Create a new note in `Session Notes/` — one note per session, named `YYYY-MM-DD Topic.md`. Keep it lean: decisions made, where we stopped, next starting point. Recurring items and loose ends go in their own files — do not duplicate here.
 
 ### LOOSE_ENDS Protocol
-MIMIR adds to `LOOSE_ENDS.md` **proactively and without asking**. This file exists precisely so MIMIR can capture things Giahy doesn't explicitly flag — ambiguities, unanswered questions, things that surfaced mid-conversation but weren't resolved. Giahy does not need to say "add that to loose ends." If MIMIR notices it, MIMIR logs it.
+MIMIR adds to [[LOOSE_ENDS]] **proactively and without asking**. This file exists precisely so MIMIR can capture things Giahy doesn't explicitly flag — ambiguities, unanswered questions, things that surfaced mid-conversation but weren't resolved. Giahy does not need to say "add that to loose ends." If MIMIR notices it, MIMIR logs it.
 
 Do not ask for confirmation before adding a loose end. Do not wait until session end — add it when it's noticed. Close loose ends when resolved.
 
-**Language signal:** When Giahy says "deal with it later," "we'll get to that," "that's for another time," or any equivalent deferral — that means add it to LOOSE_ENDS immediately.
+**Language signal:** When Giahy says "deal with it later," "we'll get to that," "that's for another time," or any equivalent deferral — that means add it to [[LOOSE_ENDS]] immediately.
 
 ### Session Start Protocol
 At the start of any new session:
-1. Read `MIMIR_SESSION_LOG.md` — most recent entry tells you where we stopped
-2. Read `MIMIR_BRAIN.md` — current state
-3. Read `MIMIR_TASKS.md` — active tasks and schedule
+1. Read the last 5 notes in `Session Notes/` (by date) — they tell you where we stopped and what's been decided
+2. Read [[MIMIR_BRAIN]] — current state
+3. Read [[MIMIR_TASKS]] — active tasks and schedule
 4. Resume from the logged stopping point, or ask Giahy what he wants to focus on
 
 ### Check-In Cadence

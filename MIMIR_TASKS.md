@@ -1,6 +1,7 @@
 # MIMIR_TASKS
 > Operational task + project tracking. Maintained by MIMIR. Last updated: 2026-05-18
 > Source of truth for daily scheduling. Giahy never needs to open this directly.
+> See also: [[MIMIR_BRAIN]] · [[LOOSE_ENDS]] · [[RECURRING]] · [[Baymax/BAYMAX_LEARNING_ROADMAP]]
 
 ---
 
@@ -116,6 +117,7 @@
 ## Active Projects
 
 ### Baymax Home Companion Robot
+> Full learning roadmap: [[Baymax/BAYMAX_LEARNING_ROADMAP]]
 - **Goal:** Build a home companion robot modeled after Baymax (Big Hero 6). Aesthetic: Nendoroid/Good Smile hard panel lines, not inflatable.
 - **Purpose:** MIT/Stanford transfer portfolio anchor project
 - **Phase 1 (now → Oct 2026):** Software-only. Python fluency → NumPy/linear algebra → basic RL concepts → Isaac Sim setup + pre-built locomotion example running
@@ -143,6 +145,7 @@
 - **Status:** Building toward — Fall 2026 is the make-or-break semester
 
 ### Prop Firm / Trading
+> Trading journals: [[Trading/]]
 - **Status:** All 3 accounts blown as of May 2026. Currently in reset.
 - **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup — psychology/process failures under financial pressure
 - **June restart plan:** 5 fresh accounts via TradeSyncer. Small wins approach — patience over urgency. Income grows gradually, not one big payout.
