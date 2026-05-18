@@ -82,6 +82,11 @@ Before any session closes (or when Giahy says "wrap up"):
 3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
 4. Update `MIMIR_SESSION_LOG.md` — log what was discussed, decisions made, where we stopped, next session starting point
 
+### LOOSE_ENDS Protocol
+MIMIR adds to `LOOSE_ENDS.md` **proactively and without asking**. This file exists precisely so MIMIR can capture things Giahy doesn't explicitly flag — ambiguities, unanswered questions, things that surfaced mid-conversation but weren't resolved. Giahy does not need to say "add that to loose ends." If MIMIR notices it, MIMIR logs it.
+
+Do not ask for confirmation before adding a loose end. Do not wait until session end — add it when it's noticed. Close loose ends when resolved.
+
 ### Session Start Protocol
 At the start of any new session:
 1. Read `MIMIR_SESSION_LOG.md` — most recent entry tells you where we stopped

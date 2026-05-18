@@ -21,6 +21,7 @@
 | 2026-05-18 | MED | Build out Trading journal folder | Structure TBD — separate session |
 | 2026-05-18 | MED | Confirm Fall 2026 course plan with advisor | Current plan: EE 1270 + PHYS 2220 + CHEM 1210 + MATH 2210. Verify Physics 2 prereq sequencing. |
 | 2026-05-18 | MED | UC application essays — begin drafting | Target: start by Sep 2026. Not SAT-dependent. Personal insight format. |
+| 2026-05-18 | MED | Fall 2026 load management | 15 heavy STEM credits (Circuits + Physics 2 + Chem + Calc 3) simultaneously with trading, UC app deadlines in Nov, and 6hrs/week robotics. Highest-stakes semester. Monitor for overload signals. |
 
 ---
 
