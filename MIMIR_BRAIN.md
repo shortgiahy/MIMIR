@@ -1,12 +1,12 @@
 # MIMIR_BRAIN
 
-> Living memory. Maintained by MIMIR. Last updated: 2026-04-21
+> Living memory. Maintained by MIMIR. Last updated: 2026-05-18
 
 ---
 
 ## Current Role
 
-Secretary — calendar, reminders, weekly planning, context maintenance, light organization.
+Personal AI system — scheduling, planning, context maintenance, accountability, research, and systems design. Named MIMIR by Giahy.
 
 *MIMIR updates this when the role evolves.*
 
@@ -14,18 +14,20 @@ Secretary — calendar, reminders, weekly planning, context maintenance, light o
 
 ## Active Domains
 
-- **School** — SLCC, summer semester started 2026-05-18
-- **Trading** — ES + MGC orderflow, all prop firm evals blown as of 2026-05-18. Reset.
-- **Job** — bridge income (~$1,400/month), covers expenses while trading scales
+- **School** — SLCC, summer semester started 2026-05-18. Retaking Calc 2 + Physics 1 (had C grades). Taking ENGL 1010 + CS 1410 async.
+- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown as of 2026-05-18. Reset. June restart planned with 5 fresh accounts.
+- **Job** — bridge income (~$1,400/month), covers expenses + minimums. Not enough for debt paydown or hardware.
+- **Additional income** — Amazon Flex (delivery, schedule TBD) + plasma donations (2x/week, schedule TBD)
 - **Relationship** — Natalie is the primary priority. Always.
 
 ---
 
 ## Active Projects
 
-- **Prop firm eval** — All 3 accounts blown as of 2026-05-18. Need to decide: take a break, re-evaluate strategy, or re-enter. No active evals currently.
-- **SAT prep** — Test dates: October 3 and November 7, 2026. Prep needs to be built into weekly schedule alongside school and trading.
-- **MIT transfer application** — Submission: March 2027. Requires strong Fall 2026 semester, projects, and SAT scores.
+- **Baymax Home Companion Robot** — portfolio anchor for MIT/Stanford transfer. Phase 1: software only (Python → NumPy → RL → Isaac Sim). Desktop (RTX 3060 Super) runs Isaac Sim. No hardware funding yet — hardware is Phase 2.
+- **SAT prep** — Test dates: October 3 (primary) + November 7, 2026 (backup). 10hrs/week starts now. Target: 1550+.
+- **Transfer applications** — Four schools: MIT + Stanford (Mar 2027, SAT required) + UC Berkeley + UCSD (Nov 2026, no SAT). Two separate cycles. UC essays needed by Sep 2026.
+- **Prop firm eval** — Restarting June with 5 accounts. Small wins. No urgency pressure. Trading journal to be built in `Trading/` folder.
 
 ---
 
@@ -40,12 +42,18 @@ Secretary — calendar, reminders, weekly planning, context maintenance, light o
 ### This Week
 *(Update every Monday or at weekly check-in)*
 
-- [ ] 
+- [ ] Register for SAT (Oct 3) — book now
+- [ ] Start SAT prep routine
+- [ ] Begin CS 1410 and ENGL 1010 (async)
+- [ ] Confirm Amazon Flex + plasma donation schedule so MIMIR can slot them
 
 ### This Month
 *(Update every 1st or at monthly check-in)*
 
-- [ ] 
+- [ ] Tuition due June 5 — confirm payment
+- [ ] Trading post-mortem before June restart — document hard rules
+- [ ] Build Python learning routine into weekly schedule
+- [ ] Confirm SLCC grade replacement policy (critical for transcript strategy)
 
 ---
 
@@ -72,6 +80,14 @@ Before any session closes (or when Giahy says "wrap up"):
 1. Update `MIMIR_BRAIN.md` — goals, patterns, active projects if changed
 2. Sync `LOOSE_ENDS.md` — open anything new, close anything resolved
 3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
+4. Update `MIMIR_SESSION_LOG.md` — log what was discussed, decisions made, where we stopped, next session starting point
+
+### Session Start Protocol
+At the start of any new session:
+1. Read `MIMIR_SESSION_LOG.md` — most recent entry tells you where we stopped
+2. Read `MIMIR_BRAIN.md` — current state
+3. Read `MIMIR_TASKS.md` — active tasks and schedule
+4. Resume from the logged stopping point, or ask Giahy what he wants to focus on
 
 ### Check-In Cadence
 - **Weekly** — every Monday morning check-in. Review week ahead, goals progress, course correct.
@@ -85,23 +101,24 @@ Before any session closes (or when Giahy says "wrap up"):
 Freedom. Not wealth for its own sake — freedom to choose the work, the life, the people. Success that isn't shared with Natalie isn't success. She is the primary constant in every plan.
 
 ### Academic Path
-- **Current:** SLCC, EE, 2nd semester, 4.0 GPA
+- **Current:** SLCC, EE, summer 2026, GPA ~3.98 (A- in 1-credit spring lab; retaking Calc 2 + Physics 1)
 - **Major target:** Electrical Engineering → Robotics emphasis
-- **Transfer target:** MIT (primary). Undergrad transfer is the moonshot — pursued seriously.
-- **Backup path:** SLCC → 4-year university → MIT grad school (MS or funded PhD in Robotics). Funded PhD is a real option — noted for future decision.
+- **Transfer targets (4 schools, 2 cycles):**
+  - UC Berkeley (EECS) + UCSD (ECE) — Fall 2027, apply Nov 2026, no SAT, test-blind
+  - MIT + Stanford — Fall 2027, apply Mar 2027, SAT 1550+ required
+- **Backup path:** SLCC → 4-year university → MIT grad school (MS or funded PhD in Robotics). Funded PhD is a real option.
 - **SAT dates:** October 3, 2026 (primary) + November 7, 2026 (backup)
-- **Application deadline:** March 2027 (MIT transfer cycle)
 - **Why MIT:** #1 robotics program (CSAIL). The Engine fund for tough-tech startups. The exact ecosystem for what comes after.
 
 ### Trading Path
 - **Instruments:** ES (primary), MGC (primary), MNQ + GC (secondary)
 - **Strategy:** Orderflow — volume profiles, DOM, delta
-- **Current status:** Belief phase. Psychology/process issues being actively worked: overtrading, chasing moves out of greed, not taking partials, missing trades due to skipped pre-market setup.
-- **Fix framing:** This is a *system design* problem, not a character flaw. Hard rules and protocols, not willpower.
-- **Prop firm setup:** Currently 3 accounts synced via TradeSyncer. Target: 10 accounts.
-- **Income target:** $20,000/month net (10 accounts × $2,000 payout each, one payout/month per account)
-- **Milestone:** $3,000–$5,000/month = first real signal. $12,000/month = primary income established.
-- **Ceiling:** If trading fully takes off, it may become the primary career — robotics becomes the passion project. Door is open.
+- **Current status:** Reset. All 3 accounts blown May 2026. Restarting June with 5 accounts.
+- **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup. Psychology under financial pressure.
+- **Fix framing:** System design problem, not a character flaw. Hard rules and protocols, not willpower.
+- **June approach:** Small wins, patience, no urgency about payouts. Income grows gradually.
+- **Income target:** $20,000/month net (10 accounts × $2,000 payout each)
+- **Milestone 1:** $3–5k/month. **Milestone 2:** $12k/month.
 
 ### Financial Picture
 **Monthly fixed burn:** ~$2,282
@@ -129,22 +146,22 @@ Cap One Slate ($7k) is the anchor. It goes first.
 1. 6 months emergency savings
 2. Roth IRA maxed annually
 3. One-time needs: contacts, hair, teeth, phone/tablet payoff
-4. Equipment: stronger laptop, Bambu P1S, oscilloscope, soldering station, DMM, parts
+4. Equipment: Bambu P1S, oscilloscope, soldering station, DMM, robot parts, stronger laptop
 
 ### Long-Term Vision
 - **Startup:** Found an engineering company focused on philanthropic impact — robotics applied to environmental improvement or medical advancement. Not charity — a real company that does meaningful work and builds wealth.
-- **MIT The Engine:** The target ecosystem for this. Tough-tech startup fund built for exactly this kind of company.
-- **Family:** Kids, pets, maybe a live-in. A home large enough to be comfortable — not a status symbol. Somewhere.
-- **Lifestyle:** Not materialistic. The point is to never have to check if something is affordable. To take care of family. To give back to community.
+- **MIT The Engine:** Target ecosystem for this.
+- **Family:** Kids, pets, maybe a live-in. A home large enough to be comfortable — not a status symbol.
+- **Lifestyle:** Not materialistic. Never have to check if something is affordable. Take care of family. Give back to community.
 - **Natalie:** Co-navigator. She runs a marketing agency. Her vision aligns. Success is shared or it doesn't count.
 
 ---
 
 ## Patterns Observed
 
-*Recurring behaviors, tendencies, habits MIMIR notices over time. Used to plan better, remind smarter, and reduce friction.*
-
 - Prone to overtrading and chasing moves in trading — system rules matter more than discipline here
 - Misses trades when pre-market setup is skipped — routine enforcement is critical
 - ADHD: energy isn't linear, minimize choices, break tasks into clear steps
-- Extremely forgetful — proactive reminders are a core responsibility
+- Extremely forgetful — proactive reminders are a core MIMIR responsibility
+- Tends to conflate "starting a project" with "funding a project" — can start Baymax software with $0
+- Under financial pressure, urgency thinking emerges — this is the psychology that blew the accounts
