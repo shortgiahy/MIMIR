@@ -1,7 +1,7 @@
 # MIMIR_TASKS
 > Operational task + project tracking. Maintained by MIMIR. Last updated: 2026-05-18
 > Source of truth for daily scheduling. Giahy never needs to open this directly.
-> See also: [[System/Brain]] · [[System/Loose Ends]] · [[System/Recurring]] · [[Baymax/Baymax Learning Roadmap]]
+> See also: [[System/Brain]] · [[System/Loose Ends]] · [[System/Recurring]] · [[Projects/Baymax/Baymax Learning Roadmap]]
 
 ---
 
@@ -117,7 +117,7 @@
 ## Active Projects
 
 ### Baymax Home Companion Robot
-> Full learning roadmap: [[Baymax/Baymax Learning Roadmap]]
+> Full learning roadmap: [[Projects/Baymax/Baymax Learning Roadmap]]
 - **Goal:** Build a home companion robot modeled after Baymax (Big Hero 6). Aesthetic: Nendoroid/Good Smile hard panel lines, not inflatable.
 - **Purpose:** MIT/Stanford transfer portfolio anchor project
 - **Phase 1 (now → Oct 2026):** Software-only. Python fluency → NumPy/linear algebra → basic RL concepts → Isaac Sim setup + pre-built locomotion example running
