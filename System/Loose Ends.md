@@ -1,7 +1,7 @@
 # LOOSE ENDS
 
 > Tracked threads with dates. Maintained by MIMIR. Anything opened gets closed or escalated — nothing disappears silently.
-> See also: [[MIMIR_BRAIN]] · [[RECURRING]] · [[MIMIR_TASKS]]
+> See also: [[System/Brain]] · [[System/Recurring]] · [[System/Tasks]]
 
 ---
 

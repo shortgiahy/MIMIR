@@ -1,7 +1,7 @@
 # RECURRING
 
 > Bills, subscriptions, and fixed obligations. Maintained by MIMIR. Due dates must be accurate — update when they change.
-> See also: [[MIMIR_BRAIN]] · [[LOOSE_ENDS]]
+> See also: [[System/Brain]] · [[System/Loose Ends]]
 
 ---
 

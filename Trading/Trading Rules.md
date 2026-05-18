@@ -1,7 +1,7 @@
 # Trading Rules
 
 > Hard rules. Non-negotiable. Last updated: 2026-05-18
-> See also: [[MIMIR_BRAIN]] · [[MIMIR_TASKS]]
+> See also: [[System/Brain]] · [[System/Tasks]]
 
 ---
 

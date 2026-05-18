@@ -3,7 +3,7 @@
 > What Giahy needs to learn to build the Baymax Home Companion Robot — from zero to full embedded system.
 > Maintained by MIMIR. Updated as progress is made.
 > Last updated: 2026-05-18
-> See also: [[MIMIR_TASKS]] · [[LOOSE_ENDS]]
+> See also: [[System/Tasks]] · [[System/Loose Ends]]
 
 ---
 
