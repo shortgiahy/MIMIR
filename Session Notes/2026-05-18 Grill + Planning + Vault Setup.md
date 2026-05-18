@@ -16,15 +16,18 @@
 - **IOP:** Mon–Thu only, NOT Fridays.
 - **Income blocks (June onward):** Plasma Mon/Fri 10–12, Work 12–3/4, Amazon Flex 5–8:30 PM. Schedule not fully reconciled yet — see [[LOOSE_ENDS]].
 
+- **Trading post-mortem complete.** Root cause: missed winners (hesitation + bad fill) → FOMO → abandoned strategy → breakout trade + doubled size → all accounts blown simultaneously. Rules written. See [[Trading/Trading Rules]].
+- **Trading journal system built.** Template at [[Trading/Daily Journal Template]]. Daily journals go in `Trading/Journals/`. Morning check-in includes trade journaling going forward.
+- **Vault restructured.** Session Notes/ folder created (one note per session). Wikilinks added across all files. Obsidian sync confirmed working on main branch.
+
 ## Where We Stopped
 
-Loose ends reviewed. Trading post-mortem still pending — next session.
-Summer schedule (with income blocks) not finalized — deal with tomorrow.
+Session complete. Summer schedule (income blocks vs SAT prep/robotics hours) not finalized — deal with tomorrow.
 
 ## Next Session Starting Point
 
-1. Finalize summer weekly schedule (income blocks vs SAT prep/robotics hours)
-2. Trading post-mortem + journal folder build
+1. Finalize summer weekly schedule (plasma, work, Amazon Flex slotted against SAT prep and robotics)
+2. Morning check-in format — Giahy checking in daily for agenda + trade journal
 
 ## References
 [[MIMIR_TASKS]] · [[LOOSE_ENDS]] · [[Baymax/BAYMAX_LEARNING_ROADMAP]] · [[RECURRING]]

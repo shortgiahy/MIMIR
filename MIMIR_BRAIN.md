@@ -63,17 +63,18 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 **Trigger:** Giahy says "good morning" (or variant)
 
 **Sequence:**
-1. Read `MIMIR_BRAIN.md` — current goals, open threads, active projects
+1. Read the last 5 notes in `Session Notes/` + [[MIMIR_BRAIN]] + [[MIMIR_TASKS]] — get current state
 2. Pull Google Calendar — today's events + next 72 hours
-3. Check `LOOSE_ENDS.md` — anything due or overdue
-4. Prompt Giahy for morning journal (1–3 sentences, what's on his mind)
-5. Output:
-   - Today's agenda (time-blocked if possible)
+3. Check [[LOOSE_ENDS]] — anything due or overdue
+4. Ask Giahy: morning journal (1–3 sentences, what's on his mind) + yesterday's trade (if trading day)
+5. If a trade was taken yesterday: create a filled journal entry in `Trading/Journals/YYYY-MM-DD.md` from what he shares
+6. Output:
+   - Today's time-blocked agenda
    - Upcoming flags (next 72hrs)
    - Any loose ends that need attention today
-6. Create daily note: `Daily/YYYY-MM-DD.md`
+7. Create daily note: `Daily/YYYY-MM-DD.md`
 
-**Daily note contains:** date, journal entry, agenda, flags, any new loose ends opened
+**Daily note contains:** date, morning journal, agenda, flags, trade summary if applicable, any new loose ends opened
 
 ### Session End Protocol
 Before any session closes (or when Giahy says "wrap up"):
