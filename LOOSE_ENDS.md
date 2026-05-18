@@ -22,7 +22,7 @@
 | 2026-05-18 | MED | Trading post-mortem + journal folder | Combined session — document what went wrong, write hard rules, build journal structure in Trading/ |
 | 2026-05-18 | MED | UC application essays — begin drafting | Target: start by Sep 2026. Not SAT-dependent. Personal insight format. |
 | 2026-05-18 | MED | Fall 2026 load management | 15 heavy STEM credits (Circuits + Physics 2 + Chem + Calc 3) simultaneously with trading, UC app deadlines in Nov, and 6hrs/week robotics. Highest-stakes semester. Monitor for overload signals. |
-| 2026-05-18 | HIGH | Connect Obsidian vault to git repo | Local Obsidian vault is stale (still on April 2026 versions). MIMIR's changes are not reaching Obsidian. Need to set up Obsidian Git plugin or equivalent sync so changes flow both ways. |
+| 2026-05-18 | LOW | Rename core vault files | MIMIR_BRAIN, MIMIR_TASKS, LOOSE_ENDS, RECURRING → nicer lowercase titles. Update all wikilinks after. Do in one pass. |
 | 2026-05-18 | MED | Finalize summer weekly schedule | Income blocks (work 12–3/4, plasma Mon/Fri 10–12, Amazon Flex) not yet fully reconciled with SAT prep and robotics hours. Deal with tomorrow. |
 
 ---
