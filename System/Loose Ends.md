@@ -15,7 +15,8 @@
 | 2026-04-06 | MED | Oil change | Overdue — flag ASAP |
 | 2026-05-18 | HIGH | Register for SAT (Oct 3, 2026) | Cost is $68. Fee waivers exist but require NSLP/federal low-income program enrollment — verify eligibility. Book as soon as $68 is available — slots fill fast. |
 | 2026-05-18 | LOW | Check SAT fee waiver eligibility | Requires NSLP or federal low-income program enrollment. Probably doesn't apply but worth a 2-min check before paying $68. |
-| 2026-05-18 | MED | Confirm Amazon Flex schedule | Slot into weekly structure once confirmed |
+| 2026-05-18 | MED | Confirm Amazon Flex schedule | Weekday evenings (after IOP) + weekends. Exact blocks TBD. Slot in once confirmed. |
+| 2026-05-18 | HIGH | Confirm IOP format — in person or online | DBT group therapy, Mon–Thu 4:30–6:30. If in person, commute time affects evening schedule. Blocks schedule finalization. |
 | 2026-05-18 | MED | Confirm plasma donation schedule (2x/week) | Slot into weekly structure once confirmed |
 | 2026-05-18 | MED | Contact friend re: warming massage belt project | She has the idea — commercial potential TBD, Giahy needs to initiate |
 | 2026-05-18 | MED | UC application essays — begin drafting | Target: start by Sep 2026. Not SAT-dependent. Personal insight format. |

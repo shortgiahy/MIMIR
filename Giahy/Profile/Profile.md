@@ -39,6 +39,10 @@
 - **Natalie** — partner, co-navigator. She runs a marketing agency. Her vision aligns. Protected time is non-negotiable.
 - **Winston + Benni** — pets ($60/month insurance)
 
+## Health
+
+- **IOP** — DBT group therapy, Mon–Thu 4:30–6:30 PM. In-person or online TBD. Protected block — never schedule over it.
+
 ## Known Patterns
 
 - Misses trades when pre-market setup is skipped
