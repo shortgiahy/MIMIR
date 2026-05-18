@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baymax/Baymax Learning Roadmap.md",
+                "file": "Trading/Daily Journal Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Baymax Learning Roadmap"
+              "title": "Daily Journal Template"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "51edae52373192cd",
   "lastOpenFiles": [
+    "System/Loose Ends.md",
+    "Baymax/Baymax Learning Roadmap.md",
     "Giahy/Profile/Profile.md",
     "Daily/Daily Template.md",
     "Wiki/ML & Robotics",
@@ -209,9 +211,7 @@
     "Trading.md",
     "Trading 1.md",
     "System/Recurring.md",
-    "System/Loose Ends.md",
     "System/Brain.md",
-    "Baymax/Baymax Learning Roadmap.md",
     "Trading/Trading Rules.md",
     "Trading/Daily Journal Template.md",
     "Baymax/BAYMAX_LEARNING_ROADMAP.md",
