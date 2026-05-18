@@ -11,10 +11,14 @@
             "id": "51edae52373192cd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Baymax/Baymax Learning Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Baymax Learning Roadmap"
             }
           }
         ]
@@ -189,6 +193,7 @@
   },
   "active": "51edae52373192cd",
   "lastOpenFiles": [
+    "Giahy/Profile/Profile.md",
     "Daily/Daily Template.md",
     "Wiki/ML & Robotics",
     "Wiki/Physics",
@@ -197,7 +202,6 @@
     "Wiki/CS",
     "Wiki",
     "Sources",
-    "Giahy/Profile/Profile.md",
     "Giahy/Notes",
     "Giahy/Profile",
     "Giahy",
