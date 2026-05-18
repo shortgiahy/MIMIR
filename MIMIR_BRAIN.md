@@ -87,6 +87,8 @@ MIMIR adds to `LOOSE_ENDS.md` **proactively and without asking**. This file exis
 
 Do not ask for confirmation before adding a loose end. Do not wait until session end — add it when it's noticed. Close loose ends when resolved.
 
+**Language signal:** When Giahy says "deal with it later," "we'll get to that," "that's for another time," or any equivalent deferral — that means add it to LOOSE_ENDS immediately.
+
 ### Session Start Protocol
 At the start of any new session:
 1. Read `MIMIR_SESSION_LOG.md` — most recent entry tells you where we stopped
