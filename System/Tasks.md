@@ -145,7 +145,7 @@
 - **Status:** Building toward — Fall 2026 is the make-or-break semester
 
 ### Prop Firm / Trading
-> Trading journals: [[Trading/]]
+> Trading journals: Trading
 - **Status:** All 3 accounts blown as of May 2026. Currently in reset.
 - **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup — psychology/process failures under financial pressure
 - **June restart plan:** 5 fresh accounts via TradeSyncer. Small wins approach — patience over urgency. Income grows gradually, not one big payout.

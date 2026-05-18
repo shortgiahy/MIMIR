@@ -11,10 +11,14 @@
             "id": "51edae52373192cd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "System/Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
         ]
@@ -187,9 +191,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "08d4d9d505f8114a",
+  "active": "51edae52373192cd",
   "lastOpenFiles": [
     "Trading.md",
+    "Trading 1.md",
+    "System/Tasks.md",
+    "System/Recurring.md",
+    "System/Loose Ends.md",
+    "System/Brain.md",
+    "System",
+    "Baymax/Baymax Learning Roadmap.md",
     "Trading/Trading Rules.md",
     "Trading/Journals",
     "Trading/Daily Journal Template.md",
