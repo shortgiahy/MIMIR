@@ -13,7 +13,7 @@ Build a bipedal/quadruped home companion robot modeled after Baymax (Big Hero 6)
 
 > [!tip] Two Phases
 > **Phase 1 (now → Oct 2026):** Software only — simulation, RL training, policy architecture. **$0 cost.**
-> 
+>
 > **Phase 2 (post-funding):** Physical hardware — embedded systems, motors, sensors, 3D printing.
 
 ---
@@ -21,17 +21,15 @@ Build a bipedal/quadruped home companion robot modeled after Baymax (Big Hero 6)
 ## Where You Are Now
 
 > [!warning] Starting Point
-> | Skill | Status |
-> |-------|--------|
-> | Java OOP | ✅ In progress (CS 1410) |
-> | Calculus I | ✅ Complete |
-> | Calculus II | 🔄 In progress (retake) |
-> | Physics I | 🔄 Retake in progress |
-> | Linear Algebra | ❌ Not yet — formal course Spring 2027 |
-> | Python | ❌ Not yet — self-taught this summer |
-> | ML / RL | ❌ Not yet |
-> | Isaac Sim | ❌ Not yet |
-> | Embedded systems | ❌ Not yet |
+> - ✅ Java OOP — in progress (CS 1410)
+> - ✅ Calculus I — complete
+> - 🔄 Calculus II — retake in progress
+> - 🔄 Physics I — retake in progress
+> - ❌ Linear Algebra — formal course Spring 2027
+> - ❌ Python — self-taught this summer
+> - ❌ ML / RL
+> - ❌ Isaac Sim
+> - ❌ Embedded systems
 
 ---
 
@@ -81,12 +79,10 @@ You don't need to derive proofs. You need to understand what these operations me
 
 You don't need to master all of ML — just enough to understand what RL is doing and why.
 
-| Topic | Why It Matters |
-|-------|----------------|
-| Neural networks (layers, weights, activations) | RL policies are neural nets |
-| Loss functions and gradient descent | How the network learns |
-| PyTorch basics — tensors, autograd | Isaac Sim RL uses PyTorch |
-| Supervised vs reinforcement learning | Context for the project |
+- **Neural networks (layers, weights, activations)** — RL policies are neural nets
+- **Loss functions and gradient descent** — how the network learns
+- **PyTorch basics — tensors, autograd** — Isaac Sim RL uses PyTorch
+- **Supervised vs reinforcement learning** — context for the project
 
 > [!tip] Resource
 > fast.ai Part 1 (free, practical) or 3Blue1Brown "Neural Networks" series first.
@@ -101,14 +97,12 @@ You don't need to master all of ML — just enough to understand what RL is doin
 
 This is the core of how Baymax will learn to walk.
 
-| Topic | Why It Matters |
-|-------|----------------|
-| States, actions, rewards, episodes | The RL framework |
-| Policy vs value function | Two ways to represent what the agent has learned |
-| Q-learning (basic) | Foundation of modern RL |
-| Policy gradient methods | PPO is a policy gradient method |
-| PPO — Proximal Policy Optimization | The specific algorithm Isaac Lab uses for locomotion |
-| Reward shaping | How you define "good walking" for the robot |
+- **States, actions, rewards, episodes** — the RL framework
+- **Policy vs value function** — two ways to represent what the agent has learned
+- **Q-learning (basic)** — foundation of modern RL
+- **Policy gradient methods** — PPO is a policy gradient method
+- **PPO — Proximal Policy Optimization** — the specific algorithm Isaac Lab uses for locomotion
+- **Reward shaping** — how you define "good walking" for the robot
 
 > [!tip] Resource
 > Spinning Up by OpenAI (free) — chapters on RL basics and PPO specifically.
@@ -120,15 +114,13 @@ This is the core of how Baymax will learn to walk.
 
 ### Stage 5 — Isaac Sim / Isaac Lab Setup
 > *October 2026 · ~6 hrs/week*
-> ⚠️ Use the desktop (RTX 3060 Super, i9 10th gen, 16GB RAM) — laptop cannot run this.
+> ⚠️ Desktop only (RTX 3060 Super, i9, 16GB RAM) — laptop cannot run this.
 
-| Topic | Why It Matters |
-|-------|----------------|
-| Isaac Sim installation and navigation | Environment setup |
-| USD (Universal Scene Description) | How Isaac Sim represents robots and scenes |
-| Importing a URDF robot model | Getting a biped/quadruped into the sim |
-| Isaac Lab locomotion examples | Pre-built walking policies to study and run |
-| Observing policy training in real-time | Understanding what the sim is doing |
+- **Isaac Sim installation and navigation** — environment setup
+- **USD (Universal Scene Description)** — how Isaac Sim represents robots and scenes
+- **Importing a URDF robot model** — getting a biped/quadruped into the sim
+- **Isaac Lab locomotion examples** — pre-built walking policies to study and run
+- **Observing policy training in real-time** — understanding what the sim is doing
 
 > [!danger] Portfolio Deadline — October 2026
 > "I set up Isaac Sim, imported a bipedal robot model, ran a pre-built locomotion policy, and understand the policy architecture."
@@ -142,12 +134,11 @@ This is the core of how Baymax will learn to walk.
 > Begins after hardware funding. Not blocking Phase 1. Documented here for planning only.
 
 ### Stage 6 — Embedded Systems Fundamentals
-| Topic | Why It Matters |
-|-------|----------------|
-| C/C++ for microcontrollers | Most motor controllers run C/C++ |
-| Arduino / STM32 basics | Entry point for embedded dev |
-| Digital I/O, PWM, UART, I2C, SPI | How a microcontroller talks to sensors and motors |
-| Real-time constraints | Walking requires millisecond-level control loops |
+
+- **C/C++ for microcontrollers** — most motor controllers run C/C++
+- **Arduino / STM32 basics** — entry point for embedded dev
+- **Digital I/O, PWM, UART, I2C, SPI** — how a microcontroller talks to sensors and motors
+- **Real-time constraints** — walking requires millisecond-level control loops
 
 ### Stage 7 — Motor Control
 | Topic                                    | Why It Matters                                    |
@@ -158,25 +149,22 @@ This is the core of how Baymax will learn to walk.
 | Torque control vs position control       | Quasi-direct drive uses torque control            |
 
 ### Stage 8 — Sensors & Perception
-| Topic | Why It Matters |
-|-------|----------------|
-| IMU (accelerometer + gyroscope) | Balance and orientation |
-| Depth camera (e.g., Intel RealSense) | Obstacle detection |
-| Sensor fusion | Combining IMU + camera for stable state estimation |
+
+- **IMU (accelerometer + gyroscope)** — balance and orientation
+- **Depth camera (e.g., Intel RealSense)** — obstacle detection
+- **Sensor fusion** — combining IMU + camera for stable state estimation
 
 ### Stage 9 — ROS2
-| Topic | Why It Matters |
-|-------|----------------|
-| ROS2 concepts — nodes, topics, services | Standard middleware for robotics |
-| Publishing / subscribing to sensor data | Getting data from sensors to the policy |
-| Isaac Sim ↔ ROS2 bridge | Deploying sim-trained policy to real hardware |
+
+- **ROS2 concepts — nodes, topics, services** — standard middleware for robotics
+- **Publishing / subscribing to sensor data** — getting data from sensors to the policy
+- **Isaac Sim ↔ ROS2 bridge** — deploying sim-trained policy to real hardware
 
 ### Stage 10 — Sim-to-Real Transfer
-| Topic | Why It Matters |
-|-------|----------------|
-| Domain randomization | Making the policy robust to real-world variation |
-| Edge inference — PyTorch on embedded hardware | Running the policy on the robot's onboard computer |
-| Latency and compute constraints | Real hardware has less compute than the desktop |
+
+- **Domain randomization** — making the policy robust to real-world variation
+- **Edge inference — PyTorch on embedded hardware** — running the policy on the robot's onboard computer
+- **Latency and compute constraints** — real hardware has less compute than the desktop
 
 ---
 
