@@ -37,12 +37,12 @@ Two phases:
 
 Most robotics tools (Isaac Sim, PyTorch, NumPy) are Python. Java OOP transfers — same concepts, different syntax.
 
-| Topic | Why It Matters | Resource |
-|-------|---------------|----------|
-| Python syntax + data structures | Foundation for everything | Python.org tutorial, Automate the Boring Stuff |
-| Functions, classes, modules | Direct transfer from Java OOP | Same as above |
-| File I/O, pip, virtual environments | Working like a real dev | Python docs |
-| NumPy basics — arrays, indexing, slicing | Prereq for all ML work | NumPy quickstart |
+| Topic                                    | Why It Matters                | Resource                                       |
+| ---------------------------------------- | ----------------------------- | ---------------------------------------------- |
+| Python syntax + data structures          | Foundation for everything     | Python.org tutorial, Automate the Boring Stuff |
+| Functions, classes, modules              | Direct transfer from Java OOP | Same as above                                  |
+| File I/O, pip, virtual environments      | Working like a real dev       | Python docs                                    |
+| NumPy basics — arrays, indexing, slicing | Prereq for all ML work        | NumPy quickstart                               |
 
 **Milestone:** Write a Python script that does matrix multiplication using NumPy without looking it up.
 
@@ -54,13 +54,13 @@ Most robotics tools (Isaac Sim, PyTorch, NumPy) are Python. Java OOP transfers �
 
 You don't need to derive proofs. You need to understand what these operations mean physically for robotics.
 
-| Topic | Why It Matters for Baymax |
-|-------|--------------------------|
-| Vectors — magnitude, direction, dot product | Represents joint positions, velocities, forces |
-| Matrices — multiplication, transpose, inverse | Transforms between coordinate frames |
-| Linear transformations | How joint angles map to end-effector position |
-| Eigenvalues/eigenvectors | Understanding stability, PCA (less urgent) |
-| Gradients and partial derivatives | How neural networks learn (backprop) |
+| Topic                                         | Why It Matters for Baymax                      |
+| --------------------------------------------- | ---------------------------------------------- |
+| Vectors — magnitude, direction, dot product   | Represents joint positions, velocities, forces |
+| Matrices — multiplication, transpose, inverse | Transforms between coordinate frames           |
+| Linear transformations                        | How joint angles map to end-effector position  |
+| Eigenvalues/eigenvectors                      | Understanding stability, PCA (less urgent)     |
+| Gradients and partial derivatives             | How neural networks learn (backprop)           |
 
 **Resource:** 3Blue1Brown "Essence of Linear Algebra" (YouTube) — watch before doing NumPy exercises. Then implement every concept in NumPy.
 
