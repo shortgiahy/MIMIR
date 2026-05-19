@@ -26,10 +26,15 @@
 
 | Block | Days | Time (MT) | Notes |
 |-------|------|-----------|-------|
-| Trading setup | Mon–Fri | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
-| IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). Can overlap with Flex. |
-| Amazon Flex | Daily | 5:00–8:30 PM | ~$65/session. Primary income. |
+| Gym | Daily (adjust freq as needed) | 6:00–7:15 AM | Morning anchor. Skip down to 3–4x/week if energy doesn't hold. |
+| Trading setup | Mon–Sat | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
+| IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). Can overlap with Flex. NOT Fridays. |
+| Amazon Flex | Daily | 5:00–8:30 PM weekdays / 10:00 AM–2:00 PM Sun / 5:00–8:30 PM Sat | ~$65/session. Primary income. ~9 sessions/week. |
 | Plasma donations | Mon/Fri | 10:00–12:00 PM | ~$50/session. 2x/week. |
+| Walk | Daily | 8:30–8:45 PM | 15 min evening decompression. Non-negotiable. |
+| Guitar | Daily | 8:45–9:45 PM | 1 hr. Long-term skill, treat like a class. |
+| Farmers market | Saturdays | 10:00 AM–12:00 PM | With Natalie. Protected. |
+| Parents dinner | Sundays (most weeks) | 5:00–7:00 PM | Not every week — confirm on Sundays. |
 | Natalie time | Daily | Thu–Fri evenings + weekends protected | Not a reward, not negotiable |
 
 ---
@@ -49,24 +54,58 @@
 
 ### Summer Weekly Structure
 
+#### Weekdays (Mon–Fri)
+
 | Time | Mon | Tue | Wed | Thu | Fri |
 |------|-----|-----|-----|-----|-----|
+| 6:00–7:15 | Gym | Gym | Gym | Gym | Gym |
 | 7:30–8:00 | Trading setup | Trading setup | Trading setup | Trading setup | Trading setup |
 | 8:00–10:00 | SAT prep | SAT prep | SAT prep | SAT prep | SAT prep |
 | 10:00–12:00 | Plasma | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Plasma |
 | 12:00–4:30 | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics |
 | 4:30–8:30 | IOP + Flex | IOP + Flex | IOP + Flex | IOP + Flex | Flex |
-| 8:30–11:00 | Wind down / Natalie | Wind down | Wind down | Natalie | Natalie |
+| 8:30–8:45 | Walk | Walk | Walk | Walk | Walk |
+| 8:45–9:45 | Guitar | Guitar | Guitar | Guitar | Guitar |
+| 9:45–11:00 | Wind down | Wind down | Wind down | Natalie | Natalie |
 
-**Weekend:** SAT prep (remaining hrs to hit 10) + Robotics + Flex blocks + Natalie
+> Gym frequency is daily by default — adjust down if energy doesn't hold. 15 min gap after gym (7:15–7:30) is intentional for showering/transition.
+
+#### Saturday
+
+| Time | Block |
+|------|-------|
+| 6:00–7:15 | Gym (optional) |
+| 7:30–8:00 | Trading setup |
+| 8:00–10:00 | SAT prep (weekend hours toward 10/week) |
+| 10:00–12:00 | Farmers market with Natalie |
+| 12:00–5:00 | Robotics + Coursework (flex, no hard block) |
+| 5:00–8:30 | Amazon Flex |
+| 8:30–8:45 | Walk |
+| 8:45–9:45 | Guitar |
+| After 9:45 | Natalie |
+
+#### Sunday
+
+| Time | Block |
+|------|-------|
+| Morning | Relaxed start — no hard alarm |
+| 10:00–2:00 | Amazon Flex (morning block) |
+| 2:00–4:30 | Natalie / free |
+| 5:00–7:00 | Parents dinner (usual — not every week) |
+| Evening | Natalie / wind down / guitar if missed |
+
+> Sunday Flex ends by ~2 PM to leave buffer before 5 PM dinner. No IOP on Sundays. If no parents dinner, afternoon is fully open.
 
 Weekly totals:
-- **SAT prep:** 2hrs × 5 days = 10hrs ✓
-- **Coursework (Calc 2 / Physics 1):** Mon/Fri plasma frees 12–4:30 (4.5hrs each) + Tue/Wed/Thu 12–4:30 = substantial daily blocks
-- **Robotics:** Afternoon blocks + weekends
-- **Flex income:** ~7 sessions × $65 = ~$1,960/month
+- **SAT prep:** 2hrs × 5 weekdays + 2hrs Sat = 12hrs (buffer above 10hr target) ✓
+- **Coursework (Calc 2 / Physics 1):** Mon/Fri 12–4:30 (4.5hrs each, plasma offsets midday) + Tue/Wed/Thu 12–4:30 = substantial daily blocks
+- **Robotics:** Afternoon blocks + Saturday
+- **Guitar:** Daily 1hr — non-negotiable long-term skill
+- **Walk:** Daily 15 min — decompression, not optional
+- **Gym:** Daily morning — adjust frequency as needed
+- **Flex income:** ~9 sessions/week × $65 = ~$2,535/month (7 weekday + Sat + Sun)
 - **Plasma income:** 2 × $50 × 4.3 = ~$430/month
-- **Total income:** ~$2,390/month
+- **Total income:** ~$2,965/month
 
 ### Key Dates
 | Date | Event |
