@@ -26,13 +26,13 @@
 
 | Block | Days | Time (MT) | Notes |
 |-------|------|-----------|-------|
-| Gym | Daily (adjust freq as needed) | 6:00–7:15 AM | Morning anchor. Skip down to 3–4x/week if energy doesn't hold. |
+| Gym | Mon/Tue/Thu/Fri | 6:00–7:15 AM | Morning anchor. Wed/weekends off. |
 | Trading setup | Mon–Sat | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
-| IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). Can overlap with Flex. NOT Fridays. |
-| Amazon Flex | Daily | 5:00–8:30 PM weekdays / 10:00 AM–2:00 PM Sun / 5:00–8:30 PM Sat | ~$65/session. Primary income. ~9 sessions/week. |
+| IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). NOT Fridays. |
+| Amazon Flex | TBD — starts June | TBD | ~$65/session. Schedule to be confirmed. See Loose Ends. |
 | Plasma donations | Mon/Fri | 10:00–12:00 PM | ~$50/session. 2x/week. |
-| Walk | Daily | 8:30–8:45 PM | 15 min evening decompression. Non-negotiable. |
-| Guitar | Daily | 8:45–9:45 PM | 1 hr. Long-term skill, treat like a class. |
+| Walk | Daily | ~8:30 PM | 15 min evening decompression. Non-negotiable. |
+| Guitar | Daily | ~8:45 PM | 1 hr. Long-term skill, treat like a class. |
 | Farmers market | Saturdays | 10:00 AM–12:00 PM | With Natalie. Protected. |
 | Parents dinner | Sundays (most weeks) | 5:00–7:00 PM | Not every week — confirm on Sundays. |
 | Natalie time | Daily | Thu–Fri evenings + weekends protected | Not a reward, not negotiable |
@@ -54,32 +54,32 @@
 
 ### Summer Weekly Structure
 
+> **May 19–31:** No Flex or work blocks. Study + build routine. Full income schedule starts June — see Loose Ends.
+
 #### Weekdays (Mon–Fri)
 
 | Time | Mon | Tue | Wed | Thu | Fri |
 |------|-----|-----|-----|-----|-----|
-| 6:00–7:15 | Gym | Gym | Gym | Gym | Gym |
+| 6:00–7:15 | Gym | Gym | — | Gym | Gym |
 | 7:30–8:00 | Trading setup | Trading setup | Trading setup | Trading setup | Trading setup |
 | 8:00–10:00 | SAT prep | SAT prep | SAT prep | SAT prep | SAT prep |
 | 10:00–12:00 | Plasma | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Calc 2 / Physics 1 | Plasma |
 | 12:00–4:30 | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics | Coursework + Robotics |
-| 4:30–8:30 | IOP + Flex | IOP + Flex | IOP + Flex | IOP + Flex | Flex |
+| 4:30–6:30 | IOP | IOP | IOP | IOP | — |
 | 8:30–8:45 | Walk | Walk | Walk | Walk | Walk |
 | 8:45–9:45 | Guitar | Guitar | Guitar | Guitar | Guitar |
 | 9:45–11:00 | Wind down | Wind down | Wind down | Natalie | Natalie |
 
-> Gym frequency is daily by default — adjust down if energy doesn't hold. 15 min gap after gym (7:15–7:30) is intentional for showering/transition.
+> 15 min gap after gym (7:15–7:30) is for transition/shower. Flex slots will be added June 1 after schedule meeting (next Sunday).
 
 #### Saturday
 
 | Time | Block |
 |------|-------|
-| 6:00–7:15 | Gym (optional) |
 | 7:30–8:00 | Trading setup |
-| 8:00–10:00 | SAT prep (weekend hours toward 10/week) |
+| 8:00–10:00 | SAT prep |
 | 10:00–12:00 | Farmers market with Natalie |
-| 12:00–5:00 | Robotics + Coursework (flex, no hard block) |
-| 5:00–8:30 | Amazon Flex |
+| 12:00–8:00 | Robotics + Coursework + open |
 | 8:30–8:45 | Walk |
 | 8:45–9:45 | Guitar |
 | After 9:45 | Natalie |
@@ -88,24 +88,19 @@
 
 | Time | Block |
 |------|-------|
-| Morning | Relaxed start — no hard alarm |
-| 10:00–2:00 | Amazon Flex (morning block) |
-| 2:00–4:30 | Natalie / free |
-| 5:00–7:00 | Parents dinner (usual — not every week) |
+| Morning | Relaxed start — no alarm |
+| Afternoon | Robotics + SAT prep + open |
+| 5:00–7:00 | Parents dinner (most weeks — confirm) |
 | Evening | Natalie / wind down / guitar if missed |
 
-> Sunday Flex ends by ~2 PM to leave buffer before 5 PM dinner. No IOP on Sundays. If no parents dinner, afternoon is fully open.
-
-Weekly totals:
-- **SAT prep:** 2hrs × 5 weekdays + 2hrs Sat = 12hrs (buffer above 10hr target) ✓
-- **Coursework (Calc 2 / Physics 1):** Mon/Fri 12–4:30 (4.5hrs each, plasma offsets midday) + Tue/Wed/Thu 12–4:30 = substantial daily blocks
-- **Robotics:** Afternoon blocks + Saturday
-- **Guitar:** Daily 1hr — non-negotiable long-term skill
-- **Walk:** Daily 15 min — decompression, not optional
-- **Gym:** Daily morning — adjust frequency as needed
-- **Flex income:** ~9 sessions/week × $65 = ~$2,535/month (7 weekday + Sat + Sun)
-- **Plasma income:** 2 × $50 × 4.3 = ~$430/month
-- **Total income:** ~$2,965/month
+Weekly totals (May, pre-Flex):
+- **SAT prep:** 2hrs × 5 weekdays + 2hrs Sat = 12hrs ✓
+- **Coursework:** Mon/Fri 12–4:30 + Tue/Wed/Thu 12–4:30 — large daily blocks
+- **Robotics:** Afternoon blocks + weekends
+- **Guitar:** Daily 1hr
+- **Walk:** Daily 15 min
+- **Gym:** Mon/Tue/Thu/Fri mornings
+- **Income (May):** Plasma only — 2 × $50 × 4.3 = ~$430/month
 
 ### Key Dates
 | Date | Event |

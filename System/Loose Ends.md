@@ -17,6 +17,7 @@
 | 2026-05-18 | LOW | Check SAT fee waiver eligibility | Requires NSLP or federal low-income program enrollment. Probably doesn't apply but worth a 2-min check before paying $68. |
 | 2026-05-18 | MED | Contact friend re: warming massage belt project | She has the idea — commercial potential TBD, Giahy needs to initiate |
 | 2026-05-18 | LOW | Daily journal / check-in structure | Giahy wants daily journals and check-ins but isn't sure exactly what form. Revisit once morning check-in routine is established. |
+| 2026-05-19 | HIGH | Finalize June income schedule (Flex + work) | Amazon Flex days/frequency not locked in. Work block also TBD. Full schedule meeting planned next Sunday (2026-05-25). Slot both into Tasks after that meeting. |
 
 ---
 
