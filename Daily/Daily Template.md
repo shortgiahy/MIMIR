@@ -1,46 +1,44 @@
 # {{DATE}}
 
-> Copy this template each morning. Save as `Daily/YYYY-MM-DD.md`
+> Save as `Daily/YYYY-MM-DD.md`. 2 minutes each morning. Check off at night.
 
 ---
 
-## Morning Journal
-*(1–3 sentences — what's on your mind)*
+## Morning Check-In
+- [ ] Ritalin taken
+- [ ] Noon eating alarm set
+
+## Journal
+*(1–3 sentences — optional)*
 
 
+
+---
+
+## Today's Anchor
+*(One thing. Pre-decided last night. Games/TikTok unlock after this only.)*
+
+→ 
 
 ---
 
 ## Quick Tasks
-*(Max 5. Small, completable today. Not projects.)*
+*(Max 3. Completable today. Not projects. MIMIR rolls over unfinished ones.)*
 
 - [ ] 
 - [ ] 
 - [ ] 
-
-*Rolled over from yesterday:*
-- [ ] 
-
----
-
-## Agenda
-*(Time-blocked by MIMIR)*
-
-| Time | Block |
-|------|-------|
-| 7:30–10:00 | Trading |
-| | |
 
 ---
 
 ## Flags
-*(Upcoming deadlines or loose ends needing attention today)*
+*(Due today or in the next 48 hours)*
 
 
 
 ---
 
-## Trade Summary
-*(If a trade was taken — filled in from journal)*
-
-
+## Evening
+- [ ] Anchor done
+- [ ] Ate something today
+- **Tomorrow's anchor:** 
