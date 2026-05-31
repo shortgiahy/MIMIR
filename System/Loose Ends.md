@@ -18,6 +18,8 @@
 | 2026-05-18 | MED | Contact friend re: warming massage belt project | She has the idea — commercial potential TBD, Giahy needs to initiate |
 | 2026-05-18 | LOW | Daily journal / check-in structure | Giahy wants daily journals and check-ins but isn't sure exactly what form. Revisit once morning check-in routine is established. |
 | 2026-05-19 | HIGH | Finalize June income schedule (Flex + work) | Amazon Flex days/frequency not locked in. Work block also TBD. Full schedule meeting planned next Sunday (2026-05-25). Slot both into Tasks after that meeting. |
+| 2026-05-31 | LOW | Build out daily note system | Giahy wants a daily note/check-in routine. Template exists in Daily/Daily Template.md but hasn't been used consistently. Revisit once anchor habit is stable. |
+| 2026-05-31 | LOW | Inbox system — ongoing triage | System/Inbox.md created for raw thought capture. MIMIR to process periodically with Giahy: categorize into vault, escalate to Loose Ends, or delete. |
 
 ---
 
