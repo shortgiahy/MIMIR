@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brain Dump.md",
+                "file": "System/Loose Ends.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brain Dump"
+              "title": "Loose Ends"
             }
           }
         ],
@@ -183,8 +183,8 @@
   },
   "active": "7ba24da47a2bff34",
   "lastOpenFiles": [
-    "System/Loose Ends.md",
     "Brain Dump.md",
+    "System/Loose Ends.md",
     "Projects/Baymax/Baymax Learning Roadmap.md",
     "System/Brain.md",
     "Test Note.md"
