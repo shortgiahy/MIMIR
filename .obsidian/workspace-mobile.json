@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Brain.md",
+                "file": "System/Inbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brain"
+              "title": "Inbox"
             }
           }
         ],
@@ -184,11 +184,11 @@
   "active": "7ba24da47a2bff34",
   "lastOpenFiles": [
     "CLAUDE.md",
+    "System/Brain.md",
     "System/Loose Ends.md",
     "System/Inbox.md",
     "Brain Dump.md",
     "Projects/Baymax/Baymax Learning Roadmap.md",
-    "System/Brain.md",
     "Test Note.md"
   ]
 }
