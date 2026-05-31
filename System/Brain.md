@@ -1,5 +1,13 @@
 # MIMIR_BRAIN
 
+## Claude Code Instructions
+
+> This file serves as CLAUDE.md for this vault. Claude Code reads [[System/Brain]] at session start via the Session Start Protocol.
+
+- Always commit and push to **main**. Never create or push to a new branch.
+- Always pull from **main**.
+- Use `git push -u origin main` when pushing.
+
 > Living memory. Maintained by MIMIR. Last updated: 2026-05-18
 
 ---
