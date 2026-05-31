@@ -50,10 +50,13 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 ### This Week
 *(Update every Monday or at weekly check-in)*
 
-- [ ] Register for SAT (Oct 3) — book now
-- [ ] Start SAT prep routine
-- [ ] Begin CS 1410 and ENGL 1010 (async)
-- [ ] Confirm Amazon Flex + plasma donation schedule so MIMIR can slot them
+- [ ] Take Ritalin every day — non-negotiable
+- [ ] Physics Exam 1 prep (Exam: Wed June 3 — Vectors, Kinematics, Projectile Motion)
+- [ ] CS-1410: String/StringBuilder + quizzes (due Tue June 2)
+- [ ] Set noon eating alarm on phone
+- [ ] Schedule plasma donation Monday 10 AM
+- [ ] Be honest with IOP team about severity at next session
+- [ ] Tuition payment by June 5
 
 ### This Month
 *(Update every 1st or at monthly check-in)*
@@ -132,8 +135,12 @@ At the start of any new session:
 4. Resume from the logged stopping point, or ask Giahy what he wants to focus on
 
 ### Check-In Cadence
-- **Weekly** — every Monday morning check-in. Review week ahead, goals progress, course correct.
+- **Daily** — every morning. Use `Daily/YYYY-MM-DD.md` from `Daily/Daily Template.md`. Ritalin + anchor + tasks + flags. Evening: check off anchor, set tomorrow's anchor.
+- **Weekly** — every Monday morning. Use `System/Weekly Check-in Template.md`. Review last week, pull Canvas deadlines, set anchor theme.
 - **Monthly** — first of the month. Big picture: are priorities still right? What shifted?
+
+### Session Note System
+Every session gets a note in `Session Notes/` using `Session Notes/Session Template.md`. Named `YYYY-MM-DD Topic.md`. MIMIR creates this at session end (or when Giahy says "wrap up"). Keep it lean — decisions, vault changes, where we stopped, next starting point. No duplicating content that lives in dedicated files.
 
 ---
 
@@ -207,3 +214,10 @@ Cap One Slate ($7k) is the anchor. It goes first.
 - Extremely forgetful — proactive reminders are a core MIMIR responsibility
 - Tends to conflate "starting a project" with "funding a project" — can start Baymax software with $0
 - Under financial pressure, urgency thinking emerges — this is the psychology that blew the accounts
+- **MDD (Major Depressive Disorder)** confirmed, comorbid with ADHD — IOP (DBT + EMDR), 50mg Sertraline, 36mg Ritalin
+- Ritalin not taken consistently — highest-leverage behavioral change available right now
+- Initiation failure at the **assessment phase** — thinking about a task triggers overwhelm + dread + blankness simultaneously, sometimes physical headache. Applies to all domains including eating.
+- Broken reward pathway: brain trained on instant dopamine (video games, TikTok) → real-life delayed rewards feel unreachable → avoidance loop deepens MDD
+- Video games are primary dopamine refuge — not to be eliminated but earned (anchor first, always)
+- IOP team has not been given full picture of severity — Giahy needs to correct this
+- **Current phase:** Phase 1 Foundation. Ritalin daily + one anchor/day + 10 push-ups + noon eating alarm. Games unlock after anchor only. Phase 2 adds more once this is stable 2+ weeks.
