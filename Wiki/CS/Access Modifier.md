@@ -126,3 +126,4 @@ public class TemperatureSensor extends Sensor {
 - [[Class]] — access modifiers appear on class members
 - [[Abstract Class]] — abstract methods are often `public` or `protected`
 - [[Interface]] — all interface members are implicitly `public`
+- [[NumPy Array]] — ndarray's internal C buffer is inaccessible from Python (effectively `private`); the public API (`array.data`, `.shape`, `.dtype`) mirrors how Java `private` fields are exposed only through controlled public methods

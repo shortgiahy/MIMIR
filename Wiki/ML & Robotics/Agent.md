@@ -104,3 +104,5 @@ print("Greedy policy (0=left,1=right):", np.argmax(Q, axis=1))
 - [[Reward]] — the signal the agent optimizes
 - [[Markov Property]] — the mathematical assumption that makes the agent's problem tractable
 - [[Interface]] — in CS, the agent-environment boundary is analogous to an interface contract
+- [[Class]] — an agent is implemented as a class with observe/act/update methods; the policy, value function, and replay buffer are all fields of that class
+- [[Composition over Inheritance]] — an agent composes a policy, value function, and memory rather than inheriting from a base "smart agent"; different RL algorithms swap out these components

@@ -172,3 +172,5 @@ The `IMUSensor` is silently skipped because it doesn't match `Calibratable`. No 
 - [[Interface]] — you can upcast to an interface type, not just a superclass
 - [[Abstract Class]] — abstract class references are the most common upcast target
 - [[Composition over Inheritance]] — heavy downcasting is often a signal to prefer composition
+- [[Policy]] — storing different policy implementations behind a common `Policy` reference is upcasting; retrieving a specific policy type to call its implementation-specific tuning methods requires a downcast with an `instanceof` check
+- [[State]] — in RL, a concrete state (e.g., `ImageState`, `VectorState`) is often upcast to a generic `State` type for the agent loop; downcasting is needed when a specific algorithm requires access to subtype-specific structure

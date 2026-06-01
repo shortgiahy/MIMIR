@@ -91,3 +91,5 @@ print(np.allclose(composed, R135))  # True
 - [[NumPy Array]] — `@` operator or `np.matmul`; never element-wise `*`
 - [[Forward Pass]] — neural network layers are matrix multiplications
 - [[Backpropagation]] — computes gradients via transposed matrix multiplications
+- [[Node Voltage Method]] — circuit equations Gv = I are a system of linear equations solved by matrix multiplication; the same operation that transforms layer inputs into outputs in a neural network
+- [[Kinematic Equations]] — rotation matrices transform position and velocity vectors; chaining joint transforms in robot kinematics is a sequence of matrix multiplications

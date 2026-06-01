@@ -131,3 +131,5 @@ public class Motor extends Actuator {
 - [[Abstract Class]] — a superclass that enforces a contract on subclasses
 - [[Method Overriding]] — how subclasses replace superclass behavior
 - [[Polymorphism]] — enables treating subclass objects as their superclass type
+- [[Neural Network]] — `torch.nn.Module` is the superclass of every layer and model in PyTorch; it provides the shared training infrastructure (`parameters()`, `to(device)`, `zero_grad()`) that all subclasses inherit for free
+- [[Matrix]] — in linear algebra, Matrix is the superclass concept from which Vector (a single-column matrix) specializes, paralleling how a Java superclass defines the general contract that subclasses refine

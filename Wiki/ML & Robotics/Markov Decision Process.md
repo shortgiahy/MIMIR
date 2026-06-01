@@ -88,3 +88,5 @@ print("π* =", policy)  # π* = [1, 0, 0] → go to state 2 immediately
 - [[State]] — formalises what the agent observes
 - [[Action]] — formalises what the agent controls
 - [[Gradient Descent]] — used in deep RL to optimise policies end-to-end
+- [[Conservation of Energy]] — the Bellman equation is a conservation law for value: value at state s equals immediate reward plus discounted value at the next state, just as energy is conserved across transitions
+- [[Series]] — the discounted return Σγ^t·r_t is an infinite series; the MDP framework makes this series well-defined and convergent

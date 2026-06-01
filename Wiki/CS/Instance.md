@@ -119,3 +119,5 @@ System.out.println(shoulder.getAngle()); // 45
 - [[Object]] — the heap entity; "instance" and "object" are near-synonyms
 - [[Constructor]] — the code that initializes each new instance
 - [[Encapsulation]] — each instance's state is private to itself
+- [[NumPy Array]] — each `np.array(...)` call produces a distinct ndarray instance with its own data buffer and metadata; understanding instance independence explains why copying an array (`np.copy`) is needed to avoid aliasing bugs
+- [[Environment]] — in RL, running multiple parallel environments means creating multiple `gym.Env` instances; each instance independently tracks its own episode state, exactly as separate Java objects hold independent field values

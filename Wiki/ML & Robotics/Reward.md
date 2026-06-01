@@ -126,3 +126,4 @@ print(f"Correct reward (walking 1m):   {locomotion_reward_correct(np.ones(4)*0.5
 - [[Action]] — actions cause transitions that determine reward
 - [[Markov Property]] — the MDP framework within which reward is defined
 - [[Loss Function]] — in supervised ML, the analogous signal (but derived from labels, not interaction)
+- [[Work]] — in Physics, work measures energy transferred by a force acting over a displacement; reward is the RL analog — both quantify the "payoff" of an interaction between an agent and its environment
