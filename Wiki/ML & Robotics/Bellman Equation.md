@@ -93,3 +93,5 @@ print(f"\nV*(safe) = {V[0]:.4f},  V*(goal) = {V[1]:.4f}")
 - [[Policy]] — the argmax over Q gives the greedy policy
 - [[Markov Property]] — the memorylessness that lets the one-step recursion work
 - [[Gradient Descent]] — used in deep RL to minimise Bellman error instead of solving exactly
+- [[Conservation of Energy]] — the Bellman equation is structurally a conservation law: value at s equals immediate reward plus discounted value at s', just as energy is conserved across a physical transition
+- [[Geometric Series]] — the discounted cumulative return that V*(s) represents is a geometric series in γ; the contraction factor γ < 1 that ensures uniqueness is the same condition that makes a geometric series converge
