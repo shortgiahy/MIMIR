@@ -161,3 +161,5 @@ Notice that `SensorManager` is closed to modification — adding a new `LidarSen
 - [[Abstract Class]] — guarantees all subclasses have an implementation to dispatch to
 - [[Interface]] — interfaces also use dynamic dispatch for their method calls
 - [[Inheritance]] — the inheritance hierarchy defines the vtable chain
+- [[Policy]] — at runtime an RL agent holds a policy reference without knowing the concrete implementation; calling `select_action(state)` dispatches dynamically to whichever policy object was injected — the same mechanism as vtable dispatch
+- [[Gradient Descent]] — deep learning frameworks dispatch dynamically to optimizer implementations (SGD, Adam, RMSProp) through a common optimizer interface, so training code never changes when the optimizer swaps

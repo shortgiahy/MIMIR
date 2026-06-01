@@ -109,3 +109,5 @@ print(f"Full-batch after {epochs} epochs: w={w2:.3f}, b={b2:.3f}")
 - [[Gradient]] — what SGD approximates from a subset of data
 - [[Convergence]] — SGD has a noise floor unless learning rate is decayed
 - [[Policy]] — in RL, policy gradient methods apply SGD to the expected return objective
+- [[Momentum]] — SGD with momentum literally borrows the physics concept of momentum: a velocity term accumulates past gradients so the optimizer keeps moving in consistent directions
+- [[Impulse]] — the momentum term in SGD accumulates gradient contributions over time the same way impulse accumulates force over time to produce a change in momentum

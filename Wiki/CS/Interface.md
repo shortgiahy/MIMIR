@@ -254,3 +254,5 @@ for (Sensor s : allSensors) {
 - [[Composition over Inheritance]] — interfaces make composition practical by defining the seams
 - [[Inheritance]] — interfaces provide multiple inheritance of *type* without the diamond problem
 - [[Gradient Descent]] — PyTorch's `nn.Module` pattern is the abstract-class equivalent of this interface-based design; swapping optimizers works because they implement a common interface
+- [[Policy]] — a policy is an interface contract: given a state, return an action; many implementations (random, trained, rule-based) satisfy the same `select_action(state)` signature
+- [[Activation Function]] — different activation functions (ReLU, sigmoid, tanh) all implement the same interface: take a tensor in, return a tensor out — swappable without changing the surrounding layer

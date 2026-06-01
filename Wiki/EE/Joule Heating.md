@@ -101,3 +101,5 @@ In practice: motor datasheet specifies maximum stall duration. Implement a curre
 - [[Conservation of Energy]] — Joule heating is irreversible energy conversion; electrical potential energy becomes thermal energy with no return path
 - [[Series Circuit]] — in series, all resistors carry the same current; the highest-resistance element dissipates the most power
 - [[Parallel Circuit]] — in parallel, all resistors share the same voltage; the lowest-resistance element dissipates the most power
+- [[Kinetic Energy]] — Joule heating is the conversion of the kinetic energy of drifting electrons into lattice vibrations (heat); the $I^2R$ formula reflects this energy transfer rate
+- [[Loss Function]] — both represent "wasted" energy going to the wrong place: Joule heat is energy lost from the intended electrical function, just as ML loss quantifies prediction energy misdirected away from the target

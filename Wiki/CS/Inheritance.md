@@ -147,3 +147,5 @@ public class UltrasonicSensor extends RangeSensor {
 - [[Interface]] — Java's way to achieve multiple-inheritance-of-type
 - [[Composition over Inheritance]] — when NOT to use inheritance
 - [[What is Reinforcement Learning]] — RL agent classes often form an inheritance hierarchy (BaseAgent → PolicyGradientAgent → PPOAgent)
+- [[Vector]] — mathematical inheritance: a vector is a special case of a matrix (a matrix with one column), exactly as a subclass IS-A superclass with added constraints
+- [[Matrix]] — the superclass counterpart to Vector in linear algebra; the general type that Vector specializes

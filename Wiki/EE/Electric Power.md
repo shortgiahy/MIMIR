@@ -91,3 +91,6 @@ Use a 1/2 W rated resistor for a safe 2× margin.
 - [[Conservation of Energy]] — power conservation in circuits is a direct application of energy conservation
 - [[Series Circuit]] — power adds across series elements; $P_{total} = P_1 + P_2 + \cdots$
 - [[Parallel Circuit]] — power adds across parallel branches; each branch dissipates independently
+- [[Work]] — $P = dW/dt$; electric power is the rate of doing work, exactly as in mechanics
+- [[Kinetic Energy]] — energy conservation links electrical power to mechanical output: motor input power = KE gain + heat losses
+- [[Loss Function]] — both electric power (in a sense resistor or winding) and ML loss functions are quantities engineers track and minimize during system optimization

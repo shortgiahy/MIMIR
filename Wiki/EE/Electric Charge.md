@@ -48,3 +48,4 @@ That's 15 quadrillion electrons sitting on a plate the size of a thumbnail. This
 - [[Kirchhoff's Current Law]] — charge conservation applied to circuit nodes
 - [[Conservation of Momentum]] — analogous conservation law in mechanics; both come from deeper symmetry principles (Noether's theorem)
 - [[Electric Field]] — the field that exerts force on charges and mediates all electrical interactions
+- [[Conservation of Energy]] — charge conservation and energy conservation are sibling Noether conservation laws; together they underpin all of circuit analysis (KCL from charge, KVL from energy)

@@ -101,3 +101,6 @@ print(f"Gradient at x=0: {2*0}")  # 0.0 — flat at minimum
 - [[Vector]] — the gradient is a vector; understanding vectors is prerequisite
 - [[Partial Derivative]] — each component of the gradient is a partial derivative
 - [[Newton's Second Law]] — $\mathbf{F} = -\nabla V$; force is negative gradient of potential
+- [[Conservative Force]] — in Physics, F = −∇U means force is the negative gradient of potential energy; gradient descent mimics this descent exactly
+- [[Taylor Series]] — the gradient is the first-order coefficient in the Taylor expansion of a scalar function; the whole step is a local linear approximation
+- [[Velocity]] — gradient of loss w.r.t. time is analogous to velocity; both measure the rate of change of a scalar quantity along a trajectory

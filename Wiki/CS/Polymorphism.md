@@ -158,3 +158,5 @@ for (Actuatable a : actuators) {
 - [[Composition over Inheritance]] — polymorphism via interfaces, without deep inheritance trees
 - [[What is Reinforcement Learning]] — RL agent/policy interfaces are a real-world polymorphism example
 - [[Markov Decision Processes]] — the Policy concept in MDPs is directly analogous to an interface
+- [[Policy]] — swapping a random policy for a trained neural-network policy without changing the agent loop is polymorphism in action; the loop calls `select_action(state)` and the right implementation runs
+- [[Activation Function]] — ReLU, sigmoid, and tanh all implement the same "activation" interface; the network layer is polymorphic over whichever activation it holds

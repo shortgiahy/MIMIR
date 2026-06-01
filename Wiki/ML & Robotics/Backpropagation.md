@@ -145,3 +145,5 @@ print(f"Analytic  dW2[0,0]: {dW2[i,j]:.6f}")
 - [[Artificial Neuron]] — one neuron's backward pass is a single application of the chain rule
 - [[Activation Function]] — f'(z^(l)) appears in every δ^(l) computation
 - [[Loss Function]] — the scalar L that backprop differentiates with respect to all weights
+- [[Integration by Parts]] — IBP and backprop both use the product/chain rule to push derivatives backward through a composition; the structural analogy is exact
+- [[Taylor Series]] — the chain rule that backprop applies is the machinery of multivariable Taylor expansion; each layer's Jacobian is a local linear (first-order Taylor) map

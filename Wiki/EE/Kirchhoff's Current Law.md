@@ -75,4 +75,5 @@ This is one equation in the system. Apply KCL at V2 for a second equation; solve
 - [[Parallel Circuit]] — parallel circuits are directly analyzed using KCL (currents split between branches)
 - [[Current Divider]] — the current divider formula is derived by applying KCL at a parallel junction
 - [[Series Circuit]] — in series circuits, KCL trivially confirms same current everywhere (only one path)
-- [[Conservation of Momentum]] — analogous conservation principle in mechanics; both arise from symmetry
+- [[Conservation of Momentum]] — analogous conservation principle in mechanics; both arise from deeper symmetry (Noether's theorem); charge-in = charge-out mirrors momentum-in = momentum-out
+- [[Conservation of Energy]] — KCL and energy conservation both enforce a "nothing is gained or lost" constraint; together with KVL they form the complete energy bookkeeping of a circuit

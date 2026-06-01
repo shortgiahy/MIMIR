@@ -143,3 +143,5 @@ print("Advantage A(s, right):", A_right.round(4))
 - [[Gradient Descent]] — used to train neural network value function approximators
 - [[Loss Function]] — the TD error squared is the loss used to train V_φ(s)
 - [[Convergence]] — TD learning converges to V^π under tabular conditions; approximate methods are less guaranteed
+- [[Geometric Series]] — the discounted return Σγ^t·r_t is a geometric series; the same convergence condition |γ|<1 that makes geometric series finite makes the return well-defined
+- [[Conservation of Energy]] — value is "stored potential" — the same conceptual role as potential energy in physics; the Bellman equation is a conservation law for value across transitions

@@ -80,3 +80,5 @@ Note: this is not pure Ohm's Law — we had to subtract the diode's forward volt
 - [[Electric Power]] — $P = IV = I^2R = V^2/R$; all three forms derived from Ohm's Law
 - [[Kirchhoff's Voltage Law]] — used together with Ohm's Law to solve any resistive circuit
 - [[Voltage Divider]] — direct application: two resistors, Ohm's Law twice, ratio of voltages
+- [[Newton's Second Law]] — both are linear relationships between a driving quantity and a response: $F = ma$ (force → acceleration) mirrors $V = IR$ (voltage → current); linearity is the key shared structure
+- [[Gradient Descent]] — linear relationships like $V = IR$ are the foundation of linear models; understanding linearity here prepares the intuition for why gradient descent converges smoothly on linear (convex) problems

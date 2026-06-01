@@ -140,3 +140,5 @@ fl.setSpeed(180);
 - [[Instance]] — each `new` call produces one instance
 - [[Inheritance]] — constructors must call `super()` up the chain
 - [[Encapsulation]] — constructor is the first line of defense for invariants
+- [[Neural Network]] — `nn.Linear(in_features=128, out_features=64)` is a constructor call that allocates and initializes weight and bias tensors; every layer's `__init__` is the constructor that sets up the learnable parameters
+- [[NumPy Array]] — `np.array([...])` and `np.zeros(shape)` are constructor-like factory calls that allocate and initialize the underlying data buffer, mirroring how `new` initializes a Java object

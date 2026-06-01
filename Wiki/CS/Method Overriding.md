@@ -172,3 +172,5 @@ for (Sensor s : sensors) {
 - [[Subclass]] — the class that provides the overriding implementation
 - [[Abstract Class]] — abstract methods are a "forced override" contract
 - [[Interface]] — interface methods must also be overridden in implementing classes
+- [[Forward Pass]] — overriding `forward()` in a PyTorch `nn.Module` subclass is the canonical real-world method override: every layer and model replaces the parent's placeholder with its own computation
+- [[Activation Function]] — each activation function type (ReLU, sigmoid, tanh) overrides the same base `forward()` method with a different nonlinearity — method overriding driving swappable behavior

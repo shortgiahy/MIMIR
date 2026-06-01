@@ -78,3 +78,4 @@ $$0.148 + 0.059 + 0.089 + 2.96 \times 2.4 = 0.296 + 7.104 = 7.4\,\text{V} \check
 - [[Ohm's Law]] — used within KVL loops to express $V = IR$ for each resistive element
 - [[Electric Power]] — power dissipated in each element equals $V_k \cdot I$; KVL distributes source energy
 - [[Work]] — KVL is the statement that net work done moving charge around a closed loop is zero
+- [[Conservation of Energy]] — KVL IS energy conservation: the sum of voltage rises and drops around a loop equals zero because energy cannot be created or destroyed on a round trip

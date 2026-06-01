@@ -110,3 +110,6 @@ System.out.println(front.isObstacleDetected(20.0));  // true
 - [[Access Modifier]] — the tools that enforce encapsulation
 - [[Inheritance]] — one class building on another class's definition
 - [[Abstract Class]] — a class that cannot itself be instantiated
+- [[NumPy Array]] — `ndarray` is a class you instantiate (`np.array([...])`) whose instances each hold independent data, shape, and dtype — a concrete example of class and object in a numerical computing context
+- [[Agent]] — in RL, an agent is typically implemented as a class whose instances hold the policy, value function, and replay buffer as instance fields
+- [[Environment]] — the RL environment (`gym.Env`) is a class; each episode creates an instance that independently tracks state, step count, and reward

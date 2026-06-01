@@ -107,3 +107,6 @@ s.update(8.0);  // modifies the heap object — visible through robot too
 - [[Constructor]] — the code that runs to initialize an object at `new`
 - [[Encapsulation]] — the principle that keeps an object's state private
 - [[Inheritance]] — objects of a subclass type have extra fields/methods layered on
+- [[NumPy Array]] — an `ndarray` object is a live heap entity holding its own data buffer, shape, and strides; understanding object identity explains why in-place operations on an ndarray affect all references to it
+- [[Agent]] — an RL agent object persists across many timesteps, accumulating experience in its instance fields (replay buffer, policy weights) — the same way a Java object persists across method calls
+- [[Environment]] — each `gym.Env` object maintains its own episode state independently; creating two environment objects gives two independent simulations, just as two Java objects of the same class are independent

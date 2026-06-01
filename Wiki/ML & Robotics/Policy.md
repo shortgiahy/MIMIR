@@ -143,3 +143,4 @@ policies = [lin_policy, gauss_policy]   # heterogeneous list — they share the 
 - [[Class]] — policy implementations are classes with a shared interface
 - [[Gradient]] — policy gradient methods use gradients of J(π) w.r.t. policy parameters
 - [[Stochastic Gradient Descent]] — the optimizer used to update policy parameters
+- [[Newton's First Law]] — a deterministic policy is like inertia: it keeps producing the same action from the same state unless an external update (gradient step) changes it

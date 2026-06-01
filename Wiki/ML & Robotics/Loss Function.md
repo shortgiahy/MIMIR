@@ -86,3 +86,5 @@ print(f"Scalar loss: {scalar_loss:.6f}")  # one number ✓
 - [[Neural Network]] — the model $f_\theta$ whose output the loss evaluates
 - [[Scalar]] — the loss function must return a scalar
 - [[Reward]] — in RL, reward is the signal we maximize (negative loss perspective)
+- [[Conservation of Energy]] — both the loss and total energy are scalar quantities that characterize the full state of a system; minimizing loss parallels finding the lowest-energy configuration
+- [[Electric Power]] — both measure "waste": electric power dissipates energy as heat, loss measures prediction error; in both cases the goal is to drive the quantity toward zero

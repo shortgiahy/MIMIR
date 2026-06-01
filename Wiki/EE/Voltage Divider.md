@@ -75,3 +75,5 @@ Significantly less than 1.65 V! This is the loading error — it matters. Fix: a
 - [[Current Divider]] — the dual: same topology but analyzing current split in parallel
 - [[Parallel Circuit]] — loading analysis requires understanding parallel resistance
 - [[Analog to Digital Conversion]] — voltage dividers feed ADC inputs throughout sensor systems
+- [[Dot Product]] — the divider output $V_{out} = V_{in} \cdot R_2/(R_1+R_2)$ is a weighted sum of one input, analogous to how a dot product is a weighted combination of components
+- [[Scalar]] — the division ratio $R_2/(R_1+R_2)$ is a dimensionless scalar that scales the input voltage; recognizing scalar multiplication generalizes to ML weight operations

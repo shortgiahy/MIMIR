@@ -113,3 +113,5 @@ From (2): $V_1 = 1.02 \times 11.26 \approx 11.49\,\text{V}$
 - [[Series Circuit]] — degenerate case: only one node between two resistors; nodal trivially gives the voltage divider
 - [[Parallel Circuit]] — multiple branches between same two nodes; nodal analysis handles naturally via conductance summation
 - [[Voltage Divider]] — the two-resistor series case is a single-node nodal analysis in disguise
+- [[Matrix]] — the conductance matrix $\mathbf{G}$ in $\mathbf{G}\mathbf{V} = \mathbf{I}$ is a linear-algebra matrix; solving the circuit is literally a matrix problem
+- [[Matrix Multiplication]] — solving $\mathbf{V} = \mathbf{G}^{-1}\mathbf{I}$ requires matrix inversion (or equivalent), which is a generalization of matrix multiplication; SPICE does this numerically at every timestep

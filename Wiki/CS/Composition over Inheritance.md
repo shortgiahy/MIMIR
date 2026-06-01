@@ -284,3 +284,6 @@ BaymaxRobot testBot = new BaymaxRobot(
 - [[Upcasting and Downcasting]] — with composition, you rarely need to downcast; components are already accessed through their specific interfaces
 - [[Loss Function]] — in ML, swapping loss functions is a textbook composition pattern: `Trainer` HAS-A `LossFunction`
 - [[Gradient Descent]] — optimizer algorithms (Adam, SGD, RMSProp) are typically composed into models via an optimizer interface, not inherited
+- [[Neural Network]] — `nn.Sequential` composes layers as a list of modules (HAS-A relationship), not an inheritance chain; this is the composition-over-inheritance pattern applied to deep learning
+- [[Agent]] — an RL agent HAS-A policy, HAS-A value function, HAS-A replay buffer; none of these are inherited — they are composed in, making each component independently swappable
+- [[Markov Decision Process]] — an MDP is itself a composition of State, Action, Reward, and Transition components, mirroring how a well-designed agent composes its building blocks

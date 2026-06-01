@@ -140,3 +140,5 @@ double output = pid.update(5.0, 0.01);  // error=5.0, dt=10ms
 - [[Object]] — each object's state is independently encapsulated
 - [[Constructor]] — enforces invariants at creation time
 - [[Inheritance]] — subclasses can break encapsulation of the parent if fields are `protected` rather than `private`
+- [[NumPy Array]] — `ndarray` is a textbook encapsulation example: it hides a raw C memory buffer behind a clean Python API; you never touch the underlying pointer directly
+- [[Resistance]] — a resistor encapsulates complex quantum-level electron scattering physics into a single parameter (Ω), letting circuit designers work at the right level of abstraction

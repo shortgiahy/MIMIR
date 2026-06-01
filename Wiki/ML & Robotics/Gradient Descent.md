@@ -106,5 +106,6 @@ for lr in [0.001, 0.1, 0.9]:
 - [[Loss Function]] — the landscape being minimized
 - [[Backpropagation]] — how the gradient is computed efficiently
 - [[Stochastic Gradient Descent]] — the practical variant using mini-batches
-- [[Newton's Second Law]] — continuous analog: force = $-\nabla V$ drives toward minimum
-- [[Taylor Series]] — the first-order Taylor approximation justifies gradient descent
+- [[Newton's Second Law]] — continuous analog: force = $-\nabla V$ drives a system toward lower energy, just as gradient descent drives parameters toward lower loss
+- [[Taylor Series]] — the first-order Taylor approximation justifies each gradient descent step as a locally optimal descent direction
+- [[Conservative Force]] — the loss landscape is analogous to a potential energy surface; gradient descent is the discrete trajectory a particle would follow under the conservative force $-\nabla L$
