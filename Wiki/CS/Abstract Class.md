@@ -222,3 +222,5 @@ Both concrete classes got `statusReport()`, `isStale()`, `getMountId()`, and `ge
 - [[Polymorphism]] — abstract classes are the most common polymorphism enabler in Java OOP
 - [[Composition over Inheritance]] — when abstract class hierarchies grow too deep, switch to this
 - [[Gradient Descent]] — PyTorch's `nn.Module` (abstract class pattern) is used to build every neural network that runs gradient descent
+- [[Neural Network]] — each layer in a neural network is a concrete subclass of an abstract "layer" type that mandates `forward()` — the canonical real-world abstract class pattern
+- [[Agent]] — RL agent hierarchies (BaseAgent → PolicyGradientAgent → PPOAgent) use abstract classes to share training infrastructure while forcing subclasses to implement the core decision logic

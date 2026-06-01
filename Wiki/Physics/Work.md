@@ -58,4 +58,5 @@ By the [[Work-Energy Theorem]], the box gains 160 J of kinetic energy.
 - [[Gravitational Potential Energy]] — work done against gravity becomes potential energy
 - [[Conservative Force]] — a force where the work done is path-independent
 - [[Integral]] — the general formula for work requires integration
-- [[Dot Product]] — $W = \vec{F}\cdot\vec{d}$; work is a dot product of two vectors
+- [[Dot Product]] — $W = \vec{F}\cdot\vec{d}$; work is a dot product of two vectors, the same operation used in neural network weighted sums
+- [[Electric Power]] — power is the rate of work: $P = dW/dt$; this is exactly how electrical power ($P = IV$) relates to energy delivered by a circuit over time

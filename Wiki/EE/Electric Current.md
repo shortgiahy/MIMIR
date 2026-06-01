@@ -55,3 +55,5 @@ This 180 mV signal feeds an ADC (via amplification) for closed-loop current cont
 - [[Electric Power]] — $P = IV$; current times voltage gives the power transferred
 - [[Series Circuit]] — same current flows through every element in a series chain
 - [[Parallel Circuit]] — current splits between branches
+- [[Conservation of Momentum]] — KCL has the same mathematical conservation structure as momentum conservation; both enforce that a quantity flowing in must equal the quantity flowing out
+- [[Scalar]] — current magnitude is a scalar quantity; the signed convention for direction is handled algebraically, not as a vector

@@ -54,4 +54,5 @@ $$T = m(g + a) = 800(9.8 + 2) = 800 \times 11.8 = 9440\text{ N}$$
 - [[Newton's First Law]] — special case when $F_{\text{net}} = 0$
 - [[Newton's Third Law]] — paired reaction forces; crucial for identifying what's in $F_{\text{net}}$
 - [[Derivative]] — $F = dp/dt$ is a derivative; this law is fundamentally calculus
-- [[Gradient Descent]] — ML optimization with the same mathematical structure
+- [[Gradient Descent]] — ML optimization with the same mathematical structure: the gradient plays the role of force, the parameter plays the role of mass, and the update step is the resulting "acceleration" toward lower loss
+- [[Vector]] — $\vec{F} = m\vec{a}$ is a vector equation; all three quantities are vectors, the same mathematical object used for gradients and features in ML

@@ -63,5 +63,6 @@ Maximum output: $5.0 \times 0.673 = 3.37\,\text{V}$ — just above 3.3 V. Use $R
 - [[Kirchhoff's Voltage Law]] — the sum of voltages around any closed loop is zero
 - [[Voltage Divider]] — the most important single application of voltage as a ratio
 - [[Electric Power]] — $P = IV$; power is current times voltage
-- [[Gravitational Potential Energy]] — exact structural analog: $U_g/m = gh$ vs $V = U_E/Q$
+- [[Gravitational Potential Energy]] — exact structural analog: $U_g/m = gh$ vs $V = U_E/Q$; both are potential energy per unit "something"
 - [[Electric Field]] — voltage is the spatial integral of the electric field
+- [[Conservative Force]] — the electric field is conservative, which is precisely why voltage is path-independent and a unique scalar exists at each point

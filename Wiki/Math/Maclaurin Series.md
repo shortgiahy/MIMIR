@@ -122,3 +122,5 @@ This is far easier than computing the 6th, 12th, 18th derivatives of $x^2\sin(x^
 - [[Gradient Descent]] — first-order Maclaurin approximation of the loss function
 - [[Fourier Series]] — decomposes signals using sin and cos; Maclaurin series connects back via Euler's formula
 - [[Complex Numbers]] — Euler's formula lives here; essential for AC circuit analysis and signal processing
+- [[Activation Function]] — sigmoid = 1/(1+e^−x) is Taylor-expandable via the e^x series; its linear approximation near 0 explains why deep networks train stably at small weights
+- [[Electric Current]] — exponential decay of current in RC circuits (i(t) = I₀e^{−t/RC}) uses the e^x Maclaurin series for small-time approximations

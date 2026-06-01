@@ -68,3 +68,5 @@ $$v_f = \sqrt{\frac{2(221)}{2}} = \sqrt{221} \approx 14.87\text{ m/s}$$
 - [[Work-Energy Theorem]] — the foundation from which this law is derived
 - [[Momentum]] — separately conserved; independent of energy conservation
 - [[Noether's Theorem]] — the deep reason energy conservation exists (Math/Physics connection)
+- [[Loss Function]] — in ML, the loss is the quantity minimized during training; energy conservation and loss minimization are both about tracking a global scalar that the system "wants" to reduce
+- [[Electric Power]] — in EE circuits, energy conservation governs power flow: all power delivered by sources must equal power consumed by resistors ($\sum P = 0$)

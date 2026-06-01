@@ -66,4 +66,4 @@ Friction's work depends on the path length $L$ — it is non-conservative.
 - [[Work]] — the integral that defines whether a force is conservative
 - [[Work-Energy Theorem]] — separates into conservative and non-conservative work
 - [[Newton's Second Law]] — the force law each force obeys; conservativeness is an additional property
-- [[Gradient]] — $\vec{F} = -\nabla U$ links conservative forces to vector calculus (Math connection)
+- [[Gradient]] — $\vec{F} = -\nabla U$ means force IS the negative gradient of potential energy — the exact same operation as gradient descent in ML, where $-\nabla L$ drives parameters toward a minimum

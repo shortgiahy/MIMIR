@@ -61,3 +61,5 @@ $$= \frac{1}{2}\left[e^u\right]_0^1 = \frac{1}{2}(e - 1)$$
 - [[Trigonometric Substitution]] — specialized substitution for radical quadratics
 - [[Partial Fraction Decomposition]] — for rational functions
 - [[Chain Rule]] — the differentiation rule that u-sub reverses
+- [[Kinematic Equations]] — integrating constant acceleration to find velocity uses u-substitution (∫a dt with u = t)
+- [[Velocity]] — position x = ∫v dt is evaluated via u-sub when v(t) is a composite function

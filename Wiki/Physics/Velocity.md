@@ -50,3 +50,5 @@ For this linear $v(t)$, the instantaneous velocity at the midpoint equals the av
 - [[Derivative]] — the mathematical tool that defines instantaneous velocity
 - [[Integral]] — integrate velocity to recover position
 - [[Kinematic Equations]] — special-case results for constant acceleration
+- [[u-Substitution]] — the integration technique used to recover position from velocity in the constant-acceleration case
+- [[Vector]] — velocity is a vector; the same mathematical object used in ML for gradients, momentum, and features

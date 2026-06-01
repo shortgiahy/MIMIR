@@ -60,3 +60,6 @@ $$D = 1 + 2\sum_{n=1}^\infty \left(\frac{3}{4}\right)^n = 1 + 2 \cdot \frac{3/4}
 - [[Power Series]] — geometric series is the prototype power series
 - [[Maclaurin Series]] — $1/(1-x) = \sum x^n$ is a Maclaurin series
 - [[p-Series]] — another canonical series; compare convergence conditions
+- [[Value Function]] — the discounted return Σγᵗr in reinforcement learning is a geometric series with ratio γ (discount factor); convergence requires γ < 1
+- [[Reward]] — cumulative reward over an infinite horizon is defined as a geometric series sum, giving it a finite value only when |γ| < 1
+- [[Conservation of Energy]] — energy loss in damped systems (each bounce or cycle losing a fixed fraction) sums as a geometric series to a finite total

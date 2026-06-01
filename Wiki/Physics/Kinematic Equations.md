@@ -68,3 +68,5 @@ $$v = 0 + (-9.8)(3.03) = -29.7\text{ m/s} \checkmark$$
 - [[Displacement]] — Eq.2 and Eq.4 give $\Delta x$
 - [[Integral]] — the calculus operation that produces these results in the general case
 - [[Derivative]] — differentiating any kinematic equation gives the one above it in the hierarchy
+- [[u-Substitution]] — the integration technique used when evaluating $\int a\, dt$ and $\int v\, dt$ to produce the kinematic equations from first principles
+- [[Taylor Series]] — position $x(t)$ around $t = 0$ is exactly a Taylor expansion: $x = x_0 + v_0 t + \frac{1}{2}at^2 + \dots$; the kinematic equations are the first three terms

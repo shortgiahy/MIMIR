@@ -62,3 +62,4 @@ $$= x e^x - e^x + C = e^x(x - 1) + C$$
 - [[Work]] — physics context: ∫F·ds integrals
 - [[Impulse]] — physics context: force-time integrals in collisions
 - [[Partial Fraction Decomposition]] — for rational functions; complementary technique
+- [[Backpropagation]] — IBP underlies the derivation of gradient formulas when propagating through product terms in the network

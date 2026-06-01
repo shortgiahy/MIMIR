@@ -110,3 +110,5 @@ True value: $\ln(1.1) \approx 0.09531$. Error: $|0.09531 - 0.0950| \approx 0.000
 - [[Integration by Parts]] — often used to prove Taylor's theorem in alternative forms
 - [[Euler's Formula]] — derived via Taylor series in [[Maclaurin Series]]; bridges complex exponentials to trig functions
 - [[p-Series]] — comparison target for radius of convergence analyses in Taylor series
+- [[Activation Function]] — sigmoid and tanh are approximated by their Taylor series near 0, revealing linear behavior and explaining vanishing gradients
+- [[Newton's Second Law]] — the small-angle approximation sin θ ≈ θ used in pendulum/rotational physics is the first-order Taylor term

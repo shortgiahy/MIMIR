@@ -50,3 +50,6 @@ $$0 = (20)^2 + 2(-5)(40) = 400 - 400 = 0 \checkmark$$
 - [[Newton's Second Law]] — the fundamental reason acceleration matters
 - [[Derivative]] — the mathematical operation that defines acceleration from velocity
 - [[Integral]] — integrate acceleration to recover velocity and position
+- [[u-Substitution]] — the integration technique used when deriving velocity from acceleration in the constant-$a$ case
+- [[Integration by Parts]] — used when integrating more complex $a(t)$ profiles to recover $v(t)$ and $x(t)$
+- [[Vector]] — acceleration is a vector quantity; the same mathematical object used throughout ML and robotics
