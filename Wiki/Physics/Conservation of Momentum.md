@@ -94,3 +94,4 @@ $K_f < K_i$: this is a **partially inelastic** collision — 3.8 J was lost to d
 - [[Newton's Second Law]] — $F_{\text{ext}} = dp_{\text{total}}/dt$; zero net external force means zero rate of change
 - [[Vector]] — 2D/3D momentum conservation requires component-wise bookkeeping (Math/ML connection)
 - [[Dot Product]] — useful in elastic collision analysis to project velocity components (Math/ML connection)
+- [[Kirchhoff's Current Law]] — KCL (sum of currents into a node = 0) is a conservation law with the same mathematical structure as momentum conservation: the total "flow" of a conserved quantity cannot accumulate at a junction

@@ -81,3 +81,5 @@ $$\bar{\vec{F}} = \frac{\vec{J}}{\Delta t} = \frac{-0.25\hat{x} + 6.50\hat{y}}{0
 - [[Conservation of Momentum]] — applies when $\vec{J}_{\text{net, external}} = 0$
 - [[Newton's Third Law]] — the reason internal impulses cancel in a system
 - [[u-Substitution]] — the integral $\int F(t)\,dt$ sometimes requires substitution techniques (Math connection)
+- [[Integration by Parts]] — used when $F(t)$ is a product of functions (e.g., $F = t e^{-t}$), making the impulse integral $\int F(t)\,dt$ require integration by parts
+- [[Stochastic Gradient Descent]] — momentum in SGD is the time-integrated gradient — structurally identical to impulse ($J = \int F\,dt$) giving accumulated directional push to the optimizer

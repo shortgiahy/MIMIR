@@ -65,3 +65,4 @@ $$\frac{1}{2}(2)v_f^2 = 36 \implies v_f^2 = 36 \implies v_f = 6\text{ m/s}$$
 - [[Conservation of Energy]] — generalizes this theorem when potential energy is included
 - [[Impulse-Momentum Theorem]] — the time-domain analog: $J = \Delta p$ vs $W = \Delta K$
 - [[Integral]] — the derivation requires integrating $F\, dx$
+- [[Electric Power]] — power $P = dW/dt$ is the rate of work; the Work-Energy Theorem has a direct EE counterpart where electrical energy delivered equals the change in the circuit's stored energy

@@ -65,4 +65,5 @@ This is a simplified model (constant exhaust speed, all fuel expelled at once); 
 - [[Impulse-Momentum Theorem]] — the direct relationship between impulse and momentum change
 - [[Conservation of Momentum]] — momentum is constant in an isolated system
 - [[Kinetic Energy]] — related by $K = p^2/(2m)$; conserved independently from momentum
-- [[Vector]] — momentum is a vector; direction matters as much as magnitude (Math/ML connection)
+- [[Vector]] — momentum $\vec{p} = m\vec{v}$ is a vector; the same mathematical object used for gradients, weights, and features in ML — direction and magnitude both carry information
+- [[Stochastic Gradient Descent]] — SGD with momentum literally borrows the physics concept: a running average of past gradients acts as "velocity," giving the optimizer inertia to roll through flat regions and noisy gradients

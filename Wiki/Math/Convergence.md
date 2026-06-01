@@ -62,4 +62,3 @@ This gives the [[Divergence Test]]: if $a_n \not\to 0$, the series diverges. But
 - [[p-Series]] — canonical family of convergent/divergent series
 - [[Geometric Series]] — canonical convergent series
 - [[Value Function]] — value iteration in RL is a convergent sequence of Bellman updates; mathematical convergence guarantees it reaches the optimal value function
-- [[Gradient Descent]] — a training run converges when the sequence of loss values satisfies the mathematical convergence definition (already in body text)

@@ -56,3 +56,5 @@ $$L = \lim_{n\to\infty} \frac{3}{n+1} = 0 < 1$$
 - [[Integral Test]] — better for p-series and rational terms where Ratio Test gives L=1
 - [[Alternating Series Test]] — for alternating series where Ratio Test is inconclusive
 - [[Maclaurin Series]] — the e^x series example above
+- [[Learning Rate]] — the learning rate in gradient descent plays the same role as the ratio r: if it exceeds the convergence threshold (analogous to |r| ≥ 1), training diverges
+- [[Power Series]] — ratio test is the standard method for finding the interval of convergence of a power series

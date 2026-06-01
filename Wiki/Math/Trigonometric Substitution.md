@@ -65,3 +65,5 @@ $$= -\frac{\sqrt{9-x^2}}{x} - \arcsin\!\left(\frac{x}{3}\right) + C$$
 - [[Integration by Parts]] — for products; sometimes combined with trig sub
 - [[Partial Fraction Decomposition]] — for rational functions without radicals
 - [[Taylor Series]] — trig functions have known series expansions useful after substitution
+- [[Elastic Potential Energy]] — spring potential energy integrals (∫kx dx over curved or constrained paths) reduce to trig sub forms when geometry introduces radicals
+- [[Voltage]] — AC circuit analysis integrates sinusoidal voltages; trig substitution handles the resulting radical expressions in impedance calculations

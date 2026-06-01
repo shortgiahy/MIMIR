@@ -73,3 +73,4 @@ This is about 61× the weight of the baseball — an enormous force compressed i
 - [[Conservation of Momentum]] — when internal impulses cancel (Newton's Third Law), total momentum is conserved
 - [[Work]] — the space-domain analog; work = $\int F\,dx$, impulse = $\int F\,dt$
 - [[Integration by Parts]] — sometimes needed when evaluating complex $\int F(t)\,dt$ profiles (Math connection)
+- [[Stochastic Gradient Descent]] — momentum-based SGD borrows the impulse concept: accumulated gradient "force" over many steps gives the optimizer sustained directional push, reducing oscillation
