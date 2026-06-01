@@ -1,29 +1,30 @@
 # {{DATE}}
 
-> Save as `Daily/YYYY-MM-DD.md`. 2 minutes each morning. Check off at night.
+> Save as `Daily/YYYY-MM-DD.md`. Morning takes 3 minutes. Check off at night.
 
 ---
 
-## Morning Check-In
+## Morning
 - [ ] Ritalin taken
+- [ ] Sertraline taken
 - [ ] Noon eating alarm set
-
-## Journal
-*(1–3 sentences — optional)*
-
-
+- **Sleep last night:** __ hrs
+- **Weight:** __ lbs
+- **Mood:** __ / 10
 
 ---
 
 ## Today's Anchor
-*(One thing. Pre-decided last night. Games/TikTok unlock after this only.)*
+*(One focused block. Pre-decided last night. Evening hobbies unlock after this.)*
 
 → 
 
+**Second block (only if in flow):** 
+
 ---
 
-## Quick Tasks
-*(Max 3. Completable today. Not projects. MIMIR rolls over unfinished ones.)*
+## Tasks
+*(Max 3. Completable today. MIMIR rolls unfinished ones forward.)*
 
 - [ ] 
 - [ ] 
@@ -32,7 +33,7 @@
 ---
 
 ## Flags
-*(Due today or in the next 48 hours)*
+*(Due today or within 48 hours)*
 
 
 
@@ -40,5 +41,22 @@
 
 ## Evening
 - [ ] Anchor done
-- [ ] Ate something today
-- **Tomorrow's anchor:** 
+- [ ] Ate today — **meals:** __ · **water:** __ cups · **est. calories:** __
+- [ ] Physical activity — **what:** _____________ · **done:** Y / N
+- [ ] Guitar practiced
+- **Hobby tonight:**
+- **Mood:** __ / 10
+
+---
+
+## Day Summary
+*(Optional — 1–2 sentences. What actually happened?)*
+
+
+
+---
+
+## Tomorrow's Anchor
+*(Decide tonight, not in the morning)*
+
+→ 
