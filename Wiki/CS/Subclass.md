@@ -154,3 +154,5 @@ public class WristJoint extends Joint {
 - [[Abstract Class]] — a superclass that forces subclasses to implement specific methods
 - [[Upcasting and Downcasting]] — the type-conversion mechanics when moving between superclass and subclass references
 - [[Composition over Inheritance]] — the design alternative when is-a doesn't truly hold
+- [[Vector]] — in linear algebra a vector IS-A matrix (a single-column matrix), exactly mirroring the subclass is-a superclass relationship; Vector inherits matrix operations and adds its own (dot product, magnitude)
+- [[Agent]] — concrete RL agent types (PPOAgent, DQNAgent) are subclasses of a base Agent; they inherit the training loop and replay buffer while overriding the policy update logic

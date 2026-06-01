@@ -124,3 +124,5 @@ print("\nPredictions (should be ~[0,1,1,0]):", H2.round(2))
 - [[Gradient Descent]] — the optimiser that uses gradients to update W and b
 - [[Matrix Multiplication]] — the core linear algebra operation in every layer
 - [[Q-Learning]] — DQN replaces the Q-table with a neural network
+- [[Composition over Inheritance]] — neural network layers are composed in sequence, not inherited; each layer is an independent transformation plugged into the pipeline
+- [[Taylor Series]] — the universal approximation theorem and Taylor series share the same spirit: both show that any smooth function can be represented as a sum of simpler basis functions given enough terms
