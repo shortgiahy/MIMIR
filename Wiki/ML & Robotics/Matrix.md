@@ -70,3 +70,5 @@ activations = W @ x_img + b    # shape (512,)
 - [[NumPy Array]] — ndarray with ndim=2 is a matrix
 - [[Neural Network]] — weight matrices are the learnable parameters
 - [[Forward Pass]] — matrix multiplications chain through layers
+- [[Node Voltage Method]] — the node voltage method formulates circuit equations as a matrix system Gv = I, where the conductance matrix G and source vector I have the same structure as a neural network layer's weight matrix and bias
+- [[Kinematic Equations]] — rotation matrices (3×3) and homogeneous transform matrices (4×4) are the primary tool for expressing robot kinematics; chaining them multiplies matrices

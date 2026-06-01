@@ -97,3 +97,4 @@ print(sys.getsizeof(b_row))     # 8096 bytes — unchanged
 - [[Matrix Multiplication]] — `@` is NOT broadcast arithmetic; it's structural composition
 - [[Neural Network]] — bias terms rely on broadcasting in every layer
 - [[Forward Pass]] — batch processing relies on broadcasting for bias addition
+- [[Superclass]] — broadcasting follows a hierarchy of rules (like inheritance) where a size-1 dimension "defers" to the larger dimension, similar to how a superclass provides defaults that subclasses override

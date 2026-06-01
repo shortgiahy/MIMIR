@@ -67,3 +67,5 @@ print(np.dot(word_king, word_cat))    # low — dissimilar
 - [[Gradient]] — the gradient ∇f is a vector of partial derivatives
 - [[NumPy Array]] — how vectors are represented in code
 - [[Derivative]] — each component of a gradient is a partial derivative
+- [[Velocity]] — velocity is a vector in Physics; the same object (magnitude + direction) appears as the gradient vector in ML and as a robot's state velocity component
+- [[Displacement]] — displacement is the prototypical Physics vector; a parameter update Δθ = −α∇L has the same mathematical structure as a displacement vector

@@ -87,3 +87,5 @@ print(f"Neuron pre-activation: {output:.3f}")  # 1.85
 - [[Artificial Neuron]] — computes w·x + b, a dot product plus bias
 - [[Activation Function]] — applied after the dot product
 - [[Gradient]] — the gradient direction is found via dot products with basis vectors
+- [[Work]] — W = F·d = |F||d|cosθ is the dot product of force and displacement vectors; the same cosine-alignment formula as the attention score in transformers
+- [[Voltage]] — in EE, power P = V·I uses the same scalar-from-vectors structure; in circuits with phasors, real power is the dot product of voltage and current vectors

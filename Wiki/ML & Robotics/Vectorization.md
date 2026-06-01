@@ -94,3 +94,4 @@ z = np.linspace(-5, 5, N)
 - [[Matrix Multiplication]] — the ultimate vectorized operation: entire layer in one call
 - [[Forward Pass]] — a fully vectorized computation graph
 - [[Loss Function]] — computed vectorized over entire batch
+- [[Parallel Circuit]] — SIMD vectorization and parallel circuits share the same principle: multiple independent operations (or currents) proceeding simultaneously rather than sequentially, with results combined at the end

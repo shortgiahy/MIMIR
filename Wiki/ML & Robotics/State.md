@@ -122,3 +122,5 @@ print(f"Robot state dim: {len(example_state)}")  # 37
 - [[Value Function]] — maps states to expected return; defined over the state space
 - [[Action]] — the agent's output given the current state
 - [[Reward]] — often a function of (s_t, a_t, s_{t+1})
+- [[Kinematic Equations]] — for robot locomotion tasks, the state vector typically contains position and velocity variables that are related by kinematic equations
+- [[Velocity]] — velocity is commonly a component of the RL state vector for any physical system; without it, the state violates the Markov property (position alone is insufficient to predict next position)

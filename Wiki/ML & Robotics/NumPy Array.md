@@ -95,3 +95,5 @@ print(f"NumPy:       {time.time() - start:.3f}s")   # ~0.003s
 - [[Vectorization]] — why array operations are faster than loops
 - [[Broadcasting]] — how NumPy handles operations on different shapes
 - [[Matrix Multiplication]] — `@` operator on ndarrays
+- [[Encapsulation]] — the ndarray encapsulates raw memory, shape, strides, and dtype behind a clean API; callers never touch the underlying buffer directly
+- [[Instance]] — every ndarray is an instance of the np.ndarray class; understanding instances explains why slices share memory with the original array instance

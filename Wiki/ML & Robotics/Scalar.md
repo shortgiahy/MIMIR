@@ -53,3 +53,5 @@ print(f"MSE loss: {mse:.4f}")  # MSE loss: 0.0067
 - [[Loss Function]] — always returns a scalar; the thing we minimize
 - [[Reward]] — RL's scalar feedback signal at each timestep
 - [[Learning Rate]] — the scalar α in gradient descent
+- [[Electric Charge]] — charge is a scalar quantity in EE, just as loss is a scalar in ML; both are signed real numbers that characterize the state of a system
+- [[Work]] — work W = F·d is a scalar in Physics computed from vectors via the dot product — the same way loss is a scalar derived from high-dimensional predictions
