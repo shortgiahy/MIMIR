@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trading/Daily Journal Template.md",
+                "file": "Wiki/EE/Current Divider.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Journal Template"
+              "title": "Current Divider"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trading/Daily Journal Template.md",
+                "file": "Wiki/EE/Current Divider.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Journal Template"
+              "title": "Outline of Current Divider"
             }
           }
         ],
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +183,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "133d1d4527d9fe9d",
+  "active": "51edae52373192cd",
   "lastOpenFiles": [
+    "Wiki/EE/Electric Charge.md",
+    "Wiki/Physics/Conservative Force.md",
+    "Wiki/Physics/Conservation of Momentum.md",
+    "Wiki/Physics/Conservation of Energy.md",
+    "Wiki/Physics/Acceleration.md",
+    "Wiki/CS/Constructor.md",
+    "Wiki/CS/Composition over Inheritance.md",
+    "Wiki/CS/Class.md",
+    "Wiki/CS/Access Modifier.md",
+    "Wiki/CS/Abstract Class.md",
+    "Trading/Daily Journal Template.md",
     "Wiki/ML & Robotics/Vectorization.md",
     "Wiki/Physics/_Index.md",
     "Wiki/Physics/Work.md",
@@ -199,17 +211,6 @@
     "Wiki/Physics/Kinematic Equations.md",
     "Wiki/Physics/Impulse.md",
     "Wiki/Physics/Impulse-Momentum Theorem.md",
-    "Wiki/Physics/Gravitational Potential Energy.md",
-    "Wiki/Physics/Force.md",
-    "Wiki/Physics/Elastic Potential Energy.md",
-    "Wiki/Physics/Distance.md",
-    "Wiki/Physics/Displacement.md",
-    "Wiki/Physics/Conservative Force.md",
-    "Wiki/Physics/Conservation of Momentum.md",
-    "Wiki/Physics/Conservation of Energy.md",
-    "Wiki/Physics/Acceleration.md",
-    "Wiki/Math/u-Substitution.md",
-    "Wiki/Math/p-Series.md",
     "Projects/Baymax",
     "Projects",
     "Wiki/ML & Robotics",
