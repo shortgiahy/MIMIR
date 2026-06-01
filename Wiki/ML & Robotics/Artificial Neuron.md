@@ -98,3 +98,5 @@ print(f"Updated w = {w}")
 - [[Gradient Descent]] — the optimiser that uses the gradients to update w and b
 - [[Dot Product]] — the core operation **w**ᵀ**x**
 - [[Vector]] — **x** and **w** are vectors; the neuron lives in that space
+- [[Ohm's Law]] — V = IR is a linear weighted relationship between voltage and current; a neuron's pre-activation z = w·x + b is the same linear combination structure, just in a higher-dimensional space
+- [[Electric Current]] — the biological neuron metaphor: current flows when the threshold is exceeded; the activation function models whether a neuron "fires" based on accumulated input

@@ -64,3 +64,5 @@ class FrameStack:
 - [[Value Function]] — only well-defined because of the Markov property
 - [[Bellman Equation]] — recursive structure is only valid under Markov
 - [[Environment]] — the transition function $P(s'|s,a)$ assumes Markov holds
+- [[Newton's First Law]] — a perfect Markov state is like a complete mechanical description: knowing current position and velocity (state) is sufficient to predict all future motion, with no need for history
+- [[Sequence]] — the state trajectory s_0, s_1, s_2, … is a Markov sequence (a Markov chain); convergence of value iteration follows from properties of this sequence

@@ -132,3 +132,5 @@ print(f"Success rate with noise=0.3: {np.mean(rewards)*100:.1f}%")
 - [[Policy]] — the agent's strategy for responding to environment observations
 - [[Value Function]] — the agent's estimate of how good each state in the environment is
 - [[Interface]] — the environment's step/reset API is a classic software interface
+- [[Newton's Second Law]] — physics-based environments (Isaac Sim, MuJoCo) implement the environment's transition function by integrating F = ma; the robot's dynamics are Newton's laws
+- [[Abstract Class]] — the Gym environment abstract class defines reset/step/render; every concrete environment (CartPole, Atari, MuJoCo) overrides these methods

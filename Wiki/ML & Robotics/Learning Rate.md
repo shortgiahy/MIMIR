@@ -76,5 +76,6 @@ print(f"LR at step 0: {schedule[0]:.4f}, step 50: {schedule[50]:.4f}, step 99: {
 - [[Gradient]] — the direction α scales before updating parameters
 - [[Loss Function]] — what we are minimizing with each α-scaled step
 - [[Stochastic Gradient Descent]] — learning rate interacts differently with noisy mini-batch gradients
-- [[Taylor Series]] — the first-order approximation that justifies the gradient step
+- [[Taylor Series]] — the first-order approximation that justifies the gradient step; the valid step size α is bounded by the Taylor remainder
 - [[Convergence]] — how learning rate choice determines convergence rate and stability
+- [[Kinetic Energy]] — the analogy runs deep: too large a learning rate gives the optimizer too much "kinetic energy" to settle into a valley, causing it to overshoot — exactly as a ball rolling too fast overshoots the minimum

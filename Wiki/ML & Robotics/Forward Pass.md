@@ -114,3 +114,4 @@ print(f"Binary cross-entropy loss: {loss:.4f}")
 - [[Loss Function]] — computed after the forward pass; measures prediction error
 - [[Matrix Multiplication]] — W^(l) h^(l-1) is a matrix multiply at each layer
 - [[Gradient Descent]] — uses the loss (from forward pass) and gradients (from backprop) to update weights
+- [[Composition over Inheritance]] — the forward pass is function composition in action: each layer's output is fed into the next, building complexity by chaining independent transformations rather than inheriting behavior

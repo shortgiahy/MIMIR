@@ -132,3 +132,5 @@ print(f"  Safe (clipped) action: {safe_action.round(3)}")
 - [[Agent]] — the entity that selects and executes actions
 - [[Value Function]] — evaluates how good it is to take action a in state s (Q-function)
 - [[Markov Property]] — actions, along with states, define the MDP transition structure
+- [[Force]] — in robotics, an action often is a force or torque command; the mapping from policy output to physical effect goes through Newton's laws
+- [[Method Overriding]] — in a class hierarchy of agents, the act() method is overridden by each subclass to implement a different action-selection strategy while keeping the same interface

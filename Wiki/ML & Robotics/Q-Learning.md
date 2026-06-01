@@ -112,3 +112,5 @@ print("Optimal policy:", ["left" if np.argmax(Q[s]) == 0 else "right" for s in r
 - [[Gradient Descent]] — used in DQN to update the neural network weights
 - [[Neural Network]] — the function approximator in DQN
 - [[Backpropagation]] — how DQN updates neural network weights via the Bellman error loss
+- [[Convergence]] — Q-learning converges to Q* under the Robbins-Monro conditions; understanding series convergence explains why the geometric discount γ < 1 is required
+- [[Sequence]] — Q-learning produces a sequence of value estimates Q_t(s,a) that converges to Q*(s,a); the convergence proof is a fixed-point argument on this sequence

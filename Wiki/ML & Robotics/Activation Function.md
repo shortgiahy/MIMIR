@@ -101,3 +101,4 @@ print(f"\nDead ReLU: {(z_vals <= 0).mean()*100:.1f}% of inputs produce zero grad
 - [[Backpropagation]] — f'(z) appears in every gradient computation via the [[Chain Rule]]
 - [[Loss Function]] — softmax is typically paired with cross-entropy loss at the output
 - [[Gradient Descent]] — vanishing gradients (sigmoid/tanh) directly hurt gradient descent's ability to train deep networks
+- [[Taylor Series]] — sigmoid and tanh have closed-form Taylor series; the universal approximation proof constructs sigmoid "bump" functions that are analogous to Taylor basis functions approximating arbitrary smooth functions
