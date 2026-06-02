@@ -1,293 +1,162 @@
 # Polymorphism
 
-**One-liner:** Polymorphism means "many forms" — it's the ability for a single interface (a method call, a variable type) to work correctly across objects of different types, each doing the right thing for its type.
+**One-liner:** Polymorphism means one interface, many implementations — the same method call produces different behavior depending on which actual object receives it.
+
+## Core Idea
+"Polymorphism" is Greek for "many forms." In OOP, it means you can write code that works on a general type (`Sensor`) and it will automatically do the right thing for any specific subtype (`UltrasonicSensor`, `IRSensor`, `IMUSensor`) without you writing `if (type == ultrasonic)` checks.
+
+```java
+// One loop — handles all sensor types correctly
+List<Sensor> sensors = getSensors();
+for (Sensor s : sensors) {
+    s.poll();               // calls the right poll() for each subtype
+    log(s.statusReport());  // calls the right statusReport() for each subtype
+}
+```
+
+The caller doesn't know or care which subtype it has. The object itself knows — and [[Dynamic Dispatch]] routes the call to the correct implementation.
 
 ## Why It Exists
-
-Suppose you have three sensor classes: `UltrasonicSensor`, `TemperatureSensor`, and `IRSensor`. Each has a `read()` method. Now you want to poll all sensors in a loop. Without polymorphism:
-
+Without polymorphism, you write explicit type-checking code:
 ```java
-// Fragile, ugly, and grows with every new sensor type
-if (sensor instanceof UltrasonicSensor) {
-    ((UltrasonicSensor) sensor).read();
-} else if (sensor instanceof TemperatureSensor) {
-    ((TemperatureSensor) sensor).read();
-} else if (sensor instanceof IRSensor) {
-    ((IRSensor) sensor).read();
+// Without polymorphism — fragile, O(n) maintenance
+if (sensor instanceof UltrasonicSensor u) {
+    u.pollUltrasonic();
+} else if (sensor instanceof IRSensor ir) {
+    ir.pollInfrared();
+} else if (sensor instanceof IMUSensor imu) {
+    imu.pollIMU();
 }
+// Add a new sensor type → have to find and update EVERY if-chain
 ```
 
-This code has a deep problem: every time you add a new sensor type, you must find every `if/else` chain in the codebase and add a new branch. You've coupled your polling logic to the complete list of sensor types. It's a maintenance guarantee of future pain.
+With polymorphism, adding a new sensor type means writing the new class and implementing `poll()`. Zero changes to the control loop. This is the **Open/Closed Principle**: code is open for extension, closed for modification.
 
-Polymorphism is the solution. If every sensor extends `Sensor` (or implements a `Readable` interface), you can write:
-
-```java
-for (Sensor s : sensors) {
-    s.read();  // Each sensor does the right thing automatically
-}
-```
-
-This loop never changes. You can add 50 new sensor types and this code stays identical. The knowledge of what `read()` means for each type lives inside the type itself — exactly where it belongs.
-
-## The Concept
-
-Polymorphism in Java comes in two forms, which work at different points in time:
-
-**1. Runtime polymorphism (dynamic dispatch / method overriding)**
-
-This is the dominant form. When you call a method through a superclass reference, Java determines *at runtime* which overridden version to call based on the actual type of the object — not the declared type of the variable.
-
-```java
-Animal a = new Dog("Rex", 3, "Lab");
-a.speak();  // Calls Dog's speak(), not Animal's — even though 'a' is declared as Animal
-```
-
-The JVM looks at what `a` actually points to (a `Dog`), finds `speak()` in `Dog`, and runs that. This is called **dynamic dispatch** — the method is dispatched to the right implementation dynamically, at runtime.
-
-**2. Compile-time polymorphism (method overloading)**
-
-Same method name, different parameter lists. The compiler resolves which version to call at compile time based on the argument types.
-
-```java
-public class Calculator {
-    public int add(int a, int b) { return a + b; }
-    public double add(double a, double b) { return a + b; }
-    public String add(String a, String b) { return a + b; }
-}
-```
-
-`calc.add(2, 3)` vs `calc.add(2.0, 3.0)` — the compiler picks the right version. No runtime decision needed. This is useful but less powerful than runtime polymorphism.
-
-**The Liskov Substitution Principle (LSP)**
-
-The formal statement of what polymorphism requires: if `S` is a subtype of `T`, then objects of type `T` may be replaced with objects of type `S` without altering the correctness of the program. In plain English: wherever you use an `Animal`, you should be able to substitute a `Dog` without breaking anything. A `Dog` must honor every promise `Animal` makes.
-
-This is why "a stack shouldn't extend ArrayList" — `ArrayList.get(index)` makes promises a stack shouldn't keep. The substitution would break the program's expectations.
-
-**Upcasting and downcasting**
-
-When you store a `Dog` in an `Animal` variable, that's an **upcast** — you're treating the specific thing as the more general type. Always safe; no explicit cast needed.
-
-```java
-Animal a = new Dog("Rex", 3, "Lab");  // Upcast — implicit, always safe
-```
-
-When you go the other direction, that's a **downcast** — treating a general reference as a specific type. Requires an explicit cast, and fails at runtime if the object isn't actually that type:
-
-```java
-Dog d = (Dog) a;          // Downcast — only safe if 'a' actually points to a Dog
-Cat c = (Cat) a;          // Throws ClassCastException at runtime — 'a' is a Dog!
-
-if (a instanceof Dog) {   // Check before casting
-    Dog d = (Dog) a;
-}
-// Modern Java (16+):
-if (a instanceof Dog d) { // Pattern matching — check and cast in one step
-    d.fetch();
-}
-```
-
-Frequent downcasting is a signal that your design has a problem. If you find yourself constantly checking `instanceof` and casting down, you've probably not modeled your hierarchy correctly — or you need an interface or abstract method to handle the varying behavior.
+## Real-World Applications
+- Java collections: `List<Shape>` holding `Circle`, `Rectangle`, `Triangle` — iterate and call `area()` uniformly.
+- GUI frameworks: `Component.paint()` — the framework calls it on every component; each type knows how to draw itself.
+- Python ML: scikit-learn's `fit()`/`predict()` interface — `LogisticRegression`, `RandomForest`, `SVM` all implement the same API. You can swap models without changing training code.
+- PyTorch: `nn.Module.forward()` — every layer type implements it differently; `model(x)` routes correctly.
+- Baymax: `Actuator.execute(Command)` — `Motor`, `Servo`, `LED` all implement it; the command dispatcher doesn't know which hardware it's talking to.
 
 ## Intuition
+A TV remote is polymorphic. Press "volume up" and the TV raises its volume, a soundbar raises its volume, a Bluetooth speaker raises its volume. Same button (same method call), different devices (different implementations). The remote doesn't have a Samsung mode and a Sony mode. It speaks the same language; each device interprets it correctly.
 
-Think of a remote control for a TV. The remote has a "power" button. It doesn't know or care whether it's controlling a Samsung, an LG, or a Sony. It sends the "power" signal. Each TV knows what to do when it receives that signal.
+## Deep Dive
+**Three kinds of polymorphism in Java**
 
-The remote is your code. The "power" button is `device.power()`. Each TV brand is a different subclass. You never need to open the remote and add a new button for every TV brand that exists — the interface is fixed. Only the TVs change.
+1. **Subtype polymorphism** (runtime, via [[Inheritance]] + [[Method Overriding]]) — what most people mean when they say "polymorphism."
+2. **Interface polymorphism** (runtime, via [[Interface]]) — same as subtype but without requiring a shared ancestor class.
+3. **Parametric polymorphism** (compile-time, via Generics) — `List<T>` works for any `T` without rewriting the class.
 
-For Baymax: your main control loop doesn't need to know whether it's commanding a wheel motor or an arm servo. It just calls `actuator.execute(command)`. Each actuator knows its own mechanics. The loop stays simple; complexity is pushed to where it belongs.
-
-## Key Example
-
+**Subtype polymorphism**
 ```java
-// Superclass defines the shared interface
-public class Shape {
-    public double area() {
-        return 0;  // Subclasses should override this
-    }
-
-    public String describe() {
-        return "Shape with area: " + area();
-    }
-}
-
-public class Circle extends Shape {
-    private double radius;
-
-    public Circle(double radius) { this.radius = radius; }
-
-    @Override
-    public double area() {
-        return Math.PI * radius * radius;
-    }
-}
-
-public class Rectangle extends Shape {
-    private double width, height;
-
-    public Rectangle(double width, double height) {
-        this.width = width;
-        this.height = height;
-    }
-
-    @Override
-    public double area() {
-        return width * height;
-    }
-}
-
-public class Triangle extends Shape {
-    private double base, height;
-
-    public Triangle(double base, double height) {
-        this.base = base;
-        this.height = height;
-    }
-
-    @Override
-    public double area() {
-        return 0.5 * base * height;
-    }
-}
-
-// Polymorphism in action — one loop handles all shape types
-Shape[] shapes = {
-    new Circle(5),
-    new Rectangle(4, 6),
-    new Triangle(3, 8)
-};
-
-for (Shape s : shapes) {
-    System.out.println(s.describe());
-    // Shape with area: 78.54...
-    // Shape with area: 24.0
-    // Shape with area: 12.0
-}
-
-double totalArea = 0;
-for (Shape s : shapes) {
-    totalArea += s.area();  // Each calls the right version — no instanceof needed
-}
+// Reference type = Sensor (supertype); actual object = UltrasonicSensor (subtype)
+Sensor s = new UltrasonicSensor("front", 4.0);
+s.poll();   // Dynamic dispatch: UltrasonicSensor.poll() is called
 ```
 
-Python equivalent:
+**Interface polymorphism**
+```java
+public interface Pollable { void poll(); }
+public class UltrasonicSensor implements Pollable { @Override public void poll() {...} }
+public class NetworkFeed implements Pollable { @Override public void poll() {...} }
+
+List<Pollable> sources = List.of(new UltrasonicSensor(...), new NetworkFeed(...));
+sources.forEach(Pollable::poll);  // no if-chains needed
+```
+
+**Compile-time vs. runtime polymorphism**
+- Method **overloading** (same method name, different param types in the same class) is resolved at **compile time** — not "true" polymorphism in the OOP sense.
+- Method **overriding** is resolved at **runtime** — true polymorphism.
+
+**The polymorphism + strategy design pattern**
+Polymorphism directly enables the Strategy pattern: encapsulate algorithms (navigation strategy, path planning, obstacle avoidance) behind an interface. Swap strategies at runtime without changing the robot's drive loop. See [[Composition over Inheritance]].
+
+**Python — duck typing**
+Python achieves polymorphism through duck typing: if an object has the required method, it's compatible. No inheritance required.
+
 ```python
-import math
+# These classes share NO common ancestor — but both have .poll()
+class UltrasonicSensor:
+    def poll(self): return self._read_hardware()
 
-class Shape:
-    def area(self):
-        return 0
+class MockSensor:
+    def poll(self): return 1.5   # fake distance for testing
 
-    def describe(self):
-        return f"Shape with area: {self.area()}"
+# Works with both — polymorphic because both "quack like a Sensor"
+def run_sensor_loop(sensors: list):
+    for sensor in sensors:
+        sensor.poll()   # duck-typed: calls whatever .poll() the object has
 
-class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
-
-    def area(self):
-        return math.pi * self.radius ** 2
-
-class Rectangle(Shape):
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
-    def area(self):
-        return self.width * self.height
-
-shapes = [Circle(5), Rectangle(4, 6)]
-for s in shapes:
-    print(s.describe())  # Each calls the right area()
+run_sensor_loop([UltrasonicSensor(), MockSensor()])
 ```
 
-Python note: Python also supports "duck typing" — if an object has a `area()` method, you can call it through that method without any formal inheritance relationship. Java requires a declared type relationship (class hierarchy or interface). For Baymax, Python's duck typing is convenient but means fewer compile-time guarantees.
+In Python robotics and ML, duck typing is used heavily. `gymnasium` (RL environments), `stable-baselines3` (RL agents), and `scikit-learn` rely on duck typing for their polymorphic APIs.
+
+**The Baymax connection**
+Baymax's reinforcement learning agent uses polymorphism: the `Policy` (see [[What is Reinforcement Learning]] and [[Markov Decision Processes]]) is an interface that many implementations satisfy — a random policy, a trained neural network policy, a rule-based policy. The training loop calls `policy.select_action(state)` without knowing which policy type it's running.
 
 ## Worked Example
-
-A Baymax motion system with multiple actuator types. The robot has wheel motors, a head servo, and an arm joint. The control loop shouldn't care which is which — it just sends commands.
-
 ```java
-public class Actuator {
-    protected String name;
+// Baymax context: heterogeneous actuator list — all driven through one interface
 
-    public Actuator(String name) { this.name = name; }
-
-    public void execute(double value) {
-        // Default — subclasses override
-        System.out.println(name + " received command: " + value);
-    }
-
-    public String getName() { return name; }
+public interface Actuatable {
+    void execute(double command);
+    String getName();
 }
 
-public class WheelMotor extends Actuator {
-    private double maxRPM;
+public class DriveMotor implements Actuatable {
+    private final String wheelPos;
+    public DriveMotor(String wheelPos) { this.wheelPos = wheelPos; }
 
-    public WheelMotor(String name, double maxRPM) {
-        super(name);
-        this.maxRPM = maxRPM;
+    @Override public void execute(double command) {
+        System.out.printf("Motor %s: speed=%.1f RPM%n", wheelPos, command);
     }
-
-    @Override
-    public void execute(double speedPercent) {
-        double rpm = (speedPercent / 100.0) * maxRPM;
-        System.out.println(name + " spinning at " + rpm + " RPM");
-    }
+    @Override public String getName() { return "Motor[" + wheelPos + "]"; }
 }
 
-public class Servo extends Actuator {
-    private double minAngle, maxAngle;
+public class ServoJoint implements Actuatable {
+    private final String jointName;
+    public ServoJoint(String jointName) { this.jointName = jointName; }
 
-    public Servo(String name, double minAngle, double maxAngle) {
-        super(name);
-        this.minAngle = minAngle;
-        this.maxAngle = maxAngle;
+    @Override public void execute(double command) {
+        System.out.printf("Servo %s: angle=%.0f°%n", jointName, command);
     }
-
-    @Override
-    public void execute(double angleDegrees) {
-        double clamped = Math.max(minAngle, Math.min(maxAngle, angleDegrees));
-        System.out.println(name + " moving to " + clamped + "°");
-    }
+    @Override public String getName() { return "Servo[" + jointName + "]"; }
 }
 
-// Control loop — completely unaware of actuator types
-List<Actuator> actuators = new ArrayList<>();
-actuators.add(new WheelMotor("left-wheel", 300));
-actuators.add(new WheelMotor("right-wheel", 300));
-actuators.add(new Servo("head-tilt", -45, 45));
+public class LED implements Actuatable {
+    private final String ledId;
+    public LED(String ledId) { this.ledId = ledId; }
 
-for (Actuator a : actuators) {
-    a.execute(50.0);  // Each does the right thing for its type
+    @Override public void execute(double command) {
+        System.out.printf("LED %s: brightness=%.0f%%%n", ledId, command * 100);
+    }
+    @Override public String getName() { return "LED[" + ledId + "]"; }
 }
-// left-wheel spinning at 150.0 RPM
-// right-wheel spinning at 150.0 RPM
-// head-tilt moving to 45.0°  (clamped from 50°)
+
+// Control loop — never changes when we add new actuator types
+List<Actuatable> actuators = List.of(
+    new DriveMotor("FL"), new DriveMotor("FR"),
+    new ServoJoint("elbow"), new LED("status")
+);
+
+// Send "idle" command to all actuators — polymorphism handles the rest
+for (Actuatable a : actuators) {
+    a.execute(0.0);
+}
 ```
-
-Adding a new actuator type — say, a linear actuator for a gripper — requires zero changes to the control loop. You add one class, add it to the list, and the loop works.
-
-## Gotchas
-
-**Hiding vs overriding (static methods).** In Java, `static` methods cannot be overridden — they can only be hidden. If a subclass defines a static method with the same name as a superclass static method, calling it through a superclass reference calls the superclass version, not the subclass version. Dynamic dispatch only applies to instance methods.
-
-```java
-Animal a = new Dog("Rex", 3, "Lab");
-a.speak();            // Dog's speak() — runtime dispatch, correct
-Animal.staticDemo();  // Animal's version always — no dispatch
-```
-
-**Polymorphism requires inheritance or interface implementation.** You can't just call `s.read()` on objects of unrelated classes that both happen to have a `read()` method — unless they share a superclass or interface that declares `read()`. Java's type system requires a declared relationship. (This is where Python's duck typing differs — but Java's approach catches errors at compile time.)
-
-**Accidental method hiding.** If a subclass method has the same name as a superclass method but different parameter types, it's not an override — it's an overload. The original method is still inherited and accessible. Use `@Override` to verify you're actually overriding.
-
-**Polymorphism doesn't apply to fields.** Only methods are dynamically dispatched. If a superclass and subclass both define a field with the same name, you get two separate fields — and which one you access depends on the compile-time type of the reference, not the runtime type. This is almost always a bug. Never shadow fields in subclasses.
-
-**`equals()` and polymorphism.** The `Object.equals()` method is inherited by everything. If you don't override it, equality checks reference identity (are these the same object in memory?), not value equality. Understanding that `==` checks reference, `.equals()` checks content (when properly overridden), and that polymorphism affects `.equals()` calls is fundamental to writing correct Java.
 
 ## See Also
-- [[Inheritance]] — runtime polymorphism is only possible because of inheritance; the two concepts are deeply linked
-- [[Interfaces and Abstract Classes]] — interfaces are the cleanest way to achieve polymorphism without the fragility of inheritance hierarchies
-- [[Classes and Objects]] — you need objects before polymorphism means anything
-- [[Encapsulation]] — polymorphism and encapsulation together are what make it possible to change implementations without changing callers
+- [[Method Overriding]] — the primary mechanism of subtype polymorphism
+- [[Dynamic Dispatch]] — how Java routes the method call at runtime
+- [[Interface]] — enables polymorphism without inheritance
+- [[Abstract Class]] — enforces that subclasses implement the overrideable methods
+- [[Upcasting and Downcasting]] — how you move between the general and specific types
+- [[Inheritance]] — the prerequisite for subtype polymorphism
+- [[Composition over Inheritance]] — polymorphism via interfaces, without deep inheritance trees
+- [[What is Reinforcement Learning]] — RL agent/policy interfaces are a real-world polymorphism example
+- [[Markov Decision Processes]] — the Policy concept in MDPs is directly analogous to an interface
+- [[Policy]] — swapping a random policy for a trained neural-network policy without changing the agent loop is polymorphism in action; the loop calls `select_action(state)` and the right implementation runs
+- [[Activation Function]] — ReLU, sigmoid, and tanh all implement the same "activation" interface; the network layer is polymorphic over whichever activation it holds

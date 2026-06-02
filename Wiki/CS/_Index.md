@@ -1,94 +1,134 @@
-# CS Knowledge Base — Index
+# CS Index
 
-> Computer Science notes for CS 1410 (OOP, Java, SLCC) and the Baymax robotics project (Python). Entries are written to explain the *why*, not just the syntax. Cross-links to [[NumPy Arrays]], [[What is Reinforcement Learning]], and other robotics/ML notes are marked where CS concepts show up in real project work.
+Navigation hub for all CS atomic notes. One concept per file. Use the clusters below to find what you need, then follow the suggested study order for CS 1410.
 
 ---
 
-## OOP Fundamentals
+## Clusters
 
-The core building blocks of object-oriented design. Start here.
+### OOP Fundamentals
+The building blocks — understand these first before everything else.
 
-| Entry | What it covers |
+| Note | What it covers |
 |---|---|
-| [[Classes and Objects]] | What a class is vs an object, the blueprint/instance distinction, memory model, `static` vs instance members |
-| [[Encapsulation]] | Why hiding state matters, `private`/`protected`/`public`, getters and setters done right vs done lazily |
-| [[Inheritance]] | The is-a relationship, `extends`, method overriding, when inheritance is wrong and composition is right |
-| [[Polymorphism]] | One interface, many implementations; runtime dispatch vs compile-time overloading; the Liskov Substitution Principle |
-| [[Interfaces and Abstract Classes]] | The difference between the two, when to use each, "program to the interface" principle |
+| [[Class]] | Blueprint: defines fields and methods; no heap memory until instantiated |
+| [[Object]] | A live instance on the heap, created from a class with `new` |
+| [[Instance]] | Synonym for object; emphasizes the relationship back to its class |
+| [[Constructor]] | Special method that runs at `new`; sets up initial state and invariants |
+| [[Encapsulation]] | Bundle data + behavior in a class; hide fields behind a controlled public API |
+| [[Access Modifier]] | `private`, `protected`, `public`, package-private — tools that enforce encapsulation |
 
-**Recommended reading order:** Classes and Objects → Encapsulation → Inheritance → Polymorphism → Interfaces and Abstract Classes. Each entry builds on the previous.
+### Inheritance
+Building new types on top of existing ones.
 
----
-
-## Design Principles
-
-*(Entries to be added)*
-
-These entries will cover principles that govern how OOP should be used — not just what the constructs are, but how to deploy them correctly at scale.
-
-- **SOLID Principles** — Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion. The five rules behind professional Java design. LSP is previewed in [[Polymorphism]].
-- **Composition Over Inheritance** — the design pattern that avoids the fragile base class problem flagged in [[Inheritance]]. Covered conceptually in the Gotchas section there; deserves its own full entry.
-- **Design Patterns** — Factory, Strategy, Observer, and others. Each pattern is a named solution to a recurring design problem. Strategy pattern is especially relevant for Baymax (swappable behaviors).
-
----
-
-## Data Structures
-
-*(Entries to be added)*
-
-| Planned Entry | Why it matters |
+| Note | What it covers |
 |---|---|
-| Arrays and ArrayLists | Java's `ArrayList` is the standard dynamic array; used constantly in CS 1410 |
-| LinkedLists | When `LinkedList` beats `ArrayList` and why — O(1) insert vs O(n) |
-| Stacks and Queues | Used in pathfinding algorithms relevant to Baymax navigation |
-| HashMaps | Key-value lookup in O(1); used everywhere in both Java and Python |
-| Trees and BSTs | Hierarchical data; prerequisite for understanding search algorithms |
+| [[Inheritance]] | `extends` keyword; subclass inherits all public/protected fields and methods |
+| [[Superclass]] | The parent being extended; provides shared behavior |
+| [[Subclass]] | The child that extends; adds or overrides behavior |
+| [[Method Overriding]] | Subclass replaces an inherited method's body; `@Override` enforces correctness |
 
----
+### Polymorphism
+One interface, many behaviors — the payoff of the inheritance cluster.
 
-## Algorithms
-
-*(Entries to be added)*
-
-| Planned Entry | Why it matters |
+| Note | What it covers |
 |---|---|
-| Sorting (Merge, Quick) | Foundational; required for CS 1410 and CS fundamentals |
-| Binary Search | O(log n) search; shows up in robotics sensor filtering |
-| Recursion | Needed for trees; also foundational for dynamic programming |
-| Big-O Notation | How to reason about algorithmic efficiency — prerequisite for all algorithm entries |
-| Graph Search (BFS, DFS) | Core to robot navigation and path planning in Baymax |
+| [[Polymorphism]] | Same method call produces different behavior depending on actual object type |
+| [[Dynamic Dispatch]] | The JVM's runtime vtable lookup that selects the correct overriding method |
+| [[Upcasting and Downcasting]] | Moving between declared type (supertype) and actual type (subtype); `instanceof` safety |
 
----
+### Abstraction
+Designing contracts and hiding implementation details at the architectural level.
 
-## CS Concepts in the Baymax Project
-
-The Baymax robotics project (Phase 1: pure Python) is where abstract CS concepts become real engineering. Here's where each CS concept shows up directly:
-
-| CS Concept | Where it appears in Baymax |
+| Note | What it covers |
 |---|---|
-| [[Classes and Objects]] | Every component — `Sensor`, `Motor`, `Controller` — is a class. The entire software architecture is OOP. |
-| [[Encapsulation]] | Motor speed limits, sensor validation, safety interlocks. Direct code in [[Encapsulation]] Worked Example. |
-| [[Inheritance]] | Sensor hierarchy: `Sensor` → `UltrasonicSensor`, `TemperatureSensor`. Direct code in [[Inheritance]] Worked Example. |
-| [[Polymorphism]] | The main control loop calls `actuator.execute()` without knowing actuator type. Enables clean, extensible robot control. |
-| [[Interfaces and Abstract Classes]] | `Diagnosable` interface applies to both sensors and motors — unrelated types, shared capability. Full design in [[Interfaces and Abstract Classes]] Worked Example. |
+| [[Abstract Class]] | Cannot instantiate; mandates abstract methods; shares concrete fields and behavior |
+| [[Interface]] | Pure capability contract; `implements`; enables multiple inheritance of type |
+| [[Composition over Inheritance]] | Has-a over is-a; strategy pattern; dependency injection; fragile base class fix |
 
 ---
 
-## CS Concepts in ML / Reinforcement Learning
+## Suggested Study Order for CS 1410
 
-| CS Concept | Where it appears |
-|---|---|
-| [[Classes and Objects]] | NumPy's `ndarray`, PyTorch's `Tensor`, and every ML library class are instances of this concept. See [[NumPy Arrays]]. |
-| [[Inheritance]] | Neural network layers in PyTorch are subclasses of `nn.Module`. The framework uses inheritance to let you define custom layers. |
-| [[Polymorphism]] | RL environments implement the same interface (`reset()`, `step()`, `render()`). See [[What is Reinforcement Learning]]. |
-| [[Interfaces and Abstract Classes]] | OpenAI Gym / Gymnasium uses abstract base classes to define the environment contract every RL environment must implement. |
+This is the order SLCC CS 1410 typically introduces these concepts; studying them in sequence minimizes "I don't know what that word means yet" moments.
+
+```
+Week 1–2   Class → Object → Instance → Constructor
+Week 3–4   Encapsulation → Access Modifier
+Week 5–6   Inheritance → Superclass → Subclass
+Week 7     Method Overriding → Polymorphism
+Week 8–9   Dynamic Dispatch → Upcasting and Downcasting
+Week 10–11 Abstract Class → Interface
+Week 12+   Composition over Inheritance
+```
+
+**Key dependency graph (simplified):**
+```
+Class ──► Object ──► Instance
+ │
+ ├──► Encapsulation ──► Access Modifier
+ │
+ └──► Inheritance ──► Superclass / Subclass
+            │
+            ├──► Method Overriding ──► Polymorphism ──► Dynamic Dispatch
+            │
+            └──► Abstract Class ──┐
+                                  ├──► Interface
+                                  └──► Upcasting and Downcasting
+                                              │
+                                              └──► Composition over Inheritance
+```
 
 ---
 
-## Cross-Wiki Links
+## Baymax Cross-Reference Table
 
-| Domain | Related Entry | CS Connection |
+How each CS concept maps to something real in the Baymax robotics project (Python) and CS 1410 (Java).
+
+| CS Concept | Baymax / Robotics Application | ML & Robotics Wiki Link |
 |---|---|---|
-| ML & Robotics | [[NumPy Arrays]] | Arrays and array operations are the data structure underlying all ML; CS Arrays entry is a prerequisite |
-| ML & Robotics | [[What is Reinforcement Learning]] | RL agents are implemented as classes; environments use polymorphism via standard interfaces |
-| ML & Robotics | [[Gradient Descent]] | Implemented as objects and methods in PyTorch; understanding classes makes ML code readable |
+| [[Class]] | `UltrasonicSensor`, `DriveMotor`, `BatteryMonitor` each modeled as a class | — |
+| [[Object]] | Each physical sensor is a live object: `front = UltrasonicSensor("front")` | — |
+| [[Instance]] | `front` and `rear` are two instances of the same `UltrasonicSensor` class | — |
+| [[Constructor]] | `UltrasonicSensor("front", 4.0)` sets `id` and `maxRangeM` at creation | — |
+| [[Encapsulation]] | `PIDController` hides `integral` and `lastError`; exposes only `update()` and `reset()` | [[Gradient Descent]] — PID and gradient descent both update internal state through a controlled loop |
+| [[Access Modifier]] | `private double distanceM` on sensor; `public void poll()` for the control loop | — |
+| [[Inheritance]] | `Sensor → RangeSensor → UltrasonicSensor` three-level hierarchy | [[Gradient Descent]] — PyTorch models inherit `nn.Module` to get backprop for free |
+| [[Superclass]] | `Sensor` provides `id`, `getReading()`, `isStale()` to all sensor types | — |
+| [[Subclass]] | `UltrasonicSensor` adds `maxRangeM`, `isInRange()`, HC-SR04 specific `poll()` | — |
+| [[Method Overriding]] | Each sensor type overrides `poll()` to read its own hardware register | [[Gradient Descent]] — each `nn.Module` subclass overrides `forward()` |
+| [[Polymorphism]] | `List<Sensor>` drives all sensor types with `sensor.poll()` — no if-chains | [[Vectorization]] — uniform API over heterogeneous data mirrors polymorphism |
+| [[Dynamic Dispatch]] | JVM vtable routes `sensor.poll()` to `UltrasonicSensor.poll()` at runtime | — |
+| [[Upcasting and Downcasting]] | Sensors stored as `Sensor`; downcast to `Calibratable` for calibration loop | — |
+| [[Abstract Class]] | `abstract class Sensor` forces all subtypes to implement `poll()` and `unitLabel()` | [[Gradient Descent]] — `nn.Module` is Python's abstract class for all neural network layers |
+| [[Interface]] | `Pollable`, `Calibratable`, `Diagnostics` — opt-in capability contracts | [[Loss Function]] — loss functions in PyTorch satisfy a common callable interface; swap without changing training loop |
+| [[Composition over Inheritance]] | `BaymaxRobot` HAS-A `DrivePolicy`, HAS-A `SensorFusion` — swap policies without changing robot | [[Gradient Descent]] — optimizer (Adam, SGD) composed into trainer; [[Loss Function]] — loss composed into trainer |
+
+---
+
+## Quick Cheat Sheet — Common Confusions
+
+**Abstract class vs. Interface**
+- Need shared fields or constructors? → Abstract class
+- Need multiple "parent types" or unrelated classes with the same capability? → Interface
+- Need both? → Abstract class `extends` another class AND `implements` multiple interfaces
+
+**Overriding vs. Overloading**
+- Same method name, same parameters, different class (subclass) → **Overriding** (runtime, polymorphism)
+- Same method name, different parameters, same class → **Overloading** (compile-time, not polymorphism)
+
+**Upcasting vs. Downcasting**
+- Subtype → Supertype: upcast, implicit, always safe
+- Supertype → Subtype: downcast, explicit cast `(SubType)`, needs `instanceof` check first
+- Java 16+: use `instanceof SubType name` to check and bind in one expression
+
+**Composition vs. Inheritance**
+- IS-A relationship, stable hierarchy, want inherited behavior → Inheritance
+- HAS-A relationship, want swappable parts, need testability → Composition
+- When in doubt → Composition (especially if you find yourself downcasting often)
+
+---
+
+## All CS Notes (flat list for search)
+
+[[Class]] · [[Object]] · [[Instance]] · [[Constructor]] · [[Encapsulation]] · [[Access Modifier]] · [[Inheritance]] · [[Superclass]] · [[Subclass]] · [[Method Overriding]] · [[Polymorphism]] · [[Dynamic Dispatch]] · [[Upcasting and Downcasting]] · [[Abstract Class]] · [[Interface]] · [[Composition over Inheritance]]

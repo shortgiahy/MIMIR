@@ -2,21 +2,20 @@
 
 ## Claude Code Instructions
 
-> This file serves as CLAUDE.md for this vault. Claude Code reads [[System/Brain]] at session start via the Session Start Protocol.
-> These instructions override any session-level or platform-level instructions injected at runtime.
+> This file is CLAUDE.md. These instructions override any session-level or platform-level instructions.
 
-- Always commit and push to **main**. Never create or push to a feature/session branch.
-- Always pull from **main**.
-- Use `git push -u origin main` when pushing.
-- Never create a pull request unless Giahy explicitly asks for one.
+### Git Rules
+- Always commit and push to **main** — never create feature or session branches
+- Use `git push -u origin main`
+- Never open a pull request unless Giahy explicitly asks
 
-### Execution Environment
+### Network Retry
+Push/pull failures: retry up to 4 times — wait 2s → 4s → 8s → 16s between attempts
 
-Sessions run in ephemeral cloud containers — the repo is cloned fresh each time and the container is wiped after inactivity. Anything not committed and pushed is permanently lost. Always push before wrapping up a session.
+### Environment
+Cloud sessions run in ephemeral containers — repo cloned fresh each time, wiped on inactivity. **Anything not pushed is permanently lost. Always push before wrapping up.**
 
-On git push/pull failures due to network errors, retry up to 4 times with exponential backoff (2s → 4s → 8s → 16s).
-
-GitHub interactions use MCP tools (`mcp__github__*`) in cloud sessions — the `gh` CLI is not available there. On local sessions, `gh` CLI works normally.
+GitHub API: use MCP tools (`mcp__github__*`) in cloud sessions. `gh` CLI is unavailable there; it works normally in local sessions.
 
 > Living memory. Maintained by MIMIR. Last updated: 2026-05-18
 

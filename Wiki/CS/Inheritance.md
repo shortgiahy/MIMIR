@@ -1,224 +1,151 @@
 # Inheritance
 
-**One-liner:** Inheritance lets a new class automatically acquire the fields and methods of an existing class, so you can extend or specialize behavior without rewriting it from scratch.
+**One-liner:** Inheritance lets a new class (subclass) automatically receive all the fields and methods of an existing class (superclass), then extend or specialize them.
 
-## Why It Exists
-
-Suppose you're building a simulation with animals. You write a `Dog` class with `name`, `age`, `eat()`, and `sleep()`. Then you need a `Cat` class — same fields, same `eat()` and `sleep()`, just a different `speak()`. Without inheritance, you copy-paste. Now you have two classes with identical code. When you find a bug in `eat()`, you fix it in two places. Later you add `Bird` — three places. You've created a maintenance trap.
-
-The deeper problem isn't just duplication; it's that `Dog`, `Cat`, and `Bird` share a logical relationship — they're all `Animal`. The code should reflect that reality. When the codebase doesn't match the conceptual structure of the domain, it becomes harder to reason about and harder to change.
-
-Inheritance addresses both problems: it eliminates duplicate code by putting shared behavior in one place, and it encodes the "is-a" relationship between types — a relationship the compiler can then reason about and enforce.
-
-## The Concept
-
-In Java, one class **extends** another using the `extends` keyword. The class being extended is the **superclass** (also called parent class or base class). The extending class is the **subclass** (child class or derived class).
-
-The subclass automatically inherits:
-- All non-private fields from the superclass
-- All non-private methods from the superclass
-- The ability to call the superclass constructor with `super(...)`
-
-The subclass can then:
-- **Add** new fields and methods (extension)
-- **Override** inherited methods to change their behavior (specialization)
-- **Call** the superclass version of an overridden method using `super.methodName()`
-
-**The is-a relationship is the test.** Before using inheritance, ask: "Is a `Dog` truly an `Animal`?" If yes, inheritance fits. "Is a `Dog` truly a `Vehicle`?" Obviously no — don't use inheritance just to borrow a few methods.
-
-**The inheritance chain:** Every class in Java implicitly extends `Object`. So `Dog extends Animal extends Object`. The full chain means every object has methods like `toString()`, `equals()`, and `hashCode()` inherited from `Object` — even if you never explicitly define them.
-
-**Constructors are not inherited.** You must explicitly call the superclass constructor from the subclass constructor using `super(...)`. If you don't, Java automatically inserts a call to the no-argument superclass constructor — if that constructor doesn't exist, you get a compile error.
-
-**Method overriding vs method overloading:** These sound similar but are completely different.
-- **Overriding:** Redefining an inherited method in a subclass with the same signature. This is runtime polymorphism.
-- **Overloading:** Defining multiple methods with the same name but different parameter lists, in the same class. This is compile-time resolution.
-
-Always annotate overriding methods with `@Override`. It's not required, but it tells the compiler "I intend this to override a superclass method." If you misspell the method name, the compiler catches it instead of silently creating a new method.
-
-**Access in inheritance:** `private` fields are inherited (they exist in the object), but subclasses cannot access them directly — they must go through public or protected methods. `protected` was specifically designed for this: visible to subclasses but hidden from the rest of the world.
-
-## Intuition
-
-Think of a company org chart. There's a generic "Employee" role with common attributes: name, ID, `getPaycheck()`. Then there are specific roles: `Manager` is-a Employee, `Engineer` is-a Employee. Each has everything an Employee has, plus role-specific behavior. A Manager additionally has a `teamSize` and `conductReview()`. You don't restate what an Employee is every time — you extend it.
-
-Now push the analogy: if you discover that all employees need a `getHealthBenefits()` method, you add it to `Employee` once and every subclass inherits it immediately. This is the practical power of inheritance — change in one place, effect everywhere below.
-
-## Key Example
+## Core Idea
+The **is-a** relationship: a `UltrasonicSensor` *is a* `Sensor`. A `Dog` *is an* `Animal`. This allows code written for `Sensor` to work seamlessly with `UltrasonicSensor` objects — the basis of [[Polymorphism]].
 
 ```java
-// Superclass — the shared foundation
-public class Animal {
-    protected String name;
-    protected int age;
-
-    public Animal(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public void eat() {
-        System.out.println(name + " is eating.");
-    }
-
-    public void sleep() {
-        System.out.println(name + " is sleeping.");
-    }
-
-    // Meant to be overridden — but has a default
-    public void speak() {
-        System.out.println(name + " makes a sound.");
-    }
-
-    public String describe() {
-        return name + ", age " + age;
-    }
+public class Sensor {           // superclass
+    protected String id;
+    public String getId() { return id; }
 }
 
-// Subclass — inherits everything from Animal, adds and overrides
-public class Dog extends Animal {
-    private String breed;
-
-    public Dog(String name, int age, String breed) {
-        super(name, age);  // calls Animal's constructor
-        this.breed = breed;
-    }
-
-    @Override
-    public void speak() {
-        System.out.println(name + " barks: Woof!");
-    }
-
-    // New method, specific to Dog
-    public void fetch() {
-        System.out.println(name + " fetches the ball!");
-    }
-
-    @Override
-    public String describe() {
-        return super.describe() + ", breed: " + breed;
-    }
+public class UltrasonicSensor extends Sensor {  // subclass — "extends"
+    private double maxRangeM;
+    public double getDistance() { ... }   // new behavior added by subclass
 }
-
-// Usage
-Dog rex = new Dog("Rex", 3, "Labrador");
-rex.eat();       // Inherited from Animal: Rex is eating.
-rex.speak();     // Overridden: Rex barks: Woof!
-rex.fetch();     // Dog-specific: Rex fetches the ball!
-System.out.println(rex.describe());  // Rex, age 3, breed: Labrador
 ```
 
-Python equivalent:
-```python
-class Animal:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+`UltrasonicSensor` inherits `id` and `getId()` automatically. It also adds `maxRangeM` and `getDistance()`.
 
-    def eat(self):
-        print(f"{self.name} is eating.")
+## Why It Exists
+Inheritance exists to avoid copy-paste. Without it, every specialized sensor class would re-implement the same id management, calibration, logging, etc. With it, shared behavior lives in one place (the superclass) and specialized behavior lives only in the subclasses that need it. When the shared behavior changes, it changes once.
 
-    def speak(self):
-        print(f"{self.name} makes a sound.")
+**The second purpose** is enabling polymorphism: a variable of type `Sensor` can hold a `UltrasonicSensor` object, and the correct overriding method is dispatched at runtime. See [[Dynamic Dispatch]].
 
-class Dog(Animal):
-    def __init__(self, name, age, breed):
-        super().__init__(name, age)  # calls Animal.__init__
-        self.breed = breed
+## Real-World Applications
+- Java: `Exception` → `RuntimeException` → `IllegalArgumentException` — the whole exception hierarchy.
+- Android: `View` → `ViewGroup` → `LinearLayout` — all UI widgets form an inheritance tree.
+- PyTorch: your model class `extends nn.Module` — that's inheritance giving you backprop, `.parameters()`, `.to(device)`, etc. for free.
+- Baymax: `Sensor` → `DistanceSensor` → `UltrasonicSensor`. The entire sensor hierarchy.
 
-    def speak(self):  # overrides Animal.speak
-        print(f"{self.name} barks: Woof!")
+## Intuition
+Inheritance is like biological taxonomy. A golden retriever IS-A dog IS-A mammal IS-A animal. The golden retriever inherits everything that's true of dogs and mammals — four limbs, warm blood — and adds its own specifics (retrieves objects, golden coat). You don't re-define "warm blood" in every species; it's inherited from `Mammal`.
 
-    def fetch(self):
-        print(f"{self.name} fetches the ball!")
+## Deep Dive
+**What is inherited (and what isn't)**
 
-rex = Dog("Rex", 3, "Labrador")
-rex.eat()    # Rex is eating.
-rex.speak()  # Rex barks: Woof!
-```
+| Inherited | Not inherited |
+|---|---|
+| `public` and `protected` instance fields | `private` fields (exist but not accessible) |
+| `public` and `protected` methods | constructors |
+| `static` members (accessible, not "inherited" per se) | `final` classes can't be extended at all |
 
-Key Python difference: Python uses `super().__init__(...)` where Java uses `super(...)`. Python also supports multiple inheritance (a class can extend multiple parent classes), which Java deliberately does not allow for classes — Java sidesteps the resulting complexity by only allowing multiple interface implementation.
+**Single inheritance in Java**
+Java allows only one direct superclass (`extends`). This avoids the "diamond problem" (ambiguity when two parents define the same method). Multiple inheritance of *behavior* is achieved via [[Interface]] (`implements`).
 
-## Worked Example
-
-Designing the sensor hierarchy for Baymax. All sensors share some behavior: they have a label, a last reading, and a method to `read()` data. But each sensor type works differently internally.
+**Constructor chain — `super(...)`**
+Constructors are not inherited. The subclass constructor must call `super(...)` as its first statement to initialize the parent portion of the object. Java inserts `super()` implicitly if you omit it; if the superclass has no no-arg constructor, you must provide `super(args)` explicitly.
 
 ```java
 public class Sensor {
-    protected String label;
-    protected double lastReading;
-
-    public Sensor(String label) {
-        this.label = label;
-        this.lastReading = 0.0;
-    }
-
-    // Template for all sensors — subclasses must provide the implementation
-    public double read() {
-        // Default does nothing; subclasses override this
-        return lastReading;
-    }
-
-    public String getStatus() {
-        return label + ": " + lastReading;
-    }
+    protected final String id;
+    public Sensor(String id) { this.id = id; }
 }
 
-public class UltrasonicSensor extends Sensor {
-    private int trigPin;
-    private int echoPin;
+public class InfraredSensor extends Sensor {
+    private double sensitivity;
 
-    public UltrasonicSensor(String label, int trigPin, int echoPin) {
-        super(label);
-        this.trigPin = trigPin;
-        this.echoPin = echoPin;
+    public InfraredSensor(String id, double sensitivity) {
+        super(id);   // required: initializes the Sensor part
+        this.sensitivity = sensitivity;
     }
-
-    @Override
-    public double read() {
-        // In real hardware: send pulse, time echo, convert to cm
-        lastReading = simulateMeasurementCm();
-        return lastReading;
-    }
-
-    private double simulateMeasurementCm() { return 42.0; }
-}
-
-public class TemperatureSensor extends Sensor {
-    private int pin;
-
-    public TemperatureSensor(String label, int pin) {
-        super(label);
-        this.pin = pin;
-    }
-
-    @Override
-    public double read() {
-        // Read voltage, convert to Celsius
-        lastReading = simulateTempReading();
-        return lastReading;
-    }
-
-    private double simulateTempReading() { return 22.5; }
 }
 ```
 
-Now you can put all sensors in one list and call `read()` on all of them uniformly — this is [[Polymorphism]] in action. The inheritance hierarchy reflects reality: every sensor is a Sensor, but each has its own way of reading data.
+**`final` — prevents extension**
+Mark a class `final` to prevent subclassing. Mark a method `final` to prevent overriding. `String` is `final` — nobody can extend it and break string semantics.
 
-## Gotchas
+**Depth and the fragile base class problem**
+Deep inheritance hierarchies (5+ levels) become brittle: changing the superclass can break all subclasses in unexpected ways. This is the **fragile base class problem**. The alternative is [[Composition over Inheritance]].
 
-**Inheriting when you should be composing.** The classic mistake: `Stack extends ArrayList` because "a stack uses a list internally." But a stack is NOT an ArrayList — it shouldn't expose `add(index, element)` or `remove(index)`. The is-a test fails. The right design is composition: `Stack` *has-a* `ArrayList` as a private field. Inheritance for code reuse without a real is-a relationship creates classes that expose the wrong interface and break when the parent changes.
+**Java's implicit root: `Object`**
+Every class in Java implicitly extends `java.lang.Object`. That's where `toString()`, `equals()`, `hashCode()`, and `getClass()` come from. Every class you write inherits those methods.
 
-**Tight coupling to the superclass.** Subclasses are tightly bound to their parent. When a superclass changes, all subclasses are affected — sometimes in subtle, breaking ways. This is called the "fragile base class problem." A change in `Animal` that seems safe might break `Dog`, `Cat`, and `Bird` simultaneously.
+**Python**
+```python
+class Sensor:
+    def __init__(self, id: str):
+        self.id = id
+    def get_id(self) -> str:
+        return self.id
 
-**Overriding without `@Override`.** If you typo the method name — `pubic void Speak()` instead of `speak()` — Java silently creates a new method instead of overriding the parent. The `@Override` annotation catches this at compile time. Always use it.
+class UltrasonicSensor(Sensor):
+    def __init__(self, id: str, max_range_m: float):
+        super().__init__(id)   # explicit super() call
+        self.max_range_m = max_range_m
+    def get_distance(self) -> float: ...
 
-**Calling overridden methods from a constructor.** If a superclass constructor calls a method that a subclass overrides, the subclass version runs before the subclass constructor has finished. The subclass fields aren't initialized yet. This leads to subtle null pointer bugs that are very hard to trace.
+# Python supports multiple inheritance:
+class Robot(Movable, Senseable): ...  # Java can't do this (use interfaces instead)
+```
 
-**Inheritance depth.** Deep inheritance chains (A → B → C → D → E) become hard to reason about. Where does a given method actually come from? Which level overrides which? Keep hierarchies shallow — prefer 2–3 levels maximum for most cases.
+## Worked Example
+```java
+// Baymax context: three-level sensor hierarchy
+
+public abstract class Sensor {
+    protected final String mountId;
+    protected double lastReading = 0.0;
+
+    public Sensor(String mountId) { this.mountId = mountId; }
+    public abstract void poll();   // subclasses implement hardware read
+    public double getReading()     { return lastReading; }
+    public String getMountId()     { return mountId; }
+}
+
+public class RangeSensor extends Sensor {
+    protected double maxRangeMeters;
+
+    public RangeSensor(String mountId, double maxRangeMeters) {
+        super(mountId);
+        this.maxRangeMeters = maxRangeMeters;
+    }
+
+    public boolean isInRange() { return lastReading <= maxRangeMeters; }
+
+    @Override
+    public void poll() { /* generic range logic */ }
+}
+
+public class UltrasonicSensor extends RangeSensor {
+    private static final double SPEED_OF_SOUND_M_S = 343.0;
+
+    public UltrasonicSensor(String mountId) {
+        super(mountId, 4.0);  // 4m max range for HC-SR04
+    }
+
+    @Override
+    public void poll() {
+        // Specific HC-SR04 timing calculation
+        double travelTimeUs = readEchoPin();
+        lastReading = (travelTimeUs * SPEED_OF_SOUND_M_S) / (2 * 1_000_000.0);
+    }
+
+    private double readEchoPin() { return 2300.0; /* hardware stub */ }
+}
+```
 
 ## See Also
-- [[Classes and Objects]] — you must understand what a class is before extending one
-- [[Encapsulation]] — `protected` access exists specifically for inheritance, and it represents a real encapsulation tradeoff
-- [[Polymorphism]] — inheritance is the mechanism that makes runtime polymorphism possible; they're deeply linked
-- [[Interfaces and Abstract Classes]] — abstract classes are a form of inheritance with forced overriding; interfaces avoid inheritance's fragile coupling entirely
+- [[Class]] — inheritance is a relationship between classes
+- [[Superclass]] — the parent being extended
+- [[Subclass]] — the child doing the extending
+- [[Method Overriding]] — how subclasses redefine inherited behavior
+- [[Polymorphism]] — the power that inheritance enables
+- [[Abstract Class]] — a superclass with some behavior deliberately left abstract
+- [[Interface]] — Java's way to achieve multiple-inheritance-of-type
+- [[Composition over Inheritance]] — when NOT to use inheritance
+- [[What is Reinforcement Learning]] — RL agent classes often form an inheritance hierarchy (BaseAgent → PolicyGradientAgent → PPOAgent)
+- [[Vector]] — mathematical inheritance: a vector is a special case of a matrix (a matrix with one column), exactly as a subclass IS-A superclass with added constraints
+- [[Matrix]] — the superclass counterpart to Vector in linear algebra; the general type that Vector specializes
