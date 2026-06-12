@@ -14,5 +14,6 @@
 - Local llm transcriber
 - swarm
 - roblox game dev swarm
+- game has runescape like leveling
 - tag organization 
 - vounvil
