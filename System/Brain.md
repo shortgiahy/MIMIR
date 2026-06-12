@@ -31,10 +31,10 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 
 ## Active Domains
 
-- **School** — SLCC, summer semester started 2026-05-18. Retaking Calc 2 + Physics 1 (had C grades). Taking ENGL 1010 + CS 1410 async.
-- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown as of 2026-05-18. Reset. June restart planned with 5 fresh accounts.
-- **Job** — bridge income (~$1,400/month), covers expenses + minimums. Not enough for debt paydown or hardware.
-- **Additional income** — Amazon Flex (delivery, schedule TBD) + plasma donations (2x/week, schedule TBD)
+- **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 drop pending (deadline June 1).
+- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. June restart target.
+- **Job** — mom's salon (selling, so job ending soon). Bridge income in transition. Amazon Flex + plasma (~$430/mo) replacing it.
+- **Additional income** — Plasma Mon/Fri 10–12 (~$430/month) + Amazon Flex 5–8:30 PM (~$2,250/month)
 - **Relationship** — Natalie is the primary priority. Always.
 
 ---
@@ -42,9 +42,10 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 ## Active Projects
 
 - **Baymax Home Companion Robot** — portfolio anchor for MIT/Stanford transfer. Phase 1: software only (Python → NumPy → RL → Isaac Sim). Desktop (RTX 3060 Super) runs Isaac Sim. No hardware funding yet — hardware is Phase 2.
-- **SAT prep** — Test dates: October 3 (primary) + November 7, 2026 (backup). 10hrs/week starts now. Target: 1550+.
+- **Heated Lotion Belt** — friend's commercial product concept (heated lotion bottle belt for massage therapists). Greenlit June 2026. Early stage — scope + timeline TBD. Not a summer income source.
+- **SAT prep** — Test dates: October 3 (primary) + November 7, 2026 (backup). 10hrs/week target. Target: 1550+. Not yet started.
 - **Transfer applications** — Four schools: MIT + Stanford (Mar 2027, SAT required) + UC Berkeley + UCSD (Nov 2026, no SAT). Two separate cycles. UC essays needed by Sep 2026.
-- **Prop firm eval** — Restarting June with 5 accounts. Small wins. No urgency pressure. Trading journal to be built in `Trading/` folder.
+- **Prop firm eval** — Restarting June with 5 accounts. Small wins. No urgency pressure. Waiting on capital.
 
 ---
 
@@ -60,11 +61,11 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 *(Update every Monday or at weekly check-in)*
 
 - [ ] Take Ritalin every day — non-negotiable
-- [ ] Physics Exam 1 prep (Exam: Wed June 3 — Vectors, Kinematics, Projectile Motion)
-- [ ] CS-1410: String/StringBuilder + quizzes (due Tue June 2)
+- [ ] Physics Exam 1 (Tue June 2 at 3pm — Vectors, Kinematics, Projectile Motion)
+- [ ] Drop CS-1410 TODAY (June 1 — last day with 100% refund)
 - [ ] Set noon eating alarm on phone
-- [ ] Schedule plasma donation Monday 10 AM
-- [ ] Be honest with IOP team about severity at next session
+- [ ] Schedule plasma donation
+- [ ] Be honest with IOP team about full severity at next session
 - [ ] Tuition payment by June 5
 
 ### This Month
