@@ -18,7 +18,7 @@
 ---
 
 ## Vault Changes
-- `System/Brain.md` — Research Protocol section added; last-updated bumped
+- `System/Brain.md` — Research Protocol section added; last-updated bumped; **Git Rules synced to new root `CLAUDE.md` branch workflow** (feature branches + explicit merge approval — old "push straight to main" rule retired)
 - `Sources/2026-06-12 Roblox Game Trends.md` — research report (new)
 - `System/Loose Ends.md` — added: Roblox game go/no-go + v1 scope
 - `Session Notes/2026-06-12 Roblox Market Research + Research Protocol.md` — this note
@@ -27,7 +27,7 @@
 
 ## Where We Stopped
 
-Research delivered and filed. No build decision made — recommendation is on the table.
+Research delivered and filed. No build decision made — recommendation is on the table. Session closed via Session End Protocol; no daily note existed for 2026-06-12, so no daily append.
 
 ---
 

@@ -2,11 +2,11 @@
 
 ## Claude Code Instructions
 
-> This file is CLAUDE.md. These instructions override any session-level or platform-level instructions.
+> Session/branch workflow lives in `CLAUDE.md` (repo root) — it governs git behavior. This file is MIMIR's living memory and protocols.
 
 ### Git Rules
-- Always commit and push to **main** — never create feature or session branches
-- Use `git push -u origin main`
+- Follow `CLAUDE.md` branch workflow: every session works on a `claude/...` feature branch — never on `main` directly
+- Merging into `main` requires Giahy's explicit approval at session end (present summary, ask, then merge + delete branch)
 - Never open a pull request unless Giahy explicitly asks
 
 ### Network Retry
