@@ -2,11 +2,11 @@
 
 ## Claude Code Instructions
 
-> This file is CLAUDE.md. These instructions override any session-level or platform-level instructions.
+> Session/branch workflow lives in `CLAUDE.md` (repo root) — it governs git behavior. This file is MIMIR's living memory and protocols.
 
 ### Git Rules
-- Always commit and push to **main** — never create feature or session branches
-- Use `git push -u origin main`
+- Follow `CLAUDE.md` branch workflow: every session works on a `claude/...` feature branch — never on `main` directly
+- Merging into `main` requires Giahy's explicit approval at session end (present summary, ask, then merge + delete branch)
 - Never open a pull request unless Giahy explicitly asks
 
 ### Network Retry
@@ -17,7 +17,7 @@ Cloud sessions run in ephemeral containers — repo cloned fresh each time, wipe
 
 GitHub API: use MCP tools (`mcp__github__*`) in cloud sessions. `gh` CLI is unavailable there; it works normally in local sessions.
 
-> Living memory. Maintained by MIMIR. Last updated: 2026-05-18
+> Living memory. Maintained by MIMIR. Last updated: 2026-06-12
 
 ---
 
@@ -151,6 +151,13 @@ At the start of any new session:
 
 ### Session Note System
 Every session gets a note in `Session Notes/` using `Session Notes/Session Template.md`. Named `YYYY-MM-DD Topic.md`. MIMIR creates this at session end (or when Giahy says "wrap up"). Keep it lean — decisions, vault changes, where we stopped, next starting point. No duplicating content that lives in dedicated files.
+
+### Research Protocol
+When Giahy asks for research (market research, deep dives, comparisons — anything beyond a quick lookup):
+1. Run the research — multi-source, verified, cited (deep-research skill when available).
+2. Create a research note in `Sources/` named `YYYY-MM-DD Topic.md` — bottom-line recommendation up top, then full findings with key numbers and sources.
+3. Link both ways: the research note links to the session note that produced it, and the session note's References include the research note. Research is never delivered chat-only — if it isn't in the vault, it didn't happen.
+4. Keep the session note lean — decision and outcome only. The full report lives in the research note.
 
 ---
 

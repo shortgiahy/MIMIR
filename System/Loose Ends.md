@@ -22,6 +22,7 @@
 | 2026-06-01 | HIGH | CS-1410 drop — confirm outcome | Recommended dropping (last day with refund June 1). Pell Grant drops ~$600 but avoids transcript damage. Confirm decision was executed. |
 | 2026-06-01 | MED | Heated lotion belt project — scope + timeline | Friend greenlit commercial development June 2026. Product: heated lotion bottle belt for massage therapists. Need to define Giahy's role, scope, and what Phase 1 looks like. Not summer income. |
 | 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
+| 2026-06-12 | MED | Roblox game — go/no-go + v1 scope | Market research done: [[Sources/2026-06-12 Roblox Game Trends]] recommends a RuneScape-style skill-progression grinder (solo + AI-swarm buildable, aging-up audience). Needs Giahy's go/no-go, then v1 scope. Ties to Inbox: "roblox game dev swarm", "game has runescape like leveling". |
 
 ---
 
