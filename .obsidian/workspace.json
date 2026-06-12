@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/Daily Template.md",
+                "file": "System/Inbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Template"
+              "title": "Inbox"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "51edae52373192cd",
   "lastOpenFiles": [
+    "Daily/Daily Template.md",
     "Projects/Electric warming massage notes.md",
     "System/Inbox.md",
     "Wiki/EE/Current Divider.md",
@@ -210,7 +211,6 @@
     "Wiki/Physics/Newton's First Law.md",
     "Wiki/Physics/Net Force.md",
     "Wiki/Physics/Momentum.md",
-    "Wiki/Physics/Kinetic Energy.md",
     "Projects/Baymax",
     "Projects",
     "Wiki/ML & Robotics",

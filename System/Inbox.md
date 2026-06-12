@@ -10,3 +10,6 @@
 - What hobbies/things do I need to say no to? May 5th
 - Meal and water check in May 5th
 - Quests and level setup May 5th
+- AI dashboard
+- Local llm transcriber
+- 
