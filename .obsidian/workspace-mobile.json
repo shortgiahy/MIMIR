@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Electric warming massage notes.md",
+                "file": "System/Inbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Electric warming massage notes"
+              "title": "Inbox"
             }
           }
         ],
@@ -197,8 +197,8 @@
   },
   "active": "00c511cce2dd6dc1",
   "lastOpenFiles": [
-    "Wiki/Physics/Kinematics - 1D Motion.md",
     "Projects/Electric warming massage notes.md",
+    "Wiki/Physics/Kinematics - 1D Motion.md",
     "Wiki/Math/Convergence Tests.md",
     "System/Weekly Check-in Template.md",
     "Wiki/Math/_Index.md",
