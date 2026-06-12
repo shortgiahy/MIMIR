@@ -101,6 +101,14 @@ Quick tasks: small, completable-today items. Max 5. Not projects. MIMIR manages 
 
 ---
 
+## Check-In Cadence
+
+- **Daily** — every morning. `Daily/YYYY-MM-DD.md` from `Daily/Daily Template.md`. Ritalin + anchor + tasks + flags.
+- **Weekly** — every Monday morning. `System/Weekly Check-in Template.md`. Review last week, pull Canvas deadlines, set anchor theme.
+- **Monthly** — first of the month. Big picture: are priorities still right? What shifted?
+
+---
+
 ## Loose Ends Protocol
 
 Add to `System/Loose Ends.md` **proactively and without asking**. Don't wait until session end. Don't ask for confirmation.
