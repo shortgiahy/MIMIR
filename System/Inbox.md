@@ -12,4 +12,7 @@
 - Quests and level setup May 5th
 - AI dashboard
 - Local llm transcriber
-- 
+- swarm
+- roblox game dev swarm
+- tag organization 
+- vounvil
