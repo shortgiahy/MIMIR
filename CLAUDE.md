@@ -72,6 +72,8 @@ See `System/Skills/` for full documentation on each available skill.
 - **`/council`** — convene 5 sub-agents with distinct perspectives to debate a topic. MIMIR chairs and delivers a ruling.
 - **`/research`** — deep research with adversarial verification. 5 search agents + 3 verifiers. Report filed to `Sources/`.
 
+**When a new skill is created:** Always create a corresponding documentation page in `System/Skills/<Skill Name>.md`. Include what it does, when to use it, how it works, and an example invocation. Update this Skills list above.
+
 ---
 
 ## Session End Protocol
