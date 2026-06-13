@@ -10,14 +10,10 @@
 | Task | Due | Priority | Notes |
 |------|-----|----------|-------|
 | Register for SAT (Oct 3) | ASAP | HIGH | Book before slots fill — do not delay |
-| Summer tuition due | 2026-06-05 | HIGH | SLCC summer 2026 |
-| Confirm Amazon Flex schedule | ASAP | MED | Slot into weekly schedule once known |
-| Confirm plasma donation schedule | ASAP | MED | 2x/week — slot into weekly schedule once known |
 | Emissions test | — | MED | Pending, no hard deadline yet |
-| Oil change | — | MED | Pending |
+| Oil change | — | MED | Overdue — see Loose Ends |
 | Contact friend re: warming massage belt project | — | MED | Needs to initiate — commercial potential TBD |
 | Contacts replacement | — | LOW | ~$500, after debt paydown |
-| Teeth cleaning | — | LOW | ~$100–200 |
 | Phone + tablet payoff → iPhone + iPad | — | LOW | After debt |
 
 ---
@@ -53,8 +49,6 @@
 **SAT prep: 10 hrs/week**
 
 ### Summer Weekly Structure
-
-> **May 19–31:** No Flex or work blocks. Study + build routine. Full income schedule starts June — see Loose Ends.
 
 #### Weekdays (Mon–Fri)
 
@@ -188,7 +182,7 @@ Weekly totals (May, pre-Flex):
 > Trading journals: Trading
 - **Status:** All 3 accounts blown as of May 2026. Currently in reset.
 - **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup — psychology/process failures under financial pressure
-- **June restart plan:** 5 fresh accounts via TradeSyncer. Small wins approach — patience over urgency. Income grows gradually, not one big payout.
+- **July 1 restart plan:** 5 fresh accounts via TradeSyncer. Small wins approach — patience over urgency. Income grows gradually, not one big payout.
 - **Critical rule:** Do NOT treat trading as emergency funding for the Baymax project. That pressure creates the psychology that blows accounts.
 - **Instruments:** ES (primary), MGC (primary), MNQ + GC (secondary)
 - **Strategy:** Orderflow — volume profiles, DOM, delta
@@ -224,7 +218,7 @@ Weekly totals (May, pre-Flex):
 | SAT 1550+ | Oct 3, 2026 | Prep starts May 18 |
 | UC Berkeley/UCSD transfer | Fall 2027 | App due Nov 2026 |
 | MIT/Stanford transfer | Fall 2027 | App due Mar 2027 |
-| Prop firm: 10 funded accounts | 2026–2027 | Reset — restarting June |
+| Prop firm: 10 funded accounts | 2026–2027 | Reset — restarting July 1 |
 | Debt cleared (~$10,400) | ASAP | Cap One Slate ($7k) first |
 | Emergency fund (6 months) | After debt | Queued |
 | Roth IRA maxed | After emergency fund | Queued |
