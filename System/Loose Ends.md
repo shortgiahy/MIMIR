@@ -22,6 +22,7 @@
 | 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
 | 2026-06-12 | MED | Roblox game — go/no-go + v1 scope | Market research done: [[Sources/2026-06-12 Roblox Game Trends]] recommends a RuneScape-style skill-progression grinder (solo + AI-swarm buildable, aging-up audience). Needs Giahy's go/no-go, then v1 scope. Ties to Inbox: "roblox game dev swarm", "game has runescape like leveling". |
 | 2026-06-13 | LOW | Next prune | Run /prune again around 2026-08-12. |
+| 2026-06-13 | MED | Playwright/browser MCP for authenticated scraping | Playwright MCP installed but can't open Firefox profile. Chromium path not yet tested. Goal: scrape Canvas pages without copy-paste. Resume from: .mcp.json in MIMIR root, try `npx playwright install chromium` then restart. |
 
 ---
 
