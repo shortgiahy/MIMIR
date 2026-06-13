@@ -53,6 +53,21 @@ Use the right agent for the task type. Don't write code before consulting the ap
 
 ## Session workflow
 
-Design sessions use the **grill-me** method: one question at a time, walk the dependency tree, attach a recommended answer to every question before the user decides. When a decision locks, update GDD v2 and remove / check off the item in Open Threads.
+**Design sessions:** grill-me method — one question at a time, walk the dependency tree, attach a recommended answer before the user decides. When a decision locks: update GDD v2, check off the item in Open Threads, update the blocked rows in Implementation Status.
 
-Implementation sessions: read Architecture.md and Standards.md first, pick the correct agent, write code, run Codex review, then commit.
+**Implementation sessions:** read Architecture.md and Standards.md first → pick the correct agent → write code → run code-reviewer agent → commit.
+
+## Session end — game dev logging (mandatory)
+
+At the end of every implementation session, append an entry to the **Build Log** section of [[Implementation Status]]:
+
+```
+### YYYY-MM-DD — <one-line summary>
+- Built: <what was written or wired>
+- Agent used: <which agency agent>
+- Status changes: <rows that flipped from ⬜ to 🔨 or ✅>
+- Blockers hit: <anything that stopped progress>
+- Next starting point: <exact task to pick up>
+```
+
+Then update the status checkboxes in the table to match reality. Do not mark ✅ unless the system is wired end-to-end and manually verified — not just "file exists."

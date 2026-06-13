@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Sushi Sea/Open Threads.md",
+                "file": "Projects/Sushi Sea/Implementation Status.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Threads"
+              "title": "Implementation Status"
             }
           }
         ],
@@ -200,6 +200,9 @@
   },
   "active": "191e8472e69de8a0",
   "lastOpenFiles": [
+    "Projects/Sushi Sea/Open Threads.md",
+    "Projects/Sushi Sea/Implementation Status.md",
+    "Projects/Sushi Sea/Implementation Status.md.tmp.37836.c93c983da502",
     "Projects/Sushi Sea/Standards.md",
     "Projects/Sushi Sea/Architecture.md",
     "Projects/Sushi Sea/GDD v2.md",
@@ -226,15 +229,12 @@
     "Projects/Electric warming massage notes.md",
     "Wiki/EE/Current Divider.md",
     "Wiki/EE/Electric Charge.md",
-    "Wiki/Physics/Conservative Force.md",
-    "Wiki/Physics/Conservation of Momentum.md",
     "Projects/Baymax",
     "Projects",
     "Wiki/ML & Robotics",
     "Wiki/Physics",
     "Wiki/EE",
     "Wiki/Math",
-    "Wiki/CS",
-    "Wiki"
+    "Wiki/CS"
   ]
 }

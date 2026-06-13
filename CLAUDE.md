@@ -84,7 +84,8 @@ Before any session closes (or when Giahy says "wrap up"):
 2. Sync `System/Loose Ends.md` — open anything new, close anything resolved
 3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
 4. Create a session note in `Session Notes/` using `Session Notes/Session Template.md` — named `YYYY-MM-DD Topic.md`. Lean: decisions, vault changes, where we stopped, next starting point.
-5. Push all changes to the working branch
+5. **If session touched Sushi Sea:** append a Build Log entry to `Projects/Sushi Sea/Implementation Status.md` and update the status checkboxes. See the game project CLAUDE.md for the exact format.
+6. Push all changes to the working branch
 
 ---
 
@@ -160,4 +161,4 @@ Rule of thumb: *if it can't be undone in 10 seconds, ask first.* Everything else
 | `Wiki/` | Reference knowledge (CS, EE, Math, Physics, ML) |
 | `Giahy/Profile/Profile.md` | Personal profile — how Giahy thinks, what motivates him |
 | `.claude/commands/` | Skill command files (project-level slash commands) |
-| `Projects/Sushi Sea/` | Roblox game design project — GDD v2, Open Threads, project CLAUDE.md |
+| `Projects/Sushi Sea/` | Roblox game design project — GDD v2, Architecture, Standards, Open Threads, Implementation Status (build log) |
