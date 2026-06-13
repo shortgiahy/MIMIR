@@ -71,6 +71,7 @@ See `System/Skills/` for full documentation on each available skill.
 - **`/grill-me`** — for large-scale projects or major decisions that need full clarification before acting. Use before any significant plan or system design. Do not skip to be fast.
 - **`/council`** — convene 5 sub-agents with distinct perspectives to debate a topic. MIMIR chairs and delivers a ruling.
 - **`/research`** — deep research with adversarial verification. 5 search agents + 3 verifiers. Report filed to `Sources/`.
+- **`/prune`** — vault lint and maintenance. Scans Brain.md, Tasks.md, Loose Ends, and Session Notes for stale dates, contradictions, orphaned threads, duplicates, and bloat. Proposes a diff. Applies nothing without approval. Run every ~60 days.
 
 **When a new skill is created:** Always create a corresponding documentation page in `System/Skills/<Skill Name>.md`. Include what it does, when to use it, how it works, and an example invocation. Update this Skills list above.
 
