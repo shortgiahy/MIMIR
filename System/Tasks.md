@@ -10,14 +10,10 @@
 | Task | Due | Priority | Notes |
 |------|-----|----------|-------|
 | Register for SAT (Oct 3) | ASAP | HIGH | Book before slots fill — do not delay |
-| Summer tuition due | 2026-06-05 | HIGH | SLCC summer 2026 |
-| Confirm Amazon Flex schedule | ASAP | MED | Slot into weekly schedule once known |
-| Confirm plasma donation schedule | ASAP | MED | 2x/week — slot into weekly schedule once known |
 | Emissions test | — | MED | Pending, no hard deadline yet |
-| Oil change | — | MED | Pending |
+| Oil change | — | MED | Overdue — see Loose Ends |
 | Contact friend re: warming massage belt project | — | MED | Needs to initiate — commercial potential TBD |
 | Contacts replacement | — | LOW | ~$500, after debt paydown |
-| Teeth cleaning | — | LOW | ~$100–200 |
 | Phone + tablet payoff → iPhone + iPad | — | LOW | After debt |
 
 ---
@@ -53,8 +49,6 @@
 **SAT prep: 10 hrs/week**
 
 ### Summer Weekly Structure
-
-> **May 19–31:** No Flex or work blocks. Study + build routine. Full income schedule starts June — see Loose Ends.
 
 #### Weekdays (Mon–Fri)
 
