@@ -31,7 +31,7 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 
 ## Active Domains
 
-- **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 drop deadline passed June 1 — see Loose Ends for confirmation status.
+- **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 dropped June 1 — now 3 courses (11 credits).
 - **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. June restart target.
 - **Job** — mom's salon (selling, so job ending soon). Bridge income in transition. Amazon Flex + plasma (~$430/mo) replacing it.
 - **Additional income** — Plasma Mon/Fri 10–12 (~$430/month) + Amazon Flex 5–8:30 PM (~$2,250/month)

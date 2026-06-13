@@ -18,11 +18,9 @@
 | 2026-05-18 | MED | Contact friend re: warming massage belt project | She has the idea — commercial potential TBD, Giahy needs to initiate |
 | 2026-05-19 | HIGH | Finalize June income schedule (Flex + work) | May 25 meeting target missed. Flex confirmed as daily 5–8:30 PM (see closed items). Full June schedule still needs to be slotted into Tasks.md — or close this if Tasks schedule is current. |
 | 2026-05-31 | LOW | Inbox system — ongoing triage | System/Inbox.md created for raw thought capture. MIMIR to process periodically with Giahy: categorize into vault, escalate to Loose Ends, or delete. |
-| 2026-06-01 | HIGH | CS-1410 drop — confirm outcome | Recommended dropping (last day with refund June 1). Pell Grant drops ~$600 but avoids transcript damage. Confirm decision was executed. |
 | 2026-06-01 | MED | Heated lotion belt project — scope + timeline | Friend greenlit commercial development June 2026. Product: heated lotion bottle belt for massage therapists. Need to define Giahy's role, scope, and what Phase 1 looks like. Not summer income. |
 | 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
 | 2026-06-12 | MED | Roblox game — go/no-go + v1 scope | Market research done: [[Sources/2026-06-12 Roblox Game Trends]] recommends a RuneScape-style skill-progression grinder (solo + AI-swarm buildable, aging-up audience). Needs Giahy's go/no-go, then v1 scope. Ties to Inbox: "roblox game dev swarm", "game has runescape like leveling". |
-| 2026-06-13 | HIGH | Confirm June tuition was paid | Tuition was due 2026-06-05. Deadline passed — confirm payment was made or escalate immediately. |
 | 2026-06-13 | LOW | Next prune | Run /prune again around 2026-08-12. |
 
 ---
@@ -42,3 +40,5 @@
 | 2026-05-18 | 2026-05-18 | Confirm plasma donation schedule | Mon/Fri 10–12. ~$430/month additional. |
 | 2026-05-18 | 2026-05-18 | Finalize summer weekly schedule | Done. See System/Tasks summer structure. |
 | 2026-05-18 | 2026-06-13 | Daily journal / check-in structure | Resolved — daily template fully redesigned 2026-06-01. Live at Daily/Daily Template.md. |
+| 2026-06-01 | 2026-06-13 | CS-1410 drop — confirm outcome | Dropped. Pell Grant reduced ~$600, transcript clean. Java learning path still open. |
+| 2026-06-13 | 2026-06-13 | Confirm June tuition was paid | Confirmed paid. |
