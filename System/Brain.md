@@ -32,7 +32,7 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 ## Active Domains
 
 - **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 dropped June 1 — now 3 courses (11 credits).
-- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. June restart target.
+- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. July 1 restart target.
 - **Job** — mom's salon (selling, so job ending soon). Bridge income in transition. Amazon Flex + plasma (~$430/mo) replacing it.
 - **Additional income** — Plasma Mon/Fri 10–12 (~$430/month) + Amazon Flex 5–8:30 PM (~$2,250/month)
 - **Relationship** — Natalie is the primary priority. Always.
@@ -146,7 +146,7 @@ Freedom. Not wealth for its own sake — freedom to choose the work, the life, t
 - **Current status:** Reset. All 3 accounts blown May 2026. Restarting June with 5 accounts.
 - **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup. Psychology under financial pressure.
 - **Fix framing:** System design problem, not a character flaw. Hard rules and protocols, not willpower.
-- **June approach:** Small wins, patience, no urgency about payouts. Income grows gradually.
+- **July approach:** Small wins, patience, no urgency about payouts. Income grows gradually.
 - **Income target:** $20,000/month net (10 accounts × $2,000 payout each)
 - **Milestone 1:** $3–5k/month. **Milestone 2:** $12k/month.
 
