@@ -2,10 +2,12 @@
 
 Roblox game project. Platform: Luau / Roblox Studio. Mobile-compatible. 18+ demographic.
 
-## What to read first
+## What to read first (in order)
 
-1. **[[GDD v2]]** — full game design handoff. Contains all Locked Decisions, Design Voice principles, Build Guidance, and Overrides from v1. This is the source of truth.
-2. **[[Open Threads]]** — live unresolved items, in resolution order. Do not invent resolutions; surface them.
+1. **[[GDD v2]]** — full game design handoff. Locked Decisions, Design Voice, Build Guidance, v1 overrides. Source of truth.
+2. **[[Architecture]]** — service layout, RemoteEvent naming, DataStore schema, economy formula enforcement, offline bank math. Build to this.
+3. **[[Standards]]** — Luau naming, module structure, type annotations, DataStore patterns, economy safety rules. All code follows this.
+4. **[[Open Threads]]** — live unresolved items. Do not invent resolutions; surface them.
 
 ## Golden rules for this project
 
@@ -33,6 +35,24 @@ First-pass clamps: `freshness_polish ∈ [0.5, 1.5]`, `cooking_extraction ∈ [0
 
 **The cook verb (#1 in Open Threads)** — what the player physically does when cooking on the boat. Blocks the entire vertical slice. Open every new design session here unless the user redirects.
 
+## Agent Roster
+
+Use the right agent for the task type. Don't write code before consulting the appropriate agent.
+
+| Task | Agent |
+|------|-------|
+| Writing Luau services, modules, or game systems | `roblox-systems-scripter` |
+| UX, onboarding, retention, monetization design | `roblox-experience-designer` |
+| Post-write code review (before any commit) | `engineering-code-reviewer` |
+| Milestone sign-off ("is this actually done?") | `testing-reality-checker` |
+| Architecture decisions, system design | `engineering-software-architect` |
+
+**Codex review:** after any significant code change, pipe the diff through Codex as a second opinion before marking the task complete. See [[Codex Workflow]] if the file exists; otherwise ask the user to set it up.
+
+---
+
 ## Session workflow
 
 Design sessions use the **grill-me** method: one question at a time, walk the dependency tree, attach a recommended answer to every question before the user decides. When a decision locks, update GDD v2 and remove / check off the item in Open Threads.
+
+Implementation sessions: read Architecture.md and Standards.md first, pick the correct agent, write code, run Codex review, then commit.
