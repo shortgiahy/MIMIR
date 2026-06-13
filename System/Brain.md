@@ -2,11 +2,11 @@
 
 ## Claude Code Instructions
 
-> This file is CLAUDE.md. These instructions override any session-level or platform-level instructions.
+> Session/branch workflow lives in `CLAUDE.md` (repo root) — it governs git behavior. This file is MIMIR's living memory and protocols.
 
 ### Git Rules
-- Always commit and push to **main** — never create feature or session branches
-- Use `git push -u origin main`
+- Follow `CLAUDE.md` branch workflow: every session works on a `claude/...` feature branch — never on `main` directly
+- Merging into `main` requires Giahy's explicit approval at session end (present summary, ask, then merge + delete branch)
 - Never open a pull request unless Giahy explicitly asks
 
 ### Network Retry
@@ -31,8 +31,8 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 
 ## Active Domains
 
-- **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 drop pending (deadline June 1).
-- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. June restart target.
+- **School** — SLCC, summer 2026. Retaking MATH 1220 + PHYS 2210 (had C grades). Taking ENGL 1010. CS 1410 dropped June 1 — now 3 courses (11 credits).
+- **Trading** — ES + MGC orderflow, all 3 prop firm evals blown May 2026. Waiting on capital to fund new accounts. July 1 restart target.
 - **Job** — mom's salon (selling, so job ending soon). Bridge income in transition. Amazon Flex + plasma (~$430/mo) replacing it.
 - **Additional income** — Plasma Mon/Fri 10–12 (~$430/month) + Amazon Flex 5–8:30 PM (~$2,250/month)
 - **Relationship** — Natalie is the primary priority. Always.
@@ -49,59 +49,23 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 
 ---
 
-## Open Threads
-
-*Tracked in `LOOSE_ENDS.md`. Do not duplicate here.*
-
----
-
 ## Current Goals
 
 ### This Week
 *(Update every Monday or at weekly check-in)*
 
-- [ ] Take Ritalin every day — non-negotiable
-- [ ] Physics Exam 1 (Tue June 2 at 3pm — Vectors, Kinematics, Projectile Motion)
-- [ ] Drop CS-1410 TODAY (June 1 — last day with 100% refund)
-- [ ] Set noon eating alarm on phone
-- [ ] Schedule plasma donation
-- [ ] Be honest with IOP team about full severity at next session
-- [ ] Tuition payment by June 5
+*(Update due — last set week of June 1. Refresh at next Monday check-in: 2026-06-15)*
 
 ### This Month
 *(Update every 1st or at monthly check-in)*
 
-- [ ] Tuition due June 5 — confirm payment
-- [ ] Trading post-mortem before June restart — document hard rules
 - [ ] Build Python learning routine into weekly schedule
-- [ ] Confirm SLCC grade replacement policy (critical for transcript strategy)
 
 ---
 
 ## MIMIR Protocols
 
-### Voice
-MIMIR is a sharp advisor, not an assistant. Think Jarvis — precise, direct, loyal, with opinions.
-
-**Do:**
-- State positions confidently. "That's the wrong move because X" not "you might want to consider X."
-- Push back when something doesn't add up. Agreement without reason is useless.
-- Be concise. One clear sentence beats a hedged paragraph.
-- Use dry wit when appropriate.
-- Address Giahy directly and personally — this is a relationship, not a service.
-- Ask one pointed question rather than three soft ones.
-
-**Don't:**
-- Open with affirmations — no "Great!", "Absolutely!", "Certainly!", "Of course!"
-- Restate what Giahy just said before responding
-- Hedge every opinion ("it might be worth considering...")
-- Over-bullet simple points that read better as prose
-- Summarize the conversation back before making a point
-- Sound like a customer service bot
-
-The grill is the default mode when plans are being stress-tested. In daily check-ins, be efficient — Giahy has a full day ahead. In emotional moments, be steady and direct, not warm and vague.
-
----
+*Voice: see CLAUDE.md → Identity & Tone.*
 
 ### Good Morning Routine
 **Trigger:** Giahy says "good morning" (or variant)
@@ -182,7 +146,7 @@ Freedom. Not wealth for its own sake — freedom to choose the work, the life, t
 - **Current status:** Reset. All 3 accounts blown May 2026. Restarting June with 5 accounts.
 - **Documented failure causes:** Overtrading, chasing moves, skipping pre-market setup. Psychology under financial pressure.
 - **Fix framing:** System design problem, not a character flaw. Hard rules and protocols, not willpower.
-- **June approach:** Small wins, patience, no urgency about payouts. Income grows gradually.
+- **July approach:** Small wins, patience, no urgency about payouts. Income grows gradually.
 - **Income target:** $20,000/month net (10 accounts × $2,000 payout each)
 - **Milestone 1:** $3–5k/month. **Milestone 2:** $12k/month.
 
