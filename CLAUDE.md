@@ -160,3 +160,4 @@ Rule of thumb: *if it can't be undone in 10 seconds, ask first.* Everything else
 | `Wiki/` | Reference knowledge (CS, EE, Math, Physics, ML) |
 | `Giahy/Profile/Profile.md` | Personal profile — how Giahy thinks, what motivates him |
 | `.claude/commands/` | Skill command files (project-level slash commands) |
+| `Projects/Sushi Sea/` | Roblox game design project — GDD v2, Open Threads, project CLAUDE.md |
