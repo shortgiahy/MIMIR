@@ -46,7 +46,7 @@ Any item in `Loose Ends.md` that:
 Any item tracked in more than one file simultaneously with no clear ownership:
 - Same task in both Tasks.md and Loose Ends.md
 - Same project status in both Brain.md and a session note (with no clear "source of truth")
-- Inbox items that duplicate something already in the vault
+- Inbox items that duplicate something already in the vault — **flag only, never remove. Inbox is Giahy's quick-capture zone; he clears it himself.**
 
 ### 5. Bloat & Archive Candidates
 Any content that is resolved, outdated, or no longer actionable:
