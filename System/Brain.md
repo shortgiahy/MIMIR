@@ -42,6 +42,7 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 ## Active Projects
 
 - **Baymax Home Companion Robot** — portfolio anchor for MIT/Stanford transfer. Phase 1: software only (Python → NumPy → RL → Isaac Sim). Desktop (RTX 3060 Super) runs Isaac Sim. No hardware funding yet — hardware is Phase 2.
+- **Sushi Sea (Roblox game)** — Dave the Diver × RuneScape × Fisch × restaurant sim. GDD v2 complete and scaffolded in `Projects/Sushi Sea/`. Agency agents installed. Open Thread #1 (cook verb) is the active design blocker before any code can be written. Implementation tracked in `Projects/Sushi Sea/Implementation Status.md`.
 - **Heated Lotion Belt** — friend's commercial product concept (heated lotion bottle belt for massage therapists). Greenlit June 2026. Early stage — scope + timeline TBD. Not a summer income source.
 - **SAT prep** — Test dates: October 3 (primary) + November 7, 2026 (backup). 10hrs/week target. Target: 1550+. Not yet started.
 - **Transfer applications** — Four schools: MIT + Stanford (Mar 2027, SAT required) + UC Berkeley + UCSD (Nov 2026, no SAT). Two separate cycles. UC essays needed by Sep 2026.

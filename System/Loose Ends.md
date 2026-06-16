@@ -20,8 +20,9 @@
 | 2026-05-31 | LOW | Inbox system — ongoing triage | System/Inbox.md created for raw thought capture. MIMIR to process periodically with Giahy: categorize into vault, escalate to Loose Ends, or delete. |
 | 2026-06-01 | MED | Heated lotion belt project — scope + timeline | Friend greenlit commercial development June 2026. Product: heated lotion bottle belt for massage therapists. Need to define Giahy's role, scope, and what Phase 1 looks like. Not summer income. |
 | 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
-| 2026-06-12 | MED | Roblox game — go/no-go + v1 scope | Market research done: [[Sources/2026-06-12 Roblox Game Trends]] recommends a RuneScape-style skill-progression grinder (solo + AI-swarm buildable, aging-up audience). Needs Giahy's go/no-go, then v1 scope. Ties to Inbox: "roblox game dev swarm", "game has runescape like leveling". |
 | 2026-06-13 | LOW | Next prune | Run /prune again around 2026-08-12. |
+| 2026-06-16 | HIGH | Cook verb — Open Thread #1 | What the player physically does when cooking on the boat. Blocks the entire vertical slice. Next session opens here with grill-me. |
+| 2026-06-16 | MED | Game code repo | Sushi Sea needs a separate git repo for Luau files (not inside MIMIR). Scaffold when ready to write first code. |
 | 2026-06-13 | MED | Playwright/browser MCP for authenticated scraping | Playwright MCP installed but can't open Firefox profile. Chromium path not yet tested. Goal: scrape Canvas pages without copy-paste. Resume from: .mcp.json in MIMIR root, try `npx playwright install chromium` then restart. |
 
 ---
@@ -43,3 +44,4 @@
 | 2026-05-18 | 2026-06-13 | Daily journal / check-in structure | Resolved — daily template fully redesigned 2026-06-01. Live at Daily/Daily Template.md. |
 | 2026-06-01 | 2026-06-13 | CS-1410 drop — confirm outcome | Dropped. Pell Grant reduced ~$600, transcript clean. Java learning path still open. |
 | 2026-06-13 | 2026-06-13 | Confirm June tuition was paid | Confirmed paid. |
+| 2026-06-12 | 2026-06-16 | Roblox game — go/no-go + v1 scope | Go. GDD v2 complete, project scaffolded in Projects/Sushi Sea/. Active project. |

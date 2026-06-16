@@ -56,4 +56,9 @@ The minimum playable slice. Must close before any restaurant work begins.
 
 *Append an entry at the end of every dev session. Most recent at the top.*
 
-<!-- entries go here -->
+### 2026-06-16 — Project scaffolding + dev team setup
+- Built: GDD v2, Architecture, Standards, Open Threads, CLAUDE.md, Implementation Status — full design infrastructure
+- Agent used: N/A (design session, no code written)
+- Status changes: None — all systems remain ⬜ or 🚫 Blocked
+- Blockers hit: Cook verb (Open Thread #1) undefined — nothing in the vertical slice can move until this is resolved
+- Next starting point: grill-me on cook verb → lock it → scaffold game code repo → begin BoatCookController
