@@ -56,6 +56,13 @@ The minimum playable slice. Must close before any restaurant work begins.
 
 *Append an entry at the end of every dev session. Most recent at the top.*
 
+### 2026-06-17 — Viability council + execution resequence
+- Built: No code — design deliberation session. Council ruled Sushi Sea viable. Identified game feel (not code velocity) as binding constraint on retention.
+- Agent used: Council (5-member deliberation: Analyst, Devil's Advocate, Visionary, Pragmatist, Stress Tester)
+- Status changes: None — all systems remain ⬜ or 🚫 Blocked
+- Blockers hit: Cook verb still open (Open Thread #1). New constraint surfaced: feel-tuning gate — fishing rod must pass blind-playtester test before any backend/economy work begins.
+- Next starting point: grill-me on cook verb → lock it → scaffold fishing-only vertical slice (cast-hook-reel, no backend) → dedicated feel-tuning phase
+
 ### 2026-06-16 — Project scaffolding + dev team setup
 - Built: GDD v2, Architecture, Standards, Open Threads, CLAUDE.md, Implementation Status — full design infrastructure
 - Agent used: N/A (design session, no code written)
