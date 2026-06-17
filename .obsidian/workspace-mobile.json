@@ -195,8 +195,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "00c511cce2dd6dc1",
+  "active": "111056ef3e38cbee",
   "lastOpenFiles": [
+    "System/Skills/Prune.md",
+    "Session Notes/2026-06-16 Sushi Sea Project Setup.md",
+    "Session Notes/2026-06-13 Vault Prune + Infrastructure Audit.md",
+    "Session Notes/2026-06-13 Council Skill Overhaul.md",
+    "Projects/Sushi Sea/Standards.md",
+    "Projects/Sushi Sea/Open Threads.md",
+    "Projects/Sushi Sea/Implementation Status.md",
+    "Projects/Sushi Sea/GDD v2.md",
+    "Projects/Sushi Sea/CLAUDE.md",
+    "Projects/Sushi Sea/Architecture.md",
+    "Projects/Sushi Sea",
     "System/Inbox.md",
     "System/Skills/Swarm.md",
     "System/Skills/Research.md",
@@ -213,16 +224,6 @@
     "Wiki/Physics/Kinematics - 1D Motion.md",
     "Wiki/Math/Convergence Tests.md",
     "System/Weekly Check-in Template.md",
-    "Wiki/Math/_Index.md",
-    "Wiki/Physics/Work and Kinetic Energy.md",
-    "Wiki/Physics/Newton's Second Law.md",
-    "Wiki/Physics/Impulse and Momentum.md",
-    "Wiki/Physics/Conservation of Energy.md",
-    "Wiki/Physics/_Index.md",
-    "Wiki/ML & Robotics/What is Reinforcement Learning.md",
-    "Wiki/ML & Robotics/NumPy Arrays.md",
-    "Wiki/ML & Robotics/Neural Networks - The Basics.md",
-    "Wiki/ML & Robotics/Markov Decision Processes.md",
-    "Wiki/ML & Robotics/Gradient Descent.md"
+    "Wiki/Math/_Index.md"
   ]
 }
