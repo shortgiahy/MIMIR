@@ -24,12 +24,12 @@ Why this wins on 2026 fundamentals:
 
 ## 1. Platform State (Q1 2026, reported April 30, 2026)
 
-| Metric | Value | Source |
-|---|---|---|
-| DAU | 132M (+35% YoY; down seq. from 144M Q4 2025) | SEC Q1 2026 letter |
-| Bookings | $1.7B (+43% YoY); hours 31B (+43%) | SEC Q1 2026 letter |
-| FY2025 | $4.9B revenue (+36%), $6.8B bookings (+55%), 36.7M monthly payers | Q4 2025 letter |
-| Creator payouts 2025 | >$1.5B (vs $922.8M in 2024); $423M in Q1 2026 alone | SEC letters |
+| Metric               | Value                                                             | Source             |
+| -------------------- | ----------------------------------------------------------------- | ------------------ |
+| DAU                  | 132M (+35% YoY; down seq. from 144M Q4 2025)                      | SEC Q1 2026 letter |
+| Bookings             | $1.7B (+43% YoY); hours 31B (+43%)                                | SEC Q1 2026 letter |
+| FY2025               | $4.9B revenue (+36%), $6.8B bookings (+55%), 36.7M monthly payers | Q4 2025 letter     |
+| Creator payouts 2025 | >$1.5B (vs $922.8M in 2024); $423M in Q1 2026 alone               | SEC letters        |
 
 - The sequential DAU drop is from the **mandatory facial age-check rollout** (Nov 2025 → global early 2026; ~45% of DAUs age-checked by Jan 31, 2026) plus the **Dec 2025 Russia ban**. Roblox cut 2026 guidance but argues the mix shifted toward higher-monetizing users.
 - **Age mix (age-checked basis, early 2026): ~35% under 13 / ~38% 13–17 / ~26–27% 18+.** In 2021 roughly half the platform was under 13 — the aging-up is real and accelerating (US 18+ DAUs and hours +40% YoY).
