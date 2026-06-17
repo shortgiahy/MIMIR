@@ -22,6 +22,7 @@
 | 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
 | 2026-06-13 | LOW | Next prune | Run /prune again around 2026-08-12. |
 | 2026-06-16 | HIGH | Cook verb — Open Thread #1 | What the player physically does when cooking on the boat. Blocks the entire vertical slice. Next session opens here with grill-me. |
+| 2026-06-17 | HIGH | Feel-tuning gate — fishing rod | Council ruling: no backend/economy/restaurant work until the cast-hook-reel loop feels good enough that a blind playtester voluntarily casts a second time. AI builds the skeleton; Giahy tunes by hand. This is the critical path. |
 | 2026-06-16 | MED | Game code repo | Sushi Sea needs a separate git repo for Luau files (not inside MIMIR). Scaffold when ready to write first code. |
 | 2026-06-13 | MED | Playwright/browser MCP for authenticated scraping | Playwright MCP installed but can't open Firefox profile. Chromium path not yet tested. Goal: scrape Canvas pages without copy-paste. Resume from: .mcp.json in MIMIR root, try `npx playwright install chromium` then restart. |
 
