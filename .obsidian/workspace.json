@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "191e8472e69de8a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System/Inbox.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inbox"
-            }
-          },
-          {
             "id": "1b48fe3660945a0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/2026-06-12 Roblox Game Trends.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-12 Roblox Game Trends"
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "191e8472e69de8a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Sushi Sea/Implementation Status.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Implementation Status"
             }
           }
         ],
@@ -198,21 +198,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b48fe3660945a0c",
+  "active": "191e8472e69de8a0",
   "lastOpenFiles": [
-    "Session Notes/2026-06-12 Roblox Market Research + Research Protocol.md",
-    "Sources/2026-06-12 Roblox Game Trends.md",
-    "System/Skills/Research.md",
+    "Projects/Sushi Sea/Open Threads.md",
+    "Projects/Sushi Sea/Implementation Status.md",
+    "Projects/Sushi Sea/Implementation Status.md.tmp.37836.c93c983da502",
+    "Projects/Sushi Sea/Standards.md",
+    "Projects/Sushi Sea/Architecture.md",
+    "Projects/Sushi Sea/GDD v2.md",
+    "Projects/Sushi Sea/CLAUDE.md",
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.15228.73a4c3aed427",
+    "System/Inbox.md",
     "System/Skills/Swarm.md",
-    "Session Notes/2026-06-12 Swarm Skill Build.md",
-    "Session Notes/2026-06-12 Vault Infrastructure + Skills Setup.md",
+    "System/Skills/Research.md",
+    "System/Skills/Prune.md",
     "System/Skills/Council.md",
     "System/Skills/Grill Me.md",
-    "CLAUDE.md",
-    "System/CLAUDE.md",
     "System/Skills",
-    "System/Brain.md",
-    "System/Inbox.md",
+    "Sources/2026-06-12 Roblox Game Trends.md",
+    "Session Notes/2026-06-13 Vault Prune + Infrastructure Audit.md",
+    "Session Notes/2026-06-13 Council Skill Overhaul.md",
+    "Session Notes/2026-06-12 Vault Infrastructure + Skills Setup.md",
+    "Session Notes/2026-06-12 Swarm Skill Build.md",
+    "Session Notes/2026-06-12 Roblox Market Research + Research Protocol.md",
     "conflict-files-obsidian-git.md",
     "System/Loose Ends.md",
     "Session Notes/2026-06-01 Daily Template + CS Drop + Hobby Framework.md",
@@ -220,21 +229,12 @@
     "Projects/Electric warming massage notes.md",
     "Wiki/EE/Current Divider.md",
     "Wiki/EE/Electric Charge.md",
-    "Wiki/Physics/Conservative Force.md",
-    "Wiki/Physics/Conservation of Momentum.md",
-    "Wiki/Physics/Conservation of Energy.md",
-    "Wiki/Physics/Acceleration.md",
-    "Wiki/CS/Constructor.md",
-    "Wiki/CS/Composition over Inheritance.md",
-    "Wiki/CS/Class.md",
     "Projects/Baymax",
     "Projects",
     "Wiki/ML & Robotics",
     "Wiki/Physics",
     "Wiki/EE",
     "Wiki/Math",
-    "Wiki/CS",
-    "Wiki",
-    "Sources"
+    "Wiki/CS"
   ]
 }

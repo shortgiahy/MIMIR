@@ -71,6 +71,7 @@ See `System/Skills/` for full documentation on each available skill.
 - **`/grill-me`** — for large-scale projects or major decisions that need full clarification before acting. Use before any significant plan or system design. Do not skip to be fast.
 - **`/council`** — convene 5 sub-agents with distinct perspectives to debate a topic. MIMIR chairs and delivers a ruling.
 - **`/research`** — deep research with adversarial verification. 5 search agents + 3 verifiers. Report filed to `Sources/`.
+- **`/prune`** — vault lint and maintenance. Scans Brain.md, Tasks.md, Loose Ends, and Session Notes for stale dates, contradictions, orphaned threads, duplicates, and bloat. Proposes a diff. Applies nothing without approval. Run every ~60 days.
 
 **When a new skill is created:** Always create a corresponding documentation page in `System/Skills/<Skill Name>.md`. Include what it does, when to use it, how it works, and an example invocation. Update this Skills list above.
 
@@ -83,7 +84,8 @@ Before any session closes (or when Giahy says "wrap up"):
 2. Sync `System/Loose Ends.md` — open anything new, close anything resolved
 3. Append summary to today's `Daily/YYYY-MM-DD.md` if it exists
 4. Create a session note in `Session Notes/` using `Session Notes/Session Template.md` — named `YYYY-MM-DD Topic.md`. Lean: decisions, vault changes, where we stopped, next starting point.
-5. Push all changes to the working branch
+5. **If session touched Sushi Sea:** append a Build Log entry to `Projects/Sushi Sea/Implementation Status.md` and update the status checkboxes. See the game project CLAUDE.md for the exact format.
+6. Push all changes to the working branch
 
 ---
 
@@ -159,3 +161,4 @@ Rule of thumb: *if it can't be undone in 10 seconds, ask first.* Everything else
 | `Wiki/` | Reference knowledge (CS, EE, Math, Physics, ML) |
 | `Giahy/Profile/Profile.md` | Personal profile — how Giahy thinks, what motivates him |
 | `.claude/commands/` | Skill command files (project-level slash commands) |
+| `Projects/Sushi Sea/` | Roblox game design project — GDD v2, Architecture, Standards, Open Threads, Implementation Status (build log) |

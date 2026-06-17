@@ -1,0 +1,13 @@
+{
+  "playwright": {
+    "command": "npx",
+    "args": ["-y", "@playwright/mcp@latest"]
+  },
+  "firecrawl": {
+    "command": "npx",
+    "args": ["-y", "firecrawl-mcp"],
+    "env": {
+      "FIRECRAWL_API_KEY": ""
+    }
+  }
+}
