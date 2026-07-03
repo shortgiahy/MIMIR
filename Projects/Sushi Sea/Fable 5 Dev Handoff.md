@@ -1,66 +1,134 @@
-# Sushi Sea — Full Dev Handoff for Fable 5
+# Sushi Sea — Dev Handoff
 
-**Audience:** Fable 5, the model that will build Sushi Sea end-to-end.
-**Author:** MIMIR, on Giahy's instruction.
-**Status:** Handoff draft — pending Giahy's review before it becomes authoritative.
+**A Roblox hybrid of *Dave the Diver*, *RuneScape*, *Fisch*, and a restaurant sim.**
+Fish the open seas, process the catch, run a sushi restaurant. The supply chain *is* the game — there is no wholesale fish market, so every fish must flow through the kitchen to become gold.
 
-You are inheriting a fully-designed, zero-code Roblox project. The design is locked far enough to start building; the toolchain does not exist yet and you stand it up. This document is your single entry point. It does not replace the four design docs — it tells you how to read them, what order to build in, which tools to wire, and which protocols are non-negotiable.
+| Field | Value |
+|---|---|
+| Platform | Roblox, mobile-compatible, Luau |
+| Demographic | 18+ |
+| Tone | Upbeat, arcadey, modern (*Dave the Diver*). No dark or gritty. |
+| Algorithm target | 24–48h return rate, tuned primarily by fish perishability |
+| Monetization | F2P; cosmetics and convenience only. Nobody is taxed for winning. |
+| World | One shared, persistent world. Fishing outcomes roll per-player, client-side, server-validated. |
 
-Read this top to bottom once. Then keep the four design docs open and build to them.
-
----
-
-## 0. The one-paragraph brief
-
-Sushi Sea is a Roblox game: fish the open seas, process the catch, run a sushi restaurant. **The supply chain *is* the game** — there is no wholesale fish market, so every fish must flow through the kitchen to become gold. One shared persistent world; fishing outcomes are per-player client rolls, server-validated. F2P, cosmetics-and-convenience monetization, 18+ arcadey tone (*Dave the Diver* energy), mobile-compatible. The retention target is a 24–48h return rate, tuned primarily by fish perishability. Everything else is detail, and the detail is in the four docs below.
-
----
-
-## 1. Source-of-truth map — read these, in this order
-
-All four live in `Projects/Sushi Sea/`. **They govern; this handoff only routes you.**
-
-1. **`GDD v2.md`** — full game design. Locked Decisions, the five v1 overrides, Design Voice, economy formula, build guidance. **Source of truth for *what the game is*.**
-2. **`Architecture.md`** — Roblox service layout, RemoteEvent naming, DataStore schema, economy enforcement, offline bank math. **Build to this exactly. Any deviation needs Giahy's approval.**
-3. **`Standards.md`** — Luau naming, module structure, type annotations, DataStore/pcall patterns, economy safety. **All code obeys this.**
-4. **`Open Threads.md`** — live unresolved design items in resolution order. **Do not invent resolutions. Surface them and run grill-me.**
-
-Plus `Implementation Status.md` — the living build checklist and Build Log. You update it every session (§9).
-
-**Conflict rule:** GDD v2 supersedes everything older. Architecture supersedes your own instincts about layout. If two docs disagree, GDD v2 → Architecture → Standards, in that precedence. If you still can't reconcile, stop and ask Giahy.
+This is the single source of truth for Sushi Sea. Locked Decisions are settled — do not relitigate unless Giahy reopens one. Open Threads (§12) are open — never fill one in unilaterally; surface it and run grill-me. Where something is *recommended / first-pass*, treat it as a default to confirm, not gospel.
 
 ---
 
-## 2. Golden rules (violate none of these)
+## 1. Overrides from v1 (these contradict any older material)
 
-These are distilled from `Projects/Sushi Sea/CLAUDE.md` and the GDD. They are not suggestions.
+1. **World is one shared persistent world — NOT solo-instanced.** v1's "solo-instanced with optional co-op invite" is dead. The sea is a single shared world (Fisch-style); the skill-gate is preserved structurally (§3).
+2. **Catches are per-player, client-side rolls.** Two players on the same boat cast into the same water; one may reel a salmon while the other hooks a Kraken. No shared catch, no contested encounter, no kill-stealing — *structurally impossible*, not balanced away.
+3. **Aging is a cash-out timer, NOT a ruin timer.** No total-loss state. Risk in this game is opportunity cost, not punishment — game-wide stance.
+4. **Debt is tutorial-and-early-goal only — NOT a permanent risk pillar.** Scoped to the onboarding loan and the early overarching goal. Never a recurring late-game mechanic.
+5. **"Crafting" skill is really "Purchasing."** No crafting exists. All durable goods (rods, boats, equipment, capacity, restaurant tiers) are bought with gold. No assembly, materials, or gathering.
 
-- **Locked Decisions are settled.** Do not relitigate unless Giahy explicitly reopens one.
-- **Open Threads are open.** Never fill one in unilaterally. Use grill-me, get the answer from Giahy, *then* build.
-- **v2 supersedes v1 on all five overrides:** shared world, per-player rolls, aging-as-cash-out-timer, debt scoped to tutorial, Purchasing-not-Crafting. If something contradicts v2, trust v2.
-- **No crafting exists.** All durable goods are *purchased* with gold. There is no assembly, no materials, no gathering.
-- **Risk = opportunity cost, never punishment.** Nothing a player already owns can be destroyed by a mechanic. Failure forfeits a *potential gain*, never an existing asset. Every new risk surface must obey this.
-- **The supply chain is the only path to gold.** No wholesale market. Ever.
-- **Authored vs. computed discipline.** Large values are hand-authored lookups. Formula modifiers are clamped. Nothing large emerges from a chain of multiplications.
-- **Manual before automatic.** Every system is performed manually by the player once before it can be automated. This is a literal code path, not a philosophy (§7.4).
+Clarification (a tightening, not a contradiction): **offline service is freshness-governed, not storage-governed.** Storage upgrades raise capacity *and* slow spoilage; the real cap on an offline coast is how fast stock spoils.
 
 ---
 
-## 3. Design Voice — the five principles that resolve most new questions
+## 2. Design Voice — five principles that resolve most new questions
 
-When a question isn't answered by the docs, resolve it against these before asking:
-
-1. **Risk is always available, never forced, always trades for acceleration — and means opportunity cost, not punishment.** *You missed out* beats *you lost everything*.
-2. **The supply chain is the only path to gold.** Both halves stay load-bearing by construction.
-3. **Perform every system manually once before automating or expanding it.**
-4. **Author the bands, clamp the multipliers.** Large numbers are hand-authored; modifiers are clamped.
+1. **Risk is always available, never forced, always trades for acceleration — and means opportunity cost, not punishment.** Storm zones, the aging locker, the tutorial loan, and legendary hunts all express this. Failure forfeits a *gain you could have had*, never destroys something you own. A botched legendary costs nothing but the moment; an over-aged fish doesn't ruin — it sits there not making money. *You missed out* beats *you lost everything*. Every new risk surface must obey this.
+2. **The supply chain is the only path to gold.** No wholesale market, ever. Both halves stay load-bearing by construction.
+3. **Perform every system manually once before it can be automated or expanded.** Manual cast before bite depth. Manual cook and serve on the boat before hiring cooks and servers. Manual sale before staff. Manual cook before the omakase ceiling. This is a literal code path (§6.6), not a philosophy.
+4. **Author the bands, clamp the multipliers.** Large values are hand-authored lookups. Formula modifiers are clamped. Nothing large emerges from a chain of multiplications.
 5. **Experimentation lives in risk management (the dry-aging cash-out decision), not combinatorics (recipe mixing).**
 
-If a principle resolves it, proceed and note the reasoning in your session log. If it doesn't, it's an Open Thread — surface it.
+If a principle resolves a question, proceed and note the reasoning in the build log. If it doesn't, it's an Open Thread — surface it.
 
 ---
 
-## 4. The economy formula (memorize; enforce server-side only)
+## 3. Locked Decisions
+
+### World architecture
+- **One shared, persistent world.** All players share the same ocean and harbor town. Other boats visible on the horizon; the world feels populated.
+- **Fishing outcomes are independent per-player client-side rolls** — determined by *your* Fishing level, location, and current weather, not a shared spawn.
+- **The skill-gate is structural.** Underleveled players roll worse outcomes and lose hard fights; a crowd can't carry them because there is no crowd on *their* fish.
+- **The boat shares *access*, never *outcome*.** A low-Sailing friend can ride a high-level player's storm-rated ship into a zone they couldn't reach alone — but brings their own Fishing skill to the catch.
+- **Co-op is parallel play, never shared performance.** Friends on one boat fight *two independent* Krakens side by side. No tag-team reeling.
+- **Restaurants are public and tourable.** No private instances.
+- **Gifting carries the resource-sharing load** — you can gift the rare fish afterward, not the catch in the water.
+
+### Temporal model
+Player freely toggles between sea and restaurant. NPC staff run the restaurant live and while offline. Offline service is throttled and capped; the cap is governed by **freshness/spoilage**, with capacity scaling on the storage/restaurant upgrade line (early game stalls in a few hours; late game can coast 12h+). Offline earnings are a **computed bank** collected on return, **net of payroll**.
+
+### The leash: perishability
+Raw fish decays on a freshness timer. Forces restocking, blocks hoard-and-coast, acts as a gold sink, and is **the dial tuned to hit the 24–48h return target**. Fresh serves at full value; stale is penalized; spoiled is tossed. Spoilage runs while offline.
+
+### Scoreboard and social
+- **Restaurant prestige** (public Yelp app) and the **collection dex** are the public flex.
+- **Skills** live on a private LinkedIn-style resume app, later doubling as the **staff-hiring screen**.
+
+### Skills (5 at launch)
+
+| Skill | Role |
+|---|---|
+| **Sailing** | Zone access, travel speed, storm tolerance |
+| **Fishing** | Bite/reel, catch quality, risk payoff in dangerous water. **Gates outcome, not location.** Drives the legendary fight |
+| **Cooking** | Absorbs filleting, portioning, yield, large-creature butchering, dish assembly. Sets the **extraction rate** and **dry-aging extraction rate** |
+| **Hospitality** | Staff speed, customer patience, per-table profit **as margin** (never makes a table free to serve). Feeds the hidden traffic stat |
+| **Purchasing** *(was "Crafting")* | Rods, boats, restaurant equipment, capacity. Purchase-only |
+
+*Farming ships post-launch* (rice, seaweed, wasabi, garnishes; premium home-grown stock with random value-multiplier mutations).
+
+### Access model
+Fishing level gates *outcome*, not *location*. Anyone can sail into a storm; underleveled it wrecks you, high-level it pays. Ship upgrades are a parallel capability line (cargo, speed, storm survival, area access), bought via Purchasing.
+
+### Customer simulation
+- **Independent stream per restaurant** (no finite shared pool). Volume driven by the hidden traffic stat.
+- **Six-stage lifecycle:** arrival/seating → ordering → fulfillment → serving/eating → payment → rating.
+- **Difficulty distribution:** kitchen throughput is the primary bottleneck (skill expression); stock is secondary (supply-chain pressure); seating is a buy-past soft cap.
+- **Staff run the standard menu to a ceiling; the player, when present, runs an omakase counter** that lifts the ceiling, plus a modest boss-aura speed bonus to nearby staff.
+
+### Rating
+Single prestige number that accumulates toward 5 stars, **never drops**, public. A recoverable popularity layer is shelved as a known expansion. In-the-moment stakes lean on gold lost to walkouts.
+
+### Onboarding & the boat → restaurant transition
+- **The dinky sailboat is the first restaurant:** fish at the stern, cook midship, sell at the bow — the whole loop in one camera frame.
+- **On the boat, cooking and serving are MANUAL player verbs.**
+- **Brick-and-mortar is the earned upgrade** and the moment staff and autonomy unlock — hire cooks and servers (headcount) who perform cooking and serving automatically.
+- **Tutorial:** scripted tutorial wraps the boat loop; rails come off after the loop closes once.
+- **Starter loan** clears in a session or two — a narrative on-ramp, not a late-game pillar.
+
+### Staff
+An **upgrade line — headcount, nothing more complex.** Browse NPC applicants on the resume/LinkedIn app and recruit. **Each staff member's Hospitality/Cooking skill levels up the longer you keep them.** Wages scale with headcount.
+
+### Marketing
+Not a player action. A **hidden traffic stat** computed from **Yelp prestige + cosmetics + Hospitality**. Do not build a marketing minigame.
+
+### Dry aging — the experimentation engine
+Opt-in, equipment-gated, limited capacity. A fish placed in an aging locker **leaves the spoilage track and enters the aging track.** It is a **cash-out timer, not a ruin timer**: past peak, the fish doesn't ruin — it sits there making no money while occupying a scarce slot. *Pull it now and bank it, or tie up the slot hoping it climbs.* Pure opportunity cost. A full random mutation rolls on aging with **percentage multipliers** (never orders of magnitude); mutations must stay rare. The aging decision is a second return hook alongside restock and drives the 24–48h target directly.
+
+### Legendary creatures & the encounter system
+- **The fight is the bite/reel loop, scaled up.** Multi-phase, harder, longer, the creature actively fighting back (tension spikes, "dive" phases, stamina on both sides). Not a bespoke combat system — "fishing turned up to 11."
+- **Fishing level gates outcome.** Underleveled = windows too tight, line snaps, fish lost. High-level = same fight is landable and pays enormously.
+- **No buy-in, no loss penalty.** Losing costs nothing but the moment.
+- **Weather is the spawn table.** Legendaries are weather-triggered, not summonable. The weather app **broadcasts the event to everyone** ("an ink storm is passing through Sector X"), raising every player's independent odds of that storm's legendary in the affected zone.
+- **Baseline odds are near-zero-but-nonzero** outside the right weather.
+- **The storm is a shared spectacle with private encounters.** Many boats converge; each angler fights their own independent struggle.
+- **Trophy mounts** are a pure public flex, decay-free, and goal-markers for catches you can't yet butcher. Legendary butchering is Cooking-gated.
+- **Tuning note:** storm window must be long enough that *alert → sail to sector → fight* is achievable. Hook rarity and storm duration are paired dials.
+
+### Gifting
+Rare-fish gifting is in — friend-boost and virality engine. Gifted legendaries can be mounted or eventually butchered (Cooking-gated) but **not cheaply liquidated** — no whale-to-alt gold pipe.
+
+### Debt
+Exists **only** as the tutorial loan and the early overarching goal.
+
+### Parked reconciliations (honor when building)
+1. Hospitality per-table profit improves margin, never removes variable cost — a table is never free to serve.
+2. Gifted/unprocessable legendaries route to trophy mount or wait for the Cooking level — never to cheap liquidation.
+
+### Post-launch slots (decided, deferred)
+Farming skill · popularity layer (recoverable traffic under the prestige rating) · scored-attribute open mixing (only if nigiri needs more depth) · hybrid customer model (guaranteed base + shared hub-traffic skim for top restaurants) · co-op shared-performance raids (only if per-player-roll architecture is reopened).
+
+---
+
+## 4. Economy
+
+**One faucet: a served dish.** Enforced at `EconomyService`, server-side only.
 
 ```
 served_plate_value = species_base × cooking_extraction × freshness_polish × dry_age_mutation
@@ -68,75 +136,283 @@ served_plate_value = species_base × cooking_extraction × freshness_polish × d
 
 | Term | Source | Clamp |
 |------|--------|-------|
-| `species_base` | `FishTable.lua` authored lookup | none — it IS the large term |
-| `cooking_extraction` | `cookingLevel / MAX_LEVEL` | `[0, 1]` |
+| `species_base` | `FishTable.lua` authored lookup, per species (~5–10 common, scaling with rarity) | none — it IS the large term |
+| `cooking_extraction` | `cookingLevel / MAX_LEVEL` — novice + legendary = mediocre plate | `[0, 1]` |
 | `freshness_polish` | linear from `caughtAt` timestamp | `[0.5, 1.5]` |
 | `dry_age_mutation` | rare roll on locker pull | `[1.0, ~2.5]` — never orders of magnitude |
 
 **All four multipliers apply server-side only.** The client receives the final resolved value for display, never the components. This is the anti-spoof invariant — do not break it for convenience.
 
----
+**Sink stack:**
+- **Ingredients per plate** — mandatory, scales with volume
+- **Staff wages** — mandatory, scales with headcount; low early, a real line item at brick-and-mortar tier
+- **Spoilage** — mandatory, drains inventory upstream of income
+- **Purchasing** (rods, boats, equipment, storage, restaurant tiers) — large, lumpy, player-initiated
+- **Cosmetics and expansion** — aspirational, uncapped, optional
 
-## 5. Connected apps & toolchain
-
-You will operate three external tools. None are wired yet; you set them up. Where a tool has no MCP connector in this environment, the instructions below tell you what to do by hand / hand back to Giahy.
-
-### 5.1 Roblox Studio — the build target
-
-Sushi Sea ships to Roblox. Studio is where the place is assembled, tested, and published. You do not have direct Studio automation from this environment, so the workflow is **file-first, synced into Studio**:
-
-- **Author all game code as `.lua`/`.luau` files in the repo**, laid out to mirror `Architecture.md`'s service ownership tree. Never treat Studio as the source of truth — the repo is. Studio is a view.
-- **Use [Rojo](https://rojo.space) to sync the repo into Studio.** Stand up a `default.project.json` that maps the repo's `src/` tree onto Roblox services (`ServerScriptService`, `ServerStorage`, `ReplicatedStorage`, `StarterPlayerScripts`, `StarterGui`) exactly as `Architecture.md` specifies. Rojo is the bridge; the filesystem stays canonical.
-- **Toolchain manager:** use [Rokit](https://github.com/rojo-rbx/rokit) (or Aftman) with a pinned `rokit.toml` for `rojo`, `wally`, `selene` (lint), and `stylua` (format). Pin versions so builds are reproducible in ephemeral containers.
-- **Package manager:** [Wally](https://wally.run) with `wally.toml` if third-party Luau packages are ever needed. Prefer zero dependencies until one is justified.
-- **Testing:** author unit tests against pure modules (economy resolution, offline bank math, spoilage) so they run headless in CI without Studio. Studio playtests are for feel and integration only; logic is testable without it.
-- **Publishing:** building the `.rbxl`/`.rbxlx` and publishing to a Roblox experience is a **Giahy action** — it requires his Roblox account and Creator Hub access. You produce the synced, buildable project; you hand Giahy the exact `rojo build` command and publish steps. Never assume you can publish.
-- **Studio-only assets** (terrain, lighting, some UI positioning, physical model placement) that Rojo can't round-trip cleanly get documented in a `Projects/Sushi Sea/Studio Setup.md` runbook so Giahy (or a future session) can reproduce them by hand.
-
-> If a Roblox/Rojo MCP connector becomes available in a later session, revisit this — direct sync would remove the manual publish handoff. As of this handoff, assume file-first + manual publish.
-
-### 5.2 GitHub — version control & review
-
-- **Repo:** `shortgiahy/MIMIR` (this vault). See §6 for where game code lives inside it.
-- **Access:** use the `mcp__github__*` MCP tools for all GitHub operations — PRs, comments, CI, file reads. The `gh` CLI is **not** available in cloud sessions.
-- **Branch discipline (hard rule):** never commit to `main` directly. Work on a feature branch: `git checkout -b claude/<description>`. Current designated branch for this handoff work is `claude/sushi-game-dev-doc-ufh154`. For game-build work, open fresh `claude/sushi-<feature>` branches.
-- **Commit cadence:** commit with clear, descriptive messages as you go — one logical change per commit. Not one giant end-of-session dump.
-- **Push, never auto-merge.** Push the branch. Merging into `main` requires Giahy's explicit approval — present a summary and ask. Only after "yes": `git checkout main && git merge --no-ff <branch> && git push && delete the branch`.
-- **PRs:** do **not** open a PR unless Giahy asks. If he does, check for a PR template first and mirror it.
-- **Push retry:** on network failure, retry up to 4× with exponential backoff (2s → 4s → 8s → 16s). Always `git push -u origin <branch>`.
-- **CI:** stand up GitHub Actions that run `selene` (lint), `stylua --check` (format), and the headless unit tests on every push. Green CI is part of Definition of Done (§10).
-- **Ephemeral containers:** web sessions run in throwaway containers — the repo is cloned fresh and wiped on inactivity. **Anything not pushed is gone.** Push before wrapping up, every time.
-
-### 5.3 Blender — 3D asset pipeline
-
-Fish, boats, the restaurant, props, and trophy mounts are 3D assets. Blender is the authoring tool; Roblox is the target.
-
-- **No Blender MCP connector exists in this environment.** You cannot model interactively. Your role is to **specify and script**, not to sculpt by hand.
-- **What you produce:** an asset manifest in `Projects/Sushi Sea/Asset Pipeline.md` — every model the game needs, its poly budget, pivot/origin convention, scale (Roblox studs), texture/material spec, and naming. Plus, where useful, **Blender Python (`bpy`) scripts** that generate or batch-process assets programmatically (procedural fish scaling, LOD decimation, batch FBX/OBJ export).
-- **Export contract:** Blender → `.fbx` (or `.obj` for static props) → imported to Roblox via Studio's 3D importer or the Asset Manager. Meshes must be Roblox-legal: ≤10k tris per `MeshPart`, ≤4 texture maps, correct pivot at model origin, real-world stud scale. Document these limits in the manifest so nothing round-trips broken.
-- **Handoff to Giahy:** actual modeling in Blender and importing meshes to Roblox are **Giahy actions** (or a human artist's). You hand him the manifest, the `bpy` scripts, and per-asset acceptance criteria. Placeholder primitives (Roblox `Part` blockouts) are fine for prototyping the vertical slice — ship gray-box first, art later. Do not block gameplay on final art.
-
-> **Sequencing:** the vertical slice uses gray-box primitives only. Blender assets are a later phase (§8, Phase 5). Do not model fish before the fishing loop feels good.
+> **Economy caution:** income has a *compounding* term (plates/hr × rising skill) while mandatory sinks are *flat or lumpy*. The two dials governing the curve are **spoilage rate** (the leash) and **next-tier pricing** (the surplus soak). Wages are a weak dial. Watch for the throughput cliff.
 
 ---
 
-## 6. Repository & project layout — where the game code lives
+## 5. Golden rules
 
-**Decision flagged for Giahy (see Handoff Questions, §12):** This vault is an Obsidian design vault. The game's Luau code needs a home. Two options:
+- **Locked Decisions are settled.** Do not relitigate unless Giahy explicitly reopens one.
+- **Open Threads are open.** Never fill one in unilaterally — grill-me, get the answer, *then* build.
+- **No crafting. No wholesale market. No shared legendary encounters. No total-loss states. No recurring debt.** If a task pushes toward any of these, stop and surface it.
+- **Authored vs. computed discipline** and **manual before automatic** (§2, principles 3–4) are code-level constraints, not vibes.
 
-- **(A) Recommended — `game/` subfolder in this repo.** Put the Rojo project and all Luau under `Projects/Sushi Sea/game/`. Keeps design docs and code co-located, one repo, one branch workflow, matches the existing single-repo cloud setup. Obsidian ignores it; Rojo roots there.
-- **(B) Dedicated Roblox repo.** Cleaner for Roblox tooling and CI, standard for game projects, but splits design from code across two repos and two branch workflows. More correct long-term, more overhead now.
+---
 
-I recommend **(A)** until the codebase outgrows it, then extract to **(B)**. **This is Giahy's call — do not scaffold code until he picks.** Proposed layout under option (A):
+## 6. Architecture — build to this exactly; deviations need Giahy's approval
+
+### 6.1 Roblox service ownership
+
+```
+ServerScriptService/
+  Services/
+    WeatherService.server.lua       -- weather events, legendary spawn tables, broadcast
+    PlayerDataService.server.lua    -- DataStore reads/writes, offline bank snapshot/restore
+    EconomyService.server.lua       -- plate value resolution, server-side catch validation
+    StaffService.server.lua         -- NPC cook/serve AI at brick-and-mortar tier
+    CustomerService.server.lua      -- customer spawn process, 6-stage lifecycle state machine
+    SpoilageService.server.lua      -- freshness tick for all inventory; runs while offline too
+  Init.server.lua                   -- wires all services, no logic here
+
+ServerStorage/
+  Modules/
+    FishTable.lua                   -- AUTHORED lookup: {species -> base_price}. No computed values.
+    ConversionModule.lua            -- cook(fish) -> plate; the ONE conversion implementation
+    OfflineBankCalculator.lua       -- snapshot-in / snapshot-out math, net of wages and spoilage
+    DryAgingLocker.lua              -- aging track: separate from spoilage, slot management
+    PassManager.lua                 -- GamePass ownership cache + purchase prompt
+
+ReplicatedStorage/
+  Config/
+    EconomyConfig.lua               -- clamped multiplier constants (CLAMP_FRESHNESS, etc.)
+    SkillConfig.lua                 -- XP curves, level caps per skill
+  Modules/
+    FishSpecies.lua                 -- shared fish data client needs for UI (species name, rarity tier)
+  Events/
+    RemoteEvents/
+    RemoteFunctions/
+
+StarterPlayerScripts/
+  Controllers/
+    FishingController.lua           -- cast/reel input handler; sends to server, receives validation
+    BoatCookController.lua          -- manual cook/serve on the boat (TBD — Open Thread #1)
+    WeatherClient.lua               -- storm alert display, legendary FOMO UI
+  UI/
+    RestaurantUI.lua                -- customer display, prestige bar, Yelp app
+    FreshnessUI.lua                 -- inventory freshness timers
+    ShopUI.lua                      -- Purchasing skill storefront
+
+StarterGui/                         -- UI containers only; logic lives in StarterPlayerScripts
+```
+
+### 6.2 RemoteEvent naming
+
+**Server → Client:** `{System}_{Event}`
+- `Weather_StormBroadcast` — `{zone, duration, legendaryType, oddsMultiplier}`
+- `Economy_PlateResolved` — `{plateValue, breakdown}`
+- `Spoilage_InventoryUpdate` — `{inventory}` (freshness state sync)
+
+**Client → Server:** `Player_{Action}`
+- `Player_CastLine` — `{location}`
+- `Player_ReelInput` — `{tension}` (per-frame during a fight)
+- `Player_ServePlate` — `{fishId}` (boat manual serve — TBD)
+- `Player_PullFromLocker` — `{slot}` (cash out dry-aging fish)
+
+**Rule:** no client RemoteFunction returns an economy-affecting value. Economy resolves server-side only.
+
+### 6.3 PlayerData schema (DataStore key `PlayerData_v1`)
+
+```lua
+{
+  skills = {
+    fishing     = { level = 1, xp = 0 },
+    cooking     = { level = 1, xp = 0 },
+    sailing     = { level = 1, xp = 0 },
+    hospitality = { level = 1, xp = 0 },
+    purchasing  = { level = 1, xp = 0 },
+  },
+  inventory = {
+    -- array of fish in the spoilage track
+    { id = "uuid", species = "salmon", caughtAt = 1718000000 },
+  },
+  agingLocker = {
+    -- fish on the aging track (NOT the spoilage track); slot count gated by equipment tier
+    { slot = 1, species = "tuna", placedAt = 1718000000 },
+  },
+  restaurant = {
+    tier           = 0,   -- 0 = boat only, 1+ = brick-and-mortar tiers
+    staffHeadcount = 0,
+    prestigePoints = 0,
+    trophies       = {},  -- { species, mountedAt } — legendary mounts
+  },
+  economy = {
+    gold                = 0,
+    offlineSnapshotAt   = 0,    -- os.time() at last logout
+    offlineStockCount   = 0,    -- fish in inventory at snapshot
+    tutorialLoanOwed    = 500,  -- zeroed after repayment; never reused
+  },
+  meta = {
+    schemaVersion = 1,          -- increment on breaking changes; migrate, never overwrite
+    firstJoinAt   = 0,
+    lastJoinAt    = 0,
+  }
+}
+```
+
+**Migration rule:** if `schemaVersion` doesn't match current, run the migration chain before handing data to any system. Never silently overwrite.
+
+### 6.4 Offline bank (`OfflineBankCalculator`)
+
+On logout: save `offlineSnapshotAt = os.time()` and `offlineStockCount = #inventory`. On next login, `compute(data)`:
+1. `elapsed = os.time() - data.economy.offlineSnapshotAt`
+2. Compute spoilage: fish that would have decayed past "stale" in `elapsed` are marked lost
+3. `platesServed = min(throughputCap × elapsed, remainingStockAfterSpoilage)`
+4. `grossIncome = platesServed × avgPlateValueAtLogout`
+5. `wages = data.restaurant.staffHeadcount × WAGE_RATE × elapsed`
+6. `netBank = max(0, grossIncome - wages)` — never negative
+7. Add `netBank` to gold; clear snapshot fields
+
+**Do not replay the restaurant tick-by-tick.** Closed-form only.
+
+### 6.5 Weather & legendary system (one system, both purposes)
+
+1. `WeatherService` selects a weather event: `{zone, type, duration, legendaryType}`
+2. Broadcasts `Weather_StormBroadcast` to all clients (FOMO hook)
+3. Modifies each player's server-side roll table for `Player_CastLine` in the zone
+4. On a legendary hook: multi-phase reel on that player's connection only
+5. Other players unaffected — rolls stay independent. **No shared legendary state.**
+
+### 6.6 Manual-then-automate code path
+
+```
+[ConversionModule] cook(fish) -> plate
+        ↑                           ↑
+ player input                  staff AI
+ (BoatCookController)          (StaffService)
+```
+
+`ConversionModule` in `ServerStorage/Modules/` is the canonical implementation. The boat verb and restaurant staff both call it. **Build the conversion once; swap the driver. Do not duplicate the logic.**
+
+### 6.7 Catch resolution
+Client-authoritative-feeling but server-validated: per-player rolls must feel instant; validate server-side to prevent spoofed legendary hooks. Weather state is server-authoritative and broadcast. The skill-gate needs no networking logic — no kill-steal/tag/loot-priority systems.
+
+---
+
+## 7. Luau coding standards — all code obeys this
+
+### Naming
+
+| Thing | Convention | Example |
+|-------|-----------|---------|
+| ModuleScript return table | PascalCase | `FishTable`, `EconomyService` |
+| Local variables | camelCase | `catchResult`, `plateValue` |
+| Constants | SCREAMING_SNAKE | `MAX_AGING_SLOTS`, `CLAMP_FRESHNESS_MAX` |
+| RemoteEvents | `{System}_{Event}` / `Player_{Action}` | `Weather_StormBroadcast`, `Player_CastLine` |
+| DataStore keys | `{Name}_v{version}` | `PlayerData_v1` |
+| Private module functions | `_camelCase` | `_resolveExtraction` |
+| Types (Luau) | PascalCase | `type FishEntry = {...}` |
+
+### Module structure
+Every ModuleScript returns a single table. No globals. No shared state in free variables (use `module._state` if needed, documented). Layout: constants → types → `_private` helpers → public API. Use `--!strict` where possible.
+
+```lua
+-- ServerStorage/Modules/ExampleModule.lua
+local ExampleModule = {}
+
+local SOME_CONSTANT = 42
+
+type Config = { value: number, label: string }
+
+local function _helperFn(x: number): number
+    return x * 2
+end
+
+function ExampleModule.doThing(config: Config): string
+    return config.label .. ": " .. _helperFn(config.value)
+end
+
+return ExampleModule
+```
+
+### Types
+All public functions have typed parameters and return types. Private helpers too unless trivially obvious.
+
+### Error handling
+All DataStore calls wrapped in pcall — no exceptions — with the retry pattern (max 3 attempts, exponential backoff):
+
+```lua
+local function retryAsync(fn, ...)
+    local attempts = 0
+    local success, result
+    repeat
+        attempts += 1
+        success, result = pcall(fn, ...)
+        if not success then task.wait(2 ^ (attempts - 1)) end
+    until success or attempts >= 3
+    return success, result
+end
+```
+
+Do not use `error()` for expected failure paths (player not found, fish spoiled) — return `nil, "reason_string"`. Reserve `error()` for truly unexpected states.
+
+### Economy safety
+Never trust client-sent economy values; the server recomputes everything. Clamps are enforced at formula resolution, not display:
+
+```lua
+local freshnessPolish = math.clamp(computedFreshness, EconomyConfig.CLAMP_FRESHNESS_MIN, EconomyConfig.CLAMP_FRESHNESS_MAX)
+```
+
+### DataStore rules
+Schema version field in every store; migrate on mismatch, never silently overwrite. Cache ownership checks (GamePass) once per player per session. `SetAsync` for saves; `UpdateAsync` only for atomic read-modify-write.
+
+### RemoteEvent rules
+Server always validates client → server; ignore any client value affecting economy/inventory without recomputation. Server → client fires minimal payloads. Debounce spammable `Player_*` events server-side; reject calls under `MIN_ACTION_INTERVAL`.
+
+### Comments & headers
+Default to no comments; write one only when the *why* is non-obvious (e.g. `-- Aging fish are NOT on the spoilage track — SpoilageService must skip locker entries`). Every script gets a one-line role header (`-- WeatherService: server-authoritative weather events and legendary spawn broadcast`) — no author, no date.
+
+### Stop and flag if an implementation requires
+A cross-script global · client-authoritative economy math · shared legendary state · a DataStore write without the retry wrapper · a multiplier chain that can exit its authored clamp range.
+
+---
+
+## 8. Toolchain
+
+### Roblox Studio — file-first, synced in
+- **The repo is the source of truth; Studio is a view.** Author all game code as `.luau` files mirroring §6.1.
+- **[Rojo](https://rojo.space)** syncs the repo into Studio via `default.project.json` mapping `src/` onto the Roblox services exactly as §6.1 specifies.
+- **[Rokit](https://github.com/rojo-rbx/rokit)** with pinned `rokit.toml` for `rojo`, `wally`, `selene` (lint), `stylua` (format) — reproducible in ephemeral containers. **Wally** for packages; prefer zero dependencies until one is justified.
+- **Testing:** unit tests against pure modules (economy resolution, offline bank, spoilage) run headless in CI. Studio playtests are for feel and integration only.
+- **Publishing is a Giahy action** (his Roblox account / Creator Hub). Hand him the `rojo build` command and publish steps; never assume automated publishing.
+- **Studio-only assets** (terrain, lighting, physical placement) that Rojo can't round-trip get documented in a `Studio Setup.md` runbook.
+
+### GitHub
+Git workflow (branches, merge approval, retries, MCP tools) is governed by the root `CLAUDE.md`. Game-specific additions: fresh `claude/sushi-<feature>` branch per feature; one logical change per commit; CI (GitHub Actions) runs `selene` + `stylua --check` + headless tests on every push — green CI is part of Definition of Done.
+
+### Blender — specify and script, don't sculpt
+- No Blender connector exists; the role is **asset manifest + `bpy` scripts**, not interactive modeling. Produce `Asset Pipeline.md`: every model, poly budget, pivot/origin convention, stud scale, texture/material spec, naming. Plus `bpy` scripts where useful (procedural fish scaling, LOD decimation, batch FBX/OBJ export).
+- **Export contract:** Blender → `.fbx` (`.obj` for static props) → Studio 3D importer. Roblox-legal: ≤10k tris per `MeshPart`, ≤4 texture maps, pivot at model origin, real-world stud scale.
+- **Modeling and importing are Giahy actions** (or an artist's) — hand over manifest, scripts, per-asset acceptance criteria.
+- **Gray-box first.** The vertical slice uses Roblox `Part` blockouts only. Do not model fish before the fishing loop feels good (Phase 5).
+
+---
+
+## 9. Repository layout
+
+**Decision pending (Giahy's call — §13 Q1):** (A) `Projects/Sushi Sea/game/` subfolder in this vault (recommended until the codebase outgrows it) vs (B) dedicated Roblox repo. **Do not scaffold code until he picks.** Proposed layout under (A):
 
 ```
 Projects/Sushi Sea/game/
-  default.project.json          # Rojo: maps src/ onto Roblox services per Architecture.md
+  default.project.json          # Rojo: maps src/ onto Roblox services per §6.1
   rokit.toml                    # pinned rojo, wally, selene, stylua
   wally.toml                    # deps (empty to start)
   selene.toml  stylua.toml      # lint + format config
   src/
-    server/                     # → ServerScriptService/ServerStorage
+    server/                     # → ServerScriptService / ServerStorage
     shared/                     # → ReplicatedStorage
     client/                     # → StarterPlayerScripts
     gui/                        # → StarterGui
@@ -144,143 +420,97 @@ Projects/Sushi Sea/game/
   .github/workflows/ci.yml      # selene + stylua --check + tests
 ```
 
-Map `src/` subfolders onto the exact service tree in `Architecture.md` §"Roblox Service Ownership". Do not improvise a different tree.
-
 ---
 
-## 7. Architecture you build to (digest — full spec in `Architecture.md`)
-
-Read `Architecture.md` in full before writing a line. This is the digest so you know the shape.
-
-### 7.1 Services (ServerScriptService)
-`WeatherService` · `PlayerDataService` · `EconomyService` · `StaffService` · `CustomerService` · `SpoilageService`, wired by a logic-free `Init.server.lua`.
-
-### 7.2 RemoteEvent naming
-- Server→Client: `{System}_{Event}` (e.g. `Weather_StormBroadcast`, `Economy_PlateResolved`).
-- Client→Server: `Player_{Action}` (e.g. `Player_CastLine`, `Player_ServePlate`).
-- **No client RemoteFunction returns an economy-affecting value.** Economy resolves server-side only.
-
-### 7.3 DataStore
-Key `PlayerData_v1`. Full schema in `Architecture.md` — skills, inventory (spoilage track), agingLocker (separate track), restaurant, economy, meta. **Schema-versioned; migrate, never overwrite.** All DataStore calls wrapped in the pcall + retry pattern from `Standards.md`.
-
-### 7.4 The manual-then-automate code path (build this correctly the first time)
-There is **one** `ConversionModule` that turns a fish into a plate. On the boat, the *player* drives it (manual verb). At the restaurant, *staff AI* drives the same module. **Build the conversion once; swap the driver.** Do not duplicate the logic across boat and restaurant.
-
-### 7.5 Offline bank
-Closed-form computation on login, never a tick-by-tick replay. Snapshot on logout; on return compute `platesServed`, subtract wages, cap by the freshness leash, `netBank = max(0, gross - wages)`. Full math in `Architecture.md`.
-
-### 7.6 What is NOT in this game
-No wholesale market. No crafting. No shared legendary encounters. No total-loss spoilage state. No recurring debt system. If a task pushes toward any of these, **stop and surface it.**
-
----
-
-## 8. Build roadmap — sequenced phases, zero to complete
-
-This is the order of operations. Each phase has an exit gate; do not start the next phase until the current gate passes a reality check (§10). **Phase 0 is blocked on an Open Thread — that block is real.**
+## 10. Build roadmap — each phase has an exit gate; pass a reality check before advancing
 
 ### Phase 0 — Unblock the cook verb *(design, not code)*
-The single highest-priority item. **Open Thread #1: what the player physically does when cooking on the boat is undefined, and it blocks the entire vertical slice.** Also blocks the serve verb and the Omakase counter (#6).
-- **Action:** run grill-me with Giahy on the cook verb and the boat serve verb. Lock them. Update GDD v2, check off Open Thread #1, flip the blocked rows in Implementation Status.
-- **Exit gate:** cook + serve verbs are locked in GDD v2. Nothing playable is built before this.
+Open Thread #1 blocks the entire vertical slice, plus the serve verb and the Omakase counter (#6). Run grill-me with Giahy on the cook + boat-serve verbs, lock them, update §3/§12, flip the blocked rows in Build Log.
+**Exit gate:** cook + serve verbs locked. Nothing playable is built before this.
 
 ### Phase 1 — Toolchain + skeleton *(no gameplay)*
-- Giahy picks repo layout (§6, §12). Then: Rojo project, Rokit toolchain, selene/stylua config, CI, empty service files matching the Architecture tree, `PlayerDataService` skeleton with the versioned schema + pcall/retry.
-- **Exit gate:** `rojo build` produces a place; it opens in Studio; CI is green; a player joins and data loads/saves without error.
+Giahy picks repo layout (§9). Then: Rojo project, Rokit toolchain, selene/stylua, CI, empty service files matching §6.1, `PlayerDataService` skeleton with versioned schema + pcall/retry.
+**Exit gate:** `rojo build` produces a place; it opens in Studio; CI green; a player joins and data loads/saves without error.
 
 ### Phase 2 — Fishing feel slice *(gray-box, no backend)*
-Per the 2026-06-17 council ruling, **game feel is the binding constraint on retention** — the fishing rod must pass a blind-playtester test before any economy/backend work. Build cast → hook → reel with gray-box art and placeholder numbers. Tune until it *feels* good.
-- `FishingController` (cast/reel input), server-side catch validation, the locked cook + serve verbs, basic spoilage tick, `EconomyService` plate resolution wired to `FishTable` (~10 authored species).
-- **Exit gate:** a blind playtester finds the core loop (cast → catch → cook → serve → gold) satisfying with gray-box art. This is a *feel* gate, not a *feature* gate.
+Per the 2026-06-17 council ruling, **game feel is the binding constraint on retention** — the rod must pass a blind-playtester test before economy/backend work. Build cast → hook → reel with gray-box art and placeholder numbers; tune until it *feels* good. `FishingController`, server-side catch validation, the locked cook + serve verbs, basic spoilage tick, `EconomyService` plate resolution wired to `FishTable` (~10 authored species).
+**Exit gate:** a blind playtester finds cast → catch → cook → serve → gold satisfying with gray-box art. A *feel* gate, not a feature gate.
 
 ### Phase 3 — Economy first-pass + tuning
-Resolve Open Thread #3 (the 5-row faucets-minus-sinks table) and #5 (spoilage/offline-coast values) jointly — they share the same dial as the 24–48h target. `SpoilageService` real rates, `OfflineBankCalculator`, storage tier ladder.
-- **Exit gate:** the 5-row economy table shows net income/hr growing slower than next-tier cost in a healthy curve; the throughput cliff lands ~week 6, not day 1.
+Resolve Open Threads #3 (5-row faucets-minus-sinks table) and #5 (spoilage/offline values) jointly — they share the 24–48h dial. `SpoilageService` real rates, `OfflineBankCalculator`, storage tier ladder.
+**Exit gate:** net income/hr grows slower than next-tier cost in a healthy curve; the throughput cliff lands ~week 6, not day 1.
 
 ### Phase 4 — Restaurant tier + staff automation
-The boat→restaurant transition. `CustomerService` (6-stage lifecycle state machine, per-restaurant independent stream), `StaffService` driving the *same* `ConversionModule` (§7.4), Yelp prestige + hidden traffic stat (Open Thread #6), Restaurant UI. Manual boat verbs now have their automated counterparts.
-- **Exit gate:** a player can earn a restaurant, hire staff, and the restaurant runs the standard menu autonomously while the player fishes; offline bank pays out correctly on return.
+`CustomerService` (6-stage lifecycle, per-restaurant independent stream), `StaffService` driving the *same* `ConversionModule` (§6.6), Yelp prestige + hidden traffic stat (#6), Restaurant UI.
+**Exit gate:** a player earns a restaurant, hires staff, the restaurant runs the standard menu autonomously while the player fishes; offline bank pays out correctly on return.
 
 ### Phase 5 — Weather, legendaries, dry-aging, art pass
-`WeatherService` (weather events + legendary spawn broadcast, the shared-spectacle/private-encounter model), legendary multi-phase reel (Open Thread #4, needs base reel numbers from Phase 2), `DryAgingLocker` (cash-out timer, mutation roll), trophy mounts. Blender asset pipeline replaces gray-box (§5.3). Omakase counter (#6).
-- **Exit gate:** a storm broadcasts, players converge, each fights an independent legendary; dry-aging presents a real pull-now-or-wait decision; final art is in.
+`WeatherService`, legendary multi-phase reel (#4 — needs Phase 2's base reel numbers), `DryAgingLocker` (cash-out timer, mutation roll), trophy mounts, Omakase counter (#6), Blender pipeline replaces gray-box.
+**Exit gate:** a storm broadcasts, players converge, each fights an independent legendary; dry-aging presents a real pull-or-wait decision; final art in.
 
 ### Phase 6 — Monetization, polish, launch prep
-`PassManager` (GamePass ownership cache + prompts — cosmetics/convenience only, nobody taxed for winning), cosmetics, walkout rules, remaining §6 smaller-undefineds, full playtest, `Studio Setup.md` runbook, publish handoff to Giahy.
-- **Exit gate:** reality-check sign-off on a complete, publishable experience.
+`PassManager` (cosmetics/convenience only), cosmetics, walkout rules, remaining #6 undefineds, full playtest, `Studio Setup.md` runbook, publish handoff to Giahy.
+**Exit gate:** reality-check sign-off on a complete, publishable experience.
 
 > Phases 3–5 have real cross-dependencies (economy ↔ spoilage ↔ offline). Resolve their Open Threads in dedicated numbers sessions with Giahy, not on the fly.
 
 ---
 
-## 9. Session workflow & mandatory logging
+## 11. Definition of Done, workflow, agents
 
-### Design session
-Use grill-me: one question at a time, walk the dependency tree, attach a *recommended* answer before Giahy decides. When a decision locks: update GDD v2 → check off the item in Open Threads → update the blocked rows in Implementation Status.
+A system is ✅ only when **all** hold: wired end-to-end (actually called by the running game, not just authored) · manually verified in a Studio playtest (or headless test for pure logic) · passes the code-reviewer agent · obeys §7 · CI green. At each phase exit gate, run **testing-reality-checker** with "is this actually done?" — it defaults to "needs work" and demands evidence; that is intentional.
 
-### Implementation session
-Read `Architecture.md` + `Standards.md` first → pick the correct agent (§11) → write code → run the code-reviewer agent → commit. After any significant change, get a second-opinion review before marking a task complete.
-
-### Session end — the Build Log entry is mandatory
-At the end of **every** implementation session, append to the Build Log in `Implementation Status.md`, most-recent-on-top:
-
-```
-### YYYY-MM-DD — <one-line summary>
-- Built: <what was written or wired>
-- Agent used: <which agent>
-- Status changes: <rows that flipped ⬜→🔨 or 🔨→✅>
-- Blockers hit: <anything that stopped progress>
-- Next starting point: <exact task to pick up>
-```
-
-Then update the status checkboxes to match reality. **Do not mark ✅ unless the system is wired end-to-end and manually verified — not "file exists."** Push all changes before the container is reclaimed.
-
----
-
-## 10. Definition of Done & reality-check gates
-
-A system is ✅ only when **all** hold:
-- Wired end-to-end (not just authored — actually called by the running game).
-- Manually verified in a Studio playtest (or headless test for pure logic).
-- Passes the code-reviewer agent.
-- Obeys `Standards.md` (types, pcall/retry, server-side economy, clamps, no globals).
-- CI green (selene + stylua + tests).
-
-At each phase exit gate, run the **testing-reality-checker** agent with the question "is this actually done?" It defaults to "needs work" and demands evidence — that is intentional. A green checklist is not a shipped feature.
-
----
-
-## 11. Agent roster — use the right one, don't code before consulting it
+**Design session:** grill-me — one question at a time, walk the dependency tree, attach a recommended answer before Giahy decides. On lock: update §3 → check off in §12 → flip Build Log rows.
+**Implementation session:** read §6 + §7 → pick the right agent → write code → code-reviewer → commit. Log every session in `Build Log.md` (format there) and push before the container dies.
 
 | Task | Agent |
 |------|-------|
-| Writing Luau services, modules, game systems | `roblox-systems-scripter` |
+| Luau services, modules, game systems | `roblox-systems-scripter` |
 | UX, onboarding, retention, monetization design | `roblox-experience-designer` |
 | Post-write code review (before any commit) | `engineering-code-reviewer` |
-| Milestone sign-off ("is this actually done?") | `testing-reality-checker` |
+| Milestone sign-off | `testing-reality-checker` |
 | Architecture decisions, system design | `engineering-software-architect` |
 
-MIMIR-level project skills also available: **`/grill-me`** (clarify before any major plan — don't skip to be fast), **`/council`** (5-perspective debate on a major decision), **`/research`** (deep research with adversarial verification), **`/prune`** (vault maintenance).
+---
+
+## 12. Open Threads — resolution order; do not invent resolutions
+
+### #1 The cook verb ⚡ HIGHEST PRIORITY — blocks vertical slice
+**What the player physically does when cooking on the boat is undefined.** Options on the shelf (not yet evaluated): timing bar · filleting/portioning minigame · slicing swipe · simple hold-button. Same question applies to the **boat serving verb** (lower stakes, same session). Blocks everything playable, plus Omakase counter design (#6). Open every new design session here unless Giahy redirects.
+
+### #2 Menu variety / nigiri depth
+Single-fish nigiri is the only dish; attribute-mixing cut; dry-aging opt-in and slot-limited. **Is species-as-variety enough to hold an 18+ audience over weeks?** Relief valves on the shelf: scored-attribute mixing (post-launch), farming line (post-launch). Pulling either forward is a real scope decision — interrogate before committing to nigiri-only at launch.
+
+### #3 First-pass economy model
+Build the 5-row faucets-minus-sinks table — rows: tutorial boat, new restaurant, mid, late, whale; columns: avg plate value, plates/hr, headcount, wages/hr, spoilage/hr, net income/hr, time to next tier. **Single output to read:** does net income/hr grow faster than next-tier cost? **Dial to find:** where the throughput cliff lands (healthy ≈ week 6). Tune with spoilage rate + next-tier pricing; wages are weak. Run as a dedicated numbers session.
+
+### #4 Legendary fight phase structure
+Locked as "scaled-up multi-phase reel," unspecified: phase count, per-level-band window sizes, stamina curves, dive-phase mechanics. Needs base reel numbers first (#1 → Phase 2).
+
+### #5 Spoilage ↔ offline-coast values
+Stance resolved (freshness-governed; storage raises capacity and slows spoilage). Unset: actual decay rates, storage tier ladder, coast lengths per tier. **Same dial as the 24–48h target — tune jointly with #3.**
+
+### #6 Smaller undefineds (close before launch)
+- **Purchasing tiers:** boats, rods, equipment, storage, restaurant tiers — ladder, costs, unlocks
+- **Yelp prestige formula:** how shifts accumulate toward 5 stars; what counts as a "bad shift"
+- **Hidden traffic stat formula:** exact weighting of Yelp + cosmetics + Hospitality into spawn volume
+- **Omakase counter mechanics:** what the player does to lift the ceiling; boss-aura bonus size. Couples to #1
+- **Walkout rules:** wait time, gold lost, tie-in to the (shelved) popularity layer's eventual hook
+- **Storm catalog:** weather types → legendaries, durations, zone sizes, broadcast lead time
 
 ---
 
-## 12. Handoff questions for Giahy (answer before Phase 1)
+## 13. Questions for Giahy (answer before Phase 1)
 
-These are genuine decisions I won't make for you:
-
-1. **Repo layout (§6):** subfolder `game/` in this vault (A, recommended) or a dedicated Roblox repo (B)?
-2. **Cook verb (Open Thread #1):** this is the true blocker. Ready to run grill-me on it, or do you want to seed a direction first?
-3. **Art timing:** confirm gray-box-first through Phase 4, Blender pipeline at Phase 5 — or do you want an artist involved earlier?
-4. **Publishing:** confirm you handle the Roblox Creator Hub publish step and I hand you a buildable project + runbook, rather than expecting automated publishing.
+1. **Repo layout (§9):** `game/` subfolder in this vault (A, recommended) or dedicated Roblox repo (B)?
+2. **Cook verb (#1):** ready to run grill-me on it, or seed a direction first?
+3. **Art timing:** confirm gray-box through Phase 4, Blender at Phase 5 — or an artist earlier?
+4. **Publishing:** confirm Giahy handles the Creator Hub publish step and receives a buildable project + runbook.
 
 ---
 
-## 13. What to do right now (Fable 5's first move)
+## 14. First move
 
-1. Read the four source-of-truth docs in full (§1).
-2. Get Giahy's answers to §12.
-3. **Open on Phase 0:** run grill-me on the cook verb (Open Thread #1). Do not scaffold code until it's locked and Giahy has picked the repo layout.
-4. Log the session and push before the container dies.
-
-Build to the docs. Surface the open threads. Don't relitigate what's locked. Move fast on everything that can't be undone in ten seconds only after asking.
-
-*— MIMIR*
+1. Get Giahy's answers to §13.
+2. **Open on Phase 0:** grill-me on the cook verb. Do not scaffold code until it's locked and the repo layout is picked.
+3. Log the session in `Build Log.md` and push before the container dies.
