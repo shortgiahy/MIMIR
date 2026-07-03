@@ -22,6 +22,7 @@
 ## Write Rules
 
 - Files store state, not stories
+- Bullet points only — no prose paragraphs (scannability, token efficiency)
 - Never write into vault files:
   - Narration of actions or explanations of changes
   - "Maintained by" / "Last updated" stamps, provenance notes, audit trails
