@@ -72,8 +72,11 @@ See `System/Skills/` for full documentation on each available skill.
 - **`/council`** — convene 5 sub-agents with distinct perspectives to debate a topic. MIMIR chairs and delivers a ruling.
 - **`/research`** — deep research with adversarial verification. 5 search agents + 3 verifiers. Report filed to `Sources/`.
 - **`/prune`** — vault lint and maintenance. Scans Brain.md, Tasks.md, Loose Ends, and Session Notes for stale dates, contradictions, orphaned threads, duplicates, and bloat. Proposes a diff. Applies nothing without approval. Run every ~60 days.
+- **`/wrap`** — mechanizes the Session End Protocol (below) into a checklist: update Brain.md, sync Loose Ends, cross-check duplicated facts, session note, commit, push. Run at the end of every session, or when Giahy says "wrap up."
 
 **When a new skill is created:** Always create a corresponding documentation page in `System/Skills/<Skill Name>.md`. Include what it does, when to use it, how it works, and an example invocation. Update this Skills list above.
+
+**Skills live in-repo only.** Every skill is a command file in `.claude/commands/`, committed to the vault repo. Never build a skill in `~/.claude/` from a cloud session — that's a container home directory, wiped when the session ends. This killed `/swarm` (built 2026-06-12, invisible to every session since) and left `/grill-me` documented but non-functional for the same reason.
 
 ---
 
@@ -94,7 +97,7 @@ Before any session closes (or when Giahy says "wrap up"):
 **Trigger:** Giahy says "good morning" (or variant)
 
 1. Read last 5 `Session Notes/` + `System/Brain.md` + `System/Tasks.md` + `Giahy/Profile/Profile.md`
-2. Pull Google Calendar — today's events + next 72 hours
+2. Pull Google Calendar (`mcp__Google_Calendar__list_events`, connected as of 2026-07) — today's events + next 72 hours
 3. Check `System/Loose Ends.md` — anything due or overdue
 4. Roll over unfinished quick tasks from yesterday's daily note
 5. Ask Giahy: morning journal (1–3 sentences) + quick tasks for today + yesterday's trade (if trading day)
@@ -108,7 +111,7 @@ Quick tasks: small, completable-today items. Max 5. Not projects. MIMIR manages 
 ## Check-In Cadence
 
 - **Daily** — every morning. `Daily/YYYY-MM-DD.md` from `Daily/Daily Template.md`. Ritalin + anchor + tasks + flags.
-- **Weekly** — every Monday morning. `System/Weekly Check-in Template.md`. Review last week, pull Canvas deadlines, set anchor theme.
+- **Weekly** — every Monday morning. `System/Weekly Check-in Template.md`. Review last week, set anchor theme.
 - **Monthly** — first of the month. Big picture: are priorities still right? What shifted?
 
 ---
