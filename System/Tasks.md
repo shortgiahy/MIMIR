@@ -1,5 +1,5 @@
 # MIMIR_TASKS
-> Operational task + project tracking. Maintained by MIMIR. Last updated: 2026-05-18
+> Operational task + project tracking. Maintained by MIMIR. Last updated: 2026-07-03
 > Source of truth for daily scheduling. Giahy never needs to open this directly.
 > See also: [[System/Brain]] · [[System/Loose Ends]] · [[System/Recurring]] · [[Projects/Baymax/Baymax Learning Roadmap]]
 
@@ -7,14 +7,7 @@
 
 ## Active Tasks
 
-| Task | Due | Priority | Notes |
-|------|-----|----------|-------|
-| Register for SAT (Oct 3) | ASAP | HIGH | Book before slots fill — do not delay |
-| Emissions test | — | MED | Pending, no hard deadline yet |
-| Oil change | — | MED | Overdue — see Loose Ends |
-| Contact friend re: warming massage belt project | — | MED | Needs to initiate — commercial potential TBD |
-| Contacts replacement | — | LOW | ~$500, after debt paydown |
-| Phone + tablet payoff → iPhone + iPad | — | LOW | After debt |
+> This table duplicated `System/Loose Ends.md` 1:1 (every row here also lived there, one with a stale priority mismatch). Loose Ends is the source of truth for dated one-off action items — see it directly rather than tracking the same six rows twice.
 
 ---
 
@@ -25,7 +18,7 @@
 | Gym | Mon/Tue/Thu/Fri | 6:00–7:15 AM | Morning anchor. Wed/weekends off. |
 | Trading setup | Mon–Sat | 7:30–8:00 AM | MotiveWave — set orders, then step away. Flatten EOD. |
 | IOP | Mon–Thu | 4:30–6:30 PM | Zoom (online). NOT Fridays. |
-| Amazon Flex | TBD — starts June | TBD | ~$65/session. Schedule to be confirmed. See Loose Ends. |
+| Amazon Flex | Daily | 5:00–8:30 PM | ~$65/session, ~$2,250/month. ⚠ Overlaps IOP (Mon–Thu 4:30–6:30 PM) — see Loose Ends. |
 | Plasma donations | Mon/Fri | 10:00–12:00 PM | ~$50/session. 2x/week. |
 | Walk | Daily | ~8:30 PM | 15 min evening decompression. Non-negotiable. |
 | Guitar | Daily | ~8:45 PM | 1 hr. Long-term skill, treat like a class. |
@@ -44,7 +37,6 @@
 | Calculus II — MATH 1220 (retake) | Async online | Priority — must ace this |
 | Physics for Sci & Eng I — PHYS 2210 (retake) | Async online | Priority — must ace this |
 | Intro to College Writing — ENGL 1010 | Async online | Lighter load |
-| Object-Oriented Programming — CS 1410 | Async online | Java OOP |
 
 **SAT prep: 10 hrs/week**
 

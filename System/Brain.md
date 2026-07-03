@@ -1,23 +1,8 @@
-# MIMIR_BRAIN
+# Brain
 
-## Claude Code Instructions
+> Git/branch workflow, environment, and GitHub API rules live in `CLAUDE.md` — this file doesn't duplicate them.
 
-> Session/branch workflow lives in `CLAUDE.md` (repo root) — it governs git behavior. This file is MIMIR's living memory and protocols.
-
-### Git Rules
-- Follow `CLAUDE.md` branch workflow: every session works on a `claude/...` feature branch — never on `main` directly
-- Merging into `main` requires Giahy's explicit approval at session end (present summary, ask, then merge + delete branch)
-- Never open a pull request unless Giahy explicitly asks
-
-### Network Retry
-Push/pull failures: retry up to 4 times — wait 2s → 4s → 8s → 16s between attempts
-
-### Environment
-Cloud sessions run in ephemeral containers — repo cloned fresh each time, wiped on inactivity. **Anything not pushed is permanently lost. Always push before wrapping up.**
-
-GitHub API: use MCP tools (`mcp__github__*`) in cloud sessions. `gh` CLI is unavailable there; it works normally in local sessions.
-
-> Living memory. Maintained by MIMIR. Last updated: 2026-06-12
+> Living memory. Maintained by MIMIR. Last updated: 2026-07-03
 
 ---
 
@@ -53,12 +38,10 @@ Personal AI system — scheduling, planning, context maintenance, accountability
 ## Current Goals
 
 ### This Week
-*(Update every Monday or at weekly check-in)*
-
-*(Update due — last set week of June 1. Refresh at next Monday check-in: 2026-06-15)*
+*Not set — pending next weekly check-in.*
 
 ### This Month
-*(Update every 1st or at monthly check-in)*
+*Not set — pending next monthly check-in.*
 
 - [ ] Build Python learning routine into weekly schedule
 
