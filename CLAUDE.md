@@ -61,6 +61,6 @@ Confirm before: irreversible actions (deleting data), sends on Giahy's behalf (e
 | `Daily/` | Daily notes + template |
 | `Trading/` | Rules + journals |
 | `Sources/` | Research reports |
-| `Projects/` | Sushi Sea (source of truth: Fable 5 Dev Handoff), Baymax, Heated Lotion Belt |
+| `Projects/` | Sushi Sea (source of truth: PRD.md), Baymax, Heated Lotion Belt |
 | `Wiki/` | Study reference — not operational |
 | `.claude/` | Commands (skills) + agents |

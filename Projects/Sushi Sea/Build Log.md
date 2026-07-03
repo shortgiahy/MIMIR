@@ -6,7 +6,7 @@ Living status. Reflects shipped code, not design intent. ✅ Done · 🔨 In Pro
 
 | System | Status | Notes |
 |--------|--------|-------|
-| PlayerDataService (skeleton) | ⬜ | Schema in Handoff §6.3 |
+| PlayerDataService (skeleton) | ⬜ | Schema in PRD §7.3 |
 | FishTable (authored lookup) | ⬜ | ~10 species to start |
 | FishingController (cast/reel) | ⬜ | |
 | Catch validation (server-side) | ⬜ | |
@@ -50,7 +50,7 @@ Append at the end of every dev session, most recent on top:
 - Next starting point: grill-me on cook verb → lock → fishing-only slice (cast-hook-reel) → feel-tuning phase
 
 ### 2026-06-16 — Project scaffolding
-- Built: full design infrastructure (now consolidated into Fable 5 Dev Handoff.md)
+- Built: full design infrastructure (now consolidated into PRD.md)
 - Agent used: none
 - Status changes: none
 - Blockers hit: cook verb undefined
