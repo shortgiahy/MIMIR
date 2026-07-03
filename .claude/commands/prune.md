@@ -8,11 +8,11 @@ Run a full lint pass on the MIMIR vault. Identify decay, contradictions, stale d
 
 Read the following files in full before doing any analysis:
 
+- `CLAUDE.md`
 - `System/Brain.md`
 - `System/Tasks.md`
 - `System/Loose Ends.md`
 - `System/Inbox.md`
-- Last 10 files in `Session Notes/` (by date, most recent first)
 - Any `Daily/YYYY-MM-DD.md` files from the last 14 days
 
 Do not begin analysis until all files are loaded.
@@ -32,13 +32,12 @@ Any entry that references a date in the past:
 
 ### 2. Contradictions
 Any case where two files say different things about the same fact:
-- Brain.md says X is open; a session note says X was resolved
 - Tasks.md and Loose Ends.md both track the same item with conflicting status
-- A pattern documented in Brain.md that was updated in a session note but not reflected back
+- The same date, amount, or status differs between any two files
 
 ### 3. Orphaned Loose Ends
 Any item in `Loose Ends.md` that:
-- Has been open for 30+ days with no session note referencing it
+- Has been open for 30+ days with no movement
 - Is marked LOW priority and hasn't been touched since opening
 - Was superseded by a decision logged elsewhere but never closed
 
@@ -48,12 +47,12 @@ Any item tracked in more than one file simultaneously with no clear ownership:
 - Same project status in both Brain.md and a session note (with no clear "source of truth")
 - Inbox items that duplicate something already in the vault — **flag only, never remove. Inbox is Giahy's quick-capture zone; he clears it himself.**
 
-### 5. Bloat & Archive Candidates
-Any content that is resolved, outdated, or no longer actionable:
+### 5. Bloat & Write Rules Violations
+Any content that is resolved, outdated, or violates CLAUDE.md's Write Rules:
 - Brain.md sections describing a state that no longer exists
-- Session notes older than 60 days with no referenced open items
-- Protocol documentation duplicated between Brain.md and CLAUDE.md
-- Brain.md "This Week" goals block if it's more than 2 weeks old
+- Facts duplicated across files (one home per fact — see CLAUDE.md Vault table)
+- Narration, stamps, provenance notes, "see also" pointers, self-addressed notes
+- Resolved content still sitting in a file (git is the archive — it should be deleted)
 
 ---
 
@@ -105,9 +104,8 @@ What should I apply?
 Wait for Giahy's response before touching any file.
 
 When applying changes:
-- **Delete** only confirmed stale/resolved content — never silently remove anything that might still matter
-- **Archive** means move content to `System/Archive/YYYY-MM-DD <topic>.md`, not delete
-- **Close** a loose end by moving it from Open to Closed in `Loose Ends.md` with today's date and a one-line resolution note
+- **Delete** approved stale/resolved content outright — git history is the archive; no Archive/ folder
+- **Close** a loose end by deleting its row
 - **Update** means edit in-place with the corrected content
 - After all changes are applied, output a one-line summary: `N changes applied across Y files.`
 - Commit everything with message: `prune: <brief description of what was cleaned>`
@@ -117,7 +115,7 @@ When applying changes:
 ## Rules
 
 - Never apply changes before receiving approval.
-- Never delete — archive or close instead.
+- Inbox.md: flag only, never remove — Giahy clears it himself.
 - If an issue is ambiguous, flag it but default proposed action to "ask" not "delete."
-- Brain.md should not exceed ~150 lines after pruning. If it does, flag additional archive candidates.
-- After pruning, log a loose end: `Next prune — <date 60 days from today>` if one doesn't already exist.
+- Brain.md should not exceed ~100 lines after pruning. If it does, flag additional cut candidates.
+- After pruning, log a loose end: `Next prune — <date 30 days from today>` if one doesn't already exist.
