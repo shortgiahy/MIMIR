@@ -1,7 +1,6 @@
 # Roblox Game Trends & Market Research — 2026-06-12
 
-> Research note (MIMIR deep-research). 5 search agents (~95 sourced claims) + 3-voter adversarial verification on 17 load-bearing claims — **0 refuted**. Data current through June 2026.
-> Session: [[Session Notes/2026-06-12 Roblox Market Research + Research Protocol]]
+> Deep research, adversarially verified (0 of 17 load-bearing claims refuted). Data current through June 2026.
 
 ---
 
