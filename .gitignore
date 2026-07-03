@@ -2,3 +2,6 @@
 # overwrites when desktop backup committed a stale workspace over live session output
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+.trash/
+.playwright-mcp/
