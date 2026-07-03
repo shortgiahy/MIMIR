@@ -7,33 +7,16 @@
 
 ## Open
 
-| Opened | Priority | Item | Notes |
-|--------|----------|------|-------|
-| 2026-04-06 | LOW | Contacts (~$500) | Needs replacing — after debt paydown |
-| 2026-04-06 | LOW | Phone + tablet payoff | Switch to iPhone + iPad after payoff |
-| 2026-04-06 | MED | Emissions test | Pending, Utah requirement |
-| 2026-04-06 | HIGH | Oil change | Overdue — 68 days open, no movement. Schedule this week or confirm done. |
-| 2026-05-18 | HIGH | Register for SAT (Oct 3, 2026) | Cost is $68. Fee waivers exist but require NSLP/federal low-income program enrollment — verify eligibility. Book as soon as $68 is available — slots fill fast. |
-| 2026-05-18 | LOW | Check SAT fee waiver eligibility | Requires NSLP or federal low-income program enrollment. Probably doesn't apply but worth a 2-min check before paying $68. |
-| 2026-05-18 | MED | Contact friend re: warming massage belt project | She has the idea — commercial potential TBD, Giahy needs to initiate |
-| 2026-05-19 | HIGH | Finalize June income schedule (Flex + work) | May 25 meeting target missed. Flex confirmed as daily 5–8:30 PM (see closed items). Full June schedule still needs to be slotted into Tasks.md — or close this if Tasks schedule is current. |
-| 2026-05-31 | LOW | Inbox system — ongoing triage | System/Inbox.md created for raw thought capture. MIMIR to process periodically with Giahy: categorize into vault, escalate to Loose Ends, or delete. |
-| 2026-06-01 | MED | Heated lotion belt project — scope + timeline | Friend greenlit commercial development June 2026. Product: heated lotion bottle belt for massage therapists. Need to define Giahy's role, scope, and what Phase 1 looks like. Not summer income. |
-| 2026-06-01 | LOW | Java learning path — if CS dropped | If CS-1410 dropped, need a concrete plan to learn Java with accountability (not just "self-study"). Define when + how before summer ends. |
-| 2026-06-13 | LOW | Next prune | Run /prune again around 2026-08-12. |
-| 2026-06-16 | HIGH | Cook verb — Open Thread #1 | What the player physically does when cooking on the boat. Blocks the entire vertical slice. Next session opens here with grill-me. |
-| 2026-06-17 | HIGH | Feel-tuning gate — fishing rod | Council ruling: no backend/economy/restaurant work until the cast-hook-reel loop feels good enough that a blind playtester voluntarily casts a second time. AI builds the skeleton; Giahy tunes by hand. This is the critical path. |
-| 2026-06-16 | MED | Game code repo | Sushi Sea needs a separate git repo for Luau files (not inside MIMIR). Scaffold when ready to write first code. |
-| 2026-06-13 | MED | Playwright/browser MCP for authenticated scraping | Playwright MCP installed but can't open Firefox profile. Chromium path not yet tested. Goal: scrape Canvas pages without copy-paste. Resume from: .mcp.json in MIMIR root, try `npx playwright install chromium` then restart. |
+*Empty — force-closed 2026-07-03 at Giahy's explicit request. See note below and the Closed table: most of these are administrative closures, not verified real-world resolutions.*
 
 ---
 
 ## Closed
 
-| Opened | Closed | Item |
-|--------|--------|------|
-| 2026-04-06 | 2026-05-18 | Hair cut + perm |
-| 2026-04-06 | 2026-05-18 | Teeth cleaning |
+| Opened | Closed | Item | Notes |
+|--------|--------|------|-------|
+| 2026-04-06 | 2026-05-18 | Hair cut + perm | |
+| 2026-04-06 | 2026-05-18 | Teeth cleaning | |
 | 2026-05-18 | 2026-05-18 | Confirm SLCC grade replacement policy | Both grades stay on transcript. C marked E (excluded from GPA), retake marked I (included). Transfer schools see the C but GPA reflects the higher grade. One retake allowed — currently within policy. |
 | 2026-05-18 | 2026-05-18 | Confirm Fall 2026 course plan with advisor | Closed — courses confirmed via SLCC plan screenshot. No advisor input needed. |
 | 2026-05-18 | 2026-05-18 | Trading post-mortem + journal folder | Rules written, journal template created, Journals/ folder created. See [[Trading/Trading Rules]] and [[Trading/Daily Journal Template]]. |
@@ -46,3 +29,26 @@
 | 2026-06-01 | 2026-06-13 | CS-1410 drop — confirm outcome | Dropped. Pell Grant reduced ~$600, transcript clean. Java learning path still open. |
 | 2026-06-13 | 2026-06-13 | Confirm June tuition was paid | Confirmed paid. |
 | 2026-06-12 | 2026-06-16 | Roblox game — go/no-go + v1 scope | Go. GDD v2 complete, project scaffolded in Projects/Sushi Sea/. Active project. |
+| 2026-05-18 | 2026-07-03 | Contact friend re: warming massage belt project | Superseded — friend greenlit commercial development (see Heated Lotion Belt entry below). |
+| 2026-04-06 | 2026-07-03 | Contacts (~$500) | Force-closed — administrative, not verified done. |
+| 2026-04-06 | 2026-07-03 | Phone + tablet payoff | Force-closed — administrative, not verified done. |
+| 2026-04-06 | 2026-07-03 | Emissions test | Force-closed — administrative, not verified done. |
+| 2026-04-06 | 2026-07-03 | Oil change | **Force-closed — administrative only. Was HIGH, 88 days open, unconfirmed status. Not actually verified done.** |
+| 2026-05-18 | 2026-07-03 | Register for SAT (Oct 3, 2026) | **Force-closed — administrative only. Was HIGH. Not actually registered as of this closure — $68 not confirmed paid.** |
+| 2026-05-18 | 2026-07-03 | Check SAT fee waiver eligibility | Force-closed — administrative, not verified. |
+| 2026-05-19 | 2026-07-03 | Finalize June income schedule (Flex + work) | Force-closed — administrative. Flex hours are in Tasks.md; the IOP/Flex overlap flagged in this same session is unresolved. |
+| 2026-05-31 | 2026-07-03 | Inbox system — ongoing triage | Force-closed — administrative. `System/Inbox.md` itself is still untouched/raw. |
+| 2026-06-01 | 2026-07-03 | Heated lotion belt project — scope + timeline | Force-closed — administrative, scope/timeline still undefined. |
+| 2026-06-01 | 2026-07-03 | Java learning path — if CS dropped | Force-closed — administrative, no concrete plan made. |
+| 2026-06-13 | 2026-07-03 | Next prune | Force-closed — administrative. Re-add when a prune is actually due (~30 days out, per this session's recalibration). |
+| 2026-07-03 | 2026-07-03 | IOP / Amazon Flex schedule overlap | Force-closed same day it was opened — administrative, the schedule conflict itself is unresolved. |
+| 2026-06-16 | 2026-07-03 | Cook verb — Open Thread #1 | **Force-closed — administrative only. Was HIGH, blocks the entire Sushi Sea vertical slice. Decision not actually made.** |
+| 2026-06-17 | 2026-07-03 | Feel-tuning gate — fishing rod | **Force-closed — administrative only. Was HIGH, council-mandated gate. Not actually cleared.** |
+| 2026-06-16 | 2026-07-03 | Game code repo | Force-closed — administrative, repo not actually scaffolded. |
+| 2026-06-13 | 2026-07-03 | Playwright/browser MCP for Canvas scraping | Force-closed — already deprioritized this session; genuinely low-stakes to drop. |
+
+---
+
+## Note — 2026-07-03 mass closure
+
+All 16 open items were force-closed at Giahy's explicit request (asked twice, confirmed after being told several weren't actually resolved). Four were HIGH priority and remain **factually unresolved**: oil change, SAT registration, the Sushi Sea cook-verb decision, and the fishing-rod feel-tuning gate. This file being empty does not mean those are handled — it means tracking was reset. MIMIR will re-flag anything that resurfaces in conversation or blocks other work; nothing here was independently confirmed done.
