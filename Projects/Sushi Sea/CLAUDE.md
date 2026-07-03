@@ -39,13 +39,13 @@ First-pass clamps: `freshness_polish ∈ [0.5, 1.5]`, `cooking_extraction ∈ [0
 
 Use the right agent for the task type. Don't write code before consulting the appropriate agent.
 
-| Task | Agent |
-|------|-------|
-| Writing Luau services, modules, or game systems | `roblox-systems-scripter` |
-| UX, onboarding, retention, monetization design | `roblox-experience-designer` |
-| Post-write code review (before any commit) | `engineering-code-reviewer` |
-| Milestone sign-off ("is this actually done?") | `testing-reality-checker` |
-| Architecture decisions, system design | `engineering-software-architect` |
+| Task                                            | Agent                            |
+| ----------------------------------------------- | -------------------------------- |
+| Writing Luau services, modules, or game systems | `roblox-systems-scripter`        |
+| UX, onboarding, retention, monetization design  | `roblox-experience-designer`     |
+| Post-write code review (before any commit)      | `engineering-code-reviewer`      |
+| Milestone sign-off ("is this actually done?")   | `testing-reality-checker`        |
+| Architecture decisions, system design           | `engineering-software-architect` |
 
 **Codex review:** after any significant code change, pipe the diff through Codex as a second opinion before marking the task complete. See [[Codex Workflow]] if the file exists; otherwise ask the user to set it up.
 
