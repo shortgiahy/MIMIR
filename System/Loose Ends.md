@@ -24,7 +24,7 @@
 | 2026-06-16 | HIGH | Cook verb — Open Thread #1 | What the player physically does when cooking on the boat. Blocks the entire vertical slice. Next session opens here with grill-me. |
 | 2026-06-17 | HIGH | Feel-tuning gate — fishing rod | Council ruling: no backend/economy/restaurant work until the cast-hook-reel loop feels good enough that a blind playtester voluntarily casts a second time. AI builds the skeleton; Giahy tunes by hand. This is the critical path. |
 | 2026-06-16 | MED | Game code repo | Sushi Sea needs a separate git repo for Luau files (not inside MIMIR). Scaffold when ready to write first code. |
-| 2026-06-13 | MED | Playwright/browser MCP for authenticated scraping | Playwright MCP installed but can't open Firefox profile. Chromium path not yet tested. Goal: scrape Canvas pages without copy-paste. Resume from: .mcp.json in MIMIR root, try `npx playwright install chromium` then restart. |
+| 2026-06-13 | LOW | Playwright/browser MCP for Canvas scraping | Broken 3+ weeks (Firefox profile won't open, Chromium untested), never chased, weekly check-in that would consume it has also never run. Dropped from CLAUDE.md's weekly cadence 2026-07-03 — no demand signal strong enough to justify fixing right now. Revisit only if Giahy actually wants Canvas pulled automatically; otherwise close on next prune. |
 
 ---
 
