@@ -50,9 +50,7 @@ Compile a structured research report with:
 ## Phase 4 — File to Vault
 
 1. Save the full report as `Sources/YYYY-MM-DD <Topic>.md` (use today's date)
-2. At the top of the file, add a backlink: `Session: [[Session Notes/YYYY-MM-DD <session topic>]]`
-3. At the end of the current session note (in `Session Notes/`), add a reference line: `Research: [[Sources/YYYY-MM-DD <Topic>]]`
-4. Add a loose end to `System/Loose Ends.md` if the research surfaces an open decision or unanswered question Giahy needs to act on
+2. Add a loose end to `System/Loose Ends.md` if the research surfaces an open decision or unanswered question Giahy needs to act on
 
 ---
 
