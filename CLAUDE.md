@@ -38,6 +38,16 @@
 - Any deferral phrase ("deal with it later", "we'll get to that") → log it immediately
 - Closing = deleting the row
 
+## Memory
+
+- mem0 (MCP tools: `add_memory`, `search_memories`, `get_memories`) is the persistent memory backend for this project — supersedes the local file-based auto-memory system here
+- Save automatically, same judgment as before: no need for Giahy to ask
+  - Save: corrections/confirmations on approach, durable facts about Giahy, project decisions with a *why*, pointers to external systems
+  - Skip: code/architecture derivable from the repo, git history, ephemeral task state
+- Always scope calls to `user_id: "giahy"` so retrieval is consistent across sessions
+- Tag `metadata.type` on every `add_memory` call: `user`, `feedback`, `project`, or `reference`
+- Search mem0 (`search_memories`) at the start of relevant work instead of reading local memory files
+
 ## Skills
 
 - `/grill-me` — structured interrogation of a major decision or project before planning. Don't skip it to be fast.
