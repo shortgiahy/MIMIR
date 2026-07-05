@@ -455,10 +455,10 @@ Git workflow (branches, merge approval, retries, MCP tools) is governed by the r
 
 ## 10. Repository layout
 
-**Decision pending (Giahy's call — §13 Q1):** (A) `Projects/Sushi Sea/game/` subfolder in this vault (recommended until the codebase outgrows it) vs (B) dedicated Roblox repo. **Do not scaffold code until he picks.** Proposed layout under (A):
+**Decided (grill-me 2026-07-05): (B) dedicated repo — `shortgiahy/sushi-sea`.** Code, agents, and process docs (`HANDOFF.md`, `TASKS.md`, `BUILD_LOG.md`) live there; this vault keeps design docs, with `docs/PRD.md` in the repo synced from here. Layout inside the repo:
 
 ```
-Projects/Sushi Sea/game/
+sushi-sea/
   default.project.json          # Rojo: maps src/ onto Roblox services per §7.1
   rokit.toml                    # pinned rojo, wally, selene, stylua
   wally.toml                    # deps (empty to start)
@@ -481,13 +481,21 @@ A system is ✅ only when **all** hold: wired end-to-end (actually called by the
 **Design session:** grill-me — one question at a time, walk the dependency tree, attach a recommended answer before Giahy decides. On lock: update §4 → check off in §12 → flip Build Log rows.
 **Implementation session:** read §7 + §8 → pick the right agent → write code → code-reviewer → commit. Log every session in `Build Log.md` (format there) and push before the container dies.
 
-| Task | Agent |
-|------|-------|
-| Luau services, modules, game systems | `roblox-systems-scripter` |
-| UX, onboarding, retention, monetization design | `roblox-experience-designer` |
-| Post-write code review (before any commit) | `engineering-code-reviewer` |
-| Milestone sign-off | `testing-reality-checker` |
-| Architecture decisions, system design | `engineering-software-architect` |
+Team model (grill-me 2026-07-05; agents live in the game repo's `.claude/agents/`, tuned from agency-agents):
+
+| Agent | Model | Role |
+|------|-------|------|
+| `dev-systems` | Sonnet | Server services, DataStore, economy plumbing |
+| `dev-gameplay` | Sonnet | Fishing feel, cook/serve verbs, client controllers |
+| `dev-experience` | Sonnet | UX, retention, UI, monetization, design prep |
+| `reviewer-code` | Sonnet | Every PR — §8 + §7 + invariants |
+| `reviewer-reality` | Sonnet | Module-boundary DoD gate |
+| `senior-advisor` | Opus | Escalation only (advisor strategy) — advises, never implements |
+
+- Orchestrator sessions run Sonnet; Haiku only for single-file mechanical tasks
+- Merge gate: feature branch → PR to `dev` (green CI + both reviewers) → Giahy gates `dev`→`main` at module boundaries
+- Reasoning lives in commits / PR Reasoning sections / repo `BUILD_LOG.md` — §8 comment rules unchanged
+- UI design tool: Figma (4th app alongside Studio, Blender, GitHub)
 
 ---
 
@@ -520,7 +528,7 @@ Stance resolved (freshness-governed; storage raises capacity and slows spoilage)
 
 ## 13. Questions for Giahy (answer before Phase 1 / M1)
 
-1. **Repo layout (§10):** `game/` subfolder in this vault (A, recommended) or dedicated Roblox repo (B)?
+1. ~~**Repo layout (§10)**~~ — answered 2026-07-05: (B) dedicated repo `shortgiahy/sushi-sea`.
 2. **Cook verb (#1):** ready to run grill-me on it, or seed a direction first?
 3. **Art timing:** confirm gray-box through Phase 4, Blender at Phase 5 — or an artist earlier?
 4. **Publishing:** confirm Giahy handles the Creator Hub publish step and receives a buildable project + runbook.

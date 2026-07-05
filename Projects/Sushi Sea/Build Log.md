@@ -42,6 +42,13 @@ Append at the end of every dev session, most recent on top:
 - Next starting point: <exact pickup task>
 ```
 
+### 2026-07-05 — Agent-team infrastructure bootstrap (grill-me)
+- Built: dedicated repo scaffold (staged locally — repo creation is Giahy's step): HANDOFF.md, CLAUDE.md, TASKS.md, BUILD_LOG.md, 6 tuned agents, PRD copy
+- Agent used: none (Fable 5 orchestration session)
+- Status changes: PRD §10/§13 Q1 resolved → dedicated repo; §11 team model updated (Sonnet workers, Opus advisor escalation-only, dev/main merge gates, Figma)
+- Blockers hit: GitHub App cannot create repos (403) — Giahy creates `sushi-sea`, then push staged scaffold; mem0 MCP unavailable in this session
+- Next starting point: push scaffold → Wave 1 (M1 toolchain via dev-systems) · M0 cook-verb grill-me still highest priority
+
 ### 2026-06-17 — Viability council + execution resequence
 - Built: no code — council ruled Sushi Sea viable; game feel (not code velocity) is the binding constraint on retention
 - Agent used: Council
