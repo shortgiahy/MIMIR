@@ -27,7 +27,7 @@ Roblox hybrid of *Dave the Diver* / *RuneScape* / *Fisch* / restaurant sim. Fish
 ## Session protocol
 
 ### Start (orchestrator, Sonnet)
-1. Read `HANDOFF.md` (this file) → `TASKS.md` → last ~3 entries of `BUILD_LOG.md`
+1. Read `HANDOFF.md` (this file) → `ROADMAP.md` (current phase/wave) → `TASKS.md` → last ~3 entries of `BUILD_LOG.md`
 2. Search mem0 (`search_memories`, `user_id: giahy`) for recent Sushi Sea decisions
 3. `git fetch`; check open PRs and `dev` state
 4. Dispatch the current wave (see TASKS.md) to worker agents, one branch per task

@@ -2,7 +2,7 @@
 
 Roblox game (Luau, mobile-compatible, 18+). Fish → cook → serve → gold. Supply chain is the game.
 
-- **Read order, every session:** `HANDOFF.md` → `TASKS.md` → tail of `BUILD_LOG.md`. Then search mem0 (`user_id: giahy`).
+- **Read order, every session:** `HANDOFF.md` → `ROADMAP.md` (current phase) → `TASKS.md` → tail of `BUILD_LOG.md`. Then search mem0 (`user_id: giahy`).
 - **Design source of truth:** `docs/PRD.md`. Locked Decisions are settled; Open Threads (§12) are never resolved unilaterally — surface to Giahy.
 - **Architecture:** PRD §7 exactly. **Code standards:** PRD §8 exactly (why-comments only; reasoning goes in commits/PRs/BUILD_LOG).
 
