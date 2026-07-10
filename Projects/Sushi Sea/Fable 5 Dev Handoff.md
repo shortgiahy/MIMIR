@@ -63,13 +63,13 @@ Raw fish decays on a freshness timer. Forces restocking, blocks hoard-and-coast,
 
 ### Skills (5 at launch)
 
-| Skill | Role |
-|---|---|
-| **Sailing** | Zone access, travel speed, storm tolerance |
-| **Fishing** | Bite/reel, catch quality, risk payoff in dangerous water. **Gates outcome, not location.** Drives the legendary fight |
-| **Cooking** | Absorbs filleting, portioning, yield, large-creature butchering, dish assembly. Sets the **extraction rate** and **dry-aging extraction rate** |
-| **Hospitality** | Staff speed, customer patience, per-table profit **as margin** (never makes a table free to serve). Feeds the hidden traffic stat |
-| **Purchasing** *(was "Crafting")* | Rods, boats, restaurant equipment, capacity. Purchase-only |
+| Skill                             | Role                                                                                                                                           |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sailing**                       | Zone access, travel speed, storm tolerance                                                                                                     |
+| **Fishing**                       | Bite/reel, catch quality, risk payoff in dangerous water. **Gates outcome, not location.** Drives the legendary fight                          |
+| **Cooking**                       | Absorbs filleting, portioning, yield, large-creature butchering, dish assembly. Sets the **extraction rate** and **dry-aging extraction rate** |
+| **Hospitality**                   | Staff speed, customer patience, per-table profit **as margin** (never makes a table free to serve). Feeds the hidden traffic stat              |
+| **Purchasing** *(was "Crafting")* | Rods, boats, restaurant equipment, capacity. Purchase-only                                                                                     |
 
 *Farming ships post-launch* (rice, seaweed, wasabi, garnishes; premium home-grown stock with random value-multiplier mutations).
 
