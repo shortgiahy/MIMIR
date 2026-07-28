@@ -42,6 +42,13 @@ Append at the end of every dev session, most recent on top:
 - Next starting point: <exact pickup task>
 ```
 
+### 2026-07-28 — Migrated to `shortgiahy/sushi-sea`
+- Built: staged scaffold moved into the game repo (docs, 6 agents, PRD mirror); mem0 declared in the repo's `.mcp.json` + written into every agent's protocol; `scripts/sync-prd.sh` guards PRD drift; `repo-staging/` deleted from this vault
+- Agent used: none (Opus 5 migration session)
+- Status changes: none — no game code written
+- Blockers hit: `MEM0_API_KEY` unset in this environment, so mem0 was unavailable and nothing was saved to it
+- Next starting point: Giahy setup (`dev` branch, `MEM0_API_KEY`, branch protection), then M0 cook-verb grill-me
+
 ### 2026-07-05 — Agent-team infrastructure bootstrap (grill-me)
 - Built: dedicated repo scaffold (staged locally — repo creation is Giahy's step): HANDOFF.md, CLAUDE.md, TASKS.md, BUILD_LOG.md, 6 tuned agents, PRD copy
 - Agent used: none (Fable 5 orchestration session)

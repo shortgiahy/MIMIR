@@ -2,7 +2,7 @@
 
 Roblox game project. Luau / Roblox Studio, mobile-compatible, 18+.
 
-**Code home: `shortgiahy/sushi-sea` (dedicated repo).** Implementation sessions happen there — read its `HANDOFF.md` first. This vault folder holds design only; the repo's `docs/PRD.md` syncs from here.
+**Code home: `shortgiahy/sushi-sea` (dedicated repo).** Implementation sessions happen there — read its `HANDOFF.md` first. This vault folder holds design only; the repo's `docs/PRD.md` is a mirror of `PRD.md` here, pulled by the repo's `scripts/sync-prd.sh`. Edit the PRD only here, then sync.
 
 **Source of truth: `PRD.md`** — read it in full before any design or code work. Locked Decisions are settled; Open Threads (§12) are never resolved unilaterally — grill-me with Giahy first.
 
