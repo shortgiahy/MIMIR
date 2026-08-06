@@ -25,7 +25,7 @@
 
 Sunday: relaxed start, afternoon robotics/SAT/open, evening wind-down.
 
-## Fall 2026 (make-or-break semester — GPA must hold 3.9+)
+## Fall 2026 — starts 2026-08-25 (make-or-break semester — GPA must hold 3.9+)
 
 | Course | Credits | Days | Time |
 |--------|---------|------|------|
