@@ -53,6 +53,7 @@
 - `/grill-me` — structured interrogation of a major decision or project before planning. Don't skip it to be fast.
 - `/council` — 5 sub-agent perspectives debate; MIMIR chairs and rules.
 - `/research` — deep research, adversarial verification, report filed to `Sources/`.
+- `/check-in` — end-of-day capture (screen time, tasks finished, complacency check) + 14-day drift scan for dropped tasks.
 - `/prune` — vault lint. Proposes a diff, applies nothing unapproved. ~30-day cadence.
 - New skill: one command file in `.claude/commands/` + one line here
 - No doc pages; never build skills in `~/.claude/` (cloud home directories are wiped)
