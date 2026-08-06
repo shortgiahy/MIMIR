@@ -4,6 +4,9 @@
 
 | Task | Due | Priority | Notes |
 |------|-----|----------|-------|
+| Summer finals ×3 — MATH 1220, PHYS 2210, ENGL 1010 | 2026-08-07 | HIGH | Decides whether the 3.9 holds |
+| Pay Natalie $218 | 2026-08-07 | HIGH | Funds not identified |
+| Landscaping hours conversation with Dad | 2026-08-11 | HIGH | Unblocks every income projection |
 | Bill + debt due-dates from Giahy | — | MED | Every due date below is `?` — blocks payment reminders |
 
 ## Weekly Schedule
@@ -14,8 +17,6 @@
 | SAT prep | Mon–Sat | 8:00–10:00 AM | 10 hrs/wk, treat like a class |
 | Plasma | Mon/Fri | 10:00–12:00 | ~$50/session |
 | Coursework + robotics | Mon–Fri | 12:00–4:30 PM | Calc 2 / Physics 1 blocks Tue–Thu 10–12 |
-| IOP | Mon–Thu | 4:30–6:30 PM | Zoom. Protected — never schedule over. NOT Fridays |
-| Amazon Flex | Daily | 5:00–8:30 PM | ~$65/session. ⚠ overlaps IOP Mon–Thu — unresolved |
 | Walk | Daily | ~8:30 PM | 15 min decompression, non-negotiable |
 | Guitar | Daily | ~8:45 PM | 1 hr |
 | Farmers market | Sat | 10:00–12:00 | With Natalie. Protected |
@@ -59,7 +60,6 @@ SLCC grade replacement: both grades show on transcript; C marked E (excluded fro
 
 | Item | Amount | Due |
 |------|--------|-----|
-| Rent | $2,000 | ? |
 | Phone | $140 | ? |
 | Pet insurance | $60 | ? |
 | TradeSyncer | $50 | ? |
