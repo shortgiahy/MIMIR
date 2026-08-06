@@ -6,6 +6,7 @@
 |------|-----|----------|-------|
 | Summer finals ×3 — MATH 1220, PHYS 2210, ENGL 1010 | 2026-08-06 | HIGH | Decides whether the 3.9 holds |
 | Pay Natalie $218 | 2026-08-07 | HIGH | Funds not identified |
+| Landscaping hours conversation with Dad | 2026-08-11 | HIGH | Unblocks every income projection |
 | Bill + debt due-dates from Giahy | — | MED | Every due date below is `?` — blocks payment reminders |
 
 ## Weekly Schedule
