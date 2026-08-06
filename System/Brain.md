@@ -12,7 +12,7 @@
 ## Active Domains
 
 - **School** — SLCC summer 2026: MATH 1220 + PHYS 2210 (retakes, must ace) + ENGL 1010. 11 credits, all async online.
-- **Income** — Amazon Flex daily 5–8:30 PM (~$2,250/mo) + plasma Mon/Fri (~$430/mo). Mom's salon job ending (salon selling).
+- **Income** — Amazon Flex terminated Aug 2026; ~$2,250/mo gone. Plasma Mon/Fri (~$430/mo) is the remainder. Mom's salon job ending (salon selling). Burn ~$2,282/mo — uncovered by ~$1,850/mo.
 - **Trading** — paused. Giahy updates when he restarts.
 - **Relationship** — Natalie is the primary priority. Always.
 

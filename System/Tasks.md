@@ -16,7 +16,6 @@
 | SAT prep | Mon–Sat | 8:00–10:00 AM | 10 hrs/wk, treat like a class |
 | Plasma | Mon/Fri | 10:00–12:00 | ~$50/session |
 | Coursework + robotics | Mon–Fri | 12:00–4:30 PM | Calc 2 / Physics 1 blocks Tue–Thu 10–12 |
-| Amazon Flex | Daily | 5:00–8:30 PM | ~$65/session |
 | Walk | Daily | ~8:30 PM | 15 min decompression, non-negotiable |
 | Guitar | Daily | ~8:45 PM | 1 hr |
 | Farmers market | Sat | 10:00–12:00 | With Natalie. Protected |
