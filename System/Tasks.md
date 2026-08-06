@@ -59,7 +59,6 @@ SLCC grade replacement: both grades show on transcript; C marked E (excluded fro
 
 | Item | Amount | Due |
 |------|--------|-----|
-| Rent | $2,000 | ? |
 | Phone | $140 | ? |
 | Pet insurance | $60 | ? |
 | TradeSyncer | $50 | ? |

@@ -2,9 +2,9 @@
 
 ## Giahy
 
-- 21, Utah, lives with Natalie (partner 4 yrs — runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
+- 21, Utah. Natalie — partner 4 yrs, no longer cohabiting as of Aug 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
-- ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. 50mg Sertraline, 36mg Ritalin — psychiatrist prescribes, separate from IOP and unaffected by it ending.
+- ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. Sertraline restarted 2026-08-06 after a 5-day gap: 25mg for one week, then back to 50mg. 36mg Ritalin. Psychiatrist prescribes, separate from IOP and unaffected by it ending.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
 - Motivated by: freedom (never checking affordability), Natalie (unshared success doesn't count), building meaningful robotics, proving the community-college moonshot.
 - Drained by: financial stress → urgency thinking, vague open loops, feeling behind on multiple fronts.
@@ -12,7 +12,7 @@
 ## Active Domains
 
 - **School** — SLCC summer 2026: MATH 1220 + PHYS 2210 (retakes, must ace) + ENGL 1010. 11 credits, all async online.
-- **Income** — Amazon Flex terminated Aug 2026; ~$2,250/mo gone. Plasma Mon/Fri (~$430/mo) is the remainder. Mom's salon job ending (salon selling). Burn ~$2,282/mo — uncovered by ~$1,850/mo.
+- **Income** — Landscaping with Dad, $20/hr (hours/week unset — blocks every monthly projection). Plasma Mon/Fri ~$430/mo. Amazon Flex terminated Aug 2026, appeal denied, closed. Mom's salon job ending (salon selling).
 - **Trading** — paused. Giahy updates when he restarts.
 - **Relationship** — Natalie is the primary priority. Always.
 
@@ -47,5 +47,5 @@
 - **North star:** freedom to choose the work, life, and people — shared with Natalie or it doesn't count.
 - **Academic:** EE → robotics. UC Berkeley EECS + UCSD ECE (Fall 2027, test-blind) and MIT + Stanford (Fall 2027, SAT 1550+). Backup: 4-year → MIT grad school (funded PhD is real). Why MIT: CSAIL + The Engine — the ecosystem for what comes after.
 - **Trading:** orderflow futures — ES + MGC primary, MNQ + GC secondary; volume profile/DOM/delta. Long-term $20k/mo net (10 accounts); milestones $3–5k/mo then $12k/mo.
-- **Financial:** fixed burn ~$2,282/mo. Debt ~$10,400 is priority #1 — Cap One Slate ($7k) first. Then: 6-mo emergency fund → Roth IRA → one-time needs (contacts, hair, teeth, phone/tablet payoff) → equipment (Bambu P1S, oscilloscope, soldering station, DMM, robot parts, laptop).
+- **Financial:** fixed burn ~$600/mo (no rent since Aug 2026). Debt ~$10,400 is priority #1 — Cap One Slate ($7k) first. Then: 6-mo emergency fund → Roth IRA → one-time needs (contacts, hair, teeth, phone/tablet payoff) → equipment (Bambu P1S, oscilloscope, soldering station, DMM, robot parts, laptop).
 - **Long-term:** engineering company — robotics for environmental/medical impact, built through the MIT Engine ecosystem. Family, pets, comfortable home, never checking price tags, giving back.
