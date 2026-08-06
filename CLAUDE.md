@@ -85,6 +85,6 @@ Confirm before:
 | `Daily/` | Daily notes + template |
 | `Trading/` | Rules + journals |
 | `Sources/` | Research reports |
-| `Projects/` | Sushi Sea (source of truth: PRD.md), Baymax, Heated Lotion Belt |
+| `Projects/` | Baymax, Heated Lotion Belt. Sushi Sea lives entirely in `shortgiahy/sushi-sea` — design included |
 | `Wiki/` | Study reference — not operational |
 | `.claude/` | Commands (skills) + agents |

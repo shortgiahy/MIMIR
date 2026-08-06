@@ -18,7 +18,7 @@
 
 ## Projects
 
-- **Sushi Sea** (Roblox game) — active. Source of truth: `Projects/Sushi Sea/`. Real blocker: cook verb undefined; feel-tuning gate before any backend.
+- **Sushi Sea** (Roblox game) — active, building. Lives entirely in `shortgiahy/sushi-sea` (design + code). Cook verb locked 2026-07-29; M1/M2 done, M3 fishing feel in progress. Next gate: blind-playtester feel test on the rod.
 - **Baymax robot** — transfer portfolio anchor. Phase 1 software-only ($0): Python → NumPy → RL → Isaac Sim on the desktop (RTX 3060S, i9, 16GB; laptop is for coding only). Phase 2 hardware waits on funding. Roadmap: `Projects/Baymax/`.
 - **Heated Lotion Belt** — friend's commercial concept, greenlit June 2026. Scope/timeline undefined. Spec: `Projects/Heated Lotion Belt.md`.
 - **SAT** — target 1550+, Oct 3 primary / Nov 7 backup, 10 hrs/wk. Not started.
