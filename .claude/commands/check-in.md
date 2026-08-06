@@ -23,8 +23,9 @@ Ask one question at a time. No menus, no preamble.
 2. **Productive tasks finished today.** Free text; assign a tag to each. Zero is a valid answer — record it as zero, don't coach.
 3. **Complacency check.** `Nothing dropped` / `Dropped something` / `Not sure`.
 4. If `Dropped something` — **what dropped.** One line.
+5. **Journal.** Offer it, never require it. Free-write, no format. Paste verbatim into the note's **Journal** section — no summarizing, no cleanup, no bullet conversion. Write Rules do not apply inside this section.
 
-Write all four into today's note under **End of Day Check-In**. Update in place if the section is already filled.
+Write items 1–4 into today's note under **End of Day Check-In**, item 5 under **Journal**. Update in place if a section is already filled.
 
 ---
 
@@ -45,6 +46,20 @@ Rules:
 - 7–13 notes → run DROPPED and FADING against whatever days exist; state the sample size.
 - A tag Giahy explicitly paused (Trading, and anything Brain.md marks paused) is never flagged.
 - Flag the tag, not the person. `[SAT] — 4 days prior week, 0 this week.` No adjectives.
+
+### Named-thread scan
+
+The tag scan only sees what he logged. The journal catches what he named and never logged — the more dangerous set, because avoidance and omission look identical in the task list.
+
+Read every Journal section in the window. Extract each named obligation: a person owed, a deadline, a promise, a medication, a payment. Track it across entries.
+
+| Flag | Condition |
+|------|-----------|
+| **UNRESOLVED** | Named in a journal entry, never appears in any finished-task list, still unclosed |
+| **RECURRING** | Named in 3+ entries across the window with no state change between them |
+| **UNLOGGED** | Named in a journal entry but absent from `System/Tasks.md` and `System/Loose Ends.md` |
+
+Anything UNLOGGED goes into `System/Loose Ends.md` in the same pass, without asking. An obligation that exists only inside prose is invisible to every other part of this vault.
 
 ---
 

@@ -67,6 +67,11 @@
 
 ---
 
+## Journal
+*(Free-write. No format, no length target, no bullets. The one place in the vault where prose is the point.)*
+
+---
+
 ## Tomorrow's Anchor
 *(Decide tonight, not in the morning)*
 

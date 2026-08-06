@@ -2,7 +2,7 @@
 
 ## Giahy
 
-- 20, Utah, lives with Natalie (partner 4 yrs — runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
+- 21, Utah, lives with Natalie (partner 4 yrs — runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
 - ADHD + MDD (comorbid). IOP (DBT + EMDR) Mon–Thu 4:30–6:30 PM Zoom — protected block. 50mg Sertraline, 36mg Ritalin.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
