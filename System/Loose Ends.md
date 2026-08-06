@@ -4,11 +4,10 @@
 
 | Opened | Priority | Item |
 |--------|----------|------|
-| 2026-08-06 | HIGH | Sertraline — 5 days missed as of 08-05. Raise at IOP today (Thu 4:30 PM). |
+| 2026-08-06 | HIGH | Sertraline — 5 days missed as of 08-05. No prescriber identified post-IOP. |
 | 2026-08-06 | HIGH | $218 owed to Natalie — due Fri 08-07. Source of funds undecided. |
-| 2026-08-06 | HIGH | Natalie — say the real debt number (~$10.4k) out loud before she finds it. Not yet had. |
-| 2026-08-06 | HIGH | "A call to make" — named in 08-05 journal, recipient unspecified. Get the name. |
-| 2026-08-06 | MED | Heated Lotion Belt — friend has had zero updates. Send status regardless of project state. |
+| 2026-08-06 | HIGH | Natalie — real debt number (~$10.4k) said out loud. Meetup requested 08-06; conversation not yet had. |
+| 2026-08-06 | MED | Michelle — massage belt status update owed. Blocked on school + money, not on her. Send regardless of project state. |
 | 2026-08-06 | MED | Fall tuition — amount and due date unconfirmed. Blocks September planning. |
 | 2026-07-03 | HIGH | Daily push routine — notification-only (PushNotification tool), morning flags + 72h calendar. Prior trigger creation denied 07-03, reason unknown — investigate before retrying. |
 | 2026-07-05 | HIGH | Sushi Sea: M0 cook-verb grill-me session — blocks the entire vertical slice (M3+). |

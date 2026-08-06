@@ -4,7 +4,7 @@
 
 - 21, Utah, lives with Natalie (partner 4 yrs — runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
-- ADHD + MDD (comorbid). IOP (DBT + EMDR) Mon–Thu 4:30–6:30 PM Zoom — protected block. 50mg Sertraline, 36mg Ritalin.
+- ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. 50mg Sertraline, 36mg Ritalin; no prescriber identified post-IOP.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
 - Motivated by: freedom (never checking affordability), Natalie (unshared success doesn't count), building meaningful robotics, proving the community-college moonshot.
 - Drained by: financial stress → urgency thinking, vague open loops, feeling behind on multiple fronts.
@@ -20,7 +20,7 @@
 
 - **Sushi Sea** (Roblox game) — active. Source of truth: `Projects/Sushi Sea/`. Real blocker: cook verb undefined; feel-tuning gate before any backend.
 - **Baymax robot** — transfer portfolio anchor. Phase 1 software-only ($0): Python → NumPy → RL → Isaac Sim on the desktop (RTX 3060S, i9, 16GB; laptop is for coding only). Phase 2 hardware waits on funding. Roadmap: `Projects/Baymax/`.
-- **Heated Lotion Belt** — friend's commercial concept, greenlit June 2026. Scope/timeline undefined. Spec: `Projects/Heated Lotion Belt.md`.
+- **Heated Lotion Belt** (massage belt) — Michelle's commercial concept, greenlit June 2026. Untouched since; she has had no updates. Scope/timeline undefined. Spec: `Projects/Heated Lotion Belt.md`.
 - **SAT** — target 1550+, Oct 3 primary / Nov 7 backup, 10 hrs/wk. Not started.
 - **Transfer apps** — UC (Berkeley + UCSD) Nov 2026 no-SAT; MIT + Stanford Mar 2027 SAT-required. UC essays by Sep 2026.
 
@@ -34,8 +34,12 @@
 - Trading: FOMO from missed winners (not just losses); abandons a defined edge under emotional pressure; misses trades when pre-market setup is skipped. Hard rules beat willpower.
 - "What if I'm wrong" freeze at valid triggers.
 - Deferral phrases ("deal with it later") are genuine — log to Loose Ends, don't push.
-- IOP team hasn't been given the full severity picture — Giahy needs to correct this.
-- **Current phase:** Phase 1 Foundation — Ritalin daily + one anchor/day + 10 push-ups + noon eating alarm. Games unlock after anchor. Phase 2 after 2+ stable weeks.
+- **Abandons what works.** When things improve slightly, he stops doing the thing that produced the improvement, then slides back. Improvement is the risk signal, not the all-clear.
+- **Oversized promise as conversation-ender.** When he's let someone down, he promises something too large to deliver — the promise buys days of silence, then breaks. Four times on Natalie's birthday. Treat any outsized commitment as avoidance in progress and size it down on the spot.
+- **Embarrassment converts to silence.** Untouched obligations stop being mentioned to the person owed (Michelle/massage belt). The people owed hear less exactly as the debt grows.
+- Blunted response to letting people down — he reads it as toughness, and has flagged himself that it isn't. Track it as a depression marker, not character.
+- Withholds full severity from clinicians. The 08-05 journal is the first complete picture he's written down.
+- **Current phase:** Baseline reset 2026-08-06 — day 1. Ritalin daily + one anchor/day + EOD check-in. Drift flags go live 08-12.
 - Planning constraints: never stack hard cognitive tasks back-to-back; decompression is protected, not a gap; Natalie time is a commitment, not a reward; max 5 tasks/day; a productive week moves the needle and leaves him functional.
 
 ## Vision
