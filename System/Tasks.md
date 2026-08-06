@@ -27,12 +27,15 @@ Sunday: relaxed start, afternoon robotics/SAT/open, evening wind-down.
 
 ## Fall 2026 (make-or-break semester — GPA must hold 3.9+)
 
-| Course                                     | Credits |
-| ------------------------------------------ | ------- |
-| EE 1270 — Intro to Electrical Circuits     | 4.0     |
-| PHYS 2220 — Physics for Sci & Eng II (E&M) | 4.0     |
-| CHEM 1210 — General Chemistry I            | 4.0     |
-| MATH 2210 — Multivariate Calculus          | 3.0     |
+| Course | Credits | Days | Time |
+|--------|---------|------|------|
+| PHYS 2220 — Physics for Sci & Eng II (E&M) | 4.0 | Tue/Thu | 10:00–11:30 AM |
+| MATH 2210 — Multivariate Calculus | 3.0 | Tue/Wed/Thu | 1:00–2:30 PM |
+| EE 1270 — Intro to Electrical Circuits I | 4.0 | Mon/Wed | 5:30–6:30 PM |
+| EE 1270 — long Tuesday block | — | Tue | 5:30–8:00 PM |
+| CHEM 1210 — General Chemistry I | 4.0 | not on the calendar | ? |
+
+Free for work: Fridays entirely, Mondays outside 5:30–6:30 PM.
 
 ## Spring 2027
 
