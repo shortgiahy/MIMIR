@@ -4,7 +4,7 @@
 
 - 21, Utah, lives with Natalie (partner 4 yrs — runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
-- ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. 50mg Sertraline, 36mg Ritalin; no prescriber identified post-IOP.
+- ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. 50mg Sertraline, 36mg Ritalin — psychiatrist prescribes, separate from IOP and unaffected by it ending.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
 - Motivated by: freedom (never checking affordability), Natalie (unshared success doesn't count), building meaningful robotics, proving the community-college moonshot.
 - Drained by: financial stress → urgency thinking, vague open loops, feeling behind on multiple fronts.

@@ -4,7 +4,7 @@
 
 | Opened | Priority | Item |
 |--------|----------|------|
-| 2026-08-06 | HIGH | Sertraline — 5 days missed as of 08-05. No prescriber identified post-IOP. |
+| 2026-08-06 | HIGH | Sertraline — 5 days missed as of 08-05. Psychiatrist still prescribing; gap not yet reported to them. |
 | 2026-08-06 | HIGH | $218 owed to Natalie — due Fri 08-07. Source of funds undecided. |
 | 2026-08-06 | HIGH | Natalie — real debt number (~$10.4k) said out loud. Meetup requested 08-06; conversation not yet had. |
 | 2026-08-06 | MED | Michelle — massage belt status update owed. Blocked on school + money, not on her. Send regardless of project state. |
