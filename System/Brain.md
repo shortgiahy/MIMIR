@@ -2,7 +2,7 @@
 
 ## Giahy
 
-- 21, Utah. Natalie — partner 4 yrs, no longer cohabiting as of Aug 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
+- 21, Utah, living at Mom's since Aug 2026 (no rent, no scale). Natalie — partner 4 yrs, no longer cohabiting as of Aug 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
 - ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. Sertraline restarted 2026-08-06 after a 5-day gap: 25mg for one week, then back to 50mg. 36mg Ritalin. Psychiatrist prescribes, separate from IOP and unaffected by it ending.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
