@@ -37,6 +37,7 @@
 - Guitar — 30 min daily; wants to get genuinely good; it's pride outside of work.
 - Breakfast block is fixed before trading — cooks regardless of whether Natalie is up. She eats late; he's nudging her toward earlier, consistent breakfasts.
 - Checks in with MIMIR morning and night.
+- After dinner = low-focus time: hanging out with Natalie, games, projects. Never studies then.
 - Class days: on campus from first class to last — gaps are campus time, not home time.
 
 ## Projects
