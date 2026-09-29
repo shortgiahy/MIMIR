@@ -4,9 +4,8 @@
 
 | Task | Due | Priority | Notes |
 |------|-----|----------|-------|
-| Summer finals ×3 — MATH 1220, PHYS 2210, ENGL 1010 | 2026-08-07 | HIGH | Decides whether the 3.9 holds |
-| Pay Natalie $218 | 2026-08-07 | HIGH | Funds not identified |
-| Landscaping hours conversation with Dad | 2026-08-11 | HIGH | Unblocks every income projection |
+| Confirm identity at school for tuition | — | HIGH | Blocks Pell Grant + scholarship applying |
+| Landscaping hours conversation with Dad | 2026-08-11 | HIGH | Unblocks every income projection — overdue |
 | Bill + debt due-dates from Giahy | — | MED | Every due date below is `?` — blocks payment reminders |
 
 ## Weekly Schedule
@@ -33,7 +32,8 @@ Sunday: relaxed start, afternoon robotics/SAT/open, evening wind-down.
 | MATH 2210 — Multivariate Calculus | 3.0 | Tue/Wed/Thu | 1:00–2:30 PM |
 | EE 1270 — Intro to Electrical Circuits I | 4.0 | Mon/Wed | 5:30–6:30 PM |
 | EE 1270 — long Tuesday block | — | Tue | 5:30–8:00 PM |
-| CHEM 1210 — General Chemistry I | 4.0 | not on the calendar | ? |
+| CHEM 1210 — General Chemistry I | 4.0 | Online | — |
+| ENGR 1500 — Ethics for Professionals | 3.0 | Online | — |
 
 Free for work: Fridays entirely, Mondays outside 5:30–6:30 PM.
 
@@ -43,7 +43,6 @@ Free for work: Fridays entirely, Mondays outside 5:30–6:30 PM.
 |--------|---------|
 | EE 2700 — Digital Systems Basics | 4.0 |
 | EE 2260 — Fund. of Electric Circuits II | 4.0 |
-| ENGR 1500 — Ethics for Professionals | 3.0 |
 | MATH 2250 — Differential Eq / Linear Algebra | 4.0 |
 | ENGR 2550 — Engineering Statistics | 3.0 |
 
