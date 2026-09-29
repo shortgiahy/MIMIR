@@ -2,7 +2,7 @@
 
 Roblox game (Luau, mobile-compatible, 18+). Fish → cook → serve → gold. Supply chain is the game.
 
-- **Read order, every session:** `HANDOFF.md` → `ROADMAP.md` (current phase) → `TASKS.md` → tail of `BUILD_LOG.md`. Then search mem0 (`user_id: giahy`).
+- **Read order, every session:** `HANDOFF.md` → `ROADMAP.md` (current phase) → `TASKS.md` → tail of `BUILD_LOG.md`.
 - **Design source of truth:** `docs/PRD.md`. Locked Decisions are settled; Open Threads (§12) are never resolved unilaterally — surface to Giahy.
 - **Architecture:** PRD §7 exactly. **Code standards:** PRD §8 exactly (why-comments only; reasoning goes in commits/PRs/BUILD_LOG).
 
@@ -17,5 +17,5 @@ Roblox game (Luau, mobile-compatible, 18+). Fish → cook → serve → gold. Su
 
 - Orchestrator: Sonnet. Workers: Sonnet (Haiku only for single-file mechanical tasks). `senior-advisor` (Opus): escalation only — advises, never implements.
 - Branches: `claude/sushi-<feature>` off `dev`. PRs target `dev`; merge needs green CI + `reviewer-code` + `reviewer-reality`. `dev`→`main` is Giahy-only.
-- Session end: update `TASKS.md`, append `BUILD_LOG.md`, save decisions to mem0, push everything. Unpushed work is lost.
+- Session end: update `TASKS.md`, append `BUILD_LOG.md` (including durable decisions), push everything. Unpushed work is lost.
 - Publishing to Roblox and Blender/Figma work are Giahy actions — hand over runbooks, never assume automation.

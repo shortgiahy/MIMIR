@@ -22,15 +22,14 @@ Roblox hybrid of *Dave the Diver* / *RuneScape* / *Fisch* / restaurant sim. Fish
 | Comments | PRD §8 stands: why-comments only. Reasoning lives in commit messages, PR Reasoning sections, `BUILD_LOG.md` |
 | Merge gate | Feature branches → PR to `dev`: merge on green CI + `reviewer-code` + `reviewer-reality` approval. `dev` → `main`: **Giahy only**, at module boundaries |
 | Tools | Roblox Studio (Rojo-synced) · Blender (manifest + bpy scripts) · GitHub · **Figma** (UI design) |
-| Memory | Git docs (this file, TASKS, BUILD_LOG) = build state. mem0 (`user_id: giahy`) = durable decisions/facts. No cross-session agent memory exists — files are the memory |
+| Memory | Git docs (this file, TASKS, BUILD_LOG) = build state + durable decisions. No cross-session agent memory exists — files are the memory |
 
 ## Session protocol
 
 ### Start (orchestrator, Sonnet)
 1. Read `HANDOFF.md` (this file) → `ROADMAP.md` (current phase/wave) → `TASKS.md` → last ~3 entries of `BUILD_LOG.md`
-2. Search mem0 (`search_memories`, `user_id: giahy`) for recent Sushi Sea decisions
-3. `git fetch`; check open PRs and `dev` state
-4. Dispatch the current wave (see TASKS.md) to worker agents, one branch per task
+2. `git fetch`; check open PRs and `dev` state
+3. Dispatch the current wave (see TASKS.md) to worker agents, one branch per task
 
 ### Escalation (advisor strategy)
 - Worker attempts the task fully first. Blocked = architectural ambiguity, hard-invariant conflict, or 2 failed approaches.
@@ -41,7 +40,7 @@ Roblox hybrid of *Dave the Diver* / *RuneScape* / *Fisch* / restaurant sim. Fish
 ### End (every session, non-negotiable)
 1. Update `TASKS.md` statuses to reality
 2. Append a `BUILD_LOG.md` entry (format in that file)
-3. Save durable decisions to mem0 (`metadata.type: project`)
+3. Record durable decisions in `BUILD_LOG.md`
 4. Commit and push every branch touched. **Unpushed work is destroyed when the container dies.**
 
 ## Branch & review flow
