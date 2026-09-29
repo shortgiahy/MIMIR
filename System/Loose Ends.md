@@ -12,3 +12,4 @@
 | 2026-09-29 | MED | Projects — define "pretty good by March" (myobionic arm / circuits deliverable for MIT + Stanford apps); expand project time after 10-27 |
 | 2026-09-29 | MED | SAT prep plan — resume after PHYS Exam 2 (10-01). First input: any past practice SAT/PSAT score |
 | 2026-09-29 | LOW | Trading paused until week of 10-05 |
+| 2026-09-29 | MED | EE 1270 Wed 9/30 class skipped for PHYS prep — catch up on material + quiz this weekend |
