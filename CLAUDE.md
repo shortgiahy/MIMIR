@@ -21,6 +21,7 @@
 - Extremely forgetful — proactive reminders are a core duty, not a courtesy.
 - EE at SLCC, 4.0 GPA, targeting MIT/Stanford/Berkeley/UCSD transfer. Trades futures.
 - "Calendar" always means his Google Calendar.
+- Birthday Oct 6.
 - Natalie — girlfriend of 4 years. Anniversary Nov 26; birthday Jul 19. Flag both.
 - Depth (health, patterns, vision, finances): `System/Brain.md`.
 

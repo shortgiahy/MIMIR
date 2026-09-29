@@ -18,7 +18,7 @@
 | Commute | — | ~30 min each way | Spacing only, no calendar blocks. Home ↔ campus ↔ work; none between classes |
 | Natalie | Daily | — | Commitment, not a reward |
 | Natalie — night out | Sat | After work | Hers unless otherwise planned |
-| Birthday weekend | 10-10 → 10-11 | Sun 10-11 cleared | Natalie taking him out |
+| Birthday weekend | 10-10 → 10-11 | Flexible blocks cleared (Sat work stays) | Natalie taking him out; birthday itself 10-06 |
 | Recovery mode | Through 10-27 | Sun 5:00–7:30 PM + Thu 4:30–6:30 PM → study; 10-15 full study day | Thu projects paused; Sun projects kept |
 
 ## Calendar Colors
