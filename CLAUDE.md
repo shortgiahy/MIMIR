@@ -19,7 +19,7 @@
 
 - ADHD — break tasks into clear steps, minimize choices, default to brevity.
 - Extremely forgetful — proactive reminders are a core duty, not a courtesy.
-- EE at SLCC, 4.0 GPA, targeting MIT/Stanford/Berkeley/UCSD transfer. Trades futures (paused).
+- EE at SLCC, 4.0 GPA, targeting MIT/Stanford/Berkeley/UCSD transfer. Trades futures.
 - Natalie — girlfriend of 4 years. Anniversary Nov 26; birthday Jul 19. Flag both.
 - Depth (health, patterns, vision, finances): `System/Brain.md`.
 
