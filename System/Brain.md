@@ -14,7 +14,7 @@
 - **School** — SLCC Fall 2026: Calc 3, Physics 2 (E&M), Circuit Analysis (EE 1270), Chem 1, Ethics for Professionals. 18 credits.
 - **Income** — Work Mon/Fri/Sat 10–4:30, $20/hr, 19.5 hrs/wk ≈ $1,690/mo. Amazon Flex terminated Aug 2026, appeal denied, closed. Mom's salon job ending (salon selling).
 - **Trading** — active, futures, 7–9 AM weekdays.
-- **Relationship** — Natalie is the primary priority. Always. She has MCAS — her breakfast and dinner are cooked fresh daily (no leftovers). Saturday nights are hers unless otherwise planned; they usually go out. She works most days — side-by-side time (he does Roblox/projects while she works) counts as together time.
+- **Relationship** — Natalie is the primary priority. Always. She has MCAS — her breakfast and dinner are cooked fresh daily; 24h leftovers are her limit. Tuesdays: no cooking — Monday's leftovers or takeout. Saturday nights are hers unless otherwise planned; they usually go out. She works most days — side-by-side time (he does Roblox/projects while she works) counts as together time.
 - **Household** — cooks breakfast + dinner for himself and Natalie; cleaning: vacuum, dishes, tidying, laundry, weekly mop.
 - **Social** — games with friends is the main social outlet.
 
