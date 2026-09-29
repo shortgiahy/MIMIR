@@ -2,7 +2,7 @@
 
 ## Giahy
 
-- 21, Utah, living at Mom's since Aug 2026 (no rent, no scale). Natalie — partner 4 yrs, no longer cohabiting as of Aug 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
+- 21, Utah. Natalie — partner 4 yrs, living together again as of Sep 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
 - SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98.
 - ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. Sertraline restarted 2026-08-06 after a 5-day gap: 25mg for one week, then back to 50mg. 36mg Ritalin. Psychiatrist prescribes, separate from IOP and unaffected by it ending.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
@@ -14,7 +14,7 @@
 - **School** — SLCC Fall 2026: Calc 3, Physics 2 (E&M), Circuit Analysis (EE 1270), Chem 1, Ethics for Professionals. 18 credits.
 - **Income** — Work Mon/Fri/Sat 10–4:30, $20/hr, 19.5 hrs/wk ≈ $1,690/mo. Amazon Flex terminated Aug 2026, appeal denied, closed. Mom's salon job ending (salon selling).
 - **Trading** — active, futures, 7–9 AM weekdays.
-- **Relationship** — Natalie is the primary priority. Always. She has MCAS — her meals are cooked fresh (no leftovers).
+- **Relationship** — Natalie is the primary priority. Always. She has MCAS — her breakfast and dinner are cooked fresh daily (no leftovers). Saturday nights are hers unless otherwise planned; they usually go out. She works most days — side-by-side time (he does Roblox/projects while she works) counts as together time.
 - **Household** — cooks breakfast + dinner for himself and Natalie; cleaning: vacuum, dishes, tidying, laundry, weekly mop.
 - **Social** — games with friends is the main social outlet.
 
@@ -31,6 +31,10 @@
 9. SAT prep
 
 - Goal: balance all of them, none dropped.
+- Schedule must flex — rigid time-boxing makes him feel boxed in and a missed block triggers quitting. Weekly targets over daily streaks; a miss is skipped, not owed.
+- Trading stays in the morning — strategy-dependent, not movable.
+- Roblox + projects multitask with games or side-by-side time with Natalie.
+- Guitar — wants to get genuinely good; it's pride outside of work.
 
 ## Projects
 
@@ -64,5 +68,5 @@
 - **North star:** freedom to choose the work, life, and people — shared with Natalie or it doesn't count.
 - **Academic:** EE → robotics. UC Berkeley EECS + UCSD ECE (Fall 2027, test-blind) and MIT + Stanford (Fall 2027, SAT 1550+). Backup: 4-year → MIT grad school (funded PhD is real). Why MIT: CSAIL + The Engine — the ecosystem for what comes after.
 - **Trading:** orderflow futures — ES + MGC primary, MNQ + GC secondary; volume profile/DOM/delta. Long-term $20k/mo net (10 accounts); milestones $3–5k/mo then $12k/mo.
-- **Financial:** fixed burn ~$600/mo (no rent since Aug 2026). Debt ~$10,400 is priority #1 — Cap One Slate ($7k) first. Then: 6-mo emergency fund → Roth IRA → one-time needs (contacts, hair, teeth, phone/tablet payoff) → equipment (Bambu P1S, oscilloscope, soldering station, DMM, robot parts, laptop).
+- **Financial:** fixed burn ~$600/mo. Debt ~$10,400 is priority #1 — Cap One Slate ($7k) first. Then: 6-mo emergency fund → Roth IRA → one-time needs (contacts, hair, teeth, phone/tablet payoff) → equipment (Bambu P1S, oscilloscope, soldering station, DMM, robot parts, laptop).
 - **Long-term:** engineering company — robotics for environmental/medical impact, built through the MIT Engine ecosystem. Family, pets, comfortable home, never checking price tags, giving back.

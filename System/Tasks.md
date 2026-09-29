@@ -5,6 +5,7 @@
 | Task | Due | Priority | Notes |
 |------|-----|----------|-------|
 | Confirm identity at school for tuition | — | HIGH | Blocks Pell Grant + scholarship applying |
+| Submit UC apps (Berkeley, UCSD) | 2026-10-31 | HIGH | Giahy's target: in before November |
 | Bill + debt due-dates from Giahy | — | MED | Every due date below is `?` — blocks payment reminders |
 
 ## Weekly Schedule — fixed anchors
@@ -17,6 +18,7 @@
 | Walk | Daily | ~8:30 PM | 15 min decompression, non-negotiable |
 | Parents dinner | Sun (most) | 5:00–7:00 PM | Confirm each Sunday |
 | Natalie | Daily | — | Commitment, not a reward |
+| Natalie — night out | Sat | After work | Hers unless otherwise planned |
 
 ## Fall 2026 — starts 2026-08-25 (make-or-break semester — GPA must hold 3.9+)
 
@@ -65,7 +67,7 @@
 | MIT | Fall 2027 | Mar 1, 2027 | Yes (1550+) |
 | Stanford | Fall 2027 | Mar 15, 2027 | Yes (1550+) |
 
-Sequence: UC apps Nov 1–30 (essays by Sep) → SAT prep starts 2026-12-18 → SAT 2027-03-06 (only sitting; scores ~03-19, after MIT + Stanford deadlines — unresolved) → MIT/Stanford Mar 2027.
+Sequence: UC apps submitted by Oct 31 → SAT prep starts 2026-12-18 → SAT 2027-03-06 → MIT/Stanford Mar 2027.
 SLCC grade replacement: both grades show on transcript; C marked E (excluded from GPA), retake marked I. One retake allowed — within policy.
 
 ## Bills (monthly)
