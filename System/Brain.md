@@ -37,6 +37,7 @@
 - Guitar — 30 min daily; wants to get genuinely good; it's pride outside of work.
 - Breakfast block is fixed before trading — cooks regardless of whether Natalie is up. She eats late; he's nudging her toward earlier, consistent breakfasts.
 - Checks in with MIMIR morning and night. Plans week to week; daily check-ins adjust.
+- Disruptions: MIMIR rewrites that day's calendar. Anchors never move (class, work, exams, trading, dinner, Sat night); overruns shrink the next flexible block; midnight is the wall. Cut order: projects → calisthenics (15-min floor) → guitar (10-min floor) → study last. Missed blocks are gone, not owed — except study for an exam ≤7 days out → Sunday overflow slot.
 - Study method: problems every session; confusions go in an "I don't understand" notebook (not full notes); final content review before each exam.
 - Has accommodated testing — exams at the Testing Center.
 - After dinner = low-focus time: hanging out with Natalie, games, projects. Never studies then.

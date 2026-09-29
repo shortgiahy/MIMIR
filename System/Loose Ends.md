@@ -10,4 +10,4 @@
 | 2026-09-29 | HIGH | MATH 2210 — grade 0: no homework, skipped exam 1 (dropped). HW set 1 lost (5% of course). Exams 2 + 3 each 25%, no drop left. Recovering via MIT 18.02 self-study, lectures skipped. Withdraw deadline 10-27 |
 | 2026-09-29 | HIGH | Behind in every course. Recovery triage for Oct 14–27 crunch (CHEM test + midterm, EE midterm, MATH exam 2, PHYS exam 3, ENGR project 2) |
 | 2026-09-29 | MED | Projects — define "pretty good by March" (myobionic arm / circuits deliverable for MIT + Stanford apps); expand project time after 10-27 |
-| 2026-09-29 | MED | Missed-block rule unanswered: MIMIR rewrites that day's calendar vs. just says what to skip |
+| 2026-09-29 | LOW | Stale all-day "SAT" event on 10-03 in G + N calendar — SAT moved to Mar 2027; delete? |
