@@ -15,9 +15,24 @@
 | Sleep | Daily | 12:00–6:00 AM | |
 | Trading | Mon–Fri | 7:00–9:00 AM | Futures |
 | Work | Mon/Fri/Sat | 10:00 AM–4:30 PM | $20/hr, 19.5 hrs/wk ≈ $1,690/mo |
-| Commute | — | ~30 min each way | Home ↔ campus ↔ work |
+| Commute | — | ~30 min each way | Spacing only, no calendar blocks. Home ↔ campus ↔ work; none between classes |
 | Natalie | Daily | — | Commitment, not a reward |
 | Natalie — night out | Sat | After work | Hers unless otherwise planned |
+
+## Calendar Colors
+
+| Color | Category |
+|-------|----------|
+| Lavender | Sleep, personal appointments |
+| Sage | Calisthenics |
+| Grape | Projects |
+| Flamingo | Natalie |
+| Banana | Income (work, trading) |
+| Tangerine | Home (meals, groceries, house reset) |
+| Peacock | Guitar |
+| Blueberry | Study |
+| Basil | Class |
+| Tomato | Exams + deadlines |
 
 ## Fall 2026 — starts 2026-08-25 (make-or-break semester — GPA must hold 3.9+)
 
