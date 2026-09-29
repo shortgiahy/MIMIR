@@ -1,0 +1,20 @@
+{
+  "playwright": {
+    "command": "npx",
+    "args": ["-y", "@playwright/mcp@latest"]
+  },
+  "firecrawl": {
+    "command": "npx",
+    "args": ["-y", "firecrawl-mcp"],
+    "env": {
+      "FIRECRAWL_API_KEY": ""
+    }
+  },
+  "mem0": {
+    "type": "http",
+    "url": "https://mcp.mem0.ai/mcp/",
+    "headers": {
+      "Authorization": "Token ${MEM0_API_KEY}"
+    }
+  }
+}

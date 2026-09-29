@@ -1,7 +1,6 @@
 # Trading Rules
 
-> Hard rules. Non-negotiable. Last updated: 2026-05-18
-> See also: [[System/Brain]] · [[System/Tasks]]
+> Hard rules. Non-negotiable.
 
 ---
 

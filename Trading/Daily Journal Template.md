@@ -1,7 +1,6 @@
 # Trading Journal — {{DATE}}
 
 > Copy this template each session. Save as `Trading/Journals/YYYY-MM-DD.md`
-> See also: [[Trading Rules]]
 
 ---
 

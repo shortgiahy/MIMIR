@@ -49,10 +49,26 @@
 
 ---
 
+## End of Day Check-In
+*(Run `/check-in`. Three numbers, one honest answer.)*
+
+- **Screen time:** __ min
+- **Productive tasks finished:** *(tag each — `[School] [SAT] [Baymax] [Sushi Sea] [Belt] [Income] [Guitar] [Body]`)*
+  - 
+- **Complacency check:** `Nothing dropped` / `Dropped something` / `Not sure`
+- **What dropped:** *(only if "Dropped something")*
+
+---
+
 ## Day Summary
 *(Optional — 1–2 sentences. What actually happened?)*
 
 
+
+---
+
+## Journal
+*(Free-write. No format, no length target, no bullets. The one place in the vault where prose is the point.)*
 
 ---
 

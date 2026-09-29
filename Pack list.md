@@ -1,0 +1,14 @@
+- [x] Contacts
+- [x] Toothbrush
+- [x] Toothpaste
+- [x] Contact solution
+- [x] Swim suit
+- [x] 3 summer shirts
+- [x] 3 pants
+- [x] 6 underwear
+- [x] 6 socks
+- [x] backpack
+- [x] tongue scraper
+- [x] Pillbox
+- [x] charger
+- [x] sleep clothes
