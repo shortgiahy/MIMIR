@@ -1,5 +1,7 @@
 # Heated Lotion Belt
 
+**Status: Canceled (for now)** — blocked on school + money, not on Michelle. She's been notified.
+
 Portable heated lotion-bottle belt for massage therapists. Friend's commercial concept, greenlit June 2026. Scope/timeline undefined.
 
 ## Requirements
