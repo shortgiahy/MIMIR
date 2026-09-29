@@ -33,8 +33,10 @@
 - Goal: balance all of them, none dropped.
 - Schedule must flex — rigid time-boxing makes him feel boxed in and a missed block triggers quitting. Weekly targets over daily streaks; a miss is skipped, not owed.
 - Trading stays in the morning — strategy-dependent, not movable.
-- Roblox + projects multitask with games or side-by-side time with Natalie.
-- Guitar — wants to get genuinely good; it's pride outside of work.
+- Roblox is never scheduled — rides along with games or side-by-side time with Natalie. Projects get explicit blocks.
+- Guitar — 30 min daily; wants to get genuinely good; it's pride outside of work.
+- Breakfast block is fixed before trading — cooks regardless of whether Natalie is up. She eats late; he's nudging her toward earlier, consistent breakfasts.
+- Class days: on campus from first class to last — gaps are campus time, not home time.
 
 ## Projects
 
