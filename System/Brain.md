@@ -11,17 +11,34 @@
 
 ## Active Domains
 
-- **School** — SLCC summer 2026: MATH 1220 + PHYS 2210 (retakes, must ace) + ENGL 1010. 11 credits, all async online.
-- **Income** — Landscaping with Dad, $20/hr (hours/week unset — blocks every monthly projection). Plasma Mon/Fri ~$430/mo. Amazon Flex terminated Aug 2026, appeal denied, closed. Mom's salon job ending (salon selling).
-- **Trading** — paused. Giahy updates when he restarts.
-- **Relationship** — Natalie is the primary priority. Always.
+- **School** — SLCC Fall 2026: Calc 3, Physics 2 (E&M), Circuit Analysis (EE 1270), Chem 1, Ethics for Professionals. 18 credits.
+- **Income** — Work Mon/Fri/Sat 10–4:30, $20/hr, 19.5 hrs/wk ≈ $1,690/mo. Amazon Flex terminated Aug 2026, appeal denied, closed. Mom's salon job ending (salon selling).
+- **Trading** — active, futures, 7–9 AM weekdays.
+- **Relationship** — Natalie is the primary priority. Always. She has MCAS — her meals are cooked fresh (no leftovers).
+- **Household** — cooks breakfast + dinner for himself and Natalie; cleaning: vacuum, dishes, tidying, laundry, weekly mop.
+- **Social** — games with friends is the main social outlet.
+
+## Priorities (ranked)
+
+1. Studying
+2. Cooking
+3. Natalie time
+4. Calisthenics
+5. Projects (circuit practice, myobionic arm)
+6. Trading
+7. Vibecoding (Roblox)
+8. Guitar
+9. SAT prep
+
+- Goal: balance all of them, none dropped.
 
 ## Projects
 
 - **Sushi Sea** (Roblox game) — active. Source of truth: `Projects/Sushi Sea/`. Real blocker: cook verb undefined; feel-tuning gate before any backend.
 - **Baymax robot** — transfer portfolio anchor. Phase 1 software-only ($0): Python → NumPy → RL → Isaac Sim on the desktop (RTX 3060S, i9, 16GB; laptop is for coding only). Phase 2 hardware waits on funding. Roadmap: `Projects/Baymax/`.
 - **Heated Lotion Belt** (massage belt) — Michelle's commercial concept, greenlit June 2026. Untouched since; she has had no updates. Scope/timeline undefined. Spec: `Projects/Heated Lotion Belt.md`.
-- **SAT** — target 1550+, Oct 3 primary / Nov 7 backup, 10 hrs/wk. Not started.
+- **Myobionic arm** — crude build, alongside general circuit practice. Scope undefined.
+- **SAT** — target 1550+, test 2027-03-06. Prep starts 2026-12-18 after Fall finals.
 - **Transfer apps** — UC (Berkeley + UCSD) Nov 2026 no-SAT; MIT + Stanford Mar 2027 SAT-required. UC essays by Sep 2026.
 
 ## Patterns
