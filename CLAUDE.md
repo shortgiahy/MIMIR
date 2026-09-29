@@ -73,11 +73,9 @@ Confirm before:
 
 ## Git
 
-- Work on `claude/<description>` branches, never `main`
-- Commit as you go; push before session ends (unpushed work disappears on container exit)
-- Merging to `main` needs Giahy's approval: present summary, ask, then `merge --no-ff`, push, delete branch
+- Work directly on `main` — no feature branches, no PRs, no merge approval step
+- Commit and push each change immediately so Obsidian sync picks it up live
 - Push/pull failures: retry 4× with backoff (2s/4s/8s/16s)
-- Use `mcp__github__*` tools; `gh` CLI unavailable in cloud
 
 ## Vault
 
