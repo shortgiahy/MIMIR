@@ -67,7 +67,8 @@
 - **Embarrassment converts to silence.** Untouched obligations stop being mentioned to the person owed (Michelle/massage belt). The people owed hear less exactly as the debt grows.
 - Blunted response to letting people down — he reads it as toughness, and has flagged himself that it isn't. Track it as a depression marker, not character.
 - Withholds full severity from clinicians. The 08-05 journal is the first complete picture he's written down.
-- **Current phase:** Baseline reset 2026-08-06 — day 1. Ritalin daily + one anchor/day + EOD check-in. Drift flags go live 08-12.
+- **Current phase:** Academic recovery (2026-09-29 → 10-27). Behind in all 5 courses after coasting on cramming; building a first real study system. Gaming paused.
+- Trades sleep for exam prep and declines pushback on it ("dealt with worse") — 4 hrs before PHYS Exam 2 (10-01). Check the exam result against it.
 - Planning constraints: never stack hard cognitive tasks back-to-back; decompression is protected, not a gap; Natalie time is a commitment, not a reward; max 5 tasks/day; a productive week moves the needle and leaves him functional.
 
 ## Vision
