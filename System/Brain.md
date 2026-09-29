@@ -16,7 +16,7 @@
 - **Trading** — active, futures, 7–9 AM weekdays.
 - **Relationship** — Natalie is the primary priority. Always. She has MCAS — her breakfast and dinner are cooked fresh daily; 24h leftovers are her limit. Tuesdays: no cooking — Monday's leftovers or takeout. Saturday nights are hers unless otherwise planned; they usually go out. She works most days — side-by-side time (he does Roblox/projects while she works) counts as together time.
 - **Household** — cooks breakfast + dinner for himself and Natalie; cleaning: vacuum, dishes, tidying, laundry, weekly mop.
-- **Social** — games with friends is the main social outlet.
+- **Social** — games with friends is the main social outlet. Paused until caught up in school (2026-09-29).
 
 ## Priorities (ranked)
 
