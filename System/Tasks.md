@@ -33,23 +33,55 @@
 
 | Course | Weights | Late / drop policy | Exams |
 |--------|---------|--------------------|-------|
-| MATH 2210 (Costello) | HW 20% (4 written sets, 25 pts each) · 2 best of 3 exams 50% · Final 30% | HW due at start of its exam via Canvas message PDF; no late ever. Lowest regular exam dropped (exam 1 = the drop) | In person, no notes, TI-30-class calc. Final <60% caps grade at D. Exam dates in Canvas weekly schedule PDF — not yet in vault |
-| PHYS 2220 (Van Ausdal) | Participation 10% · Pre-lecture 10% · Mastering HW 20% · 4 exams 40% · Final 20% | Pre-lecture no late. HW −10%/day per problem. Participation = in-class quizzes, no makeups | Exams in class with instructor test notes. Exam 2 Ch 21–23, Exam 3 Ch 24–26, Exam 4 Ch 27–31 |
+| MATH 2210 (Costello) | HW 20% (4 written sets, 25 pts each) · 2 best of 3 exams 50% · Final 30% | HW due at start of its exam via Canvas message PDF; no late ever. Lowest regular exam dropped (exam 1 = the drop) | In person, no notes, TI-30-class calc. Final <60% caps grade at D. Text: Stewart Early Transcendentals 8e/9e (+ Thomas 13.4/13.5 in Canvas Files) |
+| PHYS 2220 (Van Ausdal) | Participation 10% · Pre-lecture 10% · Mastering HW 20% · 4 exams 40% · Final 20% | Pre-lecture no late. HW −10%/day per problem. Participation = in-class quizzes, no makeups | Exams in class with instructor test notes. Exam 2 Ch 21–23, Exam 3 Ch 24–26, Exam 4 Ch 27–31. Text: Young & Freedman 15e |
 | EE 1270 (Riggs) | Quizzes 20% · HW 15% · Labs 20% · Design 15% · Midterm 15% · Final 15% | HW due Fri midnight; late penalized but accepted through 12-10. Lowest 2 quizzes dropped. Flipped class | Open book + notes. Midterm 10-19, Final Mon 12-14 5:50–7:50 PM |
 | CHEM 1210 (Holcomb) | Participation 10% · AI practice 10% · REAL CHEM checkpoints 20% · Unit tests 20% · Midterm + Final 40% | Unit work due when its unit test closes; late completion replaces the zero until instructor closes it. 2 checkpoint reopen appeals | Unit tests online (LockDown, open notes). Midterm/Final at Testing Center, no notes |
 | ENGR 1500 (Holden) | Assignments 15% · Discussions 20% · Quizzes 15% · 3 Projects 40% · Final 10% | Weekly modules due Sunday; >30 min late = 0. Lowest of each category dropped. AI allowed on HW | Final 12-15 online, 25 T/F on NSPE Code |
+
+## PHYS 2220 — Mastering Due Dates
+
+| Date | PL | HW |
+|------|----|----|
+| 10-05 | 24 | |
+| 10-07 | 25 | |
+| 10-12 | | 24 |
+| 10-19 | 26 | |
+| 10-20 | | 25 |
+| 10-26 | | 26 |
+| 10-28 | 27 | |
+| 11-02 | 28 | |
+| 11-04 | 29 | 27 |
+| 11-09 | 30 | |
+| 11-10 | | 28 |
+| 11-13 | | 29 |
+| 11-16 | 31 | |
+| 11-18 | | 30 |
+| 11-23 | | 31 |
+| 11-30 | 32 | |
+| 12-02 | 33 | |
+| 12-04 | | 32 |
+| 12-07 | 34 | |
+| 12-08 | | 33 |
+| 12-09 | 35/36 | |
+| 12-11 | | 34 |
+| 12-14 | | 35/36 |
 
 ## Fall 2026 — Exams & Big Deadlines
 
 | Date | Item |
 |------|------|
-| 2026-10-01 5 PM | PHYS 2220 exam (likely Exam 2, Ch 21–23) |
+| 2026-10-01 | PHYS 2220 Exam 2 (Ch 21–23) — course calendar says lecture 10 AM; Giahy said 5 PM, unconfirmed |
 | 2026-10-14 → 10-18 | CHEM Unit 3–5 test window |
 | 2026-10-19 | EE 1270 midterm |
 | 2026-10-19 → 10-22 | CHEM midterm (Testing Center) |
+| 2026-10-22 1 PM | MATH 2210 Exam 2 (cumulative) + HW set 2 PDF: 14.7, 14.8, 13.3, 13.4, Thomas 13.4 |
 | 2026-10-25 | ENGR 1500 Project 2 |
 | 2026-10-27 | EE 1270 Lab 2 notebook + report |
+| 2026-10-27 10 AM | PHYS 2220 Exam 3 (Ch 24–26) |
+| 2026-11-19 1 PM | MATH 2210 Exam 3 + HW set 3 PDF: Thomas 13.5, 15.1–15.9, Problems Plus 5–7 |
 | 2026-11-24 | EE 1270 Lab 3 + design presentation |
+| 2026-11-24 10 AM | PHYS 2220 Exam 4 (Ch 27–31) |
 | 2026-11-24 → 12-01 | CHEM Unit 6–8 test window |
 | 2026-12-10 | EE 1270 last day for any homework |
 | 2026-12-11 → 12-13 | CHEM Unit 9–10 test window |
@@ -57,6 +89,8 @@
 | 2026-12-14 | EE 1270 final 5:50 PM |
 | 2026-12-14 → 12-15 | CHEM final (Testing Center) |
 | 2026-12-15 | ENGR 1500 final |
+| 2026-12-15 1:30 PM | MATH 2210 final + HW set 4 PDF: 16.1–16.4+ |
+| 2026-12-17 9:10 AM | PHYS 2220 final |
 
 ## SLCC Academic Calendar
 
