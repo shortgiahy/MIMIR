@@ -36,7 +36,8 @@
 - Roblox is never scheduled — rides along with games or side-by-side time with Natalie. Projects get explicit blocks.
 - Guitar — 30 min daily; wants to get genuinely good; it's pride outside of work.
 - Breakfast block is fixed before trading — cooks regardless of whether Natalie is up. She eats late; he's nudging her toward earlier, consistent breakfasts.
-- Checks in with MIMIR morning and night.
+- Checks in with MIMIR morning and night. Plans week to week; daily check-ins adjust.
+- Study method: problems every session; confusions go in an "I don't understand" notebook (not full notes); final content review before each exam.
 - Has accommodated testing — exams at the Testing Center.
 - After dinner = low-focus time: hanging out with Natalie, games, projects. Never studies then.
 - Class days: on campus from first class to last — gaps are campus time, not home time.
