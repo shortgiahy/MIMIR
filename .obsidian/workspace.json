@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Loose Ends"
             }
+          },
+          {
+            "id": "59d24725fcf9f1bc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,7 +68,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -198,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b48fe3660945a0c",
+  "active": "59d24725fcf9f1bc",
   "lastOpenFiles": [
     "System/Tasks.md",
     "System/Loose Ends.md",
