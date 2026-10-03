@@ -13,14 +13,14 @@ Single source of truth for Sushi Sea. **A Roblox hybrid of *Dave the Diver*, *Ru
 - **Core loop:** Cast → hook → reel → cook → serve → gold → reinvest → reach deeper water / better restaurant.
 - **Retention thesis:** Game *feel* (the rod), not content volume, is the binding constraint on retention (council ruling, 2026-06-17). Perishability is the dial tuned to the return target.
 
-| Field | Value |
-|---|---|
-| Platform | Roblox, mobile-compatible, Luau |
-| Demographic | 18+ |
-| Tone | Upbeat, arcadey, modern (*Dave the Diver*). No dark or gritty. |
-| Algorithm target | 24–48h return rate, tuned primarily by fish perishability |
-| Monetization | F2P; cosmetics and convenience only. Nobody is taxed for winning. |
-| World | One shared, persistent world. Fishing outcomes roll per-player, client-side, server-validated. |
+| Field            | Value                                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------------- |
+| Platform         | Roblox, mobile-compatible, Luau                                                                |
+| Demographic      | 18+                                                                                            |
+| Tone             | Upbeat, arcadey, modern (*Dave the Diver*). No dark or gritty.                                 |
+| Algorithm target | 24–48h return rate, tuned primarily by fish perishability                                      |
+| Monetization     | F2P; cosmetics and convenience only. Nobody is taxed for winning.                              |
+| World            | One shared, persistent world. Fishing outcomes roll per-player, client-side, server-validated. |
 
 ---
 

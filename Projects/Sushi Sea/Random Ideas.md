@@ -1,0 +1,5 @@
+- luck boost
+	- Spend 100 robux or something to get a 10% luck boost for x time
+	- You can spend a 200 or some markup to boost not only the server 10% but your own luck boost is 15-20%
+- Playerd have to survive while voyaging
+	- Revive transaction to salvage inventory 
