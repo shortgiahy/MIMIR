@@ -1,0 +1,5 @@
+- How will players know which sushi is being ordered? There are so many fish
+- The mechanics of the cooking game are really hard when theres so much to do. You have to cook, seat, and serve at least. This is fine for crews but what about solo?
+- Spellbreak roguelike
+- warlock hunter and titan mods risk of rain
+- Gambler's Rod: ability to reroll multipliers once per fish
