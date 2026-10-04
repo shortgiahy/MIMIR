@@ -1,70 +1,69 @@
 {
   "main": {
-    "id": "b21365cb33bda64c",
+    "id": "aaaa4cc59edc5082",
     "type": "split",
     "children": [
       {
-        "id": "449757b0990bc471",
+        "id": "ab872c10a145bf3e",
         "type": "tabs",
         "children": [
           {
-            "id": "191e8472e69de8a0",
+            "id": "51a06fdadc30105e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Sushi Sea/Agentic workflow.md",
+                "file": "Projects/Sushi Sea/repo-staging/CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentic workflow"
+              "title": "CLAUDE"
             }
           },
           {
-            "id": "1b48fe3660945a0c",
+            "id": "a919ed781f5082bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System/Loose Ends.md",
+                "file": "Things that need to be done canvas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loose Ends"
+              "title": "Things that need to be done canvas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d18e71a4a3c883c9",
+    "id": "ef160ffbac73edaa",
     "type": "split",
     "children": [
       {
-        "id": "48117998354025e0",
+        "id": "4584ad763078a2f3",
         "type": "tabs",
         "children": [
           {
-            "id": "08d4d9d505f8114a",
+            "id": "1764ca4bdd038721",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "03432373c444e095",
+            "id": "fbaf2c155a13e4f2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +80,7 @@
             }
           },
           {
-            "id": "148634b1546f1eee",
+            "id": "3f81d0b3b0a4c0c1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,19 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "3b600fe6df886a6c",
+    "id": "4a62c5c054f67d9c",
     "type": "split",
     "children": [
       {
-        "id": "efd2855ec3844f29",
+        "id": "bdf2febc46de2245",
         "type": "tabs",
         "children": [
           {
-            "id": "952599b66aa6a20e",
+            "id": "19589c3c05f16e2a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,24 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for CLAUDE"
             }
           },
           {
-            "id": "312df91fae374a8e",
+            "id": "d836420894fbc40b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from CLAUDE"
             }
           },
           {
-            "id": "6dcb55c824a80ca7",
+            "id": "1a2c636112832f8d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,7 +152,7 @@
             }
           },
           {
-            "id": "8ebe03dfb3c57cf8",
+            "id": "aab320ce82b9aabf",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -165,22 +166,21 @@
             }
           },
           {
-            "id": "133d1d4527d9fe9d",
+            "id": "809136c1b864f35f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/Daily Template.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Template"
+              "title": "Outline of CLAUDE"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,43 +199,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "191e8472e69de8a0",
+  "active": "a919ed781f5082bf",
   "lastOpenFiles": [
-    "System/Inbox.md",
+    "Projects/Sushi Sea/repo-staging/CLAUDE.md",
+    "Things that need to be done canvas.md",
+    "Roblox brainstorm.md",
+    "Projects/Sushi Sea/Random Ideas.md",
     "Projects/Sushi Sea/Agentic workflow.md",
-    "System/Loose Ends.md",
-    "System/Tasks.md",
-    "conflict-files-obsidian-git.md",
+    "Daily/2026-08-06.md",
+    "Daily/2026-08-05.md",
+    "Projects/Sushi Sea/repo-staging/README.md",
+    "Projects/Sushi Sea/repo-staging/ROADMAP.md",
+    "Nat bday.md",
     "CLAUDE.md",
-    "Untitled.md",
-    "agency-agents/strategy/runbooks/scenario-marketing-campaign.md",
+    "Projects/Sushi Sea/repo-staging/docs/PRD.md",
+    "Projects/Sushi Sea/repo-staging/TASKS.md",
+    "Projects/Sushi Sea/repo-staging/HANDOFF.md",
+    "Projects/Sushi Sea/repo-staging/docs",
+    "Projects/Sushi Sea/repo-staging/BUILD_LOG.md",
+    "Projects/Sushi Sea/repo-staging",
     "agency-agents/strategy/runbooks/scenario-startup-mvp.md",
-    "agency-agents/strategy/runbooks/scenario-enterprise-feature.md",
+    "agency-agents/strategy/runbooks/scenario-marketing-campaign.md",
     "agency-agents/strategy/runbooks/scenario-incident-response.md",
+    "agency-agents/strategy/runbooks/scenario-enterprise-feature.md",
     "agency-agents/strategy/playbooks/phase-6-operate.md",
     "agency-agents/strategy/playbooks/phase-5-launch.md",
     "agency-agents/strategy/playbooks/phase-4-hardening.md",
     "agency-agents/strategy/playbooks/phase-3-build.md",
-    "agency-agents/strategy/playbooks/phase-1-strategy.md",
     "agency-agents/strategy/playbooks/phase-2-foundation.md",
+    "agency-agents/strategy/playbooks/phase-1-strategy.md",
     "agency-agents/strategy/playbooks/phase-0-discovery.md",
-    "agency-agents/strategy/coordination/handoff-templates.md",
-    "agency-agents/strategy/coordination/agent-activation-prompts.md",
-    "agency-agents/scripts/i18n/README.md",
     "agency-agents/scripts/i18n/localize-agents-zh.ps1",
     "agency-agents/scripts/i18n/agent-names-zh.json",
-    "agency-agents/integrations/qwen/README.md",
-    "agency-agents/integrations/windsurf/README.md",
-    "agency-agents/integrations/opencode/README.md",
-    "agency-agents/integrations/openclaw/README.md",
     "agency-agents/integrations/mcp-memory/setup.sh",
-    "agency-agents/integrations/mcp-memory/README.md",
     "agency-agents/strategy/runbooks",
     "agency-agents/strategy/playbooks",
     "agency-agents/strategy/coordination",
     "agency-agents/scripts/lint-agents.sh",
-    "agency-agents/scripts/lib.sh",
-    "agency-agents/scripts/i18n",
-    "agency-agents/scripts/install.sh"
+    "agency-agents/scripts/lib.sh"
   ]
 }
