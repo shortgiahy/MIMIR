@@ -18,3 +18,6 @@
 | 2026-10-06 | MED | Calendar vs new model — Sleep 12–6 AM (6h) nightly; Guitar nightly 8:30; "Study (recovery)" label; 10-15 full study day. Proposals pending approval |
 | 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |
 | 2026-10-06 | LOW | Archie (Meta Muse, secretary agent) — parked; revisit 10-28 after crunch. Scope: reminders only. Confirm-first on sends/spend |
+| 2026-10-06 | HIGH | SLCC NASA Student Research Internship — idea-submission deadline was 10-02 (missed). Email NASAinternship@slcc.edu (Angela Martinez) to ask if still open. Form is 1–2 sentences. Needs U.S. citizenship for stipend. Paid $1,000, mentored research |
+| 2026-10-06 | MED | Resume is stale (Feb 2025: roofing, honey shop, payroll — no engineering). Update to 1 page before any internship/research app; UC activities list due 10-31 needs same content |
+| 2026-10-06 | LOW | Sleep/screen data — not connected. Route: Health Data Export app → Google Sheets/Drive, then I read it. Needs phone setup |
