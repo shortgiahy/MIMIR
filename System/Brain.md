@@ -3,7 +3,7 @@
 ## Giahy
 
 - 22 (birthday 10-06), Utah. Natalie — partner 4 yrs, living together again as of Sep 2026 (runs a marketing agency; co-navigator; protected time non-negotiable). Pets: Winston + Benni.
-- SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. GPA ~3.98 (stated); 51 cr after Fall; Calc 2 + PHYS lab A- (5 cr). Goal: hold 3.9 — A- in PHYS + MATH fits with one more A-; two more breaks it.
+- SLCC EE student → MIT/Stanford/Berkeley/UCSD transfer. Cumulative GPA: transcript shows 3.68 (10-06), earlier stated ~3.98 — unresolved. 51 cr after Fall; Calc 2 + PHYS lab A- (5 cr). Goal 3.9: if 3.68 is real, max after Fall ≈ 3.79; if 3.98 is real, A- in PHYS + MATH plus one more A- holds it.
 - ADHD + MDD (comorbid). IOP (DBT + EMDR) finished Aug 2026 — no longer a standing block. Sertraline restarted 2026-08-06 after a 5-day gap: 25mg for one week, then back to 50mg. 36mg Ritalin. Psychiatrist prescribes, separate from IOP and unaffected by it ending.
 - Extremely forgetful — proactive reminders are a core MIMIR duty.
 - Motivated by: freedom (never checking affordability), Natalie (unshared success doesn't count), building meaningful robotics, proving the community-college moonshot.

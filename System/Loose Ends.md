@@ -16,11 +16,11 @@
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
-| 2026-10-06 | MED | Actual cumulative GPA: stated ~3.98, but max is 3.955 if all 33 prior credits are graded with 5 at A- — check transcript |
+| 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable |
 | 2026-10-06 | HIGH | EE late items bleeding daily: quiz 9/30, HW 5 (−1/day), HW 3, Lab 1 notebook |
 | 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
-| 2026-10-06 | MED | ENGR Module 3 late recovery (~1.4%) contradicts >30 min late = 0 — confirm with Holden before counting it |
-| 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 |
+| 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
+| 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 — Muse drafting |
 | 2026-10-06 | MED | Ask Van Ausdal: HW category capped at 100%? corrections on Ex 1/3/4? |
 | 2026-10-06 | MED | Calendar vs new model — Sleep 12–6 AM (6h) nightly; Guitar nightly 8:30; "Study (recovery)" label; 10-15 full study day. Proposals pending approval |
 | 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |
