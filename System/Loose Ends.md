@@ -15,3 +15,5 @@
 | 2026-09-29 | MED | EE 1270 Wed 9/30 class skipped for PHYS prep — catch up on material + quiz this weekend |
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
+| 2026-10-06 | MED | Calendar vs new model — Sleep 12–6 AM (6h) nightly; Guitar nightly 8:30; "Study (recovery)" label; 10-15 full study day. Proposals pending approval |
+| 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |

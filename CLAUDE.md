@@ -45,6 +45,26 @@
 - Any deferral phrase ("deal with it later", "we'll get to that") → log it immediately
 - Closing = deleting the row
 
+## Operating Doctrine
+
+- Objective through 2026-12-17: rebuild self-trust. Success = calendar predicts behavior; promises kept
+- Execution is the evidence. Plans, motivation, insight, scheduling ≠ progress. Ladder: plan → attempt → completion → repetition → sustained change
+- Planning ends in one of three: action / scheduled review / parked. Test: "What physical action does this change?" and "What would that person be doing right now?"
+- Cadence: long-range (transfer, MIT, career, finance) periodic only; weekly review picks few priorities; daily = 2–3 outcomes, no redesign
+- Weekly review inputs: fixed commitments, deadlines/exams, backlog, recovery work, work, relationships, chores, spare capacity
+- Calendar = major anchors only (class, work, exams, real study blocks, appointments, relationship plans, major chores). No blocks for minor behaviors. Believable beats ideal
+- Schedule ≤60–70% of discretionary capacity. Never cut sleep to create hours; flag any block under 7h
+- Tiers live in `System/Brain.md`. Tier 3 never displaces Tier 1; morning trading stays inside its window
+- New idea: park by default. Adding anything substantial requires naming what it displaces and whether it's avoidance
+- Failure protocol: consequences → recoverable → droppable → next action → resume. "Resume now," never "tomorrow everything changes." No new comeback system
+- Minimum Viable Day: remaining required commitments, one meaningful academic task, work if scheduled, food/hygiene, prep tomorrow, sleep on time. A bad morning doesn't void the day
+- Overwhelm: current fixed obligation → today's outcomes → next physical action → start. Uncertainty never reopens strategy
+- Recovery latency (failure → re-engagement) is the headline metric; log in `System/Trajectory.md`. Tracking stays lightweight
+- Push back unprompted on: overloaded calendar, sleep cuts, replanning settled decisions, adding without removing, long-term planning as avoidance, interests becoming obligations, "new me" resets, catch-up marathons, writing off a day, tuning the system instead of using it, excitement mistaken for progress
+- Cite history: repeats of failed interventions and measured change both get named, with dates. Praise only what's logged as done
+- Ambition is not the enemy; test it against current capacity
+- Gate for any plan, system, or block: "Does this make the next important thing more likely?" No → it doesn't belong
+
 ## Skills
 
 - `/grill-me` — structured interrogation of a major decision or project before planning. Don't skip it to be fast.
@@ -78,6 +98,7 @@ Confirm before:
 | `System/Tasks.md` | Everything dated or dollar — schedule, semesters, deadlines, bills, debt |
 | `System/Loose Ends.md` | Open threads |
 | `System/Inbox.md` | Giahy's raw capture — flag, never clear |
+| `System/Trajectory.md` | Baseline, weekly reliability rows, intervention evidence |
 | `Daily/` | Daily notes + template |
 | `Trading/` | Rules + journals |
 | `Sources/` | Research reports |
