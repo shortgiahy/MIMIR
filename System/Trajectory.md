@@ -12,6 +12,7 @@
 - Gaming paused since 09-29
 - Calendar-vs-reality hit rate: unmeasured
 - Grades: unrecorded
+- Applied to SLCC NASA research internship by the 10-02 deadline, unprompted; not selected
 
 ## Weekly
 
