@@ -17,3 +17,4 @@
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
 | 2026-10-06 | MED | Calendar vs new model — Sleep 12–6 AM (6h) nightly; Guitar nightly 8:30; "Study (recovery)" label; 10-15 full study day. Proposals pending approval |
 | 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |
+| 2026-10-06 | LOW | Archie (Meta Muse, secretary agent) — parked; revisit 10-28 after crunch. Scope: reminders only. Confirm-first on sends/spend |
