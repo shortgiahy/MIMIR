@@ -22,6 +22,7 @@
 | 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
 | 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 — Muse drafting |
 | 2026-10-06 | MED | Ask Van Ausdal: HW category capped at 100%? corrections on Ex 1/3/4? |
+| 2026-10-06 | MED | Extra work shifts off the Mon/Fri/Sat anchor: Tue 10-06 12:30–5, Wed 10-07 8–5. Wed calendar blocks dead (trading, calisthenics, groceries, study 1–5) — rehome groceries; one-off or pattern? |
 | 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |
 | 2026-10-06 | LOW | Archie (Meta Muse, secretary agent) — parked; revisit 10-28 after crunch. Scope: reminders only. Confirm-first on sends/spend |
 | 2026-10-06 | MED | Resume is stale (Feb 2025: roofing, honey shop, payroll — no engineering). Update to 1 page before any internship/research app; UC activities list due 10-31 needs same content |
