@@ -12,7 +12,7 @@
 
 | Block | Days | Time (MT) | Notes |
 |-------|------|-----------|-------|
-| Sleep | Daily | 12:00–6:00 AM | |
+| Sleep | Daily | 11:00 PM–6:30 AM | |
 | Trading | Mon–Fri | 7:00–9:00 AM | Futures |
 | Work | Mon/Fri/Sat | 10:00 AM–4:30 PM | $20/hr, 19.5 hrs/wk ≈ $1,690/mo |
 | Commute | — | ~30 min each way | Spacing only, no calendar blocks. Home ↔ campus ↔ work; none between classes |
