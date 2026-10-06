@@ -16,7 +16,7 @@
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
-| 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable |
+| 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable. Advising mtg 10-06 canceled; no owner yet |
 | 2026-10-06 | HIGH | EE late items bleeding daily: quiz 9/30, HW 5 (−1/day), HW 3, Lab 1 notebook |
 | 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
 | 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
