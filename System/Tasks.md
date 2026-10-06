@@ -52,10 +52,20 @@
 | Course | Weights | Late / drop policy | Exams |
 |--------|---------|--------------------|-------|
 | MATH 2210 (Costello) — accommodated: Canvas msg w/ S# 5 days before each exam, then RegisterBlast; time must overlap class exam time | HW 20% (4 written sets, 25 pts each) · 2 best of 3 exams 50% · Final 30% | HW due at start of its exam via Canvas message PDF; no late ever. Lowest regular exam dropped (exam 1 = the drop) | In person, no notes, TI-30-class calc. Final <60% caps grade at D. Text: Stewart Early Transcendentals 8e/9e (+ Thomas 13.4/13.5 in Canvas Files) |
-| PHYS 2220 (Van Ausdal) | Participation 10% · Pre-lecture 10% · Mastering HW 20% · 4 exams 40% · Final 20% | Pre-lecture no late. HW −10%/day per problem. Participation = in-class quizzes, no makeups | Exams in class with instructor test notes. Exam 2 Ch 21–23, Exam 3 Ch 24–26, Exam 4 Ch 27–31. Text: Young & Freedman 15e |
-| EE 1270 (Riggs) | Quizzes 20% · HW 15% · Labs 20% · Design 15% · Midterm 15% · Final 15% | HW due Fri midnight; late penalized but accepted through 12-10. Lowest 2 quizzes dropped. Flipped class | Open book + notes. Midterm 10-19, Final Mon 12-14 5:50–7:50 PM |
+| PHYS 2220 (Van Ausdal) | Participation 10% · Pre-lecture 10% · Mastering HW 20% · 4 exams 40% · Final 20% | Pre-lecture no late. HW −10%/day per problem. Participation = in-class quizzes, no makeups | Exam corrections: +1/3 of lost pts (confirmed Ex 2). Exams in class with instructor test notes. Exam 2 Ch 21–23, Exam 3 Ch 24–26, Exam 4 Ch 27–31. Text: Young & Freedman 15e |
+| EE 1270 (Riggs) | Quizzes 20% · HW 15% · Labs 20% · Design 15% · Midterm 15% · Final 15% | HW due Fri midnight; late −1 pt/day, 10 max, accepted through 12-10; lab notebooks/reports no late penalty. Lowest 2 quizzes dropped. Flipped class | Open book + notes. Midterm 10-19, Final Mon 12-14 5:50–7:50 PM |
 | CHEM 1210 (Holcomb) | Participation 10% · AI practice 10% · REAL CHEM checkpoints 20% · Unit tests 20% · Midterm + Final 40% | Unit work due when its unit test closes; late completion replaces the zero until instructor closes it. 2 checkpoint reopen appeals | Unit tests online (LockDown, open notes). Midterm/Final at Testing Center, no notes |
 | ENGR 1500 (Holden) | Assignments 15% · Discussions 20% · Quizzes 15% · 3 Projects 40% · Final 10% | Weekly modules due Sunday; >30 min late = 0. Lowest of each category dropped. AI allowed on HW | Final 12-15 online, 25 T/F on NSPE Code |
+
+## Fall 2026 — Grade Targets (93% = A, set 10-06)
+
+| Course | Ceiling | Needed for 93% | Points → grade | Open |
+|--------|---------|----------------|----------------|------|
+| PHYS 2220 | ~95% (HW uncapped) | ~94% on Ex 3, 4, final (47/50, 47/50, 76/80); HW capped → ~96.8% | Attendance day 0.4 · Ex 3/4 pt 0.2 · final pt 0.25 | Ex 2 raw (safe 44/50; floor 28 uncapped / 39 capped, after 1/3 corrections); HW category capped at 100%?; corrections on Ex 1/3/4? |
+| EE 1270 | 97.6% with late items | ~94.6% (~97.8% if none late) | Midterm pt 0.25 · final 0.19 · design 0.15 · quiz 0.045 · lab 0.03–0.04 · HW 0.031 | Late: quiz 9/30 (11/15), HW 5 (−1/day), HW 3 (max 25/35), Lab 1 notebook (no penalty) |
+| CHEM 1210 | 97.9% | ~91% on unit tests, midterm, final (~92% with HW slips) | Midterm/final 1% = 0.4 | Recover 4.8–4.11 pre-reading quizzes (70 pts) + AI practice (50 pts, ~1.7%); units 1–2 gone |
+| ENGR 1500 | 96.6% | Final 90 + P2/P3 avg ~93, or final 100 + ~86 | Quiz 0.33 · assignment 0.14 · project 0.13 · final 0.10 · discussion 0.07 | Module 3 items 3.2–3.4 late (rule says >30 min late = 0); recheck after Activities 5.1–5.5 post |
+| MATH 2210 | 95% | ~97.5% on Ex 2, 3, final with full HW (A- ~94%) | HW set 5% each | Lowest HW dropped? If yes ceiling → 100% |
 
 ## PHYS 2220 — Mastering Due Dates
 

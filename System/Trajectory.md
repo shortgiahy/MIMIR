@@ -11,7 +11,7 @@
 - Trading paused → resumes week of 10-05
 - Gaming paused since 09-29
 - Calendar-vs-reality hit rate: unmeasured
-- Grades: unrecorded
+- Grades: current % unrecorded; 93% targets set 10-06, MATH ceiling 95%
 - Applied to SLCC NASA research internship by the 10-02 deadline, unprompted; not selected
 
 ## Weekly

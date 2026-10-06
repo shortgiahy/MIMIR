@@ -15,6 +15,12 @@
 | 2026-09-29 | MED | EE 1270 Wed 9/30 class skipped for PHYS prep — catch up on material + quiz this weekend |
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
+| 2026-10-06 | HIGH | Current % per course + PHYS Exam 2 raw unrecorded — PHYS targets depend on it |
+| 2026-10-06 | HIGH | EE late items bleeding daily: quiz 9/30, HW 5 (−1/day), HW 3, Lab 1 notebook |
+| 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
+| 2026-10-06 | MED | ENGR Module 3 late recovery (~1.4%) contradicts >30 min late = 0 — confirm with Holden before counting it |
+| 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 |
+| 2026-10-06 | MED | Ask Van Ausdal: HW category capped at 100%? corrections on Ex 1/3/4? |
 | 2026-10-06 | MED | Calendar vs new model — Sleep 12–6 AM (6h) nightly; Guitar nightly 8:30; "Study (recovery)" label; 10-15 full study day. Proposals pending approval |
 | 2026-10-06 | MED | Weekly review slot undefined — pick one time; first review fills Trajectory row for week of 10-05 |
 | 2026-10-06 | LOW | Archie (Meta Muse, secretary agent) — parked; revisit 10-28 after crunch. Scope: reminders only. Confirm-first on sends/spend |
