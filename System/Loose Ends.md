@@ -15,7 +15,8 @@
 | 2026-09-29 | MED | EE 1270 Wed 9/30 class skipped for PHYS prep — catch up on material + quiz this weekend |
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
-| 2026-10-06 | HIGH | Current % per course + PHYS Exam 2 raw unrecorded — PHYS targets depend on it |
+| 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
+| 2026-10-06 | MED | Actual cumulative GPA: stated ~3.98, but max is 3.955 if all 33 prior credits are graded with 5 at A- — check transcript |
 | 2026-10-06 | HIGH | EE late items bleeding daily: quiz 9/30, HW 5 (−1/day), HW 3, Lab 1 notebook |
 | 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
 | 2026-10-06 | MED | ENGR Module 3 late recovery (~1.4%) contradicts >30 min late = 0 — confirm with Holden before counting it |
