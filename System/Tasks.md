@@ -103,7 +103,7 @@
 | 2026-10-14 | EE 1270 midterm |
 | 2026-10-14 → 10-18 | CHEM Unit 3–5 test window |
 | 2026-10-19 → 10-22 | CHEM midterm (Testing Center) |
-| 2026-10-22 1 PM | MATH 2210 Exam 2 (cumulative) + HW set 2 PDF: 14.7, 14.8, 13.3, 13.4, Thomas 13.4 |
+| 2026-10-22 1 PM | MATH 2210 Exam 2 (cumulative) + HW set 2 PDF (63 problems): 14.7, 14.8, 13.3, 13.4, Thomas 13.4 |
 | 2026-10-25 | ENGR 1500 Project 2 |
 | 2026-10-27 | EE 1270 Lab 2 notebook + report |
 | 2026-10-27 10 AM | PHYS 2220 Exam 3 (Ch 24–26) |
@@ -117,6 +117,7 @@
 | 2026-12-14 | EE 1270 final 5:50 PM |
 | 2026-12-14 → 12-15 | CHEM final (Testing Center) |
 | 2026-12-15 | ENGR 1500 final |
+| 2026-12-14 → 12-18 9:10 AM | PHYS 2220 final (9:10–11:10) |
 | 2026-12-15 1:30 PM | MATH 2210 final + HW set 4 PDF: 16.1–16.4+ |
 | 2026-12-17 9:10 AM | PHYS 2220 final |
 
