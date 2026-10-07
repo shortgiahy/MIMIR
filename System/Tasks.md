@@ -62,7 +62,7 @@
 | Course | Ceiling | Needed for 93% | Points → grade | Open |
 |--------|---------|----------------|----------------|------|
 | PHYS 2220 | ~95% (HW uncapped) | ~94% on Ex 3, 4, final (47/50, 47/50, 76/80); HW capped → ~96.8% | Attendance day 0.4 · Ex 3/4 pt 0.2 · final pt 0.25 | Ex 2 raw (safe 44/50; floor 28 uncapped / 39 capped, after 1/3 corrections); HW category capped at 100%?; corrections on Ex 1/3/4? |
-| EE 1270 | 97.6% with late items | ~94.6% (~97.8% if none late) | Midterm pt 0.25 · final 0.19 · design 0.15 · quiz 0.045 · lab 0.03–0.04 · HW 0.031 | Late: quiz 9/30 (11/15), HW 5 (−1/day), HW 3 (max 25/35), Lab 1 notebook (no penalty) |
+| EE 1270 | 97.6% with late items | ~94.6% (~97.8% if none late) | Midterm pt 0.25 · final 0.19 · design 0.15 · quiz 0.045 · lab 0.03–0.04 · HW 0.031 | Late: HW 5 (−1/day), HW 3 (max 25/35), Lab 1 notebook (no penalty) |
 | CHEM 1210 | 97.9% | ~91% on unit tests, midterm, final (~92% with HW slips) | Midterm/final 1% = 0.4 | Recover 4.8–4.11 pre-reading quizzes (70 pts) + AI practice (50 pts, ~1.7%); units 1–2 gone |
 | ENGR 1500 | 96.6% | Final 90 + P2/P3 avg ~93, or final 100 + ~86 | Quiz 0.33 · assignment 0.14 · project 0.13 · final 0.10 · discussion 0.07 | Module 3 recovery not allowed (late = 0) — rerun without it; recheck after Activities 5.1–5.5 post |
 | MATH 2210 | 95% | ~97.5% on Ex 2, 3, final with full HW (A- ~94%) | HW set 5% each | Lowest HW dropped? If yes ceiling → 100% |

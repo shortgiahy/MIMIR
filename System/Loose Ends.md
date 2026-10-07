@@ -12,12 +12,11 @@
 | 2026-09-29 | MED | Projects — define "pretty good by March" (myobionic arm / circuits deliverable for MIT + Stanford apps); expand project time after 10-27 |
 | 2026-09-29 | MED | SAT prep plan — resume after PHYS Exam 2 (10-01). First input: any past practice SAT/PSAT score |
 | 2026-09-29 | LOW | Trading paused until week of 10-05 |
-| 2026-09-29 | MED | EE 1270 Wed 9/30 class skipped for PHYS prep — catch up on material + quiz this weekend |
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
 | 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable. Emailed advisor 10-06; awaiting reply |
-| 2026-10-06 | HIGH | EE late items bleeding daily: quiz 9/30, HW 5 (−1/day), HW 3, Lab 1 notebook |
+| 2026-10-06 | HIGH | EE late items bleeding daily: HW 5 (−1/day), HW 3, Lab 1 notebook |
 | 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
 | 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
 | 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 — Muse drafting |
