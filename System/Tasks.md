@@ -100,6 +100,7 @@
 | Date | Item |
 |------|------|
 | 2026-10-01 5 PM | PHYS 2220 Exam 2 (Ch 21–23) — Testing Center |
+| 2026-10-13 | Malcolm Todd concert — EE 1270 lab missed |
 | 2026-10-14 | EE 1270 midterm |
 | 2026-10-14 → 10-18 | CHEM Unit 3–5 test window |
 | 2026-10-19 → 10-22 | CHEM midterm (Testing Center) |

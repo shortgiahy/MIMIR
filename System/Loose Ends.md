@@ -26,3 +26,5 @@
 | 2026-10-06 | LOW | Archie (Meta Muse, secretary agent) — parked; revisit 10-28 after crunch. Scope: reminders only. Confirm-first on sends/spend |
 | 2026-10-06 | MED | Resume is stale (Feb 2025: roofing, honey shop, payroll — no engineering). Update to 1 page before any internship/research app; UC activities list due 10-31 needs same content |
 | 2026-10-07 | LOW | PHYS final day unreadable in calendar PDF (finals week, 9:10–11:10) — confirm |
+| 2026-10-07 | HIGH | Concert Tue 10-13 (Malcolm Todd) — misses EE 1270 lab, night before EE midterm 10-14. Only EE study slot: Mon 10-12 9:00–10:15 PM |
+| 2026-10-07 | HIGH | Sun 10-11 date + dinner w/ Natalie's dad — no study block; recovery Sun slot dropped |
