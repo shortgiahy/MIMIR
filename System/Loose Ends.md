@@ -11,7 +11,6 @@
 | 2026-09-29 | HIGH | Behind in every course. Recovery triage for Oct 14–27 crunch (CHEM test + midterm, EE midterm, MATH exam 2, PHYS exam 3, ENGR project 2) |
 | 2026-09-29 | MED | Projects — define "pretty good by March" (myobionic arm / circuits deliverable for MIT + Stanford apps); expand project time after 10-27 |
 | 2026-09-29 | MED | SAT prep plan — resume after PHYS Exam 2 (10-01). First input: any past practice SAT/PSAT score |
-| 2026-09-29 | LOW | Trading paused until week of 10-05 |
 | 2026-09-29 | MED | Haircut Thu 10-01 1:45 splits exam-day study — keep or move? |
 | 2026-09-29 | HIGH | PHYS Exam 2 result (10-01) → recalibrate study plan at next check-in |
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
@@ -28,3 +27,4 @@
 | 2026-10-07 | LOW | PHYS final day unreadable in calendar PDF (finals week, 9:10–11:10) — confirm |
 | 2026-10-07 | HIGH | Concert Tue 10-13 (Malcolm Todd) — misses EE 1270 lab, night before EE midterm 10-14. Only EE study slot: Mon 10-12 9:00–10:15 PM |
 | 2026-10-07 | HIGH | Sun 10-11 date + dinner w/ Natalie's dad — no study block; recovery Sun slot dropped |
+| 2026-10-08 | MED | LucidFlex 50K bought 10-08 12:32 AM, $90.20 on credit card — one-time or recurring? Recurring → Bills |
