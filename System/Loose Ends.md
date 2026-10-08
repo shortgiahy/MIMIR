@@ -16,7 +16,7 @@
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
 | 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable. Emailed advisor 10-06; awaiting reply |
 | 2026-10-06 | HIGH | EE late items bleeding daily: HW 5 (−1/day), HW 3, Lab 1 notebook |
-| 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown; PL 25 due 10-07 |
+| 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown |
 | 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
 | 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 — Muse drafting |
 | 2026-10-06 | MED | Ask Van Ausdal: HW category capped at 100%? corrections on Ex 1/3/4? |

@@ -6,7 +6,6 @@
 |------|-----|----------|-------|
 | Confirm identity at school for tuition | — | HIGH | Blocks Pell Grant + scholarship applying |
 | Submit UC apps (Berkeley, UCSD) | 2026-10-31 | HIGH | Giahy's target: in before November |
-| Update Pets Best payment — Winston + Benni | 2026-10-10 | HIGH | Both policies cancel 10-11, overdue balance; 877-738-7237 |
 | Bill + debt due-dates from Giahy | — | MED | Every due date below is `?` — blocks payment reminders |
 
 ## Weekly Schedule — fixed anchors
@@ -167,7 +166,7 @@ SLCC grade replacement: both grades show on transcript; C marked E (excluded fro
 | Item | Amount | Due |
 |------|--------|-----|
 | Phone | $140 | ? |
-| Pet insurance | $60 | Overdue |
+| Pet insurance | $60 | ? |
 | TradeSyncer | $50 | ? |
 | Notion | $12 | ? |
 | Claude | $20 | ? |
