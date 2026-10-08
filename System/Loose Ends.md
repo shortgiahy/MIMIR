@@ -26,4 +26,4 @@
 | 2026-10-07 | LOW | PHYS final day unreadable in calendar PDF (finals week, 9:10–11:10) — confirm |
 | 2026-10-07 | HIGH | Concert Tue 10-13 (Malcolm Todd) — misses EE 1270 lab, night before EE midterm 10-14. Only EE study slot: Mon 10-12 9:00–10:15 PM |
 | 2026-10-07 | HIGH | Sun 10-11 date + dinner w/ Natalie's dad — no study block; recovery Sun slot dropped |
-| 2026-10-08 | MED | Phone out of bedroom from 10:45 — blocked on a silent wrist alarm (6 AM wake, Natalie sleeps later) |
+| 2026-10-08 | MED | Phone out of bedroom from 10:45 — Apple Watch retrial (Prominent Haptic, snug band, 3 alarms 6:00/6:03/6:06) through 10-15; fails → dedicated vibrating band |
