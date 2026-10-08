@@ -16,7 +16,6 @@
 | 2026-10-06 | HIGH | Current % per course unrecorded; PHYS Exam 2 score expected ~10-13 — PHYS targets depend on it |
 | 2026-10-06 | HIGH | Cumulative GPA: transcript 3.68 vs stated 3.98 — find the cause (term GPAs, E/I grade-replacement markers, unapplied replacement); decides whether 3.9 is reachable. Emailed advisor 10-06; awaiting reply |
 | 2026-10-06 | HIGH | EE late items bleeding daily: HW 5 (−1/day), HW 3, Lab 1 notebook |
-| 2026-10-06 | MED | PHYS pre-lecture 24 (due 10-05) status unknown |
 | 2026-10-06 | MED | ENGR targets assumed ~1.4% Module 3 late recovery — not allowed (late = 0); rerun ENGR math without it |
 | 2026-10-06 | MED | Ask Costello: lowest HW dropped? Exam 2 accommodation message (S#) due 10-17 — Muse drafting |
 | 2026-10-06 | MED | Ask Van Ausdal: HW category capped at 100%? corrections on Ex 1/3/4? |
@@ -27,4 +26,4 @@
 | 2026-10-07 | LOW | PHYS final day unreadable in calendar PDF (finals week, 9:10–11:10) — confirm |
 | 2026-10-07 | HIGH | Concert Tue 10-13 (Malcolm Todd) — misses EE 1270 lab, night before EE midterm 10-14. Only EE study slot: Mon 10-12 9:00–10:15 PM |
 | 2026-10-07 | HIGH | Sun 10-11 date + dinner w/ Natalie's dad — no study block; recovery Sun slot dropped |
-| 2026-10-08 | MED | LucidFlex 50K bought 10-08 12:32 AM, $90.20 on credit card — one-time or recurring? Recurring → Bills |
+| 2026-10-08 | MED | Phone out of bedroom from 10:45 — blocked on a silent wrist alarm (6 AM wake, Natalie sleeps later) |
