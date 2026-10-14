@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 1 — Circuit Fundamentals.md",
+                "file": "Backlog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1 — Circuit Fundamentals"
+              "title": "Backlog"
             }
           },
           {
@@ -245,9 +245,10 @@
   },
   "active": "5172ab087a72a57e",
   "lastOpenFiles": [
+    "Chapter 1 — Circuit Fundamentals.md",
+    "Backlog.md",
     "Chapter 2 — Resistive Circuits.md",
     "Chapter 3 — Circuit Analysis Techniques.md",
-    "Chapter 1 — Circuit Fundamentals.md",
     "Wiki/EE/Kirchhoff's Current Law.md",
     "Roblox brainstorm.md",
     "Untitled",
@@ -273,7 +274,6 @@
     "agency-agents/strategy/runbooks/scenario-startup-mvp.md",
     "agency-agents/strategy/runbooks/scenario-marketing-campaign.md",
     "agency-agents/strategy/runbooks/scenario-incident-response.md",
-    "agency-agents/strategy/runbooks/scenario-enterprise-feature.md",
     "agency-agents/scripts/i18n/localize-agents-zh.ps1",
     "agency-agents/scripts/i18n/agent-names-zh.json",
     "agency-agents/integrations/mcp-memory/setup.sh",
