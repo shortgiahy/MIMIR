@@ -1,0 +1,12 @@
+Games
+- [ ] FF16
+- [ ] Outer Wilds
+- [ ] RDR2
+- [ ] Elden Ring
+- [ ] DS1
+- [ ] DS2
+- [ ] DS3
+- [ ] Bloodborne
+- [ ] Super mario galaxy
+- [ ] Super mario odyssey
+- [ ] Ultrakill
