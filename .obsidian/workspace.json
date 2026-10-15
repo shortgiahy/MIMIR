@@ -25,12 +25,14 @@
             "id": "42fc57dabb16b83f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.4"
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           },
           {
@@ -214,6 +216,9 @@
   },
   "active": "42fc57dabb16b83f",
   "lastOpenFiles": [
+    "System/Loose Ends.md",
+    "System/Inbox.md",
+    "System/Brain.md",
     "Things that need to be done canvas.md",
     "System/Trajectory.md",
     "Roblox brainstorm.md",
@@ -224,9 +229,7 @@
     "Chapter 2 — Resistive Circuits.md",
     "Chapter 1 — Circuit Fundamentals.md",
     "Backlog.md",
-    "System/Inbox.md",
     "Projects/Sushi Sea/Agentic workflow.md",
-    "System/Loose Ends.md",
     "System/Tasks.md",
     "conflict-files-obsidian-git.md",
     "CLAUDE.md",
@@ -239,7 +242,6 @@
     "agency-agents/strategy/playbooks/phase-5-launch.md",
     "agency-agents/strategy/playbooks/phase-4-hardening.md",
     "agency-agents/strategy/playbooks/phase-3-build.md",
-    "agency-agents/strategy/playbooks/phase-1-strategy.md",
     "agency-agents/scripts/i18n/localize-agents-zh.ps1",
     "agency-agents/scripts/i18n/agent-names-zh.json",
     "agency-agents/integrations/mcp-memory/setup.sh",
